@@ -1,0 +1,2408 @@
+{
+ "title": "A&P Quiz #1 Practice",
+ "topics": {
+  "1": "Planes of the body",
+  "2": "Anatomy vs. physiology",
+  "3": "Oxidation vs. reduction",
+  "4": "Atomic mass vs. atomic number",
+  "5": "Types of bonds",
+  "6": "Terms for head and tail",
+  "7": "Smallest unit of matter / life",
+  "8": "Homeostasis",
+  "9": "Acid vs. base",
+  "10": "What the cell membrane is made of",
+  "11": "Charges: proton, neutron, electron",
+  "12": "Kinetic vs. potential energy",
+  "13": "Molecule vs. compound",
+  "14": "Positive vs. negative feedback",
+  "15": "Internal components of the cell",
+  "16": "Mono-, di- and polysaccharides",
+  "17": "Sharing vs. stealing electrons",
+  "18": "Synthesis, exchange and reversible reactions",
+  "19": "The universal solvent",
+  "20": "All the words for head / tail",
+  "21": "pH scale",
+  "22": "Diffusion vs. osmosis",
+  "23": "Coronal, sagittal and other planes",
+  "24": "Directional terms",
+  "25": "Synthesis reactions"
+ },
+ "questions": [
+  {
+   "topic": 1,
+   "q": "Which plane divides the body into front (anterior) and back (posterior) portions?",
+   "a": "Coronal",
+   "w": [
+    "Sagittal",
+    "Transverse",
+    "Oblique"
+   ],
+   "e": "The coronal (frontal) plane splits front from back.",
+   "s": "L1, slide 34"
+  },
+  {
+   "topic": 1,
+   "q": "Which plane is also called the horizontal plane?",
+   "a": "Transverse",
+   "w": [
+    "Coronal",
+    "Midsagittal",
+    "Frontal"
+   ],
+   "e": "Transverse = horizontal plane; it divides top from bottom.",
+   "s": "L1, slide 35"
+  },
+  {
+   "topic": 1,
+   "q": "Which plane divides the body into EQUAL left and right halves?",
+   "a": "Midsagittal (median)",
+   "w": [
+    "Sagittal (off-center)",
+    "Coronal",
+    "Transverse"
+   ],
+   "e": "The midsagittal (median) plane runs directly through the center.",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 1,
+   "q": "The transverse plane divides the body into:",
+   "a": "Top and bottom portions",
+   "w": [
+    "Left and right portions",
+    "Front and back portions",
+    "Angled portions"
+   ],
+   "e": "Transverse (horizontal) = superior vs. inferior.",
+   "s": "L1, slide 35"
+  },
+  {
+   "topic": 1,
+   "q": "The coronal plane is also known as the:",
+   "a": "Frontal plane",
+   "w": [
+    "Horizontal plane",
+    "Median plane",
+    "Angular plane"
+   ],
+   "e": "Coronal a.k.a. frontal.",
+   "s": "L1, slide 34"
+  },
+  {
+   "topic": 1,
+   "q": "A plane that divides the body into UNEQUAL left and right pieces is a:",
+   "a": "Sagittal plane",
+   "w": [
+    "Midsagittal plane",
+    "Coronal plane",
+    "Transverse plane"
+   ],
+   "e": "Sagittal = left/right pieces; midsagittal is the special case that makes equal halves.",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 1,
+   "q": "The midsagittal plane is a special type of which plane?",
+   "a": "Sagittal",
+   "w": [
+    "Coronal",
+    "Transverse",
+    "Oblique"
+   ],
+   "e": "Midsagittal (median) = a sagittal plane through the exact center.",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 1,
+   "q": "Which plane divides the body at various angles?",
+   "a": "Oblique",
+   "w": [
+    "Transverse",
+    "Coronal",
+    "Midsagittal"
+   ],
+   "e": "Oblique (angular) plane cuts at various angles.",
+   "s": "L1, slide 36"
+  },
+  {
+   "topic": 2,
+   "q": "Anatomy is the study of the body's:",
+   "a": "Structure",
+   "w": [
+    "Function",
+    "Chemical reactions",
+    "Diseases"
+   ],
+   "e": "Anatomy = STRUCTURE (names of parts and regions).",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Physiology is the study of:",
+   "a": "How the body functions",
+   "w": [
+    "The names of body parts",
+    "Body regions and landmarks",
+    "The shape of bones"
+   ],
+   "e": "Physiology = how the body FUNCTIONS and how parts work together.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Describing HOW the kidneys filter waste from blood is an example of:",
+   "a": "Physiology",
+   "w": [
+    "Anatomy",
+    "Histology",
+    "Cytology"
+   ],
+   "e": "How something works = function = physiology.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Learning the names of the bones of the skull is an example of:",
+   "a": "Anatomy",
+   "w": [
+    "Physiology",
+    "Homeostasis",
+    "Biochemistry"
+   ],
+   "e": "Names of parts = structure = anatomy.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Explaining how the heart pumps blood through the body is:",
+   "a": "Physiology",
+   "w": [
+    "Anatomy",
+    "Cytology",
+    "Histology"
+   ],
+   "e": "Pumping is a function, so it's physiology.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Identifying the four chambers of the heart is:",
+   "a": "Anatomy",
+   "w": [
+    "Physiology",
+    "Homeostasis",
+    "Metabolism"
+   ],
+   "e": "Identifying parts = structure = anatomy.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Why are anatomy and physiology studied together?",
+   "a": "Structure determines function",
+   "w": [
+    "They are the same subject",
+    "Function determines the names of parts",
+    "Both only study cells"
+   ],
+   "e": "The lecture's spoon/fork/knife example: a part's structure determines what it can do.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 2,
+   "q": "Which statement is correct?",
+   "a": "Anatomy = structure; physiology = function",
+   "w": [
+    "Anatomy = function; physiology = structure",
+    "Both mean the study of function",
+    "Both mean the study of structure"
+   ],
+   "e": "Anatomy = STRUCTURE; physiology = FUNCTION.",
+   "s": "L1, slide 3"
+  },
+  {
+   "topic": 3,
+   "q": "Losing electrons in a chemical reaction is called:",
+   "a": "Oxidation",
+   "w": [
+    "Reduction",
+    "Hydrolysis",
+    "Synthesis"
+   ],
+   "e": "LEO: Lose Electrons = Oxidation.",
+   "s": "L2, slides 44–45"
+  },
+  {
+   "topic": 3,
+   "q": "Gaining electrons in a chemical reaction is called:",
+   "a": "Reduction",
+   "w": [
+    "Oxidation",
+    "Decomposition",
+    "Ionization only"
+   ],
+   "e": "GER: Gain Electrons = Reduction.",
+   "s": "L2, slides 44–45"
+  },
+  {
+   "topic": 3,
+   "q": "When sodium (Na) loses an electron and becomes Na⁺, sodium has been:",
+   "a": "Oxidized",
+   "w": [
+    "Reduced",
+    "Neutralized",
+    "Hydrolyzed"
+   ],
+   "e": "Na loses an electron, so it is oxidized (LEO).",
+   "s": "L2, slide 46"
+  },
+  {
+   "topic": 3,
+   "q": "When chlorine (Cl) gains an electron and becomes Cl⁻, chlorine has been:",
+   "a": "Reduced",
+   "w": [
+    "Oxidized",
+    "Neutralized",
+    "Decomposed"
+   ],
+   "e": "Cl gains an electron, so it is reduced (GER).",
+   "s": "L2, slide 46"
+  },
+  {
+   "topic": 3,
+   "q": "In the memory aid 'LEO the lion goes GER', what does LEO stand for?",
+   "a": "Lose Electrons = Oxidation",
+   "w": [
+    "Lose Energy = Oxidation",
+    "Lose Electrons = Osmosis",
+    "Lose Elements = Oxidation"
+   ],
+   "e": "LEO = Lose Electrons = Oxidation; GER = Gain Electrons = Reduction.",
+   "s": "L2, slide 45"
+  },
+  {
+   "topic": 3,
+   "q": "Which statement about oxidation and reduction is TRUE?",
+   "a": "They always occur together (coupled)",
+   "w": [
+    "They never occur in the same reaction",
+    "Oxidation only happens in acids",
+    "Reduction means losing electrons"
+   ],
+   "e": "An oxidation must be coupled with a reduction, and vice versa.",
+   "s": "L2, slide 44"
+  },
+  {
+   "topic": 3,
+   "q": "In GER, the 'R' stands for:",
+   "a": "Reduction",
+   "w": [
+    "Reaction",
+    "Release",
+    "Reversible"
+   ],
+   "e": "Gain Electrons = Reduction.",
+   "s": "L2, slide 45"
+  },
+  {
+   "topic": 3,
+   "q": "An atom that becomes more NEGATIVE by picking up an electron has undergone:",
+   "a": "Reduction",
+   "w": [
+    "Oxidation",
+    "Hydrolysis",
+    "Filtration"
+   ],
+   "e": "Gaining an electron (more negative charge) = reduction.",
+   "s": "L2, slides 44–46"
+  },
+  {
+   "topic": 4,
+   "q": "Atomic number is equal to the number of:",
+   "a": "Protons",
+   "w": [
+    "Neutrons",
+    "Protons + neutrons",
+    "Electron shells"
+   ],
+   "e": "Atomic number = # of protons.",
+   "s": "L2, slides 11–12"
+  },
+  {
+   "topic": 4,
+   "q": "Atomic mass is equal to the number of:",
+   "a": "Protons + neutrons",
+   "w": [
+    "Protons only",
+    "Protons + electrons",
+    "Electrons only"
+   ],
+   "e": "Atomic mass = protons + neutrons.",
+   "s": "L2, slides 11–12"
+  },
+  {
+   "topic": 4,
+   "q": "How do you calculate the number of neutrons in an atom?",
+   "a": "Atomic mass − atomic number",
+   "w": [
+    "Atomic number − atomic mass",
+    "Atomic mass + atomic number",
+    "Atomic number × 2"
+   ],
+   "e": "# neutrons = atomic mass − atomic number.",
+   "s": "L2, slides 11–12"
+  },
+  {
+   "topic": 4,
+   "q": "An element has an atomic number of 20. How many electrons are in a neutral atom of it?",
+   "a": "20",
+   "w": [
+    "10",
+    "40",
+    "It cannot be determined"
+   ],
+   "e": "Neutral atoms have equal protons and electrons, so 20.",
+   "s": "L2, slide 14"
+  },
+  {
+   "topic": 4,
+   "q": "An atom has 11 protons. How many electrons does a neutral atom of it have?",
+   "a": "11",
+   "w": [
+    "12",
+    "22",
+    "1"
+   ],
+   "e": "# electrons = # protons in a neutral atom.",
+   "s": "L2, slide 17"
+  },
+  {
+   "topic": 5,
+   "q": "Which type of bond forms when a metal gives electrons to a nonmetal?",
+   "a": "Ionic",
+   "w": [
+    "Polar covalent",
+    "Nonpolar covalent",
+    "Hydrogen"
+   ],
+   "e": "Ionic bonds: electrons given by a metal and received by a nonmetal.",
+   "s": "L2, slide 22"
+  },
+  {
+   "topic": 5,
+   "q": "Which type of bond is described as STRONG?",
+   "a": "Covalent",
+   "w": [
+    "Ionic",
+    "Hydrogen",
+    "They are all equally strong"
+   ],
+   "e": "Covalent bonds are STRONG bonds where nonmetals share electrons.",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 5,
+   "q": "Which relatively WEAK bond forms between water molecules and between DNA bases?",
+   "a": "Hydrogen bond",
+   "w": [
+    "Nonpolar covalent bond",
+    "Polar covalent bond",
+    "Peptide bond"
+   ],
+   "e": "Hydrogen bonds are relatively weak attractions between H atoms of different molecules.",
+   "s": "L2, slide 28"
+  },
+  {
+   "topic": 5,
+   "q": "A bond formed between a cation (+) and an anion (−) is a(n):",
+   "a": "Ionic bond",
+   "w": [
+    "Covalent bond",
+    "Hydrogen bond",
+    "Peptide bond"
+   ],
+   "e": "Ionic bonds form between oppositely charged ions.",
+   "s": "L2, slide 22"
+  },
+  {
+   "topic": 5,
+   "q": "Which type of bond falls apart (dissociates) easily in water?",
+   "a": "Ionic",
+   "w": [
+    "Nonpolar covalent",
+    "Polar covalent",
+    "Peptide"
+   ],
+   "e": "Ionic bonds dissociate easily in water (e.g., NaCl).",
+   "s": "L2, slide 22"
+  },
+  {
+   "topic": 5,
+   "q": "NaCl (table salt) is held together by which type of bond?",
+   "a": "Ionic",
+   "w": [
+    "Covalent",
+    "Hydrogen",
+    "Peptide"
+   ],
+   "e": "NaCl is the lecture's example of an ionic bond.",
+   "s": "L2, slide 22"
+  },
+  {
+   "topic": 5,
+   "q": "A covalent bond in which electrons are shared EQUALLY (e.g., CO₂) is:",
+   "a": "Nonpolar covalent",
+   "w": [
+    "Polar covalent",
+    "Ionic",
+    "Hydrogen"
+   ],
+   "e": "Nonpolar covalent = equal sharing; atoms close to the same size.",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 5,
+   "q": "Hydrogen bonds form between:",
+   "a": "Hydrogen atoms of different molecules",
+   "w": [
+    "A metal and a nonmetal",
+    "Two atoms sharing electrons equally",
+    "Atoms inside one nucleus"
+   ],
+   "e": "Hydrogen bonds: adjacent hydrogen atoms of DIFFERENT molecules.",
+   "s": "L2, slide 28"
+  },
+  {
+   "topic": 6,
+   "q": "Which term means 'toward the head'?",
+   "a": "Cephalic",
+   "w": [
+    "Caudal",
+    "Distal",
+    "Inferior"
+   ],
+   "e": "Superior, cranial and cephalic all mean toward the head.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "'Caudal' means:",
+   "a": "Toward the tail/feet",
+   "w": [
+    "Toward the head",
+    "Toward the front",
+    "Toward the midline"
+   ],
+   "e": "Caudal (caudad) = toward the tail, same as inferior.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "Which pair of terms BOTH mean 'toward the head'?",
+   "a": "Superior and cephalic",
+   "w": [
+    "Inferior and cranial",
+    "Caudal and cephalic",
+    "Superior and caudad"
+   ],
+   "e": "Head: superior/cranial/cephalic. Tail: inferior/caudal/caudad.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "'Superior' is also called:",
+   "a": "Cranial or cephalic",
+   "w": [
+    "Caudal or caudad",
+    "Ventral or anterior",
+    "Proximal or medial"
+   ],
+   "e": "Superior (cranial/cephalic) = toward the head.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "'Inferior' is also called:",
+   "a": "Caudal or caudad",
+   "w": [
+    "Cranial or cephalic",
+    "Dorsal or posterior",
+    "Distal or lateral"
+   ],
+   "e": "Inferior (caudal/caudad) = toward the tail/feet.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "The term 'cranial' comes from cranium, which means:",
+   "a": "Skull",
+   "w": [
+    "Tail",
+    "Neck",
+    "Spine"
+   ],
+   "e": "Cranium = skull → 'cranial'.",
+   "s": "L1, slide 27"
+  },
+  {
+   "topic": 6,
+   "q": "Which term means the OPPOSITE of caudal?",
+   "a": "Cranial",
+   "w": [
+    "Inferior",
+    "Caudad",
+    "Distal"
+   ],
+   "e": "Caudal = toward tail; cranial = toward head.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 6,
+   "q": "Which pair of terms BOTH mean 'toward the tail'?",
+   "a": "Inferior and caudal",
+   "w": [
+    "Superior and caudal",
+    "Cranial and caudad",
+    "Cephalic and inferior"
+   ],
+   "e": "Inferior, caudal and caudad all mean toward the tail/feet.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 7,
+   "q": "The smallest unit of matter is the:",
+   "a": "Atom",
+   "w": [
+    "Cell",
+    "Molecule",
+    "Organelle"
+   ],
+   "e": "Atoms are the smallest unit of matter.",
+   "s": "L1, slide 5; L2, slide 5"
+  },
+  {
+   "topic": 7,
+   "q": "The smallest unit of life is the:",
+   "a": "Cell",
+   "w": [
+    "Atom",
+    "Tissue",
+    "Macromolecule"
+   ],
+   "e": "Cells are the smallest unit of life.",
+   "s": "L1, slide 6; L3, slide 42"
+  },
+  {
+   "topic": 7,
+   "q": "Which pairing is correct?",
+   "a": "Matter: atom · Life: cell",
+   "w": [
+    "Matter: cell · Life: atom",
+    "Matter: molecule · Life: tissue",
+    "Matter: atom · Life: organelle"
+   ],
+   "e": "Atom = smallest unit of matter; cell = smallest unit of life.",
+   "s": "L1, slides 5–6"
+  },
+  {
+   "topic": 7,
+   "q": "The study of cells, the smallest unit of life, is called:",
+   "a": "Cytology",
+   "w": [
+    "Histology",
+    "Physiology",
+    "Anatomy"
+   ],
+   "e": "Cytology = study of cells. Histology = study of tissues.",
+   "s": "L1, slide 6"
+  },
+  {
+   "topic": 7,
+   "q": "Atoms are made of which three subatomic particles?",
+   "a": "Protons, neutrons, electrons",
+   "w": [
+    "Cells, tissues, organs",
+    "Molecules, ions, compounds",
+    "Protons, ions, cells"
+   ],
+   "e": "Atoms (smallest unit of matter) are made of protons, neutrons and electrons.",
+   "s": "L2, slide 5"
+  },
+  {
+   "topic": 7,
+   "q": "Which is the correct order from smallest to largest?",
+   "a": "Atom → molecule → cell → tissue",
+   "w": [
+    "Cell → atom → tissue → molecule",
+    "Molecule → atom → cell → tissue",
+    "Tissue → cell → molecule → atom"
+   ],
+   "e": "Levels of organization build from atoms up to the organism.",
+   "s": "L1, slides 4–8"
+  },
+  {
+   "topic": 7,
+   "q": "The human body is made of roughly how many cells?",
+   "a": "~35 trillion",
+   "w": [
+    "~35 thousand",
+    "~35 million",
+    "~35 billion"
+   ],
+   "e": "The body is made of ~35 trillion cells, the smallest units of life.",
+   "s": "L3, slide 42"
+  },
+  {
+   "topic": 7,
+   "q": "Which of these is NOT alive on its own, but is the smallest unit of matter?",
+   "a": "Atom",
+   "w": [
+    "Cell",
+    "Tissue",
+    "Organism"
+   ],
+   "e": "Atoms are matter, not life. The cell is the smallest living unit.",
+   "s": "L1, slides 5–6"
+  },
+  {
+   "topic": 8,
+   "q": "Homeostasis is best defined as:",
+   "a": "Maintaining a stable internal environment",
+   "w": [
+    "The breakdown of food into nutrients",
+    "The movement of water across a membrane",
+    "The production of offspring"
+   ],
+   "e": "Homeostasis = the process of maintaining a stable internal environment.",
+   "s": "L1, slide 50"
+  },
+  {
+   "topic": 8,
+   "q": "Homeostasis is also known as:",
+   "a": "Dynamic equilibrium",
+   "w": [
+    "Metabolism",
+    "Positive feedback",
+    "Osmosis"
+   ],
+   "e": "a.k.a. dynamic equilibrium or state of balance.",
+   "s": "L1, slide 50"
+  },
+  {
+   "topic": 8,
+   "q": "In a homeostatic feedback loop, which part SENSES the change?",
+   "a": "Receptor",
+   "w": [
+    "Effector",
+    "Control center",
+    "Stimulus"
+   ],
+   "e": "Stimulus → receptor (senses) → control center → effector.",
+   "s": "L1, slide 51"
+  },
+  {
+   "topic": 8,
+   "q": "In a feedback loop, which part interprets the signal and decides how to respond?",
+   "a": "Control center",
+   "w": [
+    "Receptor",
+    "Effector",
+    "Stimulus"
+   ],
+   "e": "The control center interprets the signal and sends instructions.",
+   "s": "L1, slide 51"
+  },
+  {
+   "topic": 8,
+   "q": "In a feedback loop, which part carries out the response (a cell, tissue or organ)?",
+   "a": "Effector",
+   "w": [
+    "Receptor",
+    "Control center",
+    "Stimulus"
+   ],
+   "e": "The effector brings about the response; it is always a cell, tissue or organ.",
+   "s": "L1, slide 51"
+  },
+  {
+   "topic": 8,
+   "q": "In a feedback loop, a 'stimulus' is:",
+   "a": "A deviation from normal",
+   "w": [
+    "The part that responds",
+    "The brain only",
+    "A hormone that restores balance"
+   ],
+   "e": "Stimulus = deviation from normal.",
+   "s": "L1, slide 51"
+  },
+  {
+   "topic": 8,
+   "q": "Which organ systems help maintain homeostasis?",
+   "a": "Virtually every organ system",
+   "w": [
+    "Only the nervous system",
+    "Only the endocrine system",
+    "Only the cardiovascular system"
+   ],
+   "e": "Virtually every organ system plays a role.",
+   "s": "L1, slide 50"
+  },
+  {
+   "topic": 8,
+   "q": "What is the correct order of a feedback loop?",
+   "a": "Stimulus → receptor → control center → effector",
+   "w": [
+    "Receptor → stimulus → effector → control center",
+    "Control center → stimulus → receptor → effector",
+    "Effector → receptor → stimulus → control center"
+   ],
+   "e": "Stimulus is sensed by a receptor, interpreted by the control center, and carried out by an effector.",
+   "s": "L1, slide 51"
+  },
+  {
+   "topic": 9,
+   "q": "An acid is a substance that:",
+   "a": "Donates hydrogen ions (H⁺)",
+   "w": [
+    "Accepts hydrogen ions (H⁺)",
+    "Donates hydroxide ions (OH⁻)",
+    "Has a pH above 7"
+   ],
+   "e": "Acids are H⁺ donors.",
+   "s": "L3, slide 9"
+  },
+  {
+   "topic": 9,
+   "q": "A base is a substance that:",
+   "a": "Donates OH⁻ / accepts hydrogen ions",
+   "w": [
+    "Donates hydrogen ions (H⁺)",
+    "Has a sour taste",
+    "Has a pH below 7"
+   ],
+   "e": "Bases donate OH⁻ and can be defined as H⁺ acceptors.",
+   "s": "L3, slide 10"
+  },
+  {
+   "topic": 9,
+   "q": "In the reaction HCl → H⁺ + Cl⁻, HCl is acting as:",
+   "a": "An acid",
+   "w": [
+    "A base",
+    "A buffer",
+    "A salt"
+   ],
+   "e": "HCl releases H⁺, so it's an acid.",
+   "s": "L3, slide 9"
+  },
+  {
+   "topic": 9,
+   "q": "In the reaction NaOH → Na⁺ + OH⁻, NaOH is acting as:",
+   "a": "A base",
+   "w": [
+    "An acid",
+    "A buffer",
+    "A solvent"
+   ],
+   "e": "NaOH releases OH⁻, so it's a base.",
+   "s": "L3, slide 10"
+  },
+  {
+   "topic": 9,
+   "q": "Which characteristics describe a BASE?",
+   "a": "Bitter taste, slippery, pH above 7",
+   "w": [
+    "Sour taste, burns metal, pH below 7",
+    "Neutral taste, pH exactly 7",
+    "Sour taste, slippery, pH below 7"
+   ],
+   "e": "Bases: bitter, slippery, high pH.",
+   "s": "L3, slide 10"
+  },
+  {
+   "topic": 9,
+   "q": "Which characteristics describe an ACID?",
+   "a": "Sour taste, burns through metal, pH below 7",
+   "w": [
+    "Bitter taste, slippery, pH above 7",
+    "No taste, pH exactly 7",
+    "Bitter taste, pH below 7"
+   ],
+   "e": "Acids: sour, burn through metal, low pH.",
+   "s": "L3, slide 9"
+  },
+  {
+   "topic": 9,
+   "q": "Which substance ACCEPTS hydrogen ions?",
+   "a": "A base",
+   "w": [
+    "An acid",
+    "Water only",
+    "A salt"
+   ],
+   "e": "Bases can be defined as hydrogen ion acceptors.",
+   "s": "L3, slide 10"
+  },
+  {
+   "topic": 9,
+   "q": "Compounds that resist dramatic changes in pH by adding or removing H⁺ are called:",
+   "a": "Buffers",
+   "w": [
+    "Salts",
+    "Solvents",
+    "Enzymes"
+   ],
+   "e": "Buffers act as acids when pH is high and as bases when pH is low.",
+   "s": "L3, slide 13"
+  },
+  {
+   "topic": 10,
+   "q": "What is the MAJOR component of the cell membrane?",
+   "a": "Phospholipids arranged in a bilayer",
+   "w": [
+    "Triglycerides",
+    "Glycogen",
+    "Membrane sugars"
+   ],
+   "e": "Phospholipids (bilayer) are the major component.",
+   "s": "L3, slides 25, 46"
+  },
+  {
+   "topic": 10,
+   "q": "Which TWO types of lipids are found in the cell membrane?",
+   "a": "Phospholipids and cholesterol",
+   "w": [
+    "Triglycerides and phospholipids",
+    "Triglycerides and cholesterol",
+    "Waxes and oils"
+   ],
+   "e": "Membrane lipids: phospholipids and cholesterol (a steroid).",
+   "s": "L3, slides 45, 51"
+  },
+  {
+   "topic": 10,
+   "q": "Which is NOT a component of the cell membrane?",
+   "a": "Glycogen",
+   "w": [
+    "Phospholipids",
+    "Cholesterol",
+    "Membrane proteins"
+   ],
+   "e": "Membrane = phospholipids, proteins, sugars, cholesterol. Glycogen is stored in liver and muscle.",
+   "s": "L3, slides 20, 45"
+  },
+  {
+   "topic": 10,
+   "q": "The phospholipid head is ______ and the tail is ______.",
+   "a": "Hydrophilic; hydrophobic",
+   "w": [
+    "Hydrophobic; hydrophilic",
+    "Hydrophilic; hydrophilic",
+    "Hydrophobic; hydrophobic"
+   ],
+   "e": "Head loves water (hydrophilic); tail fears water (hydrophobic).",
+   "s": "L3, slides 25, 46"
+  },
+  {
+   "topic": 10,
+   "q": "What role does cholesterol play in the cell membrane?",
+   "a": "Holds phospholipids together; gives flexible rigidity",
+   "w": [
+    "Forms channels for ions",
+    "Stores energy for the cell",
+    "Determines blood type"
+   ],
+   "e": "Cholesterol sits between phospholipids and gives 'flexible' rigidity.",
+   "s": "L3, slide 51"
+  },
+  {
+   "topic": 10,
+   "q": "The 'fluid mosaic model' means membrane components:",
+   "a": "Are free to move within the membrane",
+   "w": [
+    "Are locked in fixed positions",
+    "Are made only of water",
+    "Dissolve in water"
+   ],
+   "e": "Components are not locked in place; they move within the membrane.",
+   "s": "L3, slide 45"
+  },
+  {
+   "topic": 10,
+   "q": "Which membrane component is used for blood typing?",
+   "a": "Membrane sugars",
+   "w": [
+    "Cholesterol",
+    "Phospholipid tails",
+    "Peripheral proteins only"
+   ],
+   "e": "Membrane sugars: cell recognition, receptors, blood typing.",
+   "s": "L3, slide 50"
+  },
+  {
+   "topic": 10,
+   "q": "Which membrane proteins span the entire membrane and form channels?",
+   "a": "Integral proteins",
+   "w": [
+    "Peripheral proteins",
+    "Membrane sugars",
+    "Cholesterol"
+   ],
+   "e": "Integral proteins touch both inside and outside; only they form channels.",
+   "s": "L3, slide 48"
+  },
+  {
+   "topic": 11,
+   "q": "What is the charge of a neutron?",
+   "a": "Neutral (no charge)",
+   "w": [
+    "Positive",
+    "Negative",
+    "Depends on the element"
+   ],
+   "e": "Neutrons have no charge.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "Which subatomic particle carries a NEGATIVE charge?",
+   "a": "Electron",
+   "w": [
+    "Proton",
+    "Neutron",
+    "Nucleus"
+   ],
+   "e": "Electrons are negative.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "Which subatomic particle carries a POSITIVE charge?",
+   "a": "Proton",
+   "w": [
+    "Electron",
+    "Neutron",
+    "Ion"
+   ],
+   "e": "Protons are positive.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "Which correctly matches particle and charge?",
+   "a": "Proton: positive",
+   "w": [
+    "Proton: negative",
+    "Electron: positive",
+    "Neutron: positive"
+   ],
+   "e": "Proton +, neutron 0, electron −.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "Which particles are found in the nucleus?",
+   "a": "Protons and neutrons",
+   "w": [
+    "Electrons only",
+    "Protons and electrons",
+    "Neutrons and electrons"
+   ],
+   "e": "Nucleus = protons + neutrons; electrons are in the electron cloud.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "Where are electrons found?",
+   "a": "In the electron cloud (shells/orbits) around the nucleus",
+   "w": [
+    "Inside the nucleus",
+    "Bound to neutrons",
+    "Between protons"
+   ],
+   "e": "Electrons circle the nucleus in shells, orbits or rings.",
+   "s": "L2, slide 6"
+  },
+  {
+   "topic": 11,
+   "q": "An atom that LOSES an electron becomes a:",
+   "a": "Cation (positive ion)",
+   "w": [
+    "Anion (negative ion)",
+    "Neutral atom",
+    "Neutron"
+   ],
+   "e": "Losing electrons leaves more protons, so the atom is positive (cation).",
+   "s": "L2, slide 21"
+  },
+  {
+   "topic": 11,
+   "q": "An atom that GAINS an electron becomes a(n):",
+   "a": "Anion (negative ion)",
+   "w": [
+    "Cation (positive ion)",
+    "Neutral atom",
+    "Isotope"
+   ],
+   "e": "Gaining electrons makes it negative (anion).",
+   "s": "L2, slide 21"
+  },
+  {
+   "topic": 12,
+   "q": "Energy of motion is called:",
+   "a": "Kinetic energy",
+   "w": [
+    "Potential energy",
+    "Activation energy",
+    "Stored energy"
+   ],
+   "e": "Kinetic = energy of motion.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "Stored energy is called:",
+   "a": "Potential energy",
+   "w": [
+    "Kinetic energy",
+    "Thermal energy",
+    "Mechanical energy"
+   ],
+   "e": "Potential = stored energy.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "Heat, light and the movement of large objects are examples of:",
+   "a": "Kinetic energy",
+   "w": [
+    "Potential energy",
+    "Stored energy",
+    "Activation energy"
+   ],
+   "e": "All are energy of motion.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "The energy held in chemical bonds is:",
+   "a": "Potential energy",
+   "w": [
+    "Kinetic energy",
+    "Light energy",
+    "Heat energy"
+   ],
+   "e": "Chemical bonds store energy, so it's potential.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "A charged battery sitting on a shelf contains:",
+   "a": "Potential energy",
+   "w": [
+    "Kinetic energy",
+    "No energy",
+    "Only heat energy"
+   ],
+   "e": "A battery is the lecture's example of stored (potential) energy.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "Energy is defined as:",
+   "a": "The ability to do work",
+   "w": [
+    "The movement of electrons only",
+    "Stored heat",
+    "The mass of an object"
+   ],
+   "e": "Energy is the ability to do work.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "A muscle actively contracting and moving the arm shows:",
+   "a": "Kinetic energy",
+   "w": [
+    "Potential energy",
+    "Stored energy",
+    "Chemical bonds only"
+   ],
+   "e": "Movement = energy of motion = kinetic.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 12,
+   "q": "Which pairing is correct?",
+   "a": "Kinetic = motion · Potential = stored",
+   "w": [
+    "Kinetic = stored · Potential = motion",
+    "Both = stored",
+    "Both = motion"
+   ],
+   "e": "Kinetic is motion; potential is stored.",
+   "s": "L2, slide 34"
+  },
+  {
+   "topic": 13,
+   "q": "H₂ (two hydrogen atoms bonded together) is a:",
+   "a": "Molecule",
+   "w": [
+    "Compound",
+    "Ion",
+    "Salt"
+   ],
+   "e": "A molecule is one type of element only.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "A compound is made of:",
+   "a": "Two or more different elements",
+   "w": [
+    "Only one type of element",
+    "Only charged atoms",
+    "Only carbon atoms"
+   ],
+   "e": "Compound = 2+ different elements.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "Methane (CH₄), made of carbon and hydrogen, is a:",
+   "a": "Compound",
+   "w": [
+    "Molecule of a single element",
+    "Ion",
+    "Element"
+   ],
+   "e": "Two different elements make it a compound.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "O₂ (two oxygen atoms) is best classified as a:",
+   "a": "Molecule",
+   "w": [
+    "Compound",
+    "Salt",
+    "Mixture"
+   ],
+   "e": "Only one type of element (oxygen), so it's a molecule.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "Water (H₂O) contains hydrogen and oxygen. It is a:",
+   "a": "Compound",
+   "w": [
+    "Molecule of one element",
+    "Element",
+    "Ion"
+   ],
+   "e": "Two different elements, so it's a compound.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "Which is the key difference between a molecule and a compound (as taught in lecture)?",
+   "a": "Molecule = one type of element; compound = two or more different elements",
+   "w": [
+    "Molecule = charged; compound = neutral",
+    "Molecule = large; compound = small",
+    "There is no difference"
+   ],
+   "e": "Molecule = same element; compound = multiple elements.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 13,
+   "q": "Glucose (C₆H₁₂O₆) is a:",
+   "a": "Compound",
+   "w": [
+    "Molecule of one element",
+    "Element",
+    "Ion"
+   ],
+   "e": "Three different elements (C, H, O), so it's a compound.",
+   "s": "L2, slides 31–32"
+  },
+  {
+   "topic": 13,
+   "q": "N₂ (two nitrogen atoms) is a:",
+   "a": "Molecule",
+   "w": [
+    "Compound",
+    "Salt",
+    "Acid"
+   ],
+   "e": "One type of element only, so it's a molecule.",
+   "s": "L2, slide 31"
+  },
+  {
+   "topic": 14,
+   "q": "Which is an example of POSITIVE feedback?",
+   "a": "Childbirth contractions",
+   "w": [
+    "Sweating when hot",
+    "Shivering when cold",
+    "Insulin lowering blood sugar"
+   ],
+   "e": "Positive feedback examples: childbirth (oxytocin) and blood clotting.",
+   "s": "L1, slides 54–55"
+  },
+  {
+   "topic": 14,
+   "q": "In NEGATIVE feedback, the response:",
+   "a": "Moves in the opposite direction of the change",
+   "w": [
+    "Moves in the same direction as the change",
+    "Amplifies the stimulus",
+    "Only happens in unusual circumstances"
+   ],
+   "e": "Negative feedback counteracts the stimulus.",
+   "s": "L1, slide 52"
+  },
+  {
+   "topic": 14,
+   "q": "Shivering to warm up when you are cold is an example of:",
+   "a": "Negative feedback",
+   "w": [
+    "Positive feedback",
+    "Osmosis",
+    "Hydrolysis"
+   ],
+   "e": "The response opposes the change, so it's negative feedback.",
+   "s": "L1, slides 52–53"
+  },
+  {
+   "topic": 14,
+   "q": "Most feedback mechanisms in the body are:",
+   "a": "Negative",
+   "w": [
+    "Positive",
+    "Neither",
+    "Equally positive and negative"
+   ],
+   "e": "Most feedback is negative.",
+   "s": "L1, slide 52"
+  },
+  {
+   "topic": 14,
+   "q": "In POSITIVE feedback, the response:",
+   "a": "Amplifies the change (same direction)",
+   "w": [
+    "Counteracts the change",
+    "Returns the body to normal",
+    "Stops the stimulus"
+   ],
+   "e": "Positive feedback amplifies and drives farther from normal.",
+   "s": "L1, slide 54"
+  },
+  {
+   "topic": 14,
+   "q": "Blood clotting is an example of:",
+   "a": "Positive feedback",
+   "w": [
+    "Negative feedback",
+    "Diffusion",
+    "Homeostatic sweating"
+   ],
+   "e": "Blood clotting is a positive feedback example.",
+   "s": "L1, slide 54"
+  },
+  {
+   "topic": 14,
+   "q": "Sweating when body temperature rises is an example of:",
+   "a": "Negative feedback",
+   "w": [
+    "Positive feedback",
+    "Active transport",
+    "Synthesis"
+   ],
+   "e": "Sweating cools the body, opposing the rise.",
+   "s": "L1, slide 52"
+  },
+  {
+   "topic": 14,
+   "q": "Which hormone drives the positive feedback loop of childbirth?",
+   "a": "Oxytocin",
+   "w": [
+    "Insulin",
+    "Glucagon",
+    "Cholesterol"
+   ],
+   "e": "The pituitary releases oxytocin, amplifying contractions.",
+   "s": "L1, slide 55"
+  },
+  {
+   "topic": 15,
+   "q": "The liquid portion of the cytoplasm is the:",
+   "a": "Cytosol",
+   "w": [
+    "Nucleus",
+    "Inclusion",
+    "Organelle"
+   ],
+   "e": "Cytoplasm includes cytosol (liquid), organelles, inclusions.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "Which is NOT part of the cytoplasm?",
+   "a": "Nucleus",
+   "w": [
+    "Cytosol",
+    "Organelles",
+    "Inclusions"
+   ],
+   "e": "The nucleus is its own component.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "The three main components of a cell are:",
+   "a": "Cell membrane, cytoplasm, nucleus",
+   "w": [
+    "Cytosol, organelles, inclusions",
+    "Phospholipids, proteins, cholesterol",
+    "Tissue, organ, organ system"
+   ],
+   "e": "Membrane ('skin'), cytoplasm ('guts'), nucleus ('brain').",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "The cytoplasm is described as the cell's:",
+   "a": "'Guts'",
+   "w": [
+    "'Skin'",
+    "'Brain'",
+    "'Bouncer'"
+   ],
+   "e": "Cytoplasm = the 'guts' of the cell.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "The nucleus is described as the cell's:",
+   "a": "'Brain' or command center",
+   "w": [
+    "'Skin' or outer boundary",
+    "'Guts'",
+    "Liquid portion"
+   ],
+   "e": "Nucleus = 'brain' / command center.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "Tiny 'organs' inside the cell are called:",
+   "a": "Organelles",
+   "w": [
+    "Inclusions",
+    "Cytosol",
+    "Tissues"
+   ],
+   "e": "Organelles = tiny organs within the cytoplasm.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "Things inside the cytoplasm that do NOT dissolve in water, like fat and pigments, are:",
+   "a": "Inclusions",
+   "w": [
+    "Organelles",
+    "Cytosol",
+    "Nuclei"
+   ],
+   "e": "Inclusions = undissolved things like fat and pigment.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 15,
+   "q": "The cytoplasm includes which three things?",
+   "a": "Cytosol, organelles, inclusions",
+   "w": [
+    "Nucleus, membrane, cytosol",
+    "Phospholipids, cholesterol, proteins",
+    "DNA, RNA, ATP"
+   ],
+   "e": "Cytoplasm = cytosol + organelles + inclusions.",
+   "s": "L3, slide 43"
+  },
+  {
+   "topic": 16,
+   "q": "Glucose is classified as a:",
+   "a": "Monosaccharide",
+   "w": [
+    "Disaccharide",
+    "Polysaccharide",
+    "Lipid"
+   ],
+   "e": "Glucose, fructose, galactose = monosaccharides.",
+   "s": "L3, slide 16"
+  },
+  {
+   "topic": 16,
+   "q": "Sucrose (glucose + fructose) is a:",
+   "a": "Disaccharide",
+   "w": [
+    "Monosaccharide",
+    "Polysaccharide",
+    "Protein"
+   ],
+   "e": "Disaccharides: sucrose, lactose, maltose.",
+   "s": "L3, slide 18"
+  },
+  {
+   "topic": 16,
+   "q": "Glycogen, the storage form of glucose in animals, is a:",
+   "a": "Polysaccharide",
+   "w": [
+    "Monosaccharide",
+    "Disaccharide",
+    "Triglyceride"
+   ],
+   "e": "Polysaccharides: starch (plants), glycogen (animals).",
+   "s": "L3, slide 20"
+  },
+  {
+   "topic": 16,
+   "q": "Lactose is made of:",
+   "a": "Glucose + galactose",
+   "w": [
+    "Glucose + fructose",
+    "Glucose + glucose",
+    "Fructose + galactose"
+   ],
+   "e": "Lactose = glucose + galactose.",
+   "s": "L3, slide 18"
+  },
+  {
+   "topic": 16,
+   "q": "Maltose is made of:",
+   "a": "Glucose + glucose",
+   "w": [
+    "Glucose + fructose",
+    "Glucose + galactose",
+    "Galactose + fructose"
+   ],
+   "e": "Maltose = glucose + glucose.",
+   "s": "L3, slide 18"
+  },
+  {
+   "topic": 16,
+   "q": "Starch, the storage form of carbohydrate in plants, is a:",
+   "a": "Polysaccharide",
+   "w": [
+    "Monosaccharide",
+    "Disaccharide",
+    "Lipid"
+   ],
+   "e": "Starch = plant polysaccharide.",
+   "s": "L3, slide 20"
+  },
+  {
+   "topic": 16,
+   "q": "A disaccharide is made of how many monosaccharides?",
+   "a": "2",
+   "w": [
+    "1",
+    "3 or more",
+    "20"
+   ],
+   "e": "Di = 2.",
+   "s": "L3, slide 18"
+  },
+  {
+   "topic": 16,
+   "q": "Which chemical reaction joins monosaccharides into a disaccharide?",
+   "a": "Dehydration synthesis",
+   "w": [
+    "Hydrolysis",
+    "Oxidation",
+    "Filtration"
+   ],
+   "e": "Monosaccharides are combined by dehydration synthesis.",
+   "s": "L3, slide 18"
+  },
+  {
+   "topic": 16,
+   "q": "Where is glycogen stored in the body?",
+   "a": "Skeletal muscle and liver",
+   "w": [
+    "Brain and spinal cord",
+    "Skin and hair",
+    "Bones and cartilage"
+   ],
+   "e": "Glycogen is stored in skeletal muscle and liver.",
+   "s": "L3, slide 20"
+  },
+  {
+   "topic": 16,
+   "q": "Which is a monosaccharide?",
+   "a": "Fructose",
+   "w": [
+    "Sucrose",
+    "Lactose",
+    "Glycogen"
+   ],
+   "e": "Fructose is a simple sugar; the others are di- or polysaccharides.",
+   "s": "L3, slide 16"
+  },
+  {
+   "topic": 17,
+   "q": "In which type of bond are electrons SHARED?",
+   "a": "Covalent",
+   "w": [
+    "Ionic",
+    "Hydrogen",
+    "Metallic only"
+   ],
+   "e": "Covalent bonds: nonmetals share electrons.",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 17,
+   "q": "In which type of bond does one atom take ('steal') electrons from another?",
+   "a": "Ionic",
+   "w": [
+    "Nonpolar covalent",
+    "Polar covalent",
+    "Hydrogen"
+   ],
+   "e": "Ionic: electrons are given by one atom and received by another.",
+   "s": "L2, slide 22"
+  },
+  {
+   "topic": 17,
+   "q": "In water, oxygen and hydrogen share electrons UNEQUALLY. This is a:",
+   "a": "Polar covalent bond",
+   "w": [
+    "Nonpolar covalent bond",
+    "Ionic bond",
+    "Hydrogen bond"
+   ],
+   "e": "Polar covalent = unequal sharing (e.g., water).",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 17,
+   "q": "Sharing electrons equally between atoms of about the same size is a:",
+   "a": "Nonpolar covalent bond",
+   "w": [
+    "Polar covalent bond",
+    "Ionic bond",
+    "Hydrogen bond"
+   ],
+   "e": "Nonpolar covalent = equal sharing (e.g., CO₂).",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 17,
+   "q": "Covalent bonds form between:",
+   "a": "Nonmetal atoms sharing electrons",
+   "w": [
+    "A metal and a nonmetal transferring electrons",
+    "Molecules of water only",
+    "A cation and an anion"
+   ],
+   "e": "Covalent = two or more nonmetals sharing.",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 17,
+   "q": "Polar covalent bonds share electrons unequally because:",
+   "a": "The atoms are very different in size",
+   "w": [
+    "The atoms are the same size",
+    "One atom is a metal",
+    "No electrons are involved"
+   ],
+   "e": "Large difference in atom size → unequal sharing.",
+   "s": "L2, slide 25"
+  },
+  {
+   "topic": 17,
+   "q": "When Na gives its electron to Cl to form NaCl, the bond formed is:",
+   "a": "Ionic",
+   "w": [
+    "Covalent",
+    "Hydrogen",
+    "Peptide"
+   ],
+   "e": "Electron transferred (not shared), so it's ionic.",
+   "s": "L2, slides 22, 46"
+  },
+  {
+   "topic": 17,
+   "q": "A chemical bond is an attraction between atoms created by:",
+   "a": "Sharing, losing or gaining electrons",
+   "w": [
+    "Sharing protons",
+    "Combining nuclei",
+    "Losing neutrons"
+   ],
+   "e": "Bonds form by sharing, losing or gaining electrons.",
+   "s": "L2, slide 20"
+  },
+  {
+   "topic": 18,
+   "q": "AB + CD → AC + BD is an example of:",
+   "a": "Exchange (double displacement)",
+   "w": [
+    "Synthesis",
+    "Decomposition",
+    "Reversible reaction"
+   ],
+   "e": "Partners are swapped, so it's an exchange reaction.",
+   "s": "L2, slide 41"
+  },
+  {
+   "topic": 18,
+   "q": "A + B + energy ⇄ AB is an example of a:",
+   "a": "Reversible reaction",
+   "w": [
+    "Single replacement",
+    "Decomposition",
+    "Double displacement"
+   ],
+   "e": "The double arrow means either direction.",
+   "s": "L2, slide 43"
+  },
+  {
+   "topic": 18,
+   "q": "A + B → AB is an example of:",
+   "a": "Synthesis",
+   "w": [
+    "Decomposition",
+    "Exchange",
+    "Single replacement"
+   ],
+   "e": "Putting pieces together = synthesis.",
+   "s": "L2, slide 37"
+  },
+  {
+   "topic": 18,
+   "q": "A + BC → AC + B is an example of:",
+   "a": "Single replacement (exchange)",
+   "w": [
+    "Synthesis",
+    "Decomposition",
+    "Double displacement"
+   ],
+   "e": "One element replaces another in a compound.",
+   "s": "L2, slide 42"
+  },
+  {
+   "topic": 18,
+   "q": "AB → A + B + energy is an example of:",
+   "a": "Decomposition",
+   "w": [
+    "Synthesis",
+    "Exchange",
+    "Reversible reaction"
+   ],
+   "e": "Breaking down, releasing energy = decomposition (catabolic).",
+   "s": "L2, slide 39"
+  },
+  {
+   "topic": 18,
+   "q": "A double displacement reaction is actually a combination of which two reactions?",
+   "a": "Decomposition and synthesis",
+   "w": [
+    "Oxidation and osmosis",
+    "Synthesis and synthesis",
+    "Diffusion and filtration"
+   ],
+   "e": "AB + CD breaks apart (catabolic) and then recombines (anabolic).",
+   "s": "L2, slide 41"
+  },
+  {
+   "topic": 18,
+   "q": "Metal on a car slowly rusting is the lecture's example of a:",
+   "a": "Reversible reaction",
+   "w": [
+    "Synthesis reaction only",
+    "Double displacement",
+    "Hydrolysis reaction"
+   ],
+   "e": "Most reactions in nature are reversible, even if it takes years.",
+   "s": "L2, slide 43"
+  },
+  {
+   "topic": 18,
+   "q": "Which statement about reversible reactions is TRUE?",
+   "a": "Most reactions in nature are reversible",
+   "w": [
+    "They can only go forward",
+    "They never involve energy",
+    "They only occur in acids"
+   ],
+   "e": "Most natural reactions are reversible.",
+   "s": "L2, slide 43"
+  },
+  {
+   "topic": 19,
+   "q": "Which substance is known as the 'universal solvent'?",
+   "a": "Water",
+   "w": [
+    "Blood plasma",
+    "Hydrochloric acid",
+    "Saline"
+   ],
+   "e": "Water is the universal solvent.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "Water makes up about how much of your body weight?",
+   "a": "About 2/3",
+   "w": [
+    "About 1/4",
+    "About 1/3",
+    "About 9/10"
+   ],
+   "e": "~2/3 of body weight.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "A solvent is a substance that:",
+   "a": "Dissolves other substances",
+   "w": [
+    "Resists changes in pH",
+    "Speeds up chemical reactions",
+    "Stores energy"
+   ],
+   "e": "Solvent: dissolves things.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "Water is held together by which type of bond?",
+   "a": "Polar covalent",
+   "w": [
+    "Ionic",
+    "Nonpolar covalent",
+    "Peptide"
+   ],
+   "e": "Water is an inorganic compound with polar covalent bonds.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "Water is classified as a(n):",
+   "a": "Inorganic compound",
+   "w": [
+    "Organic compound",
+    "Lipid",
+    "Element"
+   ],
+   "e": "Water contains no carbon, so it is inorganic.",
+   "s": "L3, slides 5–6"
+  },
+  {
+   "topic": 19,
+   "q": "Which is NOT a function of water in the body?",
+   "a": "Storing genetic information",
+   "w": [
+    "Lubrication and cushioning",
+    "Temperature regulation",
+    "Transportation (blood)"
+   ],
+   "e": "Water: solvent, lubrication/cushioning, temperature regulation, transport. DNA stores genetic info.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "Water helps regulate body temperature through:",
+   "a": "Sweat and its high heat capacity",
+   "w": [
+    "Storing fat",
+    "Producing ATP",
+    "Forming ionic bonds"
+   ],
+   "e": "Temperature regulator: sweat and high heat capacity.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 19,
+   "q": "Why is water called the 'universal solvent'?",
+   "a": "It dissolves more substances than any other liquid",
+   "w": [
+    "It is found everywhere in the universe",
+    "It never dissolves anything",
+    "It is a strong acid"
+   ],
+   "e": "Water's polarity lets it dissolve a huge range of substances.",
+   "s": "L3, slide 6"
+  },
+  {
+   "topic": 20,
+   "q": "Which term does NOT refer to the head?",
+   "a": "Caudal",
+   "w": [
+    "Superior",
+    "Cranial",
+    "Cephalic"
+   ],
+   "e": "Caudal = toward the tail.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 20,
+   "q": "Which term means 'toward the tail'?",
+   "a": "Caudad",
+   "w": [
+    "Cephalic",
+    "Cranial",
+    "Superior"
+   ],
+   "e": "Caudad/caudal/inferior = tail.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 20,
+   "q": "'Cephalic' refers to the:",
+   "a": "Head",
+   "w": [
+    "Tail",
+    "Back",
+    "Midline"
+   ],
+   "e": "Cephalon = head.",
+   "s": "L1, slides 23, 27"
+  },
+  {
+   "topic": 20,
+   "q": "Which term does NOT refer to the tail/feet?",
+   "a": "Cranial",
+   "w": [
+    "Inferior",
+    "Caudal",
+    "Caudad"
+   ],
+   "e": "Cranial = toward the head.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 20,
+   "q": "Which group contains ONLY 'head' words?",
+   "a": "Superior, cranial, cephalic",
+   "w": [
+    "Superior, caudal, cephalic",
+    "Inferior, cranial, cephalic",
+    "Cranial, caudad, superior"
+   ],
+   "e": "Head: superior, cranial, cephalic.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 20,
+   "q": "Which group contains ONLY 'tail' words?",
+   "a": "Inferior, caudal, caudad",
+   "w": [
+    "Inferior, cranial, caudad",
+    "Superior, caudal, caudad",
+    "Caudal, cephalic, inferior"
+   ],
+   "e": "Tail: inferior, caudal, caudad.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 20,
+   "q": "'Cephalon' is the Latin/Greek word for:",
+   "a": "Head",
+   "w": [
+    "Skull",
+    "Neck",
+    "Face"
+   ],
+   "e": "Cephalon (head) → 'cephalic'. Cranium = skull.",
+   "s": "L1, slide 27"
+  },
+  {
+   "topic": 20,
+   "q": "The feet are ______ to the head.",
+   "a": "Inferior (caudal)",
+   "w": [
+    "Superior (cranial)",
+    "Cephalic",
+    "Medial"
+   ],
+   "e": "Toward the tail/feet = inferior/caudal.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 21,
+   "q": "The pH scale ranges from:",
+   "a": "0 to 14",
+   "w": [
+    "1 to 10",
+    "0 to 100",
+    "−7 to 7"
+   ],
+   "e": "pH range is 0–14.",
+   "s": "L3, slide 11"
+  },
+  {
+   "topic": 21,
+   "q": "The normal pH of human blood is:",
+   "a": "7.35–7.45",
+   "w": [
+    "6.35–6.45",
+    "7.0 exactly",
+    "8.35–8.45"
+   ],
+   "e": "Blood pH = 7.35–7.45 (slightly basic).",
+   "s": "L3, slide 11"
+  },
+  {
+   "topic": 21,
+   "q": "As H⁺ concentration INCREASES, a solution becomes more:",
+   "a": "Acidic (lower pH)",
+   "w": [
+    "Basic (higher pH)",
+    "Neutral",
+    "Salty"
+   ],
+   "e": "More H⁺ = more acidic = lower pH.",
+   "s": "L3, slides 11–12"
+  },
+  {
+   "topic": 21,
+   "q": "As OH⁻ concentration INCREASES, a solution becomes more:",
+   "a": "Basic (higher pH)",
+   "w": [
+    "Acidic (lower pH)",
+    "Neutral",
+    "Polar"
+   ],
+   "e": "More OH⁻ = more basic = higher pH.",
+   "s": "L3, slides 11–12"
+  },
+  {
+   "topic": 21,
+   "q": "Human blood (pH 7.35–7.45) is:",
+   "a": "Slightly basic",
+   "w": [
+    "Strongly acidic",
+    "Slightly acidic",
+    "Exactly neutral"
+   ],
+   "e": "Just above 7 = slightly basic.",
+   "s": "L3, slide 11"
+  },
+  {
+   "topic": 22,
+   "q": "Osmosis is the movement of:",
+   "a": "Water only",
+   "w": [
+    "Gases from high to low concentration",
+    "Large particles using ATP",
+    "Particles through holes driven by blood pressure"
+   ],
+   "e": "Osmosis = 'the diffusion of water'.",
+   "s": "L3, slide 57"
+  },
+  {
+   "topic": 22,
+   "q": "Simple diffusion is the movement of molecules:",
+   "a": "From high to low concentration without energy",
+   "w": [
+    "From low to high concentration using ATP",
+    "Of water only",
+    "Only through a carrier molecule"
+   ],
+   "e": "Diffusion: high → low, down a concentration gradient, no energy.",
+   "s": "L3, slide 56"
+  },
+  {
+   "topic": 22,
+   "q": "What is the key difference between diffusion and osmosis?",
+   "a": "Osmosis moves only water; diffusion moves other molecules",
+   "w": [
+    "Diffusion requires ATP; osmosis does not",
+    "Diffusion moves low to high; osmosis high to low",
+    "Osmosis is active; diffusion is passive"
+   ],
+   "e": "Both are passive and high → low; osmosis is water only.",
+   "s": "L3, slides 56–57"
+  },
+  {
+   "topic": 22,
+   "q": "Diffusion and osmosis are both examples of:",
+   "a": "Passive transport (no ATP)",
+   "w": [
+    "Active transport",
+    "Endocytosis",
+    "Exocytosis"
+   ],
+   "e": "Both are passive.",
+   "s": "L3, slides 55–57"
+  },
+  {
+   "topic": 22,
+   "q": "A cell placed in a HYPOTONIC solution will:",
+   "a": "Swell and may burst (hemolysis)",
+   "w": [
+    "Shrink (crenation)",
+    "Stay the same size",
+    "Pump water out using ATP"
+   ],
+   "e": "Water rushes in, so the cell swells.",
+   "s": "L3, slide 59"
+  },
+  {
+   "topic": 22,
+   "q": "A cell placed in a HYPERTONIC solution will:",
+   "a": "Shrink (crenation)",
+   "w": [
+    "Swell and burst",
+    "Stay the same size",
+    "Divide"
+   ],
+   "e": "Water moves out, so the cell shrinks.",
+   "s": "L3, slide 60"
+  },
+  {
+   "topic": 22,
+   "q": "In an ISOTONIC solution, a cell will:",
+   "a": "Stay the same size",
+   "w": [
+    "Swell",
+    "Shrink",
+    "Burst"
+   ],
+   "e": "Same concentration inside and out, so water moves evenly.",
+   "s": "L3, slide 58"
+  },
+  {
+   "topic": 22,
+   "q": "Simple diffusion is driven by:",
+   "a": "A concentration gradient",
+   "w": [
+    "ATP",
+    "Blood pressure",
+    "A carrier molecule"
+   ],
+   "e": "Diffusion is driven by a concentration gradient.",
+   "s": "L3, slide 56"
+  },
+  {
+   "topic": 23,
+   "q": "The sagittal plane divides the body into:",
+   "a": "Left and right portions",
+   "w": [
+    "Front and back portions",
+    "Top and bottom portions",
+    "Angled portions"
+   ],
+   "e": "Sagittal = left/right.",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 23,
+   "q": "The frontal plane is another name for the:",
+   "a": "Coronal plane",
+   "w": [
+    "Sagittal plane",
+    "Transverse plane",
+    "Oblique plane"
+   ],
+   "e": "Coronal a.k.a. frontal.",
+   "s": "L1, slide 34"
+  },
+  {
+   "topic": 23,
+   "q": "Which plane is also called the angular plane?",
+   "a": "Oblique",
+   "w": [
+    "Coronal",
+    "Sagittal",
+    "Transverse"
+   ],
+   "e": "Oblique = angular.",
+   "s": "L1, slide 36"
+  },
+  {
+   "topic": 23,
+   "q": "A cut that separates the face from the back of the head is along the:",
+   "a": "Coronal plane",
+   "w": [
+    "Sagittal plane",
+    "Transverse plane",
+    "Midsagittal plane"
+   ],
+   "e": "Front vs. back = coronal (frontal).",
+   "s": "L1, slide 34"
+  },
+  {
+   "topic": 23,
+   "q": "A cut that separates the right eye from the left eye is along a:",
+   "a": "Sagittal plane",
+   "w": [
+    "Coronal plane",
+    "Transverse plane",
+    "Horizontal plane"
+   ],
+   "e": "Left vs. right = sagittal.",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 23,
+   "q": "A cut at the waist separating the upper body from the lower body is along the:",
+   "a": "Transverse plane",
+   "w": [
+    "Coronal plane",
+    "Sagittal plane",
+    "Frontal plane"
+   ],
+   "e": "Top vs. bottom = transverse (horizontal).",
+   "s": "L1, slide 35"
+  },
+  {
+   "topic": 23,
+   "q": "The median plane is another name for the:",
+   "a": "Midsagittal plane",
+   "w": [
+    "Coronal plane",
+    "Transverse plane",
+    "Oblique plane"
+   ],
+   "e": "Midsagittal (median).",
+   "s": "L1, slide 33"
+  },
+  {
+   "topic": 23,
+   "q": "Which pairing is correct?",
+   "a": "Coronal = front/back · Sagittal = left/right",
+   "w": [
+    "Coronal = left/right · Sagittal = front/back",
+    "Coronal = top/bottom · Sagittal = left/right",
+    "Coronal = front/back · Sagittal = top/bottom"
+   ],
+   "e": "Coronal splits front/back; sagittal splits left/right.",
+   "s": "L1, slides 33–34"
+  },
+  {
+   "topic": 24,
+   "q": "'Medial' means:",
+   "a": "Toward the midline",
+   "w": [
+    "Away from the midline",
+    "Close to the point of attachment",
+    "Toward the surface"
+   ],
+   "e": "Medial = toward the midline.",
+   "s": "L1, slide 24"
+  },
+  {
+   "topic": 24,
+   "q": "The wrist is ______ to the elbow.",
+   "a": "Distal",
+   "w": [
+    "Proximal",
+    "Medial",
+    "Superior"
+   ],
+   "e": "Distal = farther from the point of attachment.",
+   "s": "L1, slide 24"
+  },
+  {
+   "topic": 24,
+   "q": "The ears are ______ to the nose.",
+   "a": "Lateral",
+   "w": [
+    "Medial",
+    "Proximal",
+    "Deep"
+   ],
+   "e": "Lateral = away from the midline.",
+   "s": "L1, slide 24"
+  },
+  {
+   "topic": 24,
+   "q": "The elbow is ______ to the wrist.",
+   "a": "Proximal",
+   "w": [
+    "Distal",
+    "Lateral",
+    "Inferior"
+   ],
+   "e": "Proximal = closer to the point of attachment.",
+   "s": "L1, slide 24"
+  },
+  {
+   "topic": 24,
+   "q": "'Superficial' means:",
+   "a": "Toward the surface",
+   "w": [
+    "Away from the surface",
+    "Toward the midline",
+    "Toward the back"
+   ],
+   "e": "Superficial (external) = toward the surface.",
+   "s": "L1, slide 25"
+  },
+  {
+   "topic": 24,
+   "q": "The skin is ______ to the muscles.",
+   "a": "Superficial",
+   "w": [
+    "Deep",
+    "Proximal",
+    "Medial"
+   ],
+   "e": "The skin is closer to the surface.",
+   "s": "L1, slide 25"
+  },
+  {
+   "topic": 24,
+   "q": "'Anterior' is also called:",
+   "a": "Ventral",
+   "w": [
+    "Dorsal",
+    "Caudal",
+    "Lateral"
+   ],
+   "e": "Anterior (ventral) = toward the front.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 24,
+   "q": "'Posterior' is also called:",
+   "a": "Dorsal",
+   "w": [
+    "Ventral",
+    "Cranial",
+    "Medial"
+   ],
+   "e": "Posterior (dorsal) = toward the back.",
+   "s": "L1, slide 23"
+  },
+  {
+   "topic": 24,
+   "q": "The nose is ______ to the eyes.",
+   "a": "Medial",
+   "w": [
+    "Lateral",
+    "Distal",
+    "Posterior"
+   ],
+   "e": "The nose is closer to the midline.",
+   "s": "L1, slide 24"
+  },
+  {
+   "topic": 24,
+   "q": "The term for 'between superficial and deep' is:",
+   "a": "Intermediate",
+   "w": [
+    "Medial",
+    "Proximal",
+    "Lateral"
+   ],
+   "e": "Intermediate = between superficial and deep.",
+   "s": "L1, slide 25"
+  },
+  {
+   "topic": 25,
+   "q": "Which statement about synthesis reactions is TRUE?",
+   "a": "They build larger molecules and require energy",
+   "w": [
+    "They break molecules apart",
+    "They release energy",
+    "They are catabolic"
+   ],
+   "e": "Synthesis (anabolic) = construction; requires energy.",
+   "s": "L2, slide 37"
+  },
+  {
+   "topic": 25,
+   "q": "Dehydration synthesis creates a bond by:",
+   "a": "Removing water",
+   "w": [
+    "Adding water",
+    "Adding oxygen",
+    "Releasing energy"
+   ],
+   "e": "Dehydration = removal of water.",
+   "s": "L2, slide 38"
+  },
+  {
+   "topic": 25,
+   "q": "Synthesis reactions are also called:",
+   "a": "Anabolic",
+   "w": [
+    "Catabolic",
+    "Hydrolysis",
+    "Exchange"
+   ],
+   "e": "Synthesis = anabolic; decomposition = catabolic.",
+   "s": "L2, slides 37, 39"
+  },
+  {
+   "topic": 25,
+   "q": "Which equation represents a synthesis reaction?",
+   "a": "A + B (+ energy) → AB",
+   "w": [
+    "AB → A + B + energy",
+    "AB + CD → AC + BD",
+    "A + BC → AC + B"
+   ],
+   "e": "Synthesis puts A and B together into AB.",
+   "s": "L2, slide 37"
+  },
+  {
+   "topic": 25,
+   "q": "The lecture describes synthesis as:",
+   "a": "Construction",
+   "w": [
+    "Demolition",
+    "Exchange",
+    "Filtration"
+   ],
+   "e": "Synthesis = construction; decomposition = demolition.",
+   "s": "L2, slides 37, 39"
+  },
+  {
+   "topic": 25,
+   "q": "Energy for a synthesis reaction usually comes in the form of:",
+   "a": "Heat",
+   "w": [
+    "Light only",
+    "Sound",
+    "Nothing; no energy is needed"
+   ],
+   "e": "Requires energy input, usually heat.",
+   "s": "L2, slide 37"
+  },
+  {
+   "topic": 25,
+   "q": "Forming functional proteins from amino acids is an example of:",
+   "a": "Synthesis (anabolic)",
+   "w": [
+    "Decomposition (catabolic)",
+    "Hydrolysis",
+    "Single replacement"
+   ],
+   "e": "Building proteins = synthesis.",
+   "s": "L2, slide 38"
+  },
+  {
+   "topic": 25,
+   "q": "The OPPOSITE of dehydration synthesis is:",
+   "a": "Hydrolysis (breaking a bond by adding water)",
+   "w": [
+    "Oxidation",
+    "Osmosis",
+    "Double displacement"
+   ],
+   "e": "Hydrolysis = break by adding water.",
+   "s": "L2, slide 40"
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A&amp;P Quiz Practice</title>
+<meta name="description" content="Practice quiz for A&P Quiz #1: a new random set of questions every time.">
+<meta name="theme-color" content="#0f766e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="A&amp;P Quiz">
+<style>
+:root{
+  --bg:#f6f7f5; --card:#ffffff; --ink:#1c2321; --muted:#5f6b67; --line:#dfe4e1;
+  --accent:#0f766e; --accent-ink:#ffffff; --accent-soft:#e3f2ef;
+  --ok:#15803d; --ok-soft:#e5f5ea; --bad:#b91c1c; --bad-soft:#fbe9e9;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#111615; --card:#1a2120; --ink:#e8eeec; --muted:#9aa7a3; --line:#2c3633;
+    --accent:#2dd4bf; --accent-ink:#06201d; --accent-soft:#163430;
+    --ok:#4ade80; --ok-soft:#14301f; --bad:#f87171; --bad-soft:#3a1b1b;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-tap-highlight-color:transparent;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+}
+main{max-width:640px;margin:0 auto;padding:16px 16px 40px}
+h1{font-size:1.5rem;margin:8px 0 4px;letter-spacing:-.01em}
+h2{font-size:1.1rem;margin:0 0 8px}
+p{margin:0 0 12px}
+.muted{color:var(--muted)}
+.small{font-size:.85rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:12px 0}
+button{font:inherit;color:inherit;cursor:pointer}
+.btn{
+  display:block;width:100%;min-height:52px;padding:12px 16px;margin:10px 0 0;
+  border-radius:12px;border:1px solid var(--line);background:var(--card);text-align:left;
+}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600;text-align:center}
+.btn.ghost{background:transparent;text-align:center}
+.btn:disabled{opacity:.5;cursor:default}
+.opt:disabled{opacity:1}
+.opt:disabled:not(.correct):not(.wrong){opacity:.6}
+.btn .sub{display:block;font-size:.85rem;color:var(--muted);font-weight:400}
+.btn.primary .sub{color:inherit;opacity:.85}
+.row{display:flex;gap:10px}
+.row .btn{flex:1}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+.linkbtn{background:none;border:0;padding:8px 0;color:var(--accent);font-weight:600}
+.progress{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin:4px 0 14px}
+.progress > div{height:100%;background:var(--accent);width:0;transition:width .25s}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:3px 9px;border-radius:99px;margin-bottom:10px}
+.prompt{font-size:1.15rem;font-weight:600;margin:0 0 6px}
+.opt{position:relative;padding-left:48px}
+.opt .key{
+  position:absolute;left:12px;top:50%;transform:translateY(-50%);
+  width:26px;height:26px;border-radius:50%;border:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;color:var(--muted)
+}
+.opt.correct{border-color:var(--ok);background:var(--ok-soft)}
+.opt.correct .key{background:var(--ok);border-color:var(--ok);color:#fff}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.wrong .key{background:var(--bad);border-color:var(--bad);color:#fff}
+.feedback{margin-top:14px;padding:14px;border-radius:12px;border:1px solid var(--line)}
+.feedback.ok{border-color:var(--ok);background:var(--ok-soft)}
+.feedback.bad{border-color:var(--bad);background:var(--bad-soft)}
+.feedback b{display:block;margin-bottom:4px}
+.src{font-size:.85rem;color:var(--muted);margin-top:6px}
+.score{font-size:3rem;font-weight:800;line-height:1;margin:8px 0}
+.list{list-style:none;padding:0;margin:0}
+.list li{padding:10px 0;border-top:1px solid var(--line)}
+.list li:first-child{border-top:0}
+.topicgrid{display:grid;grid-template-columns:1fr;gap:0}
+.topicgrid .btn{margin-top:8px;min-height:48px;padding:10px 14px}
+.num{display:inline-block;min-width:28px;font-weight:700;color:var(--accent)}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
+.hidden{display:none !important}
+</style>
+</head>
+<body>
+<main id="app"><p class="muted">Loading…</p></main>
+<script>
+"use strict";
+const STORE_KEY = "apq1-state-v1";
+let BANK = null;          // {title, topics, questions}
+let state = loadState();  // {missed:{id:q}, best:number|null, runs:number}
+let run = null;           // current quiz run
+
+function loadState(){
+  try{ const s = JSON.parse(localStorage.getItem(STORE_KEY)); if(s && typeof s==="object") return Object.assign({missed:{},best:null,runs:0}, s); }catch(e){}
+  return {missed:{},best:null,runs:0};
+}
+function saveState(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){} }
+
+const rand = n => Math.floor(Math.random()*n);
+const pick = arr => arr[rand(arr.length)];
+function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i+1);[a[i],a[j]]=[a[j],a[i]];} return a; }
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------- Generated questions (topics 4 and 21) ---------- */
+const ELEMENTS = [
+  ["Carbon","C",6,12],["Nitrogen","N",7,14],["Oxygen","O",8,16],["Sodium","Na",11,23],
+  ["Magnesium","Mg",12,24],["Aluminum","Al",13,27],["Phosphorus","P",15,31],["Sulfur","S",16,32],
+  ["Chlorine","Cl",17,35],["Potassium","K",19,39],["Calcium","Ca",20,40],["Iron","Fe",26,56],
+  ["Copper","Cu",29,64],["Iodine","I",53,127],["Helium","He",2,4],["Fluorine","F",9,19]
+];
+function numDistractors(correct, cands){
+  const out = [];
+  for(const c of cands){ if(c!==correct && c>0 && !out.includes(c)) out.push(c); if(out.length===3) break; }
+  let k=1; while(out.length<3){ const c=correct+k*(k%2?1:-1)*Math.ceil(k/2); if(c>0 && c!==correct && !out.includes(c)) out.push(c); k++; }
+  return out.map(String);
+}
+function genTopic4(){
+  const [name,sym,z,m] = pick(ELEMENTS); const n = m - z;
+  const type = rand(4);
+  const src = "L2, slides 11–12";
+  if(type===0) return {topic:4,gen:true,q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many neutrons does it have?`,
+    a:String(n), w:numDistractors(n,[z,m,m+z,n+1]), e:`Neutrons = atomic mass − atomic number = ${m} − ${z} = ${n}.`, s:src};
+  if(type===1) return {topic:4,gen:true,q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic mass?`,
+    a:String(m), w:numDistractors(m,[z,n,m+z,Math.abs(n-z)]), e:`Atomic mass = protons + neutrons = ${z} + ${n} = ${m}.`, s:src};
+  if(type===2) return {topic:4,gen:true,q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic number?`,
+    a:String(z), w:numDistractors(z,[n,m,m+z,z+1]), e:`Atomic number = number of protons = ${z}.`, s:src};
+  return {topic:4,gen:true,q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many electrons does a neutral atom have?`,
+    a:String(z), w:numDistractors(z,[n,m,m-z===z?m+1:m-z,z*2]), e:`In a neutral atom, electrons = protons = atomic number = ${z}.`, s:"L2, slides 12, 14"};
+}
+function genTopic21(){
+  const type = rand(3);
+  const src = "L3, slide 11";
+  if(type===0){
+    const v = pick([0,1,2,3,4,5,6,6.5,7,7,7.5,8,9,10,11,12,13,14]);
+    const a = v<7 ? "Acidic" : v===7 ? "Neutral" : "Basic";
+    return {topic:21,gen:true,q:`A solution with a pH of ${v} is:`, a, w:["Acidic","Neutral","Basic","A buffer"].filter(x=>x!==a).slice(0,3),
+      e:`pH 0 to below 7 = acidic, 7 = neutral, above 7 to 14 = basic.`, s:src};
+  }
+  if(type===1){
+    const vals = shuffle([1,2,3,4,5,6,8,9,10,11,12,13]).slice(0,4);
+    const most = Math.min(...vals);
+    return {topic:21,gen:true,q:`Which pH value is the MOST acidic?`, a:`pH ${most}`, w:vals.filter(x=>x!==most).map(x=>`pH ${x}`),
+      e:`The lower the pH, the more acidic (more H⁺). pH ${most} is lowest.`, s:src};
+  }
+  const vals = shuffle([1,2,3,4,5,6,8,9,10,11,12,13]).slice(0,4);
+  const most = Math.max(...vals);
+  return {topic:21,gen:true,q:`Which pH value is the MOST basic?`, a:`pH ${most}`, w:vals.filter(x=>x!==most).map(x=>`pH ${x}`),
+    e:`The higher the pH, the more basic (more OH⁻). pH ${most} is highest.`, s:src};
+}
+const GENERATORS = {4:genTopic4, 21:genTopic21};
+
+/* ---------- Question selection ---------- */
+function byTopic(t){ return BANK.questions.filter(q=>q.topic===t); }
+function drawOne(t, used){
+  const pool = byTopic(t).filter(q=>!used.has(q.id));
+  if(GENERATORS[t] && (pool.length===0 || Math.random()<0.6)) return GENERATORS[t]();
+  return pick(pool.length?pool:byTopic(t));
+}
+function prepare(q){
+  const opts = shuffle([q.a, ...q.w]);
+  return Object.assign({}, q, {opts, correct: opts.indexOf(q.a), id: q.id || ("g:"+q.q)});
+}
+function buildPractice(){
+  const used = new Set(); const list=[];
+  for(let t=1;t<=25;t++){ const q=drawOne(t,used); if(q.id) used.add(q.id); list.push(prepare(q)); }
+  return list;
+}
+function buildDrill(t){
+  let list = byTopic(t).slice();
+  if(GENERATORS[t]){ const seen=new Set(); let tries=0; while(list.length<10 && tries<40){ const g=GENERATORS[t](); if(!seen.has(g.q)){seen.add(g.q); list.push(g);} tries++; } }
+  return shuffle(list).map(prepare);
+}
+function buildMissed(){
+  return Object.values(state.missed).sort((a,b)=>a.topic-b.topic).map(q=>prepare(q));
+}
+
+/* ---------- Screens ---------- */
+const app = document.getElementById("app");
+function render(html){ app.innerHTML = html; window.scrollTo(0,0); }
+
+function home(){
+  const missedCount = Object.keys(state.missed).length;
+  render(`
+    <h1>A&amp;P Quiz #1 Practice</h1>
+    <p class="muted">A new random set every time. One question per study-guide topic, in order (1 → 25).</p>
+    <button class="btn primary" id="go">Start practice quiz<span class="sub">25 questions · about 10 minutes</span></button>
+    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single topic</span></button>
+    <button class="btn" id="missed" ${missedCount?"":"disabled"}>Review missed questions<span class="sub">${missedCount?missedCount+" saved to retry":"Nothing missed yet"}</span></button>
+    <div class="card small muted">
+      ${state.best!==null?`Best score: <b>${state.best}/25</b> · `:""}Quizzes taken: <b>${state.runs}</b><br>
+      Question bank: ${BANK.questions.length} questions + generated atomic mass and pH questions.
+    </div>
+    <footer>Unofficial study aid based on A&amp;P Lectures 1–3. Progress is saved only on this device.<br>
+      <button class="linkbtn small" id="reset">Reset my progress</button></footer>
+  `);
+  go.onclick = ()=>start("practice", buildPractice());
+  drill.onclick = topicPicker;
+  missed.onclick = ()=>start("missed", buildMissed());
+  reset.onclick = ()=>{ if(confirmReset()){ state={missed:{},best:null,runs:0}; saveState(); home(); } };
+}
+let resetArmed=false;
+function confirmReset(){
+  const b=document.getElementById("reset");
+  if(!resetArmed){ resetArmed=true; b.textContent="Tap again to confirm reset"; setTimeout(()=>{resetArmed=false; if(b.isConnected) b.textContent="Reset my progress";},3000); return false; }
+  resetArmed=false; return true;
+}
+
+function topicPicker(){
+  const items = Object.entries(BANK.topics).map(([n,name])=>
+    `<button class="btn" data-t="${n}"><span class="num">${n}.</span> ${esc(name)}</button>`).join("");
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ Home</button></div>
+    <h1>Drill one topic</h1>
+    <p class="muted">Pick a topic number from your study guide.</p>
+    <div class="topicgrid">${items}</div>
+  `);
+  back.onclick = home;
+  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start("drill", buildDrill(+b.dataset.t)));
+}
+
+function start(mode, list){
+  if(!list.length){ home(); return; }
+  run = {mode, list, i:0, score:0, answered:false, wrong:[]};
+  question();
+}
+
+function question(){
+  const q = run.list[run.i];
+  const pct = Math.round((run.i)/run.list.length*100);
+  const keys = "ABCD";
+  render(`
+    <div class="topbar">
+      <button class="linkbtn" id="quit">‹ Quit</button>
+      <span class="small muted">Question ${run.i+1} of ${run.list.length} · Score ${run.score}</span>
+    </div>
+    <div class="progress"><div style="width:${pct}%"></div></div>
+    <span class="tag">Topic ${q.topic} · ${esc(BANK.topics[q.topic])}</span>
+    <p class="prompt">${esc(q.q)}</p>
+    <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
+    <div id="fb"></div>
+  `);
+  quit.onclick = ()=>{ run=null; home(); };
+  run.answered=false;
+  app.querySelectorAll(".opt").forEach(b=> b.onclick = ()=> answer(+b.dataset.i));
+}
+
+function answer(i){
+  if(run.answered) return; run.answered=true;
+  const q = run.list[run.i];
+  const ok = i===q.correct;
+  const btns = app.querySelectorAll(".opt");
+  btns.forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
+  const base = {topic:q.topic,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id};
+  if(ok){ run.score++; if(state.missed[q.id]){ delete state.missed[q.id]; } }
+  else { run.wrong.push(q); state.missed[q.id]=base; }
+  saveState();
+  const last = run.i===run.list.length-1;
+  document.getElementById("fb").innerHTML = `
+    <div class="feedback ${ok?"ok":"bad"}">
+      <b>${ok?"Correct!":"Not quite. Answer: "+esc(q.a)}</b>
+      ${esc(q.e)}
+      <div class="src">Source: ${esc(q.s)}</div>
+    </div>
+    <button class="btn primary" id="next">${last?"See results":"Next question"}</button>`;
+  next.onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
+  next.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function results(){
+  const total = run.list.length, s = run.score;
+  if(run.mode==="practice"){ state.runs++; if(state.best===null || s>state.best) state.best=s; saveState(); }
+  const pct = Math.round(s/total*100);
+  const msg = pct>=90?"Excellent, you're ready.":pct>=75?"Solid. Review the misses below.":pct>=60?"Getting there. Drill the topics you missed.":"Keep going. Drill topic by topic.";
+  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${esc(q.s)}</span></span></li>`).join("");
+  render(`
+    <h1>Results</h1>
+    <div class="card" style="text-align:center">
+      <div class="score">${s}/${total}</div>
+      <div class="muted">${pct}% · ${msg}</div>
+    </div>
+    <button class="btn primary" id="again">${run.mode==="practice"?"New random quiz":"Go again"}</button>
+    ${run.wrong.length?`<button class="btn" id="retry">Retry the ${run.wrong.length} I missed</button>`:""}
+    <button class="btn ghost" id="home">Home</button>
+    ${run.wrong.length?`<div class="card"><h2>Missed questions</h2><ul class="list">${missedList}</ul></div>`:""}
+  `);
+  const mode = run.mode, wrong = run.wrong.slice(), topic = run.list[0] && run.list[0].topic;
+  again.onclick = ()=>{ if(mode==="practice") start("practice", buildPractice()); else if(mode==="drill") start("drill", buildDrill(topic)); else start("missed", buildMissed()); };
+  if(wrong.length) retry.onclick = ()=> start("missed", shuffle(wrong).map(q=>prepare(q)));
+  document.getElementById("home").onclick = home;
+}
+
+/* ---------- Boot ---------- */
+fetch("questions.json", {cache:"no-cache"})
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data=>{
+    data.questions.forEach((q,i)=>{ q.id = "q"+i+":"+q.q.slice(0,40); });
+    BANK = data; home();
+  })
+  .catch(()=>{ app.innerHTML = '<div class="card">Could not load the questions. Check your connection and refresh.</div>'; });
+
+if("serviceWorker" in navigator && location.protocol==="https:"){
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>
