@@ -1,6 +1,5 @@
-# Builds questions.json for the A&P Quiz #1 practice app.
+# A&P Quiz #1 question bank (Lectures 1-3). Built by build.py.
 # Format per question: topic, q (prompt), a (correct answer), w (wrong answers), e (explanation), s (source)
-import json
 
 TOPICS = {
     1: "Planes of the body",
@@ -30,11 +29,9 @@ TOPICS = {
     25: "Synthesis reactions",
 }
 
-Q = []
-def add(t, q, a, w, e, s):
-    assert len(w) == 3, q
-    assert a not in w, q
-    Q.append({"topic": t, "q": q, "a": a, "w": w, "e": e, "s": s})
+from banks.common import Bank
+B = Bank()
+add = B.add
 
 # ---------- 1. Planes of the body ----------
 add(1, "Which plane divides the body into front (anterior) and back (posterior) portions?", "Coronal",
@@ -482,11 +479,7 @@ add(25, "Forming functional proteins from amino acids is an example of:", "Synth
 add(25, "The OPPOSITE of dehydration synthesis is:", "Hydrolysis (breaking a bond by adding water)",
     ["Oxidation", "Osmosis", "Double displacement"], "Hydrolysis = break by adding water.", "L2, slide 40")
 
-# sanity
-from collections import Counter
-c = Counter(q["topic"] for q in Q)
-for t in TOPICS:
-    assert c[t] >= 5, (t, c[t])
-out = {"title": "A&P Quiz #1 Practice", "topics": TOPICS, "questions": Q}
-json.dump(out, open("questions.json", "w"), ensure_ascii=False, indent=1)
-print(len(Q), "questions;", dict(sorted(c.items())))
+
+QUIZ = {"id": "q1", "title": "A&P Quiz #1", "lectures": "Lectures 1–3",
+        "units": {"L1": "Intro to A&P", "L2": "Atoms & Molecules", "L3": "Biochemistry & Cells"},
+        "topics": TOPICS, "questions": B.Q}

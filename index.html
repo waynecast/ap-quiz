@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>A&amp;P Quiz Practice</title>
-<meta name="description" content="Practice quiz for A&P Quiz #1: a new random set of questions every time.">
+<meta name="description" content="NYIM A&P practice quizzes: a new random set every time, by quiz, by subject, or cumulative for the midterm and final.">
 <meta name="theme-color" content="#0f766e">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -90,14 +90,27 @@ footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
 <main id="app"><p class="muted">Loading…</p></main>
 <script>
 "use strict";
-const STORE_KEY = "apq1-state-v1";
-let BANK = null;          // {title, topics, questions}
-let state = loadState();  // {missed:{id:q}, best:number|null, runs:number}
-let run = null;           // current quiz run
+const STORE_KEY = "apq-state-v2";
+const OLD_KEY = "apq1-state-v1";
+let DATA = null;          // {title, quizzes:[{id,title,lectures,units,topics,questions}]}
+let QZ = {};              // id -> quiz
+let state = loadState();  // {missed:{id:q}, best:{key:n}, runs:{key:n}}
+let run = null;           // current run
+let ctx = null;           // current quiz id or "exam"
 
 function loadState(){
-  try{ const s = JSON.parse(localStorage.getItem(STORE_KEY)); if(s && typeof s==="object") return Object.assign({missed:{},best:null,runs:0}, s); }catch(e){}
-  return {missed:{},best:null,runs:0};
+  const blank = {missed:{}, best:{}, runs:{}};
+  try{
+    const s = JSON.parse(localStorage.getItem(STORE_KEY));
+    if(s && typeof s==="object") return Object.assign(blank, s);
+    const o = JSON.parse(localStorage.getItem(OLD_KEY));   // migrate Quiz #1 progress
+    if(o && typeof o==="object"){
+      for(const [k,q] of Object.entries(o.missed||{})){ q.quiz="q1"; blank.missed["q1:"+k]=Object.assign({},q,{id:"q1:"+k}); }
+      if(o.best!==null && o.best!==undefined) blank.best["q1:practice"]=o.best;
+      if(o.runs) blank.runs["q1:practice"]=o.runs;
+    }
+  }catch(e){}
+  return blank;
 }
 function saveState(){ try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){} }
 
@@ -105,8 +118,9 @@ const rand = n => Math.floor(Math.random()*n);
 const pick = arr => arr[rand(arr.length)];
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i+1);[a[i],a[j]]=[a[j],a[i]];} return a; }
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $ = id => document.getElementById(id);
 
-/* ---------- Generated questions (topics 4 and 21) ---------- */
+/* ---------- Generated questions ---------- */
 const ELEMENTS = [
   ["Carbon","C",6,12],["Nitrogen","N",7,14],["Oxygen","O",8,16],["Sodium","Na",11,23],
   ["Magnesium","Mg",12,24],["Aluminum","Al",13,27],["Phosphorus","P",15,31],["Sulfur","S",16,32],
@@ -119,113 +133,234 @@ function numDistractors(correct, cands){
   let k=1; while(out.length<3){ const c=correct+k*(k%2?1:-1)*Math.ceil(k/2); if(c>0 && c!==correct && !out.includes(c)) out.push(c); k++; }
   return out.map(String);
 }
-function genTopic4(){
+function genQ1T4(){
   const [name,sym,z,m] = pick(ELEMENTS); const n = m - z;
-  const type = rand(4);
-  const src = "L2, slides 11–12";
-  if(type===0) return {topic:4,gen:true,q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many neutrons does it have?`,
-    a:String(n), w:numDistractors(n,[z,m,m+z,n+1]), e:`Neutrons = atomic mass − atomic number = ${m} − ${z} = ${n}.`, s:src};
-  if(type===1) return {topic:4,gen:true,q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic mass?`,
-    a:String(m), w:numDistractors(m,[z,n,m+z,Math.abs(n-z)]), e:`Atomic mass = protons + neutrons = ${z} + ${n} = ${m}.`, s:src};
-  if(type===2) return {topic:4,gen:true,q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic number?`,
-    a:String(z), w:numDistractors(z,[n,m,m+z,z+1]), e:`Atomic number = number of protons = ${z}.`, s:src};
-  return {topic:4,gen:true,q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many electrons does a neutral atom have?`,
-    a:String(z), w:numDistractors(z,[n,m,m-z===z?m+1:m-z,z*2]), e:`In a neutral atom, electrons = protons = atomic number = ${z}.`, s:"L2, slides 12, 14"};
+  const type = rand(4); const src = "L2, slides 11–12";
+  const base = {quiz:"q1",topic:4,u:"L2",gen:true};
+  if(type===0) return Object.assign(base,{q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many neutrons does it have?`,
+    a:String(n), w:numDistractors(n,[z,m,m+z,n+1]), e:`Neutrons = atomic mass − atomic number = ${m} − ${z} = ${n}.`, s:src});
+  if(type===1) return Object.assign(base,{q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic mass?`,
+    a:String(m), w:numDistractors(m,[z,n,m+z,Math.abs(n-z)]), e:`Atomic mass = protons + neutrons = ${z} + ${n} = ${m}.`, s:src});
+  if(type===2) return Object.assign(base,{q:`An atom of ${name} has ${z} protons and ${n} neutrons. What is its atomic number?`,
+    a:String(z), w:numDistractors(z,[n,m,m+z,z+1]), e:`Atomic number = number of protons = ${z}.`, s:src});
+  return Object.assign(base,{q:`${name} (${sym}) has an atomic number of ${z} and an atomic mass of ${m}. How many electrons does a neutral atom have?`,
+    a:String(z), w:numDistractors(z,[n,m,m-z===z?m+1:m-z,z*2]), e:`In a neutral atom, electrons = protons = atomic number = ${z}.`, s:"L2, slides 12, 14"});
 }
-function genTopic21(){
-  const type = rand(3);
-  const src = "L3, slide 11";
+function genQ1T21(){
+  const type = rand(3); const src = "L3, slide 11";
+  const base = {quiz:"q1",topic:21,u:"L3",gen:true};
   if(type===0){
     const v = pick([0,1,2,3,4,5,6,6.5,7,7,7.5,8,9,10,11,12,13,14]);
     const a = v<7 ? "Acidic" : v===7 ? "Neutral" : "Basic";
-    return {topic:21,gen:true,q:`A solution with a pH of ${v} is:`, a, w:["Acidic","Neutral","Basic","A buffer"].filter(x=>x!==a).slice(0,3),
-      e:`pH 0 to below 7 = acidic, 7 = neutral, above 7 to 14 = basic.`, s:src};
-  }
-  if(type===1){
-    const vals = shuffle([1,2,3,4,5,6,8,9,10,11,12,13]).slice(0,4);
-    const most = Math.min(...vals);
-    return {topic:21,gen:true,q:`Which pH value is the MOST acidic?`, a:`pH ${most}`, w:vals.filter(x=>x!==most).map(x=>`pH ${x}`),
-      e:`The lower the pH, the more acidic (more H⁺). pH ${most} is lowest.`, s:src};
+    return Object.assign(base,{q:`A solution with a pH of ${v} is:`, a, w:["Acidic","Neutral","Basic","A buffer"].filter(x=>x!==a).slice(0,3),
+      e:`pH 0 to below 7 = acidic, 7 = neutral, above 7 to 14 = basic.`, s:src});
   }
   const vals = shuffle([1,2,3,4,5,6,8,9,10,11,12,13]).slice(0,4);
-  const most = Math.max(...vals);
-  return {topic:21,gen:true,q:`Which pH value is the MOST basic?`, a:`pH ${most}`, w:vals.filter(x=>x!==most).map(x=>`pH ${x}`),
-    e:`The higher the pH, the more basic (more OH⁻). pH ${most} is highest.`, s:src};
+  const acid = type===1, best = acid ? Math.min(...vals) : Math.max(...vals);
+  return Object.assign(base,{q:`Which pH value is the MOST ${acid?"acidic":"basic"}?`, a:`pH ${best}`, w:vals.filter(x=>x!==best).map(x=>`pH ${x}`),
+    e: acid ? `The lower the pH, the more acidic (more H⁺). pH ${best} is lowest.` : `The higher the pH, the more basic (more OH⁻). pH ${best} is highest.`, s:src});
 }
-const GENERATORS = {4:genTopic4, 21:genTopic21};
+/* Quiz #2 topic 5: DNA/RNA base pairing with random sequences */
+const DNA_PAIR = {A:"T",T:"A",G:"C",C:"G"};
+const RNA_FROM_DNA = {A:"U",T:"A",G:"C",C:"G"};
+const RNA_PAIR = {A:"U",U:"A",G:"C",C:"G"};
+const mapSeq = (s,m) => s.split("").map(c=>m[c]||c).join("");
+const triplets = s => s.match(/.{1,3}/g).join("-");
+function randDNA(n){ let s=""; for(let i=0;i<n;i++) s+="ATGC"[rand(4)]; return s; }
+function uniqWrong(correct, cands){
+  const out=[]; for(const c of cands){ if(c!==correct && !out.includes(c)) out.push(c); }
+  while(out.length<3){ const c = correct.split("").reverse().join("")+"ATGC"[out.length]; if(!out.includes(c)&&c!==correct) out.push(c); }
+  return out.slice(0,3);
+}
+function genQ2T5(){
+  const base = {quiz:"q2",topic:5,u:"L4",gen:true};
+  const type = rand(5);
+  if(type===4){
+    const codons = 2+rand(5), dna = randDNA(codons*3);
+    const bonds = rand(2)===0;
+    const mrna = mapSeq(dna,RNA_FROM_DNA);
+    if(bonds) return Object.assign(base,{q:`An mRNA strand reads ${triplets(mrna)}. Counting each codon as one amino acid (as the lecture does), how many peptide bonds join them?`,
+      a:String(codons-1), w:numDistractors(codons-1,[codons,codons*3,codons+1]), e:`${codons} codons = ${codons} amino acids. Peptide bonds = amino acids − 1 = ${codons-1}.`, s:"L4, slide 50"});
+    return Object.assign(base,{q:`A DNA template strand has ${codons*3} bases: ${dna}. How many amino acids does it code for (as counted in the lecture)?`,
+      a:String(codons), w:numDistractors(codons,[codons*3,codons-1,codons+1]), e:`DNA is read in triplets: ${codons*3} bases ÷ 3 = ${codons} amino acids.`, s:"L4, slides 48–50"});
+  }
+  const dna = randDNA(6+3*rand(3));
+  if(type===0){
+    const a = mapSeq(dna,DNA_PAIR);
+    return Object.assign(base,{q:`What is the complementary DNA strand for ${dna}?`, a,
+      w: uniqWrong(a,[mapSeq(dna,RNA_FROM_DNA), dna, mapSeq(dna,{A:"G",G:"A",T:"C",C:"T"}), a.split("").reverse().join("")]),
+      e:`DNA pairing: A↔T and G↔C. ${dna} → ${a}.`, s:"L4, slides 33, 39"});
+  }
+  if(type===1){
+    const a = mapSeq(dna,RNA_FROM_DNA);
+    return Object.assign(base,{q:`A DNA template strand reads ${dna}. What mRNA is transcribed from it?`, a,
+      w: uniqWrong(a,[mapSeq(dna,DNA_PAIR), dna.replace(/T/g,"U"), mapSeq(dna,{A:"G",G:"A",T:"C",C:"U"})]),
+      e:`Transcription uses RNA rules: A→U, T→A, G→C, C→G. No T in RNA. ${dna} → ${a}.`, s:"L4, slides 47, 49"});
+  }
+  if(type===2){
+    const mrna = mapSeq(dna,RNA_FROM_DNA), a = mapSeq(mrna,RNA_PAIR);
+    return Object.assign(base,{q:`An mRNA strand reads ${mrna}. What are the matching tRNA anticodons?`, a,
+      w: uniqWrong(a,[mapSeq(mrna,{A:"T",U:"A",G:"C",C:"G"}), mrna, dna]),
+      e:`tRNA pairs with mRNA using RNA rules: A↔U, G↔C. ${mrna} → ${a}. (Same as the original DNA with U in place of T.)`, s:"L4, slides 48–49"});
+  }
+  const i = rand(dna.length), b = dna[i];
+  const rna = rand(2)===0;
+  const a = rna ? RNA_FROM_DNA[b] : DNA_PAIR[b];
+  const all = rna ? ["A","U","G","C"] : ["A","T","G","C"];
+  return Object.assign(base,{q: rna ? `During transcription, a DNA base ${b} is matched by which RNA base?` : `In a DNA double helix, which base pairs with ${b}?`,
+    a, w: all.filter(x=>x!==a), e: rna ? `DNA → RNA: A→U, T→A, G→C, C→G.` : `DNA: A pairs with T; G pairs with C.`, s:"L4, slide 39"});
+}
+const GENERATORS = {"q1:4":genQ1T4, "q1:21":genQ1T21, "q2:5":genQ2T5};
+const gen = (qz,t) => GENERATORS[qz+":"+t];
 
 /* ---------- Question selection ---------- */
-function byTopic(t){ return BANK.questions.filter(q=>q.topic===t); }
-function drawOne(t, used){
-  const pool = byTopic(t).filter(q=>!used.has(q.id));
-  if(GENERATORS[t] && (pool.length===0 || Math.random()<0.6)) return GENERATORS[t]();
-  return pick(pool.length?pool:byTopic(t));
+function byTopic(qz,t){ return QZ[qz].questions.filter(q=>q.topic===t); }
+function topicNums(qz){ return Object.keys(QZ[qz].topics).map(Number).sort((a,b)=>a-b); }
+function drawOne(qz, t, used){
+  const pool = byTopic(qz,t).filter(q=>!used.has(q.id));
+  const g = gen(qz,t);
+  if(g && (pool.length===0 || Math.random()<0.5)) return g();
+  return pick(pool.length?pool:byTopic(qz,t));
 }
 function prepare(q){
   const opts = shuffle([q.a, ...q.w]);
-  return Object.assign({}, q, {opts, correct: opts.indexOf(q.a), id: q.id || ("g:"+q.q)});
+  return Object.assign({}, q, {opts, correct: opts.indexOf(q.a), id: q.id || ("g:"+q.quiz+":"+q.q)});
 }
-function buildPractice(){
-  const used = new Set(); const list=[];
-  for(let t=1;t<=25;t++){ const q=drawOne(t,used); if(q.id) used.add(q.id); list.push(prepare(q)); }
-  return list;
+function buildPractice(qz){
+  const used = new Set();
+  return topicNums(qz).map(t=>{ const q=drawOne(qz,t,used); if(q.id) used.add(q.id); return prepare(q); });
 }
-function buildDrill(t){
-  let list = byTopic(t).slice();
-  if(GENERATORS[t]){ const seen=new Set(); let tries=0; while(list.length<10 && tries<40){ const g=GENERATORS[t](); if(!seen.has(g.q)){seen.add(g.q); list.push(g);} tries++; } }
+function buildDrill(qz,t){
+  let list = byTopic(qz,t).slice();
+  const g = gen(qz,t);
+  if(g){ const seen=new Set(); let tries=0; while(list.length<14 && tries<60){ const x=g(); if(!seen.has(x.q)){seen.add(x.q); list.push(x);} tries++; } }
   return shuffle(list).map(prepare);
 }
-function buildMissed(){
-  return Object.values(state.missed).sort((a,b)=>a.topic-b.topic).map(q=>prepare(q));
+function buildUnit(qz,u,n){
+  const pool = shuffle(QZ[qz].questions.filter(q=>q.u===u));
+  const genTopics = topicNums(qz).filter(t=>gen(qz,t) && QZ[qz].questions.some(q=>q.topic===t && q.u===u));
+  const list = pool.slice(0,n);
+  genTopics.forEach(t=>{ if(list.length) list[rand(list.length)] = gen(qz,t)(); });
+  return list.sort((a,b)=>a.topic-b.topic).map(prepare);
+}
+function buildExamFull(){
+  const out=[]; DATA.quizzes.forEach(z=>out.push(...buildPractice(z.id))); return out;
+}
+function buildExamMix(n){
+  const slots = shuffle(DATA.quizzes.flatMap(z=>topicNums(z.id).map(t=>[z.id,t]))).slice(0,n);
+  const order = DATA.quizzes.map(z=>z.id);
+  slots.sort((a,b)=> order.indexOf(a[0])-order.indexOf(b[0]) || a[1]-b[1]);
+  const used=new Set();
+  return slots.map(([qz,t])=>{ const q=drawOne(qz,t,used); if(q.id) used.add(q.id); return prepare(q); });
+}
+function missedFor(scope){
+  return Object.values(state.missed).filter(q=> scope==="exam" || q.quiz===scope);
+}
+function buildMissed(scope){
+  const order = DATA.quizzes.map(z=>z.id);
+  return missedFor(scope).sort((a,b)=> order.indexOf(a.quiz)-order.indexOf(b.quiz) || a.topic-b.topic).map(q=>prepare(q));
 }
 
 /* ---------- Screens ---------- */
-const app = document.getElementById("app");
+const app = $("app");
 function render(html){ app.innerHTML = html; window.scrollTo(0,0); }
+function setHash(h){ if(location.hash!=="#"+h) history.replaceState(null,"","#"+h); }
+const stat = key => (state.best[key]!==undefined ? `Best: <b>${state.best[key]}</b> · ` : "") + `Taken: <b>${state.runs[key]||0}</b>`;
 
-function home(){
-  const missedCount = Object.keys(state.missed).length;
+function chooser(){
+  ctx=null;
+  history.replaceState(null,"",location.pathname);
+  const totalTopics = DATA.quizzes.reduce((n,z)=>n+topicNums(z.id).length,0);
+  const cards = DATA.quizzes.slice().reverse().map((z,i)=>`
+    <button class="btn ${i===0?"primary":""}" data-q="${z.id}">${esc(z.title)}<span class="sub">${esc(z.lectures)}: ${esc(Object.values(z.units).join(", "))}</span></button>`).join("");
   render(`
-    <h1>A&amp;P Quiz #1 Practice</h1>
-    <p class="muted">A new random set every time. One question per study-guide topic, in order (1 → 25).</p>
-    <button class="btn primary" id="go">Start practice quiz<span class="sub">25 questions · about 10 minutes</span></button>
-    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single topic</span></button>
-    <button class="btn" id="missed" ${missedCount?"":"disabled"}>Review missed questions<span class="sub">${missedCount?missedCount+" saved to retry":"Nothing missed yet"}</span></button>
-    <div class="card small muted">
-      ${state.best!==null?`Best score: <b>${state.best}/25</b> · `:""}Quizzes taken: <b>${state.runs}</b><br>
-      Question bank: ${BANK.questions.length} questions + generated atomic mass and pH questions.
-    </div>
-    <footer>Unofficial study aid based on A&amp;P Lectures 1–3. Progress is saved only on this device.<br>
+    <h1>A&amp;P Practice</h1>
+    <p class="muted">Pick a quiz. Every practice quiz is a new random set, one question per study-guide topic.</p>
+    ${cards}
+    <button class="btn" data-q="exam">Cumulative exam practice<span class="sub">Midterm / final review · ${DATA.quizzes.length} quizzes, ${totalTopics} topics</span></button>
+    <footer>Unofficial study aid based on NYIM A&amp;P lectures. Progress is saved only on this device.<br>
       <button class="linkbtn small" id="reset">Reset my progress</button></footer>
   `);
-  go.onclick = ()=>start("practice", buildPractice());
-  drill.onclick = topicPicker;
-  missed.onclick = ()=>start("missed", buildMissed());
-  reset.onclick = ()=>{ if(confirmReset()){ state={missed:{},best:null,runs:0}; saveState(); home(); } };
+  app.querySelectorAll("[data-q]").forEach(b=> b.onclick = ()=> b.dataset.q==="exam" ? examHome() : quizHome(b.dataset.q));
+  $("reset").onclick = ()=>{ if(confirmReset()){ state={missed:{},best:{},runs:{}}; saveState(); chooser(); } };
 }
 let resetArmed=false;
 function confirmReset(){
-  const b=document.getElementById("reset");
+  const b=$("reset");
   if(!resetArmed){ resetArmed=true; b.textContent="Tap again to confirm reset"; setTimeout(()=>{resetArmed=false; if(b.isConnected) b.textContent="Reset my progress";},3000); return false; }
   resetArmed=false; return true;
 }
 
-function topicPicker(){
-  const items = Object.entries(BANK.topics).map(([n,name])=>
+function quizHome(qz){
+  ctx=qz; setHash(qz);
+  const z=QZ[qz], n=topicNums(qz).length, m=missedFor(qz).length;
+  const gens = topicNums(qz).filter(t=>gen(qz,t)).map(t=>`#${t}`).join(", ");
+  const units = Object.entries(z.units).map(([u,name])=>{
+    const c = z.questions.filter(q=>q.u===u).length;
+    return `<button class="btn" data-u="${u}"><span class="num">${u}</span> ${esc(name)}<span class="sub">${Math.min(20,c)} random questions from ${c}</span></button>`;
+  }).join("");
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ All quizzes</button></div>
+    <h1>${esc(z.title)} Practice</h1>
+    <p class="muted">${esc(z.lectures)}. One question per study-guide topic, in order (1 → ${n}).</p>
+    <button class="btn primary" id="go">Start practice quiz<span class="sub">${n} questions · new random set every time</span></button>
+    <h2 style="margin-top:22px">Practice by subject</h2>
+    ${units}
+    <h2 style="margin-top:22px">More</h2>
+    <button class="btn" id="drill">Drill one topic<span class="sub">Every question for a single study-guide topic</span></button>
+    <button class="btn" id="missed" ${m?"":"disabled"}>Review missed questions<span class="sub">${m?m+" saved to retry":"Nothing missed yet"}</span></button>
+    <div class="card small muted">${stat(qz+":practice")}<br>
+      Question bank: ${z.questions.length} questions${gens?` + generated questions for topic ${gens}`:""}.</div>
+  `);
+  $("back").onclick = chooser;
+  $("go").onclick = ()=>start({mode:"practice", scope:qz}, buildPractice(qz));
+  app.querySelectorAll("[data-u]").forEach(b=> b.onclick = ()=> start({mode:"unit", scope:qz, unit:b.dataset.u}, buildUnit(qz,b.dataset.u,20)));
+  $("drill").onclick = ()=>topicPicker(qz);
+  $("missed").onclick = ()=>start({mode:"missed", scope:qz}, buildMissed(qz));
+}
+
+function examHome(){
+  ctx="exam"; setHash("exam");
+  const total = DATA.quizzes.reduce((n,z)=>n+topicNums(z.id).length,0);
+  const m = missedFor("exam").length;
+  const subj = DATA.quizzes.flatMap(z=>Object.entries(z.units).map(([u,name])=>
+    `<button class="btn" data-z="${z.id}" data-u="${u}"><span class="num">${u}</span> ${esc(name)}<span class="sub">${esc(z.title)}</span></button>`)).join("");
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ All quizzes</button></div>
+    <h1>Cumulative exam practice</h1>
+    <p class="muted">For the midterm and final. Mixes every quiz so far: ${DATA.quizzes.map(z=>esc(z.title)).join(", ")}.</p>
+    <button class="btn primary" id="full">Full cumulative<span class="sub">${total} questions · one per topic from every quiz</span></button>
+    <button class="btn" id="mix">Quick mix<span class="sub">25 questions · random topics from all quizzes</span></button>
+    <button class="btn" id="missed" ${m?"":"disabled"}>Review all missed<span class="sub">${m?m+" saved across all quizzes":"Nothing missed yet"}</span></button>
+    <h2 style="margin-top:22px">Practice by subject</h2>
+    ${subj}
+    <div class="card small muted">Full: ${stat("exam:full")}<br>Quick mix: ${stat("exam:mix")}</div>
+  `);
+  $("back").onclick = chooser;
+  $("full").onclick = ()=>start({mode:"full", scope:"exam"}, buildExamFull());
+  $("mix").onclick = ()=>start({mode:"mix", scope:"exam"}, buildExamMix(25));
+  $("missed").onclick = ()=>start({mode:"missed", scope:"exam"}, buildMissed("exam"));
+  app.querySelectorAll("[data-u]").forEach(b=> b.onclick = ()=> start({mode:"unit", scope:"exam", quiz:b.dataset.z, unit:b.dataset.u}, buildUnit(b.dataset.z,b.dataset.u,20)));
+}
+
+function topicPicker(qz){
+  const items = Object.entries(QZ[qz].topics).map(([n,name])=>
     `<button class="btn" data-t="${n}"><span class="num">${n}.</span> ${esc(name)}</button>`).join("");
   render(`
-    <div class="topbar"><button class="linkbtn" id="back">‹ Home</button></div>
+    <div class="topbar"><button class="linkbtn" id="back">‹ ${esc(QZ[qz].title)}</button></div>
     <h1>Drill one topic</h1>
     <p class="muted">Pick a topic number from your study guide.</p>
     <div class="topicgrid">${items}</div>
   `);
-  back.onclick = home;
-  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start("drill", buildDrill(+b.dataset.t)));
+  $("back").onclick = ()=>quizHome(qz);
+  app.querySelectorAll("[data-t]").forEach(b=> b.onclick = ()=> start({mode:"drill", scope:qz, topic:+b.dataset.t}, buildDrill(qz,+b.dataset.t)));
 }
 
-function start(mode, list){
-  if(!list.length){ home(); return; }
-  run = {mode, list, i:0, score:0, answered:false, wrong:[]};
+function goBack(){ if(ctx==="exam") examHome(); else if(ctx) quizHome(ctx); else chooser(); }
+
+function start(opts, list){
+  if(!list.length){ goBack(); return; }
+  run = Object.assign({list, i:0, score:0, answered:false, wrong:[]}, opts);
   question();
 }
 
@@ -233,18 +368,19 @@ function question(){
   const q = run.list[run.i];
   const pct = Math.round((run.i)/run.list.length*100);
   const keys = "ABCD";
+  const tagQuiz = run.scope==="exam" || run.mode==="missed" ? `${esc(QZ[q.quiz].title.replace("A&P ",""))} · ` : "";
   render(`
     <div class="topbar">
       <button class="linkbtn" id="quit">‹ Quit</button>
       <span class="small muted">Question ${run.i+1} of ${run.list.length} · Score ${run.score}</span>
     </div>
     <div class="progress"><div style="width:${pct}%"></div></div>
-    <span class="tag">Topic ${q.topic} · ${esc(BANK.topics[q.topic])}</span>
+    <span class="tag">${tagQuiz}Topic ${q.topic} · ${esc(QZ[q.quiz].topics[q.topic])}</span>
     <p class="prompt">${esc(q.q)}</p>
     <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
     <div id="fb"></div>
   `);
-  quit.onclick = ()=>{ run=null; home(); };
+  $("quit").onclick = ()=>{ run=null; goBack(); };
   run.answered=false;
   app.querySelectorAll(".opt").forEach(b=> b.onclick = ()=> answer(+b.dataset.i));
 }
@@ -253,53 +389,70 @@ function answer(i){
   if(run.answered) return; run.answered=true;
   const q = run.list[run.i];
   const ok = i===q.correct;
-  const btns = app.querySelectorAll(".opt");
-  btns.forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
-  const base = {topic:q.topic,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id};
-  if(ok){ run.score++; if(state.missed[q.id]){ delete state.missed[q.id]; } }
-  else { run.wrong.push(q); state.missed[q.id]=base; }
+  app.querySelectorAll(".opt").forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
+  const saved = {quiz:q.quiz,topic:q.topic,u:q.u,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id};
+  if(ok){ run.score++; delete state.missed[q.id]; }
+  else { run.wrong.push(q); state.missed[q.id]=saved; }
   saveState();
   const last = run.i===run.list.length-1;
-  document.getElementById("fb").innerHTML = `
+  $("fb").innerHTML = `
     <div class="feedback ${ok?"ok":"bad"}">
       <b>${ok?"Correct!":"Not quite. Answer: "+esc(q.a)}</b>
       ${esc(q.e)}
-      <div class="src">Source: ${esc(q.s)}</div>
+      <div class="src">Source: ${esc(QZ[q.quiz].title)} · ${esc(q.s)}</div>
     </div>
     <button class="btn primary" id="next">${last?"See results":"Next question"}</button>`;
-  next.onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
-  next.scrollIntoView({behavior:"smooth",block:"nearest"});
+  $("next").onclick = ()=>{ if(last) results(); else { run.i++; question(); } };
+  $("next").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function rebuild(r){
+  if(r.mode==="practice") return buildPractice(r.scope);
+  if(r.mode==="unit") return buildUnit(r.quiz||r.scope, r.unit, 20);
+  if(r.mode==="drill") return buildDrill(r.scope, r.topic);
+  if(r.mode==="full") return buildExamFull();
+  if(r.mode==="mix") return buildExamMix(25);
+  return buildMissed(r.scope);
 }
 
 function results(){
   const total = run.list.length, s = run.score;
-  if(run.mode==="practice"){ state.runs++; if(state.best===null || s>state.best) state.best=s; saveState(); }
+  const key = run.scope==="exam" ? (run.mode==="full"||run.mode==="mix" ? "exam:"+run.mode : null) : (run.mode==="practice" ? run.scope+":practice" : null);
+  if(key){ state.runs[key]=(state.runs[key]||0)+1; if(state.best[key]===undefined || s>state.best[key]) state.best[key]=s; saveState(); }
   const pct = Math.round(s/total*100);
   const msg = pct>=90?"Excellent, you're ready.":pct>=75?"Solid. Review the misses below.":pct>=60?"Getting there. Drill the topics you missed.":"Keep going. Drill topic by topic.";
-  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${esc(q.s)}</span></span></li>`).join("");
+  const missedList = run.wrong.map(q=>`<li><span class="num">${q.topic}.</span> ${esc(q.q)}<br><span class="small">Answer: <b>${esc(q.a)}</b> · <span class="muted">${esc(QZ[q.quiz].title)}, ${esc(q.s)}</span></span></li>`).join("");
+  const again = {practice:"New random quiz", unit:"New subject set", drill:"Drill again", full:"New cumulative set", mix:"New quick mix", missed:"Go again"}[run.mode];
   render(`
     <h1>Results</h1>
     <div class="card" style="text-align:center">
       <div class="score">${s}/${total}</div>
       <div class="muted">${pct}% · ${msg}</div>
     </div>
-    <button class="btn primary" id="again">${run.mode==="practice"?"New random quiz":"Go again"}</button>
+    <button class="btn primary" id="again">${again}</button>
     ${run.wrong.length?`<button class="btn" id="retry">Retry the ${run.wrong.length} I missed</button>`:""}
-    <button class="btn ghost" id="home">Home</button>
+    <button class="btn ghost" id="home">Back</button>
     ${run.wrong.length?`<div class="card"><h2>Missed questions</h2><ul class="list">${missedList}</ul></div>`:""}
   `);
-  const mode = run.mode, wrong = run.wrong.slice(), topic = run.list[0] && run.list[0].topic;
-  again.onclick = ()=>{ if(mode==="practice") start("practice", buildPractice()); else if(mode==="drill") start("drill", buildDrill(topic)); else start("missed", buildMissed()); };
-  if(wrong.length) retry.onclick = ()=> start("missed", shuffle(wrong).map(q=>prepare(q)));
-  document.getElementById("home").onclick = home;
+  const r = Object.assign({}, run), wrong = run.wrong.slice();
+  $("again").onclick = ()=> start(Object.assign({}, r, {list:undefined}), rebuild(r));
+  if(wrong.length) $("retry").onclick = ()=> start({mode:"missed", scope:r.scope}, shuffle(wrong).map(q=>prepare(q)));
+  $("home").onclick = goBack;
 }
 
 /* ---------- Boot ---------- */
+function route(){
+  const h = location.hash.replace("#","");
+  if(h==="exam") examHome(); else if(QZ[h]) quizHome(h); else chooser();
+}
 fetch("questions.json", {cache:"no-cache"})
   .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
   .then(data=>{
-    data.questions.forEach((q,i)=>{ q.id = "q"+i+":"+q.q.slice(0,40); });
-    BANK = data; home();
+    data.quizzes.forEach(z=>{
+      z.questions.forEach((q,i)=>{ q.quiz = z.id; q.id = z.id+":q"+i+":"+q.q.slice(0,40); });
+      QZ[z.id] = z;
+    });
+    DATA = data; route();
   })
   .catch(()=>{ app.innerHTML = '<div class="card">Could not load the questions. Check your connection and refresh.</div>'; });
 
