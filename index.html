@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>A&amp;P Quiz Practice</title>
-<meta name="description" content="NYIM A&P practice quizzes: a new random set every time, by quiz, by subject, or cumulative for the midterm and final.">
+<meta name="description" content="NYIM A&P practice quizzes: a new random set every time, by quiz or by subject.">
 <meta name="theme-color" content="#0f766e">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -97,6 +97,8 @@ let DATA = null;          // {title, quizzes:[{id,title,lectures,units,topics,qu
 let QZ = {};              // id -> quiz
 let state = loadState();  // {missed:{id:q}, best:{key:n}, runs:{key:n}}
 let run = null;           // current run
+// Cumulative exam mode is turned off between exams. Set to true for midterm/final review.
+const EXAM_MODE = false;
 let ctx = null;           // current quiz id or "exam"
 
 function loadState(){
@@ -278,7 +280,7 @@ function chooser(){
     <h1>A&amp;P Practice</h1>
     <p class="muted">Pick a quiz. Every practice quiz is a new random set, one question per study-guide topic.</p>
     ${cards}
-    <button class="btn" data-q="exam">Cumulative exam practice<span class="sub">Midterm / final review · ${DATA.quizzes.length} quizzes, ${totalTopics} topics</span></button>
+    ${EXAM_MODE?`<button class="btn" data-q="exam">Cumulative exam practice<span class="sub">Midterm / final review · ${DATA.quizzes.length} quizzes, ${totalTopics} topics</span></button>`:""}
     <footer>Unofficial study aid based on NYIM A&amp;P lectures. Progress is saved only on this device.<br>
       <button class="linkbtn small" id="reset">Reset my progress</button></footer>
   `);
@@ -445,7 +447,7 @@ function results(){
 /* ---------- Boot ---------- */
 function route(){
   const h = location.hash.replace("#","");
-  if(h==="exam") examHome(); else if(QZ[h]) quizHome(h); else chooser();
+  if(h==="exam" && EXAM_MODE) examHome(); else if(QZ[h]) quizHome(h); else chooser();
 }
 fetch("questions.json", {cache:"no-cache"})
   .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
