@@ -5564,6 +5564,2249 @@
      "u": "L4"
     }
    ]
+  },
+  {
+   "id": "q3",
+   "title": "A&P Quiz #3",
+   "lectures": "Lectures 7–9",
+   "units": {
+    "L7": "Skeletal System",
+    "L8": "Skull",
+    "L9": "Spine"
+   },
+   "topics": {
+    "1": "Bone cells: osteoprogenitor, -blast, -cyte, -clast",
+    "2": "True ribs vs. false ribs",
+    "3": "Wolff's Law, bone homeostasis, calcitonin",
+    "4": "Calcitonin vs. PTH: blasts and clasts",
+    "5": "Steps of fracture repair",
+    "6": "What makes bone hard vs. strong",
+    "7": "Types of fractures",
+    "8": "\"Great hole\": foramen magnum",
+    "9": "How the skull bones connect (sutures)",
+    "10": "C1 and C2: atlas and axis",
+    "11": "Primary vs. secondary curves (kyphosis, lordosis)",
+    "12": "Skull diagram (know 1–17, 20)",
+    "13": "Skull diagram (know 1–17, 20)",
+    "14": "Skull diagram (know 1–17, 20)",
+    "15": "Skull diagram (know 1–17, 20)",
+    "16": "Skull diagram (know 1–17, 20)",
+    "17": "Skull diagram (know 1–17, 20)",
+    "18": "Skull diagram (know 1–17, 20)",
+    "19": "Spine diagram (know 1–13)",
+    "20": "Spine diagram (know 1–13)",
+    "21": "Spine diagram (know 1–13)",
+    "22": "Spine diagram (know 1–13)",
+    "23": "Spine diagram (know 1–13)",
+    "24": "Spine diagram (know 1–13)",
+    "25": "Spine diagram (know 1–13)"
+   },
+   "questions": [
+    {
+     "topic": 1,
+     "q": "Which bone cell BUILDS bone?",
+     "a": "Osteoblast",
+     "w": [
+      "Osteoclast",
+      "Osteocyte",
+      "Osteoprogenitor cell"
+     ],
+     "e": "Blast = build ('construction'). Osteoblasts take Ca from blood and deposit it onto collagen.",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Which bone cell BREAKS DOWN bone?",
+     "a": "Osteoclast",
+     "w": [
+      "Osteoblast",
+      "Osteocyte",
+      "Osteoprogenitor cell"
+     ],
+     "e": "Clast = 'demolition'. Pulls Ca from bone back into blood.",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Which cell is the bone STEM cell that becomes an osteoblast?",
+     "a": "Osteoprogenitor cell",
+     "w": [
+      "Osteocyte",
+      "Osteoclast",
+      "Chondrocyte"
+     ],
+     "e": "Osteoprogenitor = bone stem cell → osteoblast.",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "The mature bone cell that maintains bone and oversees the 'blasts and 'clasts is the:",
+     "a": "Osteocyte",
+     "w": [
+      "Osteoblast",
+      "Osteoclast",
+      "Osteoprogenitor cell"
+     ],
+     "e": "Osteocyte = 'general contractor'.",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Which bone cell is multinucleate?",
+     "a": "Osteoclast",
+     "w": [
+      "Osteoblast",
+      "Osteocyte",
+      "Osteoprogenitor cell"
+     ],
+     "e": "Osteoclasts are large multinucleate cells.",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Osteoblasts eventually turn into:",
+     "a": "Osteocytes",
+     "w": [
+      "Osteoclasts",
+      "Osteoprogenitor cells",
+      "Chondrocytes"
+     ],
+     "e": "Stem cell → osteoblast → osteocyte.",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Which cell withdraws calcium FROM bone and deposits it INTO the blood?",
+     "a": "Osteoclast",
+     "w": [
+      "Osteoblast",
+      "Osteocyte",
+      "Osteoprogenitor cell"
+     ],
+     "e": "Clasts release Ca to the blood; blasts do the reverse.",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "Which cell takes calcium FROM the blood and deposits it ONTO collagen fibers?",
+     "a": "Osteoblast",
+     "w": [
+      "Osteoclast",
+      "Osteocyte",
+      "Red blood cell"
+     ],
+     "e": "Osteoblasts lay down mineral on collagen.",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "q": "In the construction analogy, the osteoclast is the:",
+     "a": "Demolition crew",
+     "w": [
+      "Construction crew",
+      "General contractor",
+      "Building inspector"
+     ],
+     "e": "Blast = construction, cyte = general contractor, clast = demolition.",
+     "s": "L7, slides 12–13",
+     "u": "L7"
+    },
+    {
+     "topic": 2,
+     "q": "Which rib pairs are TRUE ribs?",
+     "a": "1–7",
+     "w": [
+      "1–10",
+      "8–12",
+      "11–12"
+     ],
+     "e": "True ribs attach directly to the sternum by their own costal cartilage.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "Which rib pairs are FALSE ribs?",
+     "a": "8–12",
+     "w": [
+      "1–7",
+      "11–12 only",
+      "6–10"
+     ],
+     "e": "False ribs don't attach directly to the sternum.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "Which rib pairs are FLOATING ribs?",
+     "a": "11–12",
+     "w": [
+      "8–10",
+      "1–2",
+      "10–12"
+     ],
+     "e": "Floating ribs have no costal cartilage.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "What makes a rib a TRUE rib?",
+     "a": "Its costal cartilage attaches directly to the sternum",
+     "w": [
+      "It has no costal cartilage",
+      "It attaches to the cartilage of rib 7",
+      "It attaches to the lumbar spine"
+     ],
+     "e": "True = direct attachment to the sternum.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "The costal cartilage of false ribs 8–10 attaches to:",
+     "a": "The costal cartilage of rib 7",
+     "w": [
+      "The manubrium",
+      "The xiphoid process",
+      "Nothing"
+     ],
+     "e": "They join the cartilage above instead of the sternum.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "Floating ribs are a type of:",
+     "a": "False rib",
+     "w": [
+      "True rib",
+      "Vertebra",
+      "Sternal rib"
+     ],
+     "e": "Pairs 11–12 are false ribs with no costal cartilage at all.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "How many ribs does an adult have in total?",
+     "a": "24 (12 pairs)",
+     "w": [
+      "12 (6 pairs)",
+      "26 (13 pairs)",
+      "20 (10 pairs)"
+     ],
+     "e": "12 pairs come off the 12 thoracic vertebrae.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "q": "Rib 9 is classified as a:",
+     "a": "False rib",
+     "w": [
+      "True rib",
+      "Floating rib",
+      "Cervical rib"
+     ],
+     "e": "8–12 are false; only 11–12 float.",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 3,
+     "q": "Wolff's Law states that bone is deposited:",
+     "a": "In greater density where mechanical stress is higher",
+     "w": [
+      "Only during childhood",
+      "Where stress is lowest",
+      "Only when PTH is released"
+     ],
+     "e": "Stress builds bone; bone is removed where stress is lessened.",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "According to Wolff's Law, a bedridden patient's bones will:",
+     "a": "Lose density (bone is removed where stress is lessened)",
+     "w": [
+      "Gain density",
+      "Grow longer",
+      "Stay exactly the same"
+     ],
+     "e": "Less mechanical stress → bone is removed.",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Which hormone puts calcium INTO bone ('Calci-bone-in')?",
+     "a": "Calcitonin",
+     "w": [
+      "Parathyroid hormone",
+      "Cortisol",
+      "Insulin"
+     ],
+     "e": "Calcitonin moves Ca from blood into bone.",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Bone homeostasis means bone is:",
+     "a": "Constantly broken down AND replaced",
+     "w": [
+      "Never replaced after age 18",
+      "Only built, never broken down",
+      "Only broken down in old age"
+     ],
+     "e": "Bone is in a constant state of maintenance.",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Which three hormones control bone homeostasis?",
+     "a": "Vitamin D (cholecalciferol), calcitonin, PTH",
+     "w": [
+      "Insulin, glucagon, cortisol",
+      "Estrogen, testosterone, insulin",
+      "Adrenaline, calcitonin, melatonin"
+     ],
+     "e": "Listed on the homeostasis slide.",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Vitamin D (cholecalciferol) is needed to:",
+     "a": "Absorb calcium from food into the blood",
+     "w": [
+      "Break down bone",
+      "Make collagen",
+      "Form the epiphyseal plate"
+     ],
+     "e": "Made by skin in sunlight; needed to absorb Ca.",
+     "s": "L7, slide 46",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Weight-bearing exercise strengthens bone. This is explained by:",
+     "a": "Wolff's Law",
+     "w": [
+      "Hematoma formation",
+      "Intramembranous ossification",
+      "Hematopoiesis"
+     ],
+     "e": "Mechanical stress → more bone deposited.",
+     "s": "L7, slides 45, 61",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Long bones grow in LENGTH only at the:",
+     "a": "Epiphyseal (growth) plate",
+     "w": [
+      "Diaphysis",
+      "Periosteum",
+      "Marrow cavity"
+     ],
+     "e": "Hyaline cartilage plate; becomes the epiphyseal line in adults.",
+     "s": "L7, slide 25",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "q": "Bone replacement rate depends on blood calcium level, hormones, and:",
+     "a": "Mechanical stress and gravity",
+     "w": [
+      "Hair color",
+      "Blood type",
+      "Body temperature"
+     ],
+     "e": "Stress/gravity is the Wolff's Law factor.",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Calcitonin ______ osteoblasts and ______ osteoclasts.",
+     "a": "Stimulates; inhibits",
+     "w": [
+      "Inhibits; stimulates",
+      "Stimulates; stimulates",
+      "Inhibits; inhibits"
+     ],
+     "e": "Calcitonin builds bone: more blasts, fewer clasts.",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Parathyroid hormone (PTH) ______ osteoclasts and ______ osteoblasts.",
+     "a": "Stimulates; inhibits",
+     "w": [
+      "Inhibits; stimulates",
+      "Stimulates; stimulates",
+      "Inhibits; inhibits"
+     ],
+     "e": "PTH pulls Ca out of bone: more clasts, fewer blasts.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Which hormone takes calcium FROM bone and puts it into the blood?",
+     "a": "Parathyroid hormone (PTH)",
+     "w": [
+      "Calcitonin",
+      "Vitamin D",
+      "Growth hormone"
+     ],
+     "e": "PTH is the antagonist of calcitonin.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Calcitonin is made by the:",
+     "a": "Thyroid gland",
+     "w": [
+      "Parathyroid glands",
+      "Adrenal glands",
+      "Pituitary gland"
+     ],
+     "e": "Calcitonin = thyroid; PTH = parathyroids.",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "PTH is made by the:",
+     "a": "Parathyroid glands",
+     "w": [
+      "Thyroid gland",
+      "Pancreas",
+      "Kidneys"
+     ],
+     "e": "Parathyroid glands sit on the back of the thyroid.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Which hormone INHIBITS osteoclasts?",
+     "a": "Calcitonin",
+     "w": [
+      "Parathyroid hormone",
+      "Cortisol",
+      "Thyroxine"
+     ],
+     "e": "Calcitonin inhibits clasts so Ca stays in bone.",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Which hormone INHIBITS osteoblasts?",
+     "a": "Parathyroid hormone (PTH)",
+     "w": [
+      "Calcitonin",
+      "Vitamin D",
+      "Estrogen"
+     ],
+     "e": "PTH inhibits blasts and stimulates clasts.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "Calcitonin and PTH are described as:",
+     "a": "Antagonists (opposites)",
+     "w": [
+      "The same hormone",
+      "Both made by the thyroid",
+      "Both bone-building"
+     ],
+     "e": "PTH is antagonist to calcitonin.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "q": "When blood calcium is LOW, which hormone raises it by breaking down bone?",
+     "a": "PTH",
+     "w": [
+      "Calcitonin",
+      "Insulin",
+      "Melatonin"
+     ],
+     "e": "PTH stimulates osteoclasts, releasing Ca to blood.",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "What is the FIRST step of fracture repair?",
+     "a": "Hematoma formation",
+     "w": [
+      "Fibrocartilage callus",
+      "Bony callus",
+      "Remodeling"
+     ],
+     "e": "Broken vessels bleed and a clot (hematoma) forms.",
+     "s": "L7, slide 56",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "What is the correct order of fracture repair?",
+     "a": "Hematoma → fibrocartilage callus → bony callus → remodeling",
+     "w": [
+      "Fibrocartilage callus → hematoma → bony callus → remodeling",
+      "Hematoma → bony callus → fibrocartilage callus → remodeling",
+      "Remodeling → hematoma → bony callus → fibrocartilage callus"
+     ],
+     "e": "Happy Fibro Bones Remodel.",
+     "s": "L7, slides 56–57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "What is the LAST step of fracture repair?",
+     "a": "Remodeling",
+     "w": [
+      "Hematoma formation",
+      "Bony callus",
+      "Fibrocartilage callus"
+     ],
+     "e": "Osteoclasts reshape the bone; can take weeks to years.",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "The callus that first connects the broken ends of bone is made of:",
+     "a": "Fibrocartilage",
+     "w": [
+      "Hyaline cartilage",
+      "Spongy bone",
+      "Elastic cartilage"
+     ],
+     "e": "Step 2: fibrocartilage callus.",
+     "s": "L7, slide 56",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "During the bony callus stage, which cells deposit calcium onto the collagen of the callus?",
+     "a": "Osteoblasts",
+     "w": [
+      "Osteoclasts",
+      "Osteocytes",
+      "Chondrocytes"
+     ],
+     "e": "Blasts build the bony callus.",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "During remodeling, bone returns to its original shape as which cells remove unneeded calcium?",
+     "a": "Osteoclasts",
+     "w": [
+      "Osteoblasts",
+      "Fibroblasts",
+      "Red blood cells"
+     ],
+     "e": "Clasts remove bone where support is no longer needed.",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "What comes right AFTER the fibrocartilage callus?",
+     "a": "Bony callus",
+     "w": [
+      "Hematoma",
+      "Remodeling",
+      "Epiphyseal plate"
+     ],
+     "e": "Step 3: callus replaced by bone.",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "q": "A fracture hematoma is essentially a:",
+     "a": "Large blood clot",
+     "w": [
+      "Cartilage pad",
+      "Bone spur",
+      "Bruise on the skin only"
+     ],
+     "e": "It forms to stop bleeding from broken vessels.",
+     "s": "L7, slide 56",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "What makes bone HARD?",
+     "a": "Hydroxyapatites (mineral salts in the ground substance)",
+     "w": [
+      "Osteoid (collagen fibers)",
+      "Bone marrow",
+      "Periosteum"
+     ],
+     "e": "Hydroxyapatites = inorganic mineral salts, 2/3 of matrix.",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "What gives bone STRENGTH and resilience?",
+     "a": "Osteoid (collagen fibers)",
+     "w": [
+      "Hydroxyapatites",
+      "Yellow marrow",
+      "Articular cartilage"
+     ],
+     "e": "Osteoid = organic collagen fibers, 1/3 of matrix.",
+     "s": "L7, slide 16",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "Hydroxyapatites are part of the bone matrix's:",
+     "a": "Ground substance",
+     "w": [
+      "Fibers",
+      "Cells",
+      "Marrow"
+     ],
+     "e": "Ground substance = hydroxyapatites; fibers = osteoid.",
+     "s": "L7, slide 14",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "Osteoid is part of the bone matrix's:",
+     "a": "Fibers",
+     "w": [
+      "Ground substance",
+      "Cells",
+      "Periosteum"
+     ],
+     "e": "Fibers = osteoid, mainly collagen.",
+     "s": "L7, slide 14",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "Hydroxyapatites make up about how much of the bone matrix?",
+     "a": "2/3",
+     "w": [
+      "1/3",
+      "1/2",
+      "All of it"
+     ],
+     "e": "Mineral salts = 2/3; osteoid = 1/3.",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "The INORGANIC portion of bone matrix is:",
+     "a": "Hydroxyapatites (Ca, Mg, P salts)",
+     "w": [
+      "Osteoid",
+      "Collagen",
+      "Osteocytes"
+     ],
+     "e": "Inorganic = minerals = hardness.",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "The ORGANIC portion of bone matrix is:",
+     "a": "Osteoid (mostly collagen)",
+     "w": [
+      "Hydroxyapatites",
+      "Calcium phosphate",
+      "Magnesium salts"
+     ],
+     "e": "Organic = collagen = strength.",
+     "s": "L7, slide 16",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "q": "Hydroxyapatites are also called:",
+     "a": "Mineral salts",
+     "w": [
+      "Collagen fibers",
+      "Osteoid",
+      "Lamellae"
+     ],
+     "e": "a.k.a. mineral salts (Ca, Mg, P).",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "A bone breaks into 3 or more pieces. This is a:",
+     "a": "Comminuted fracture",
+     "w": [
+      "Greenstick fracture",
+      "Spiral fracture",
+      "Depressed fracture"
+     ],
+     "e": "Comminuted = 3+ pieces; needs hardware.",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "An incomplete fracture typically seen in children is a:",
+     "a": "Greenstick fracture",
+     "w": [
+      "Compression fracture",
+      "Impacted fracture",
+      "Comminuted fracture"
+     ],
+     "e": "Children's bones bend like a green twig.",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "A fracture caused by twisting forces, common in sports, is a:",
+     "a": "Spiral fracture",
+     "w": [
+      "Depressed fracture",
+      "Greenstick fracture",
+      "Compression fracture"
+     ],
+     "e": "Twisting → spiral.",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "Broken bone pressed inward, typical of a skull fracture, is a:",
+     "a": "Depressed fracture",
+     "w": [
+      "Compression fracture",
+      "Impacted fracture",
+      "Spiral fracture"
+     ],
+     "e": "Depressed = dented in.",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "A crushed bone with decreased height, common in the vertebrae of post-menopausal women, is a:",
+     "a": "Compression fracture",
+     "w": [
+      "Depressed fracture",
+      "Greenstick fracture",
+      "Spiral fracture"
+     ],
+     "e": "Usually from osteoporosis.",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "One end of a bone is driven into the other, often when trying to break a fall. This is a:",
+     "a": "Impacted fracture",
+     "w": [
+      "Comminuted fracture",
+      "Spiral fracture",
+      "Greenstick fracture"
+     ],
+     "e": "Impacted = jammed together.",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "A compound (open) fracture is one in which:",
+     "a": "The skin is broken",
+     "w": [
+      "The skin is not broken",
+      "The bone breaks in 3+ pieces",
+      "The break is incomplete"
+     ],
+     "e": "Open fractures carry greater infection risk.",
+     "s": "L7, slide 50",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "A simple (closed) fracture is one in which:",
+     "a": "The skin is NOT broken",
+     "w": [
+      "The skin is broken",
+      "The bone is crushed",
+      "The bone twists"
+     ],
+     "e": "Closed = skin intact.",
+     "s": "L7, slide 50",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "q": "Which fracture type usually needs 'hardware' to repair?",
+     "a": "Comminuted",
+     "w": [
+      "Greenstick",
+      "Simple",
+      "Incomplete"
+     ],
+     "e": "3+ pieces need plates/screws.",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 8,
+     "q": "Which landmark's name means 'great hole'?",
+     "a": "Foramen magnum",
+     "w": [
+      "External auditory meatus",
+      "Sella turcica",
+      "Mental foramen"
+     ],
+     "e": "Magnum = great; foramen = hole.",
+     "s": "L8, slide 21",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "q": "The foramen magnum is in which bone?",
+     "a": "Occipital",
+     "w": [
+      "Temporal",
+      "Sphenoid",
+      "Parietal"
+     ],
+     "e": "At the base of the skull.",
+     "s": "L8, slide 21",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "q": "What passes through the foramen magnum?",
+     "a": "The spinal cord",
+     "w": [
+      "The optic nerve",
+      "The olfactory nerves",
+      "The vertebral artery only"
+     ],
+     "e": "Passage for the spinal cord through the skull.",
+     "s": "L8, slide 21",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "q": "A 'foramen' is a bone marking that is:",
+     "a": "A round or oval hole",
+     "w": [
+      "A tunnel-like passage",
+      "A slit-like opening",
+      "A sharp projection"
+     ],
+     "e": "Meatus = tunnel; fissure = slit.",
+     "s": "L8, slide 5",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "q": "The structures on either side of the foramen magnum that articulate with the atlas are the:",
+     "a": "Occipital condyles",
+     "w": [
+      "Mastoid processes",
+      "Styloid processes",
+      "Mandibular condyles"
+     ],
+     "e": "They form a joint with C1.",
+     "s": "L8, slide 23",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "q": "'Turkish saddle' is the meaning of which skull landmark (not the 'great hole')?",
+     "a": "Sella turcica",
+     "w": [
+      "Foramen magnum",
+      "Crista galli",
+      "Cribriform plate"
+     ],
+     "e": "Sella turcica holds the pituitary; foramen magnum = great hole.",
+     "s": "L8, slides 21, 27",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The coronal suture joins the frontal bone to the:",
+     "a": "Parietal bones",
+     "w": [
+      "Occipital bone",
+      "Temporal bones",
+      "Sphenoid bone"
+     ],
+     "e": "Coronal = frontal ↔ both parietals.",
+     "s": "L8, slide 12",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The sagittal suture joins:",
+     "a": "The left and right parietal bones",
+     "w": [
+      "Frontal and parietal bones",
+      "Parietal and occipital bones",
+      "Temporal and parietal bones"
+     ],
+     "e": "Runs front-to-back on top of the skull.",
+     "s": "L8, slide 13",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The lambdoid suture joins the occipital bone to the:",
+     "a": "Parietal bones",
+     "w": [
+      "Frontal bone",
+      "Temporal bones",
+      "Mandible"
+     ],
+     "e": "Back of the skull, shaped like λ.",
+     "s": "L8, slide 20",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The squamosal suture joins the temporal bone to the:",
+     "a": "Parietal bone",
+     "w": [
+      "Frontal bone",
+      "Occipital bone",
+      "Zygomatic bone"
+     ],
+     "e": "Curved line above the ear.",
+     "s": "L8, slide 16",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "Which bone touches the frontal, temporal AND occipital bones?",
+     "a": "Parietal",
+     "w": [
+      "Sphenoid",
+      "Nasal",
+      "Mandible"
+     ],
+     "e": "Parietals connect via coronal, squamosal and lambdoid sutures.",
+     "s": "L8, slides 12, 16, 20",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "Which suture is between the frontal and parietal bones?",
+     "a": "Coronal",
+     "w": [
+      "Sagittal",
+      "Lambdoid",
+      "Squamosal"
+     ],
+     "e": "Coronal = front.",
+     "s": "L8, slide 12",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "Which suture is between the occipital and parietal bones?",
+     "a": "Lambdoid",
+     "w": [
+      "Coronal",
+      "Sagittal",
+      "Squamosal"
+     ],
+     "e": "Lambdoid = back.",
+     "s": "L8, slide 20",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The zygomatic arch is formed where the zygomatic bone meets the:",
+     "a": "Temporal bone",
+     "w": [
+      "Frontal bone",
+      "Parietal bone",
+      "Occipital bone"
+     ],
+     "e": "Temporal process of zygomatic + zygomatic process of temporal.",
+     "s": "L8, slide 35",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "q": "The mandible forms the TMJ with which bone?",
+     "a": "Temporal",
+     "w": [
+      "Maxilla",
+      "Zygomatic",
+      "Sphenoid"
+     ],
+     "e": "Mandibular condyle ↔ mandibular fossa of the temporal bone.",
+     "s": "L8, slide 43",
+     "u": "L8"
+    },
+    {
+     "topic": 10,
+     "q": "C1 is called the:",
+     "a": "Atlas",
+     "w": [
+      "Axis",
+      "Dens",
+      "Sacrum"
+     ],
+     "e": "Atlas holds up the head.",
+     "s": "L9, slide 15",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "C2 is called the:",
+     "a": "Axis",
+     "w": [
+      "Atlas",
+      "Coccyx",
+      "Centrum"
+     ],
+     "e": "Axis has the dens.",
+     "s": "L9, slide 16",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "Which vertebra has NO body and NO spinous process, just a ring of bone?",
+     "a": "Atlas (C1)",
+     "w": [
+      "Axis (C2)",
+      "C7",
+      "L5"
+     ],
+     "e": "The atlas is a ring.",
+     "s": "L9, slide 15",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "The dens (odontoid process) belongs to which vertebra?",
+     "a": "Axis (C2)",
+     "w": [
+      "Atlas (C1)",
+      "C7",
+      "T1"
+     ],
+     "e": "Dens projects up from C2's body to the atlas.",
+     "s": "L9, slide 16",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "The atlas articulates with the skull at the:",
+     "a": "Occipital condyles",
+     "w": [
+      "Mastoid processes",
+      "Foramen magnum's rim only",
+      "Mandibular fossa"
+     ],
+     "e": "C1 ↔ occipital condyles.",
+     "s": "L9, slide 15",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "The dens of the axis articulates with the:",
+     "a": "Atlas",
+     "w": [
+      "Occipital bone",
+      "C3",
+      "First rib"
+     ],
+     "e": "It projects superiorly to the atlas.",
+     "s": "L9, slide 16",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "q": "Which statement is TRUE?",
+     "a": "C1 = atlas, C2 = axis",
+     "w": [
+      "C1 = axis, C2 = atlas",
+      "C1 and C2 are both called the axis",
+      "C7 = atlas"
+     ],
+     "e": "Alphabetical: Atlas before Axis.",
+     "s": "L9, slides 15–16",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Which curves are PRIMARY curves?",
+     "a": "Thoracic and sacrococcygeal",
+     "w": [
+      "Cervical and lumbar",
+      "Cervical and thoracic",
+      "Lumbar and sacral"
+     ],
+     "e": "Primary = kyphotic, present from birth.",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Which curves are SECONDARY curves?",
+     "a": "Cervical and lumbar",
+     "w": [
+      "Thoracic and sacrococcygeal",
+      "Thoracic and lumbar",
+      "Cervical and sacral"
+     ],
+     "e": "Secondary = lordotic, form after birth.",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Kyphosis (a kyphotic curve) is a:",
+     "a": "Primary curve",
+     "w": [
+      "Secondary curve",
+      "Lateral curve",
+      "Curve that forms after walking"
+     ],
+     "e": "Present from birth.",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Lordosis (a lordotic curve) is a:",
+     "a": "Secondary curve",
+     "w": [
+      "Primary curve",
+      "Lateral curve",
+      "Curve present at birth"
+     ],
+     "e": "Forms after birth.",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "The lumbar spine normally has which type of curve?",
+     "a": "Lordosis",
+     "w": [
+      "Kyphosis",
+      "Scoliosis",
+      "No curve"
+     ],
+     "e": "Cervical and lumbar = lordotic.",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "The thoracic spine normally has which type of curve?",
+     "a": "Kyphosis",
+     "w": [
+      "Lordosis",
+      "Scoliosis",
+      "No curve"
+     ],
+     "e": "Thoracic and sacrococcygeal = kyphotic.",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "A kyphotic curve is:",
+     "a": "Convex posteriorly, concave anteriorly",
+     "w": [
+      "Concave posteriorly, convex anteriorly",
+      "Curved to the side",
+      "Straight"
+     ],
+     "e": "It bulges toward the back.",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "A lordotic curve is:",
+     "a": "Concave posteriorly, convex anteriorly",
+     "w": [
+      "Convex posteriorly, concave anteriorly",
+      "Curved to the side",
+      "Straight"
+     ],
+     "e": "It bulges toward the front.",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Any LATERAL (side-to-side) curve of the spine is called:",
+     "a": "Scoliosis",
+     "w": [
+      "Kyphosis",
+      "Lordosis",
+      "Spondylosis"
+     ],
+     "e": "From the front/back the spine should be straight.",
+     "s": "L9, slide 23",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "q": "Primary curves are present:",
+     "a": "From birth",
+     "w": [
+      "Only after walking",
+      "Only in adults",
+      "Only when sitting"
+     ],
+     "e": "Newborn is curled in a C.",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: what does #11 point to?",
+     "a": "External auditory meatus",
+     "w": [
+      "Styloid process",
+      "Temporal bone",
+      "Occipital condyle"
+     ],
+     "e": "#11 = External auditory meatus. The ear hole.",
+     "s": "L8, slide 16",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 13,
+     "q": "Skull handout: what does #6 point to?",
+     "a": "Maxilla",
+     "w": [
+      "Mandible",
+      "Zygomatic bone",
+      "Occipital condyle"
+     ],
+     "e": "#6 = Maxilla. Upper jaw; holds the upper teeth.",
+     "s": "L8, slide 31",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 14,
+     "q": "Skull handout: which number is the frontal bone?",
+     "a": "#1",
+     "w": [
+      "#3",
+      "#8",
+      "#20"
+     ],
+     "e": "#1 = Frontal bone. Forehead.",
+     "s": "L8, slide 8",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 15,
+     "q": "Skull handout: what does #8 point to?",
+     "a": "Sphenoid bone",
+     "w": [
+      "Temporal bone",
+      "Zygomatic bone",
+      "Maxilla"
+     ],
+     "e": "#8 = Sphenoid bone. Butterfly bone; seen at the temple and inside the skull.",
+     "s": "L8, slide 24",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 16,
+     "q": "Skull handout: what does #20 point to?",
+     "a": "Occipital condyle",
+     "w": [
+      "Foramen magnum",
+      "Occipital bone",
+      "Mandible"
+     ],
+     "e": "#20 = Occipital condyle. Smooth knobs beside the foramen magnum; joint with C1.",
+     "s": "L8, slide 23",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 17,
+     "q": "Skull handout: which number is the foramen magnum?",
+     "a": "#16",
+     "w": [
+      "#4",
+      "#12",
+      "#3"
+     ],
+     "e": "#16 = Foramen magnum. The 'great hole' for the spinal cord.",
+     "s": "L8, slide 21",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 18,
+     "q": "Skull handout: which number is the external occipital protuberance?",
+     "a": "#12",
+     "w": [
+      "#16",
+      "#20",
+      "#9"
+     ],
+     "e": "#12 = External occipital protuberance. Midline bump on the back of the occipital.",
+     "s": "L8, slide 22",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: which number is the external auditory meatus?",
+     "a": "#11",
+     "w": [
+      "#10",
+      "#17",
+      "#13"
+     ],
+     "e": "#11 = External auditory meatus. The ear hole.",
+     "s": "L8, slide 16",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 13,
+     "q": "Skull handout: what does #3 point to?",
+     "a": "Parietal bone",
+     "w": [
+      "Occipital bone",
+      "Sphenoid bone",
+      "Mandible"
+     ],
+     "e": "#3 = Parietal bone. Top and upper sides of the head.",
+     "s": "L8, slide 10",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 14,
+     "q": "Skull handout: which number is the sphenoid bone?",
+     "a": "#8",
+     "w": [
+      "#2",
+      "#3",
+      "#10"
+     ],
+     "e": "#8 = Sphenoid bone. Butterfly bone; seen at the temple and inside the skull.",
+     "s": "L8, slide 24",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 15,
+     "q": "Skull handout: which number is the occipital bone?",
+     "a": "#4",
+     "w": [
+      "#1",
+      "#20",
+      "#8"
+     ],
+     "e": "#4 = Occipital bone. Back and base of the skull.",
+     "s": "L8, slide 18",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 16,
+     "q": "Skull handout: which number is the mandible?",
+     "a": "#7",
+     "w": [
+      "#5",
+      "#6",
+      "#14"
+     ],
+     "e": "#7 = Mandible. Lower jaw; only movable skull bone.",
+     "s": "L8, slide 41",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 17,
+     "q": "Skull handout: what does #14 point to?",
+     "a": "Squamosal suture",
+     "w": [
+      "Coronal suture",
+      "Lambdoid suture",
+      "Nasal bone"
+     ],
+     "e": "#14 = Squamosal suture. Temporal ↔ parietal.",
+     "s": "L8, slide 16",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 18,
+     "q": "Skull handout: what does #1 point to?",
+     "a": "Frontal bone",
+     "w": [
+      "Occipital bone",
+      "Sphenoid bone",
+      "External occipital protuberance"
+     ],
+     "e": "#1 = Frontal bone. Forehead.",
+     "s": "L8, slide 8",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: what does #4 point to?",
+     "a": "Occipital bone",
+     "w": [
+      "Occipital condyle",
+      "Foramen magnum",
+      "Coronal suture"
+     ],
+     "e": "#4 = Occipital bone. Back and base of the skull.",
+     "s": "L8, slide 18",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 13,
+     "q": "Skull handout: what does #9 point to?",
+     "a": "Zygomatic bone",
+     "w": [
+      "Nasal bone",
+      "Mandible",
+      "Frontal bone"
+     ],
+     "e": "#9 = Zygomatic bone. Cheekbone.",
+     "s": "L8, slide 35",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 14,
+     "q": "Skull handout: what does #5 point to?",
+     "a": "Nasal bone",
+     "w": [
+      "Sphenoid bone",
+      "Maxilla",
+      "Squamosal suture"
+     ],
+     "e": "#5 = Nasal bone. Bridge of the nose.",
+     "s": "L8, slide 33",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 15,
+     "q": "Skull handout: what does #17 point to?",
+     "a": "Styloid process",
+     "w": [
+      "Mastoid process",
+      "Temporal bone",
+      "Parietal bone"
+     ],
+     "e": "#17 = Styloid process. Thin spike in front of the mastoid.",
+     "s": "L8, slide 17",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 16,
+     "q": "Skull handout: which number is the styloid process?",
+     "a": "#17",
+     "w": [
+      "#10",
+      "#2",
+      "#14"
+     ],
+     "e": "#17 = Styloid process. Thin spike in front of the mastoid.",
+     "s": "L8, slide 17",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 17,
+     "q": "Skull handout: what does #7 point to?",
+     "a": "Mandible",
+     "w": [
+      "Zygomatic bone",
+      "Sphenoid bone",
+      "Frontal bone"
+     ],
+     "e": "#7 = Mandible. Lower jaw; only movable skull bone.",
+     "s": "L8, slide 41",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 18,
+     "q": "Skull handout: what does #10 point to?",
+     "a": "Mastoid process",
+     "w": [
+      "External auditory meatus",
+      "Styloid process",
+      "Squamosal suture"
+     ],
+     "e": "#10 = Mastoid process. Large rounded bump behind the ear.",
+     "s": "L8, slide 17",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: what does #13 point to?",
+     "a": "Coronal suture",
+     "w": [
+      "Lambdoid suture",
+      "Squamosal suture",
+      "Sphenoid bone"
+     ],
+     "e": "#13 = Coronal suture. Frontal ↔ parietal.",
+     "s": "L8, slide 12",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 13,
+     "q": "Skull handout: which number is the zygomatic bone?",
+     "a": "#9",
+     "w": [
+      "#5",
+      "#7",
+      "#17"
+     ],
+     "e": "#9 = Zygomatic bone. Cheekbone.",
+     "s": "L8, slide 35",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 14,
+     "q": "Skull handout: what does #15 point to?",
+     "a": "Lambdoid suture",
+     "w": [
+      "Coronal suture",
+      "Squamosal suture",
+      "Mandible"
+     ],
+     "e": "#15 = Lambdoid suture. Occipital ↔ parietal.",
+     "s": "L8, slide 20",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 15,
+     "q": "Skull handout: which number is the squamosal suture?",
+     "a": "#14",
+     "w": [
+      "#13",
+      "#15",
+      "#4"
+     ],
+     "e": "#14 = Squamosal suture. Temporal ↔ parietal.",
+     "s": "L8, slide 16",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 16,
+     "q": "Skull handout: which number is the temporal bone?",
+     "a": "#2",
+     "w": [
+      "#3",
+      "#1",
+      "#8"
+     ],
+     "e": "#2 = Temporal bone. Lower side of the head around the ear.",
+     "s": "L8, slide 14",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 17,
+     "q": "Skull handout: what does #2 point to?",
+     "a": "Temporal bone",
+     "w": [
+      "Frontal bone",
+      "Occipital bone",
+      "Coronal suture"
+     ],
+     "e": "#2 = Temporal bone. Lower side of the head around the ear.",
+     "s": "L8, slide 14",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 18,
+     "q": "Skull handout: what does #12 point to?",
+     "a": "External occipital protuberance",
+     "w": [
+      "Foramen magnum",
+      "Occipital condyle",
+      "Squamosal suture"
+     ],
+     "e": "#12 = External occipital protuberance. Midline bump on the back of the occipital.",
+     "s": "L8, slide 22",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: which number is the parietal bone?",
+     "a": "#3",
+     "w": [
+      "#1",
+      "#4",
+      "#2"
+     ],
+     "e": "#3 = Parietal bone. Top and upper sides of the head.",
+     "s": "L8, slide 10",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 13,
+     "q": "Skull handout: which number is the coronal suture?",
+     "a": "#13",
+     "w": [
+      "#15",
+      "#14",
+      "#2"
+     ],
+     "e": "#13 = Coronal suture. Frontal ↔ parietal.",
+     "s": "L8, slide 12",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 14,
+     "q": "Skull handout: which number is the nasal bone?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#8",
+      "#1"
+     ],
+     "e": "#5 = Nasal bone. Bridge of the nose.",
+     "s": "L8, slide 33",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 15,
+     "q": "Skull handout: what does #16 point to?",
+     "a": "Foramen magnum",
+     "w": [
+      "Occipital bone",
+      "External occipital protuberance",
+      "Zygomatic bone"
+     ],
+     "e": "#16 = Foramen magnum. The 'great hole' for the spinal cord.",
+     "s": "L8, slide 21",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 16,
+     "q": "Skull handout: which number is the lambdoid suture?",
+     "a": "#15",
+     "w": [
+      "#14",
+      "#13",
+      "#12"
+     ],
+     "e": "#15 = Lambdoid suture. Occipital ↔ parietal.",
+     "s": "L8, slide 20",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 17,
+     "q": "Skull handout: which number is the maxilla?",
+     "a": "#6",
+     "w": [
+      "#8",
+      "#7",
+      "#13"
+     ],
+     "e": "#6 = Maxilla. Upper jaw; holds the upper teeth.",
+     "s": "L8, slide 31",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 18,
+     "q": "Skull handout: which number is the mastoid process?",
+     "a": "#10",
+     "w": [
+      "#17",
+      "#2",
+      "#14"
+     ],
+     "e": "#10 = Mastoid process. Large rounded bump behind the ear.",
+     "s": "L8, slide 17",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 12,
+     "q": "Skull handout: which number is the occipital condyle?",
+     "a": "#20",
+     "w": [
+      "#4",
+      "#16",
+      "#9"
+     ],
+     "e": "#20 = Occipital condyle. Smooth knobs beside the foramen magnum; joint with C1.",
+     "s": "L8, slide 23",
+     "img": "img/skull.jpg",
+     "u": "L8"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: which number is the superior costal facet (rib facet)?",
+     "a": "#11",
+     "w": [
+      "#10",
+      "#12",
+      "#6"
+     ],
+     "e": "#11 = Superior costal facet (rib facet). Rib facet on the top edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 20,
+     "q": "Spine handout: what does #8 point to?",
+     "a": "Inferior articular process",
+     "w": [
+      "Transverse process",
+      "Superior articular process",
+      "Transverse costal facet (rib facet)"
+     ],
+     "e": "#8 = Inferior articular process. Points down; joints with the vertebra below.",
+     "s": "L9, slide 10",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 21,
+     "q": "Spine handout: what does #4 point to?",
+     "a": "Pedicle",
+     "w": [
+      "Spinous process",
+      "Transverse process",
+      "Superior articular process"
+     ],
+     "e": "#4 = Pedicle. Short stalk from the body to the arch.",
+     "s": "L9, slide 7",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 22,
+     "q": "Spine handout: which number is the superior articular process?",
+     "a": "#7",
+     "w": [
+      "#3",
+      "#8",
+      "#4"
+     ],
+     "e": "#7 = Superior articular process. Points up; joints with the vertebra above.",
+     "s": "L9, slide 10",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 23,
+     "q": "Spine handout: what does #5 point to?",
+     "a": "Body (centrum)",
+     "w": [
+      "Intervertebral disc",
+      "Vertebral foramen",
+      "Lamina"
+     ],
+     "e": "#5 = Body (centrum). Large anterior weight-bearing part.",
+     "s": "L9, slide 6",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 24,
+     "q": "Spine handout: what does #13 point to?",
+     "a": "Intervertebral disc",
+     "w": [
+      "Body (centrum)",
+      "Vertebral foramen",
+      "Transverse foramen"
+     ],
+     "e": "#13 = Intervertebral disc. Fibrocartilage pad between vertebral bodies.",
+     "s": "L9, slide 13",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 25,
+     "q": "Spine handout: the top bracket on the full spine marks which region (and how many vertebrae)?",
+     "a": "Cervical (7)",
+     "w": [
+      "Thoracic (12)",
+      "Lumbar (5)",
+      "Sacrum (5 fused)"
+     ],
+     "e": "Cervical 7, thoracic 12, lumbar 5.",
+     "s": "L9, slide 5",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: which number is the vertebral foramen?",
+     "a": "#6",
+     "w": [
+      "#5",
+      "#9",
+      "#4"
+     ],
+     "e": "#6 = Vertebral foramen. Hole for the spinal cord.",
+     "s": "L9, slide 11",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 20,
+     "q": "Spine handout: the second (longest) bracket marks which region?",
+     "a": "Thoracic (12)",
+     "w": [
+      "Cervical (7)",
+      "Lumbar (5)",
+      "Coccyx (4 fused)"
+     ],
+     "e": "The thoracic region is the longest.",
+     "s": "L9, slide 5",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 21,
+     "q": "Spine handout: which number is the transverse process?",
+     "a": "#3",
+     "w": [
+      "#10",
+      "#1",
+      "#5"
+     ],
+     "e": "#3 = Transverse process. Projects laterally off the arch.",
+     "s": "L9, slide 11",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 22,
+     "q": "Spine handout: what does #10 point to?",
+     "a": "Transverse costal facet (rib facet)",
+     "w": [
+      "Inferior costal facet (rib facet)",
+      "Transverse process",
+      "Body (centrum)"
+     ],
+     "e": "#10 = Transverse costal facet (rib facet). Rib facet on a thoracic transverse process.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 23,
+     "q": "Spine handout: #13 (intervertebral discs) are made of:",
+     "a": "Fibrocartilage",
+     "w": [
+      "Hyaline cartilage",
+      "Compact bone",
+      "Elastic cartilage"
+     ],
+     "e": "Fibrocartilage pads that help bear weight.",
+     "s": "L9, slide 13",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 24,
+     "q": "Spine handout: what does #1 point to?",
+     "a": "Spinous process",
+     "w": [
+      "Transverse process",
+      "Lamina",
+      "Transverse costal facet (rib facet)"
+     ],
+     "e": "#1 = Spinous process. Most posterior projection; fused laminae.",
+     "s": "L9, slide 9",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 25,
+     "q": "Spine handout: which number is the pedicle?",
+     "a": "#4",
+     "w": [
+      "#2",
+      "#3",
+      "#9"
+     ],
+     "e": "#4 = Pedicle. Short stalk from the body to the arch.",
+     "s": "L9, slide 7",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: which number is the lamina?",
+     "a": "#2",
+     "w": [
+      "#4",
+      "#3",
+      "#1"
+     ],
+     "e": "#2 = Lamina. Plate between the transverse and spinous processes.",
+     "s": "L9, slide 8",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 20,
+     "q": "Spine handout: #2 (lamina) and #4 (pedicle) together form the:",
+     "a": "Vertebral arch",
+     "w": [
+      "Vertebral body",
+      "Intervertebral disc",
+      "Transverse foramen"
+     ],
+     "e": "Pedicles and laminae are both part of the vertebral arch.",
+     "s": "L9, slides 7–8",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 21,
+     "q": "Spine handout: which number is the inferior costal facet (rib facet)?",
+     "a": "#12",
+     "w": [
+      "#10",
+      "#3",
+      "#7"
+     ],
+     "e": "#12 = Inferior costal facet (rib facet). Rib facet on the bottom edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 22,
+     "q": "Spine handout: what does #3 point to?",
+     "a": "Transverse process",
+     "w": [
+      "Transverse costal facet (rib facet)",
+      "Pedicle",
+      "Transverse foramen"
+     ],
+     "e": "#3 = Transverse process. Projects laterally off the arch.",
+     "s": "L9, slide 11",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 23,
+     "q": "Spine handout: what does #7 point to?",
+     "a": "Superior articular process",
+     "w": [
+      "Transverse process",
+      "Inferior articular process",
+      "Transverse foramen"
+     ],
+     "e": "#7 = Superior articular process. Points up; joints with the vertebra above.",
+     "s": "L9, slide 10",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 24,
+     "q": "Spine handout: which number is the intervertebral disc?",
+     "a": "#13",
+     "w": [
+      "#6",
+      "#5",
+      "#11"
+     ],
+     "e": "#13 = Intervertebral disc. Fibrocartilage pad between vertebral bodies.",
+     "s": "L9, slide 13",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 25,
+     "q": "Spine handout: #6 (vertebral foramen) is ROUND on which vertebra?",
+     "a": "Thoracic",
+     "w": [
+      "Cervical",
+      "Lumbar",
+      "All of them"
+     ],
+     "e": "Thoracic = round; cervical and lumbar = triangular.",
+     "s": "L9, slides 14, 17, 18",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: the third bracket marks which region?",
+     "a": "Lumbar (5)",
+     "w": [
+      "Thoracic (12)",
+      "Sacrum (5 fused)",
+      "Cervical (7)"
+     ],
+     "e": "Lumbar = low back, 5 vertebrae.",
+     "s": "L9, slide 5",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 20,
+     "q": "Spine handout: which number is the transverse foramen?",
+     "a": "#9",
+     "w": [
+      "#5",
+      "#6",
+      "#11"
+     ],
+     "e": "#9 = Transverse foramen. Hole in a cervical transverse process; vertebral artery.",
+     "s": "L9, slide 14",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 21,
+     "q": "Spine handout: which numbers appear ONLY on the thoracic vertebra?",
+     "a": "#10, #11, #12 (rib facets)",
+     "w": [
+      "#9 (transverse foramen)",
+      "#7 and #8",
+      "#2 and #4"
+     ],
+     "e": "Rib facets are ONLY on thoracic vertebrae.",
+     "s": "L9, slide 12",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 22,
+     "q": "Spine handout: what does #11 point to?",
+     "a": "Superior costal facet (rib facet)",
+     "w": [
+      "Transverse costal facet (rib facet)",
+      "Transverse process",
+      "Body (centrum)"
+     ],
+     "e": "#11 = Superior costal facet (rib facet). Rib facet on the top edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 23,
+     "q": "Spine handout: the vertebra with the largest body (#5) and a wide, spatulated spinous process is:",
+     "a": "Lumbar",
+     "w": [
+      "Cervical",
+      "Thoracic",
+      "Atlas"
+     ],
+     "e": "Lumbar bodies carry the most weight.",
+     "s": "L9, slide 18",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 24,
+     "q": "Spine handout: which number is the inferior articular process?",
+     "a": "#8",
+     "w": [
+      "#3",
+      "#7",
+      "#11"
+     ],
+     "e": "#8 = Inferior articular process. Points down; joints with the vertebra below.",
+     "s": "L9, slide 10",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 25,
+     "q": "Spine handout: what does #9 point to?",
+     "a": "Transverse foramen",
+     "w": [
+      "Body (centrum)",
+      "Vertebral foramen",
+      "Lamina"
+     ],
+     "e": "#9 = Transverse foramen. Hole in a cervical transverse process; vertebral artery.",
+     "s": "L9, slide 14",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: #9 (transverse foramen) appears only on which vertebra?",
+     "a": "Cervical",
+     "w": [
+      "Thoracic",
+      "Lumbar",
+      "Sacrum"
+     ],
+     "e": "Only cervical vertebrae have transverse foramina; the vertebral arteries pass through.",
+     "s": "L9, slide 14",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 20,
+     "q": "Spine handout: the vertebra with a bifid (split) spinous process at #1 is:",
+     "a": "Cervical",
+     "w": [
+      "Thoracic",
+      "Lumbar",
+      "Coccyx"
+     ],
+     "e": "Bifid spinous process = cervical.",
+     "s": "L9, slide 14",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 21,
+     "q": "Spine handout: which number is the body (centrum)?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#9",
+      "#4"
+     ],
+     "e": "#5 = Body (centrum). Large anterior weight-bearing part.",
+     "s": "L9, slide 6",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 22,
+     "q": "Spine handout: which number is the spinous process?",
+     "a": "#1",
+     "w": [
+      "#3",
+      "#2",
+      "#8"
+     ],
+     "e": "#1 = Spinous process. Most posterior projection; fused laminae.",
+     "s": "L9, slide 9",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 23,
+     "q": "Spine handout: which number is the transverse costal facet (rib facet)?",
+     "a": "#10",
+     "w": [
+      "#3",
+      "#12",
+      "#5"
+     ],
+     "e": "#10 = Transverse costal facet (rib facet). Rib facet on a thoracic transverse process.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 24,
+     "q": "Spine handout: what does #2 point to?",
+     "a": "Lamina",
+     "w": [
+      "Pedicle",
+      "Spinous process",
+      "Transverse process"
+     ],
+     "e": "#2 = Lamina. Plate between the transverse and spinous processes.",
+     "s": "L9, slide 8",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 25,
+     "q": "Spine handout: what does #6 point to?",
+     "a": "Vertebral foramen",
+     "w": [
+      "Transverse foramen",
+      "Body (centrum)",
+      "Lamina"
+     ],
+     "e": "#6 = Vertebral foramen. Hole for the spinal cord.",
+     "s": "L9, slide 11",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    },
+    {
+     "topic": 19,
+     "q": "Spine handout: what does #12 point to?",
+     "a": "Inferior costal facet (rib facet)",
+     "w": [
+      "Transverse costal facet (rib facet)",
+      "Superior costal facet (rib facet)",
+      "Transverse foramen"
+     ],
+     "e": "#12 = Inferior costal facet (rib facet). Rib facet on the bottom edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "img": "img/spine.jpg",
+     "u": "L9"
+    }
+   ]
   }
  ]
 }

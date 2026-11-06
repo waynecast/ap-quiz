@@ -84,6 +84,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .num{display:inline-block;min-width:28px;font-weight:700;color:var(--accent)}
 footer{margin-top:28px;font-size:.8rem;color:var(--muted);text-align:center}
 .hidden{display:none !important}
+.qimg{display:block;margin:6px 0 10px}.qimg img{display:block;width:100%;max-height:62vh;object-fit:contain;border:1px solid #ddd;border-radius:10px;background:#fff}
 </style>
 </head>
 <body>
@@ -377,6 +378,7 @@ function question(){
     <div class="progress"><div style="width:${pct}%"></div></div>
     <span class="tag">${tagQuiz}Topic ${q.topic} · ${esc(QZ[q.quiz].topics[q.topic])}</span>
     <p class="prompt">${esc(q.q)}</p>
+    ${q.img?`<a href="${esc(q.img)}" target="_blank" class="qimg"><img src="${esc(q.img)}" alt="Handout diagram"></a><div class="small muted" style="text-align:center;margin:-4px 0 8px">Tap the diagram to open it full size and zoom.</div>`:""}
     <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
     <div id="fb"></div>
   `);
@@ -390,7 +392,7 @@ function answer(i){
   const q = run.list[run.i];
   const ok = i===q.correct;
   app.querySelectorAll(".opt").forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
-  const saved = {quiz:q.quiz,topic:q.topic,u:q.u,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id};
+  const saved = {quiz:q.quiz,topic:q.topic,u:q.u,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id,img:q.img};
   if(ok){ run.score++; delete state.missed[q.id]; }
   else { run.wrong.push(q); state.missed[q.id]=saved; }
   saveState();
