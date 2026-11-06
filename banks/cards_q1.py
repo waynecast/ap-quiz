@@ -1,0 +1,146 @@
+# Flashcards for A&P Quiz #1 (Lectures 1-3). Each card: (topic, front, back, source).
+CARDS = [
+    # 1. Planes of the body
+    (1, "Coronal (frontal) plane", "Divides the body into FRONT (anterior) and BACK (posterior)", "L1, slide 34"),
+    (1, "Sagittal plane", "Divides the body into LEFT and RIGHT portions", "L1, slide 33"),
+    (1, "Midsagittal (median) plane", "Divides the body into EQUAL left and right halves, straight down the center", "L1, slide 33"),
+    (1, "Transverse (horizontal) plane", "Divides the body into TOP (superior) and BOTTOM (inferior)", "L1, slide 35"),
+    (1, "Oblique (angular) plane", "A cut at an angle between the other planes", "L1, slide 36"),
+    # 2. Anatomy vs. physiology
+    (2, "Anatomy", "Study of the body's STRUCTURE: names of parts and regions", "L1, slide 3"),
+    (2, "Physiology", "Study of how the body FUNCTIONS and how parts work together", "L1, slide 3"),
+    (2, "Naming the bones of the skull is…", "Anatomy (structure)", "L1, slide 3"),
+    (2, "Explaining how the heart pumps blood is…", "Physiology (function)", "L1, slide 3"),
+    (2, "How the kidneys filter waste is…", "Physiology (function)", "L1, slide 3"),
+    # 3. Oxidation vs. reduction
+    (3, "Oxidation", "LOSING electrons (LEO: Lose Electrons = Oxidation)", "L2, slides 44–45"),
+    (3, "Reduction", "GAINING electrons (GER: Gain Electrons = Reduction)", "L2, slides 44–45"),
+    (3, "LEO the lion goes GER", "Lose Electrons = Oxidation; Gain Electrons = Reduction", "L2, slide 45"),
+    (3, "Na → Na⁺ (loses an electron)", "Sodium is OXIDIZED", "L2, slide 46"),
+    (3, "Cl → Cl⁻ (gains an electron)", "Chlorine is REDUCED", "L2, slide 46"),
+    # 4. Atomic mass vs. atomic number
+    (4, "Atomic number", "Number of PROTONS (= electrons in a neutral atom)", "L2, slides 11–12"),
+    (4, "Atomic mass", "PROTONS + NEUTRONS", "L2, slides 11–12"),
+    (4, "How to find the number of neutrons", "Atomic mass − atomic number", "L2, slides 11–12"),
+    (4, "Electrons in a neutral atom", "Equal to the number of protons (the atomic number)", "L2, slide 14"),
+    (4, "Carbon: atomic number 6, mass 12", "6 protons, 6 neutrons, 6 electrons", "L2, slides 11–12"),
+    # 5. Types of bonds
+    (5, "Ionic bond", "A metal GIVES electrons to a nonmetal; cation (+) and anion (−) attract; falls apart easily in water", "L2, slide 22"),
+    (5, "Covalent bond", "Nonmetals SHARE electrons; STRONG bond", "L2, slide 25"),
+    (5, "Hydrogen bond", "Relatively WEAK attraction between H atoms of different molecules (between water molecules, between DNA bases)", "L2, slide 28"),
+    (5, "Which bond dissociates easily in water (e.g., NaCl)?", "Ionic", "L2, slide 22"),
+    (5, "Strongest of the three bond types", "Covalent", "L2, slide 25"),
+    # 6. Terms for head and tail
+    (6, "Superior", "Toward the HEAD (a.k.a. cranial, cephalic)", "L1, slide 23"),
+    (6, "Inferior", "Toward the TAIL/feet (a.k.a. caudal, caudad)", "L1, slide 23"),
+    (6, "Cephalic", "Toward the head", "L1, slide 23"),
+    (6, "Caudal / caudad", "Toward the tail/feet", "L1, slide 23"),
+    (6, "Cranial", "Toward the head", "L1, slide 23"),
+    # 7. Smallest unit of matter / life
+    (7, "Smallest unit of MATTER", "The atom", "L1, slide 5; L2, slide 5"),
+    (7, "Smallest unit of LIFE", "The cell", "L1, slide 6; L3, slide 42"),
+    (7, "Cytology", "The study of cells", "L1, slide 6"),
+    (7, "Histology", "The study of tissues", "L1, slide 6"),
+    (7, "Three subatomic particles", "Protons, neutrons, electrons", "L2, slide 5"),
+    # 8. Homeostasis
+    (8, "Homeostasis", "Maintaining a STABLE internal environment (a.k.a. dynamic equilibrium)", "L1, slide 50"),
+    (8, "Receptor", "SENSES the change (stimulus) in a feedback loop", "L1, slide 51"),
+    (8, "Control center", "INTERPRETS the signal and decides how to respond", "L1, slide 51"),
+    (8, "Effector", "CARRIES OUT the response; always a cell, tissue or organ", "L1, slide 51"),
+    (8, "Order of a feedback loop", "Stimulus → receptor → control center → effector → response", "L1, slide 51"),
+    # 9. Acid vs. base
+    (9, "Acid", "H⁺ (hydrogen ion) DONOR; pH below 7", "L3, slide 9"),
+    (9, "Base", "OH⁻ donor / H⁺ ACCEPTOR; bitter, slippery; pH above 7", "L3, slide 10"),
+    (9, "HCl → H⁺ + Cl⁻", "HCl is acting as an ACID (releases H⁺)", "L3, slide 9"),
+    (9, "NaOH → Na⁺ + OH⁻", "NaOH is acting as a BASE (releases OH⁻)", "L3, slide 10"),
+    (9, "Bitter taste, slippery feel", "Characteristics of a BASE", "L3, slide 10"),
+    # 10. Cell membrane
+    (10, "Major component of the cell membrane", "Phospholipids arranged in a BILAYER", "L3, slides 25, 46"),
+    (10, "Phospholipid head", "Hydrophilic (water-loving)", "L3, slides 25, 46"),
+    (10, "Phospholipid tail", "Hydrophobic (water-fearing)", "L3, slides 25, 46"),
+    (10, "Cholesterol in the membrane", "Holds phospholipids together; gives 'flexible' rigidity", "L3, slide 51"),
+    (10, "Four things the membrane is made of", "Phospholipids, proteins, sugars (carbohydrates), cholesterol", "L3, slides 20, 45"),
+    # 11. Charges
+    (11, "Proton", "POSITIVE charge; in the nucleus", "L2, slide 6"),
+    (11, "Neutron", "NO charge (neutral); in the nucleus", "L2, slide 6"),
+    (11, "Electron", "NEGATIVE charge; in the electron cloud", "L2, slide 6"),
+    (11, "What's in the nucleus?", "Protons and neutrons", "L2, slide 6"),
+    # 12. Kinetic vs. potential energy
+    (12, "Kinetic energy", "Energy of MOTION (heat, light, moving objects)", "L2, slide 34"),
+    (12, "Potential energy", "STORED energy (chemical bonds, a charged battery)", "L2, slide 34"),
+    (12, "Energy in chemical bonds", "Potential energy", "L2, slide 34"),
+    (12, "Heat and light", "Kinetic energy", "L2, slide 34"),
+    # 13. Molecule vs. compound
+    (13, "Molecule", "2+ atoms of ONE type of element bonded together (H₂, O₂)", "L2, slide 31"),
+    (13, "Compound", "2+ DIFFERENT elements bonded together (H₂O, CH₄)", "L2, slide 31"),
+    (13, "O₂", "Molecule (one element)", "L2, slide 31"),
+    (13, "H₂O", "Compound (hydrogen + oxygen)", "L2, slide 31"),
+    # 14. Positive vs. negative feedback
+    (14, "Negative feedback", "Response moves OPPOSITE the change; most feedback in the body (e.g., shivering when cold)", "L1, slides 52–53"),
+    (14, "Positive feedback", "Response AMPLIFIES the change, same direction (e.g., childbirth, blood clotting)", "L1, slides 54–55"),
+    (14, "Childbirth contractions (oxytocin)", "Positive feedback", "L1, slides 54–55"),
+    (14, "Shivering to warm up", "Negative feedback", "L1, slides 52–53"),
+    (14, "Most common type of feedback", "Negative", "L1, slide 52"),
+    # 15. Internal components of the cell
+    (15, "Three main parts of a cell", "Cell membrane ('skin'), cytoplasm ('guts'), nucleus ('brain')", "L3, slide 43"),
+    (15, "Cytoplasm", "Everything between membrane and nucleus: cytosol, organelles, inclusions", "L3, slide 43"),
+    (15, "Cytosol", "The LIQUID portion of the cytoplasm", "L3, slide 43"),
+    (15, "Nucleus", "The cell's 'brain' / command center", "L3, slide 43"),
+    # 16. Saccharides
+    (16, "Monosaccharides", "Single sugars: glucose, fructose, galactose", "L3, slide 16"),
+    (16, "Disaccharides", "Two sugars: sucrose, lactose, maltose", "L3, slide 18"),
+    (16, "Polysaccharides", "Many sugars: starch (plants), glycogen (animals)", "L3, slide 20"),
+    (16, "Sucrose", "Glucose + fructose", "L3, slide 18"),
+    (16, "Lactose", "Glucose + galactose", "L3, slide 18"),
+    (16, "Maltose", "Glucose + glucose", "L3, slide 18"),
+    # 17. Sharing vs. stealing electrons
+    (17, "Electrons SHARED", "Covalent bond", "L2, slide 25"),
+    (17, "Electrons given/taken ('stolen')", "Ionic bond", "L2, slide 22"),
+    (17, "Polar covalent bond", "UNEQUAL sharing (e.g., water)", "L2, slide 25"),
+    (17, "Nonpolar covalent bond", "EQUAL sharing (e.g., CO₂)", "L2, slide 25"),
+    # 18. Reaction types
+    (18, "A + B → AB", "Synthesis (anabolic, construction)", "L2, slide 37"),
+    (18, "AB → A + B + energy", "Decomposition (catabolic, demolition)", "L2, slide 39"),
+    (18, "AB + CD → AC + BD", "Exchange (double displacement)", "L2, slide 41"),
+    (18, "A + BC → AC + B", "Single replacement (exchange)", "L2, slide 42"),
+    (18, "A + B + energy ⇄ AB", "Reversible reaction (double arrow)", "L2, slide 43"),
+    # 19. Universal solvent
+    (19, "The universal solvent", "Water", "L3, slide 6"),
+    (19, "Solvent", "A substance that DISSOLVES other substances", "L3, slide 6"),
+    (19, "How much of body weight is water?", "About 2/3", "L3, slide 6"),
+    (19, "Bond holding water together", "Polar covalent", "L3, slide 6"),
+    (19, "Is water organic or inorganic?", "Inorganic (no carbon)", "L3, slides 5–6"),
+    # 20. All the words for head / tail
+    (20, "Head words", "Superior, cranial, cephalic", "L1, slide 23"),
+    (20, "Tail words", "Inferior, caudal, caudad", "L1, slide 23"),
+    (20, "Cephalon", "Head", "L1, slides 23, 27"),
+    (20, "Caudad", "Toward the tail", "L1, slide 23"),
+    # 21. pH scale
+    (21, "pH scale range", "0 to 14 (7 = neutral)", "L3, slide 11"),
+    (21, "Normal blood pH", "7.35–7.45 (slightly basic)", "L3, slide 11"),
+    (21, "More H⁺", "More ACIDIC, lower pH", "L3, slides 11–12"),
+    (21, "More OH⁻", "More BASIC, higher pH", "L3, slides 11–12"),
+    (21, "pH below 7", "Acidic", "L3, slide 11"),
+    # 22. Diffusion vs. osmosis
+    (22, "Simple diffusion", "Molecules move HIGH → LOW concentration; passive (no ATP)", "L3, slide 56"),
+    (22, "Osmosis", "Diffusion of WATER only across a membrane; passive", "L3, slide 57"),
+    (22, "Hypotonic solution", "Water rushes INTO the cell; it swells and may burst (hemolysis)", "L3, slide 59"),
+    (22, "Diffusion vs. osmosis key difference", "Osmosis moves only water; diffusion moves other molecules", "L3, slides 56–57"),
+    # 23. Planes (applied)
+    (23, "Cut separating face from back of head", "Coronal (frontal) plane", "L1, slide 34"),
+    (23, "Cut separating right eye from left eye", "Sagittal plane", "L1, slide 33"),
+    (23, "Frontal plane", "Another name for the coronal plane", "L1, slide 34"),
+    (23, "Angular plane", "Another name for the oblique plane", "L1, slide 36"),
+    # 24. Directional terms
+    (24, "Medial", "Toward the midline", "L1, slide 24"),
+    (24, "Lateral", "Away from the midline", "L1, slide 24"),
+    (24, "Proximal", "CLOSER to the point of attachment (elbow is proximal to wrist)", "L1, slide 24"),
+    (24, "Distal", "FARTHER from the point of attachment (wrist is distal to elbow)", "L1, slide 24"),
+    (24, "Superficial", "Toward the surface (external)", "L1, slide 25"),
+    (24, "Deep", "Away from the surface (internal)", "L1, slide 25"),
+    # 25. Synthesis reactions
+    (25, "Synthesis reaction", "Builds larger molecules (A + B → AB); requires energy; anabolic", "L2, slide 37"),
+    (25, "Anabolic", "Synthesis, 'construction'", "L2, slide 37"),
+    (25, "Catabolic", "Decomposition, 'demolition'", "L2, slide 39"),
+    (25, "Dehydration synthesis", "Creates a bond by REMOVING water", "L2, slide 38"),
+]

@@ -2612,6 +2612,834 @@
      "s": "L2, slide 40",
      "u": "L2"
     }
+   ],
+   "cards": [
+    {
+     "topic": 1,
+     "f": "Coronal (frontal) plane",
+     "b": "Divides the body into FRONT (anterior) and BACK (posterior)",
+     "s": "L1, slide 34",
+     "u": "L1"
+    },
+    {
+     "topic": 1,
+     "f": "Sagittal plane",
+     "b": "Divides the body into LEFT and RIGHT portions",
+     "s": "L1, slide 33",
+     "u": "L1"
+    },
+    {
+     "topic": 1,
+     "f": "Midsagittal (median) plane",
+     "b": "Divides the body into EQUAL left and right halves, straight down the center",
+     "s": "L1, slide 33",
+     "u": "L1"
+    },
+    {
+     "topic": 1,
+     "f": "Transverse (horizontal) plane",
+     "b": "Divides the body into TOP (superior) and BOTTOM (inferior)",
+     "s": "L1, slide 35",
+     "u": "L1"
+    },
+    {
+     "topic": 1,
+     "f": "Oblique (angular) plane",
+     "b": "A cut at an angle between the other planes",
+     "s": "L1, slide 36",
+     "u": "L1"
+    },
+    {
+     "topic": 2,
+     "f": "Anatomy",
+     "b": "Study of the body's STRUCTURE: names of parts and regions",
+     "s": "L1, slide 3",
+     "u": "L1"
+    },
+    {
+     "topic": 2,
+     "f": "Physiology",
+     "b": "Study of how the body FUNCTIONS and how parts work together",
+     "s": "L1, slide 3",
+     "u": "L1"
+    },
+    {
+     "topic": 2,
+     "f": "Naming the bones of the skull is…",
+     "b": "Anatomy (structure)",
+     "s": "L1, slide 3",
+     "u": "L1"
+    },
+    {
+     "topic": 2,
+     "f": "Explaining how the heart pumps blood is…",
+     "b": "Physiology (function)",
+     "s": "L1, slide 3",
+     "u": "L1"
+    },
+    {
+     "topic": 2,
+     "f": "How the kidneys filter waste is…",
+     "b": "Physiology (function)",
+     "s": "L1, slide 3",
+     "u": "L1"
+    },
+    {
+     "topic": 3,
+     "f": "Oxidation",
+     "b": "LOSING electrons (LEO: Lose Electrons = Oxidation)",
+     "s": "L2, slides 44–45",
+     "u": "L2"
+    },
+    {
+     "topic": 3,
+     "f": "Reduction",
+     "b": "GAINING electrons (GER: Gain Electrons = Reduction)",
+     "s": "L2, slides 44–45",
+     "u": "L2"
+    },
+    {
+     "topic": 3,
+     "f": "LEO the lion goes GER",
+     "b": "Lose Electrons = Oxidation; Gain Electrons = Reduction",
+     "s": "L2, slide 45",
+     "u": "L2"
+    },
+    {
+     "topic": 3,
+     "f": "Na → Na⁺ (loses an electron)",
+     "b": "Sodium is OXIDIZED",
+     "s": "L2, slide 46",
+     "u": "L2"
+    },
+    {
+     "topic": 3,
+     "f": "Cl → Cl⁻ (gains an electron)",
+     "b": "Chlorine is REDUCED",
+     "s": "L2, slide 46",
+     "u": "L2"
+    },
+    {
+     "topic": 4,
+     "f": "Atomic number",
+     "b": "Number of PROTONS (= electrons in a neutral atom)",
+     "s": "L2, slides 11–12",
+     "u": "L2"
+    },
+    {
+     "topic": 4,
+     "f": "Atomic mass",
+     "b": "PROTONS + NEUTRONS",
+     "s": "L2, slides 11–12",
+     "u": "L2"
+    },
+    {
+     "topic": 4,
+     "f": "How to find the number of neutrons",
+     "b": "Atomic mass − atomic number",
+     "s": "L2, slides 11–12",
+     "u": "L2"
+    },
+    {
+     "topic": 4,
+     "f": "Electrons in a neutral atom",
+     "b": "Equal to the number of protons (the atomic number)",
+     "s": "L2, slide 14",
+     "u": "L2"
+    },
+    {
+     "topic": 4,
+     "f": "Carbon: atomic number 6, mass 12",
+     "b": "6 protons, 6 neutrons, 6 electrons",
+     "s": "L2, slides 11–12",
+     "u": "L2"
+    },
+    {
+     "topic": 5,
+     "f": "Ionic bond",
+     "b": "A metal GIVES electrons to a nonmetal; cation (+) and anion (−) attract; falls apart easily in water",
+     "s": "L2, slide 22",
+     "u": "L2"
+    },
+    {
+     "topic": 5,
+     "f": "Covalent bond",
+     "b": "Nonmetals SHARE electrons; STRONG bond",
+     "s": "L2, slide 25",
+     "u": "L2"
+    },
+    {
+     "topic": 5,
+     "f": "Hydrogen bond",
+     "b": "Relatively WEAK attraction between H atoms of different molecules (between water molecules, between DNA bases)",
+     "s": "L2, slide 28",
+     "u": "L2"
+    },
+    {
+     "topic": 5,
+     "f": "Which bond dissociates easily in water (e.g., NaCl)?",
+     "b": "Ionic",
+     "s": "L2, slide 22",
+     "u": "L2"
+    },
+    {
+     "topic": 5,
+     "f": "Strongest of the three bond types",
+     "b": "Covalent",
+     "s": "L2, slide 25",
+     "u": "L2"
+    },
+    {
+     "topic": 6,
+     "f": "Superior",
+     "b": "Toward the HEAD (a.k.a. cranial, cephalic)",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 6,
+     "f": "Inferior",
+     "b": "Toward the TAIL/feet (a.k.a. caudal, caudad)",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 6,
+     "f": "Cephalic",
+     "b": "Toward the head",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 6,
+     "f": "Caudal / caudad",
+     "b": "Toward the tail/feet",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 6,
+     "f": "Cranial",
+     "b": "Toward the head",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 7,
+     "f": "Smallest unit of MATTER",
+     "b": "The atom",
+     "s": "L1, slide 5; L2, slide 5",
+     "u": "L1"
+    },
+    {
+     "topic": 7,
+     "f": "Smallest unit of LIFE",
+     "b": "The cell",
+     "s": "L1, slide 6; L3, slide 42",
+     "u": "L1"
+    },
+    {
+     "topic": 7,
+     "f": "Cytology",
+     "b": "The study of cells",
+     "s": "L1, slide 6",
+     "u": "L1"
+    },
+    {
+     "topic": 7,
+     "f": "Histology",
+     "b": "The study of tissues",
+     "s": "L1, slide 6",
+     "u": "L1"
+    },
+    {
+     "topic": 7,
+     "f": "Three subatomic particles",
+     "b": "Protons, neutrons, electrons",
+     "s": "L2, slide 5",
+     "u": "L2"
+    },
+    {
+     "topic": 8,
+     "f": "Homeostasis",
+     "b": "Maintaining a STABLE internal environment (a.k.a. dynamic equilibrium)",
+     "s": "L1, slide 50",
+     "u": "L1"
+    },
+    {
+     "topic": 8,
+     "f": "Receptor",
+     "b": "SENSES the change (stimulus) in a feedback loop",
+     "s": "L1, slide 51",
+     "u": "L1"
+    },
+    {
+     "topic": 8,
+     "f": "Control center",
+     "b": "INTERPRETS the signal and decides how to respond",
+     "s": "L1, slide 51",
+     "u": "L1"
+    },
+    {
+     "topic": 8,
+     "f": "Effector",
+     "b": "CARRIES OUT the response; always a cell, tissue or organ",
+     "s": "L1, slide 51",
+     "u": "L1"
+    },
+    {
+     "topic": 8,
+     "f": "Order of a feedback loop",
+     "b": "Stimulus → receptor → control center → effector → response",
+     "s": "L1, slide 51",
+     "u": "L1"
+    },
+    {
+     "topic": 9,
+     "f": "Acid",
+     "b": "H⁺ (hydrogen ion) DONOR; pH below 7",
+     "s": "L3, slide 9",
+     "u": "L3"
+    },
+    {
+     "topic": 9,
+     "f": "Base",
+     "b": "OH⁻ donor / H⁺ ACCEPTOR; bitter, slippery; pH above 7",
+     "s": "L3, slide 10",
+     "u": "L3"
+    },
+    {
+     "topic": 9,
+     "f": "HCl → H⁺ + Cl⁻",
+     "b": "HCl is acting as an ACID (releases H⁺)",
+     "s": "L3, slide 9",
+     "u": "L3"
+    },
+    {
+     "topic": 9,
+     "f": "NaOH → Na⁺ + OH⁻",
+     "b": "NaOH is acting as a BASE (releases OH⁻)",
+     "s": "L3, slide 10",
+     "u": "L3"
+    },
+    {
+     "topic": 9,
+     "f": "Bitter taste, slippery feel",
+     "b": "Characteristics of a BASE",
+     "s": "L3, slide 10",
+     "u": "L3"
+    },
+    {
+     "topic": 10,
+     "f": "Major component of the cell membrane",
+     "b": "Phospholipids arranged in a BILAYER",
+     "s": "L3, slides 25, 46",
+     "u": "L3"
+    },
+    {
+     "topic": 10,
+     "f": "Phospholipid head",
+     "b": "Hydrophilic (water-loving)",
+     "s": "L3, slides 25, 46",
+     "u": "L3"
+    },
+    {
+     "topic": 10,
+     "f": "Phospholipid tail",
+     "b": "Hydrophobic (water-fearing)",
+     "s": "L3, slides 25, 46",
+     "u": "L3"
+    },
+    {
+     "topic": 10,
+     "f": "Cholesterol in the membrane",
+     "b": "Holds phospholipids together; gives 'flexible' rigidity",
+     "s": "L3, slide 51",
+     "u": "L3"
+    },
+    {
+     "topic": 10,
+     "f": "Four things the membrane is made of",
+     "b": "Phospholipids, proteins, sugars (carbohydrates), cholesterol",
+     "s": "L3, slides 20, 45",
+     "u": "L3"
+    },
+    {
+     "topic": 11,
+     "f": "Proton",
+     "b": "POSITIVE charge; in the nucleus",
+     "s": "L2, slide 6",
+     "u": "L2"
+    },
+    {
+     "topic": 11,
+     "f": "Neutron",
+     "b": "NO charge (neutral); in the nucleus",
+     "s": "L2, slide 6",
+     "u": "L2"
+    },
+    {
+     "topic": 11,
+     "f": "Electron",
+     "b": "NEGATIVE charge; in the electron cloud",
+     "s": "L2, slide 6",
+     "u": "L2"
+    },
+    {
+     "topic": 11,
+     "f": "What's in the nucleus?",
+     "b": "Protons and neutrons",
+     "s": "L2, slide 6",
+     "u": "L2"
+    },
+    {
+     "topic": 12,
+     "f": "Kinetic energy",
+     "b": "Energy of MOTION (heat, light, moving objects)",
+     "s": "L2, slide 34",
+     "u": "L2"
+    },
+    {
+     "topic": 12,
+     "f": "Potential energy",
+     "b": "STORED energy (chemical bonds, a charged battery)",
+     "s": "L2, slide 34",
+     "u": "L2"
+    },
+    {
+     "topic": 12,
+     "f": "Energy in chemical bonds",
+     "b": "Potential energy",
+     "s": "L2, slide 34",
+     "u": "L2"
+    },
+    {
+     "topic": 12,
+     "f": "Heat and light",
+     "b": "Kinetic energy",
+     "s": "L2, slide 34",
+     "u": "L2"
+    },
+    {
+     "topic": 13,
+     "f": "Molecule",
+     "b": "2+ atoms of ONE type of element bonded together (H₂, O₂)",
+     "s": "L2, slide 31",
+     "u": "L2"
+    },
+    {
+     "topic": 13,
+     "f": "Compound",
+     "b": "2+ DIFFERENT elements bonded together (H₂O, CH₄)",
+     "s": "L2, slide 31",
+     "u": "L2"
+    },
+    {
+     "topic": 13,
+     "f": "O₂",
+     "b": "Molecule (one element)",
+     "s": "L2, slide 31",
+     "u": "L2"
+    },
+    {
+     "topic": 13,
+     "f": "H₂O",
+     "b": "Compound (hydrogen + oxygen)",
+     "s": "L2, slide 31",
+     "u": "L2"
+    },
+    {
+     "topic": 14,
+     "f": "Negative feedback",
+     "b": "Response moves OPPOSITE the change; most feedback in the body (e.g., shivering when cold)",
+     "s": "L1, slides 52–53",
+     "u": "L1"
+    },
+    {
+     "topic": 14,
+     "f": "Positive feedback",
+     "b": "Response AMPLIFIES the change, same direction (e.g., childbirth, blood clotting)",
+     "s": "L1, slides 54–55",
+     "u": "L1"
+    },
+    {
+     "topic": 14,
+     "f": "Childbirth contractions (oxytocin)",
+     "b": "Positive feedback",
+     "s": "L1, slides 54–55",
+     "u": "L1"
+    },
+    {
+     "topic": 14,
+     "f": "Shivering to warm up",
+     "b": "Negative feedback",
+     "s": "L1, slides 52–53",
+     "u": "L1"
+    },
+    {
+     "topic": 14,
+     "f": "Most common type of feedback",
+     "b": "Negative",
+     "s": "L1, slide 52",
+     "u": "L1"
+    },
+    {
+     "topic": 15,
+     "f": "Three main parts of a cell",
+     "b": "Cell membrane ('skin'), cytoplasm ('guts'), nucleus ('brain')",
+     "s": "L3, slide 43",
+     "u": "L3"
+    },
+    {
+     "topic": 15,
+     "f": "Cytoplasm",
+     "b": "Everything between membrane and nucleus: cytosol, organelles, inclusions",
+     "s": "L3, slide 43",
+     "u": "L3"
+    },
+    {
+     "topic": 15,
+     "f": "Cytosol",
+     "b": "The LIQUID portion of the cytoplasm",
+     "s": "L3, slide 43",
+     "u": "L3"
+    },
+    {
+     "topic": 15,
+     "f": "Nucleus",
+     "b": "The cell's 'brain' / command center",
+     "s": "L3, slide 43",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Monosaccharides",
+     "b": "Single sugars: glucose, fructose, galactose",
+     "s": "L3, slide 16",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Disaccharides",
+     "b": "Two sugars: sucrose, lactose, maltose",
+     "s": "L3, slide 18",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Polysaccharides",
+     "b": "Many sugars: starch (plants), glycogen (animals)",
+     "s": "L3, slide 20",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Sucrose",
+     "b": "Glucose + fructose",
+     "s": "L3, slide 18",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Lactose",
+     "b": "Glucose + galactose",
+     "s": "L3, slide 18",
+     "u": "L3"
+    },
+    {
+     "topic": 16,
+     "f": "Maltose",
+     "b": "Glucose + glucose",
+     "s": "L3, slide 18",
+     "u": "L3"
+    },
+    {
+     "topic": 17,
+     "f": "Electrons SHARED",
+     "b": "Covalent bond",
+     "s": "L2, slide 25",
+     "u": "L2"
+    },
+    {
+     "topic": 17,
+     "f": "Electrons given/taken ('stolen')",
+     "b": "Ionic bond",
+     "s": "L2, slide 22",
+     "u": "L2"
+    },
+    {
+     "topic": 17,
+     "f": "Polar covalent bond",
+     "b": "UNEQUAL sharing (e.g., water)",
+     "s": "L2, slide 25",
+     "u": "L2"
+    },
+    {
+     "topic": 17,
+     "f": "Nonpolar covalent bond",
+     "b": "EQUAL sharing (e.g., CO₂)",
+     "s": "L2, slide 25",
+     "u": "L2"
+    },
+    {
+     "topic": 18,
+     "f": "A + B → AB",
+     "b": "Synthesis (anabolic, construction)",
+     "s": "L2, slide 37",
+     "u": "L2"
+    },
+    {
+     "topic": 18,
+     "f": "AB → A + B + energy",
+     "b": "Decomposition (catabolic, demolition)",
+     "s": "L2, slide 39",
+     "u": "L2"
+    },
+    {
+     "topic": 18,
+     "f": "AB + CD → AC + BD",
+     "b": "Exchange (double displacement)",
+     "s": "L2, slide 41",
+     "u": "L2"
+    },
+    {
+     "topic": 18,
+     "f": "A + BC → AC + B",
+     "b": "Single replacement (exchange)",
+     "s": "L2, slide 42",
+     "u": "L2"
+    },
+    {
+     "topic": 18,
+     "f": "A + B + energy ⇄ AB",
+     "b": "Reversible reaction (double arrow)",
+     "s": "L2, slide 43",
+     "u": "L2"
+    },
+    {
+     "topic": 19,
+     "f": "The universal solvent",
+     "b": "Water",
+     "s": "L3, slide 6",
+     "u": "L3"
+    },
+    {
+     "topic": 19,
+     "f": "Solvent",
+     "b": "A substance that DISSOLVES other substances",
+     "s": "L3, slide 6",
+     "u": "L3"
+    },
+    {
+     "topic": 19,
+     "f": "How much of body weight is water?",
+     "b": "About 2/3",
+     "s": "L3, slide 6",
+     "u": "L3"
+    },
+    {
+     "topic": 19,
+     "f": "Bond holding water together",
+     "b": "Polar covalent",
+     "s": "L3, slide 6",
+     "u": "L3"
+    },
+    {
+     "topic": 19,
+     "f": "Is water organic or inorganic?",
+     "b": "Inorganic (no carbon)",
+     "s": "L3, slides 5–6",
+     "u": "L3"
+    },
+    {
+     "topic": 20,
+     "f": "Head words",
+     "b": "Superior, cranial, cephalic",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 20,
+     "f": "Tail words",
+     "b": "Inferior, caudal, caudad",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 20,
+     "f": "Cephalon",
+     "b": "Head",
+     "s": "L1, slides 23, 27",
+     "u": "L1"
+    },
+    {
+     "topic": 20,
+     "f": "Caudad",
+     "b": "Toward the tail",
+     "s": "L1, slide 23",
+     "u": "L1"
+    },
+    {
+     "topic": 21,
+     "f": "pH scale range",
+     "b": "0 to 14 (7 = neutral)",
+     "s": "L3, slide 11",
+     "u": "L3"
+    },
+    {
+     "topic": 21,
+     "f": "Normal blood pH",
+     "b": "7.35–7.45 (slightly basic)",
+     "s": "L3, slide 11",
+     "u": "L3"
+    },
+    {
+     "topic": 21,
+     "f": "More H⁺",
+     "b": "More ACIDIC, lower pH",
+     "s": "L3, slides 11–12",
+     "u": "L3"
+    },
+    {
+     "topic": 21,
+     "f": "More OH⁻",
+     "b": "More BASIC, higher pH",
+     "s": "L3, slides 11–12",
+     "u": "L3"
+    },
+    {
+     "topic": 21,
+     "f": "pH below 7",
+     "b": "Acidic",
+     "s": "L3, slide 11",
+     "u": "L3"
+    },
+    {
+     "topic": 22,
+     "f": "Simple diffusion",
+     "b": "Molecules move HIGH → LOW concentration; passive (no ATP)",
+     "s": "L3, slide 56",
+     "u": "L3"
+    },
+    {
+     "topic": 22,
+     "f": "Osmosis",
+     "b": "Diffusion of WATER only across a membrane; passive",
+     "s": "L3, slide 57",
+     "u": "L3"
+    },
+    {
+     "topic": 22,
+     "f": "Hypotonic solution",
+     "b": "Water rushes INTO the cell; it swells and may burst (hemolysis)",
+     "s": "L3, slide 59",
+     "u": "L3"
+    },
+    {
+     "topic": 22,
+     "f": "Diffusion vs. osmosis key difference",
+     "b": "Osmosis moves only water; diffusion moves other molecules",
+     "s": "L3, slides 56–57",
+     "u": "L3"
+    },
+    {
+     "topic": 23,
+     "f": "Cut separating face from back of head",
+     "b": "Coronal (frontal) plane",
+     "s": "L1, slide 34",
+     "u": "L1"
+    },
+    {
+     "topic": 23,
+     "f": "Cut separating right eye from left eye",
+     "b": "Sagittal plane",
+     "s": "L1, slide 33",
+     "u": "L1"
+    },
+    {
+     "topic": 23,
+     "f": "Frontal plane",
+     "b": "Another name for the coronal plane",
+     "s": "L1, slide 34",
+     "u": "L1"
+    },
+    {
+     "topic": 23,
+     "f": "Angular plane",
+     "b": "Another name for the oblique plane",
+     "s": "L1, slide 36",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Medial",
+     "b": "Toward the midline",
+     "s": "L1, slide 24",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Lateral",
+     "b": "Away from the midline",
+     "s": "L1, slide 24",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Proximal",
+     "b": "CLOSER to the point of attachment (elbow is proximal to wrist)",
+     "s": "L1, slide 24",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Distal",
+     "b": "FARTHER from the point of attachment (wrist is distal to elbow)",
+     "s": "L1, slide 24",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Superficial",
+     "b": "Toward the surface (external)",
+     "s": "L1, slide 25",
+     "u": "L1"
+    },
+    {
+     "topic": 24,
+     "f": "Deep",
+     "b": "Away from the surface (internal)",
+     "s": "L1, slide 25",
+     "u": "L1"
+    },
+    {
+     "topic": 25,
+     "f": "Synthesis reaction",
+     "b": "Builds larger molecules (A + B → AB); requires energy; anabolic",
+     "s": "L2, slide 37",
+     "u": "L2"
+    },
+    {
+     "topic": 25,
+     "f": "Anabolic",
+     "b": "Synthesis, 'construction'",
+     "s": "L2, slide 37",
+     "u": "L2"
+    },
+    {
+     "topic": 25,
+     "f": "Catabolic",
+     "b": "Decomposition, 'demolition'",
+     "s": "L2, slide 39",
+     "u": "L2"
+    },
+    {
+     "topic": 25,
+     "f": "Dehydration synthesis",
+     "b": "Creates a bond by REMOVING water",
+     "s": "L2, slide 38",
+     "u": "L2"
+    }
    ]
   },
   {
@@ -5563,6 +6391,736 @@
      "s": "L4, slide 11",
      "u": "L4"
     }
+   ],
+   "cards": [
+    {
+     "topic": 1,
+     "f": "Two main stages of the cell cycle",
+     "b": "Interphase, then mitosis (M phase)",
+     "s": "L4, slide 53",
+     "u": "L4"
+    },
+    {
+     "topic": 1,
+     "f": "Order of the cell cycle",
+     "b": "G1 → S → G2 → Mitosis",
+     "s": "L4, slides 53–54",
+     "u": "L4"
+    },
+    {
+     "topic": 1,
+     "f": "Sub-phases of interphase",
+     "b": "G1, S, G2",
+     "s": "L4, slide 53",
+     "u": "L4"
+    },
+    {
+     "topic": 1,
+     "f": "Longest part of the cell cycle",
+     "b": "Interphase (G1 is its longest phase)",
+     "s": "L4, slides 53, 55",
+     "u": "L4"
+    },
+    {
+     "topic": 1,
+     "f": "Is interphase a 'resting' phase?",
+     "b": "No: the cell is growing, working and preparing to divide",
+     "s": "L4, slide 53",
+     "u": "L4"
+    },
+    {
+     "topic": 2,
+     "f": "Tight junction",
+     "b": "Leak-proof seal, like a zipper; nothing passes BETWEEN cells",
+     "s": "L5, slide 14",
+     "u": "L5"
+    },
+    {
+     "topic": 2,
+     "f": "Gap junction",
+     "b": "Hollow channels (connexons) that let cells COMMUNICATE",
+     "s": "L5, slide 15",
+     "u": "L5"
+    },
+    {
+     "topic": 2,
+     "f": "Desmosome",
+     "b": "'Spot welds' that resist mechanical stress",
+     "s": "L5, slide 16",
+     "u": "L5"
+    },
+    {
+     "topic": 2,
+     "f": "Hemidesmosome",
+     "b": "'Half' desmosome; anchors the BASAL surface to the basement membrane",
+     "s": "L5, slide 16",
+     "u": "L5"
+    },
+    {
+     "topic": 2,
+     "f": "Connexon",
+     "b": "The hollow protein channel of a gap junction",
+     "s": "L5, slide 15",
+     "u": "L5"
+    },
+    {
+     "topic": 3,
+     "f": "Cutaneous membrane",
+     "b": "The skin; the ONLY dry membrane",
+     "s": "L6, slide 5",
+     "u": "L6"
+    },
+    {
+     "topic": 3,
+     "f": "Serous membrane",
+     "b": "Lines cavities CLOSED to the exterior (Serous = Sealed)",
+     "s": "L6, slide 6",
+     "u": "L6"
+    },
+    {
+     "topic": 3,
+     "f": "Mucous membrane",
+     "b": "Lines cavities OPEN to the exterior (respiratory, digestive, urogenital)",
+     "s": "L6, slide 8",
+     "u": "L6"
+    },
+    {
+     "topic": 3,
+     "f": "Synovial membrane",
+     "b": "Lines joints, bursae, tendon sheaths; NO epithelium (connective tissue only)",
+     "s": "L6, slides 4, 10",
+     "u": "L6"
+    },
+    {
+     "topic": 4,
+     "f": "Simple squamous",
+     "b": "One thin, flat layer; rapid diffusion and filtration (alveoli, capillaries)",
+     "s": "L5, slide 21",
+     "u": "L5"
+    },
+    {
+     "topic": 4,
+     "f": "Simple cuboidal",
+     "b": "One layer of cubes; secretion and absorption (kidney tubules, ovaries)",
+     "s": "L5, slide 24",
+     "u": "L5"
+    },
+    {
+     "topic": 4,
+     "f": "Simple columnar",
+     "b": "Tall cells with goblet cells; digestive tract stomach → rectum",
+     "s": "L5, slide 27",
+     "u": "L5"
+    },
+    {
+     "topic": 4,
+     "f": "Transitional",
+     "b": "Stretches; lines the urinary bladder and ureters",
+     "s": "L5, slide 43",
+     "u": "L5"
+    },
+    {
+     "topic": 5,
+     "f": "DNA base pairs",
+     "b": "A–T and G–C",
+     "s": "L4, slides 33, 39",
+     "u": "L4"
+    },
+    {
+     "topic": 5,
+     "f": "RNA base pairs",
+     "b": "A–U and G–C",
+     "s": "L4, slides 36, 39",
+     "u": "L4"
+    },
+    {
+     "topic": 5,
+     "f": "Base only in DNA",
+     "b": "Thymine (T)",
+     "s": "L4, slide 38",
+     "u": "L4"
+    },
+    {
+     "topic": 5,
+     "f": "Base only in RNA",
+     "b": "Uracil (U), replaces thymine",
+     "s": "L4, slide 38",
+     "u": "L4"
+    },
+    {
+     "topic": 5,
+     "f": "Nucleotide",
+     "b": "Phosphate + sugar + nitrogenous base",
+     "s": "L4, slide 31",
+     "u": "L4"
+    },
+    {
+     "topic": 6,
+     "f": "Golgi body",
+     "b": "Packages and ships proteins, hormones, enzymes and lysosomes; stack of flat sacs",
+     "s": "L4, slide 16",
+     "u": "L4"
+    },
+    {
+     "topic": 6,
+     "f": "Ribosome",
+     "b": "Site of PROTEIN synthesis",
+     "s": "L4, slide 11",
+     "u": "L4"
+    },
+    {
+     "topic": 6,
+     "f": "Peroxisome",
+     "b": "Neutralizes toxins and alcohol (oxidase enzymes); abundant in the liver",
+     "s": "L4, slide 20",
+     "u": "L4"
+    },
+    {
+     "topic": 7,
+     "f": "Top (most superficial) epidermal layer",
+     "b": "Stratum corneum",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 7,
+     "f": "Bottom (deepest) epidermal layer",
+     "b": "Stratum basale",
+     "s": "L6, slides 28, 33",
+     "u": "L6"
+    },
+    {
+     "topic": 7,
+     "f": "Skin layers, superficial → deep",
+     "b": "Epidermis, dermis, hypodermis",
+     "s": "L6, slide 24",
+     "u": "L6"
+    },
+    {
+     "topic": 7,
+     "f": "Top dermal layer",
+     "b": "Papillary layer (just under the epidermis)",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 8,
+     "f": "Mesenchyme",
+     "b": "Embryonic CT that ALL adult connective tissue develops from",
+     "s": "L5, slides 48–49",
+     "u": "L5"
+    },
+    {
+     "topic": 8,
+     "f": "Two embryonic connective tissues",
+     "b": "Mesenchyme and Wharton's jelly",
+     "s": "L5, slide 48",
+     "u": "L5"
+    },
+    {
+     "topic": 8,
+     "f": "Wharton's jelly",
+     "b": "In the umbilical cord; keeps it from kinking",
+     "s": "L5, slide 48",
+     "u": "L5"
+    },
+    {
+     "topic": 8,
+     "f": "Where is mesenchyme found?",
+     "b": "Only in the embryo",
+     "s": "L5, slide 48",
+     "u": "L5"
+    },
+    {
+     "topic": 9,
+     "f": "Epithelium",
+     "b": "Many cells, little matrix; avascular; highly mitotic",
+     "s": "L5, slide 12",
+     "u": "L5"
+    },
+    {
+     "topic": 9,
+     "f": "Connective tissue",
+     "b": "Few cells, lots of matrix; very vascular (except cartilage); not mitotic",
+     "s": "L5, slide 47",
+     "u": "L5"
+    },
+    {
+     "topic": 9,
+     "f": "Avascular",
+     "b": "Little or no blood supply of its own; fed by diffusion",
+     "s": "L5, slide 12",
+     "u": "L5"
+    },
+    {
+     "topic": 10,
+     "f": "Come Let's Get Sun Burned",
+     "b": "Corneum, Lucidum, Granulosum, Spinosum, Basale (superficial → deep)",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 10,
+     "f": "'Let's'",
+     "b": "Stratum lucidum",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 10,
+     "f": "'Get'",
+     "b": "Stratum granulosum (grainy)",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 10,
+     "f": "'Sun'",
+     "b": "Stratum spinosum (spiny)",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 10,
+     "f": "Layer directly under the granulosum",
+     "b": "Stratum spinosum",
+     "s": "L6, slide 28",
+     "u": "L6"
+    },
+    {
+     "topic": 11,
+     "f": "Sudoriferous glands",
+     "b": "SWEAT glands (eccrine and apocrine)",
+     "s": "L6, slide 46",
+     "u": "L6"
+    },
+    {
+     "topic": 11,
+     "f": "Sebaceous glands",
+     "b": "OIL (sebum); empty into hair follicles; lysozymes kill bacteria",
+     "s": "L6, slide 45",
+     "u": "L6"
+    },
+    {
+     "topic": 11,
+     "f": "Ceruminous glands",
+     "b": "EARWAX (cerumen); modified sweat glands",
+     "s": "L6, slide 49",
+     "u": "L6"
+    },
+    {
+     "topic": 11,
+     "f": "Cutaneous glands are…",
+     "b": "Exocrine (have ducts)",
+     "s": "L6, slide 44",
+     "u": "L6"
+    },
+    {
+     "topic": 12,
+     "f": "Extra layer in thick skin",
+     "b": "Stratum lucidum",
+     "s": "L6, slides 30, 34",
+     "u": "L6"
+    },
+    {
+     "topic": 12,
+     "f": "Where is thick skin?",
+     "b": "Palms and soles only",
+     "s": "L6, slide 34",
+     "u": "L6"
+    },
+    {
+     "topic": 12,
+     "f": "Thick vs. thin skin layers",
+     "b": "Thick = 5 epidermal layers; thin = 4",
+     "s": "L6, slides 34–35",
+     "u": "L6"
+    },
+    {
+     "topic": 12,
+     "f": "Lucidum sits between…",
+     "b": "Corneum and granulosum",
+     "s": "L6, slide 36",
+     "u": "L6"
+    },
+    {
+     "topic": 13,
+     "f": "Pacinian corpuscle",
+     "b": "DEEP pressure ('Pacific Ocean is deep')",
+     "s": "L6, slide 17",
+     "u": "L6"
+    },
+    {
+     "topic": 13,
+     "f": "Meissner's corpuscle",
+     "b": "Light touch, two-point discrimination; in dermal papillae",
+     "s": "L6, slide 17",
+     "u": "L6"
+    },
+    {
+     "topic": 13,
+     "f": "Merkel disc",
+     "b": "Edges/points, light pressure",
+     "s": "L6, slide 17",
+     "u": "L6"
+    },
+    {
+     "topic": 13,
+     "f": "Nociceptor",
+     "b": "PAIN (free nerve ending)",
+     "s": "L6, slide 18",
+     "u": "L6"
+    },
+    {
+     "topic": 13,
+     "f": "Ruffini corpuscle",
+     "b": "HEAT ('sounds Italian; Italy is hot')",
+     "s": "L6, slide 18",
+     "u": "L6"
+    },
+    {
+     "topic": 14,
+     "f": "Transitional epithelium location",
+     "b": "Urinary bladder and ureters",
+     "s": "L5, slide 43",
+     "u": "L5"
+    },
+    {
+     "topic": 14,
+     "f": "What's unique about transitional epithelium?",
+     "b": "The only epithelium that STRETCHES",
+     "s": "L5, slide 43",
+     "u": "L5"
+    },
+    {
+     "topic": 14,
+     "f": "Transitional, relaxed",
+     "b": "Apical cells rounded / dome-shaped",
+     "s": "L5, slide 43",
+     "u": "L5"
+    },
+    {
+     "topic": 14,
+     "f": "Transitional, stretched",
+     "b": "Apical cells flat (squamous-like)",
+     "s": "L5, slide 43",
+     "u": "L5"
+    },
+    {
+     "topic": 15,
+     "f": "Thicker: epidermis or dermis?",
+     "b": "Dermis",
+     "s": "L6, slide 38",
+     "u": "L6"
+    },
+    {
+     "topic": 15,
+     "f": "Thickest epidermal layer",
+     "b": "Stratum corneum (~3/4 of the epidermis)",
+     "s": "L6, slide 29",
+     "u": "L6"
+    },
+    {
+     "topic": 15,
+     "f": "Reticular layer size",
+     "b": "Deep 4/5 of the dermis (the larger layer)",
+     "s": "L6, slides 39–40",
+     "u": "L6"
+    },
+    {
+     "topic": 15,
+     "f": "Papillary layer size",
+     "b": "Superficial 1/5 of the dermis (the smaller layer)",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 16,
+     "f": "Two layers of the dermis",
+     "b": "Papillary (superficial) and reticular (deep)",
+     "s": "L6, slide 38",
+     "u": "L6"
+    },
+    {
+     "topic": 16,
+     "f": "Papillary layer tissue",
+     "b": "Areolar (loose) CT",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 16,
+     "f": "Reticular layer tissue",
+     "b": "Dense irregular CT; holds hair follicles, glands, lamellar corpuscles",
+     "s": "L6, slide 40",
+     "u": "L6"
+    },
+    {
+     "topic": 16,
+     "f": "Epidermis tissue",
+     "b": "Keratinized stratified squamous epithelium; avascular",
+     "s": "L6, slide 25",
+     "u": "L6"
+    },
+    {
+     "topic": 17,
+     "f": "Phases of mitosis",
+     "b": "Prophase, metaphase, anaphase, telophase (PMAT)",
+     "s": "L4, slide 58",
+     "u": "L4"
+    },
+    {
+     "topic": 17,
+     "f": "Prophase",
+     "b": "Nuclear membrane breaks down; chromatin condenses; spindle forms",
+     "s": "L4, slide 59",
+     "u": "L4"
+    },
+    {
+     "topic": 17,
+     "f": "Metaphase",
+     "b": "Chromosomes line up in the MIDDLE ('Meet in the Middle')",
+     "s": "L4, slide 61",
+     "u": "L4"
+    },
+    {
+     "topic": 17,
+     "f": "Anaphase",
+     "b": "Chromosomes pulled to opposite ends ('Away')",
+     "s": "L4, slide 62",
+     "u": "L4"
+    },
+    {
+     "topic": 17,
+     "f": "Telophase",
+     "b": "Nuclear membrane reforms; cytokinesis; prophase in reverse",
+     "s": "L4, slide 63",
+     "u": "L4"
+    },
+    {
+     "topic": 18,
+     "f": "Lysosome",
+     "b": "'Suicide sac'; digestive (hydrolytic) enzymes break down bacteria and worn-out parts",
+     "s": "L4, slide 18",
+     "u": "L4"
+    },
+    {
+     "topic": 18,
+     "f": "Lysosome vs. peroxisome",
+     "b": "Lysosome = digestion; peroxisome = detox (oxidase)",
+     "s": "L4, slides 18, 20",
+     "u": "L4"
+    },
+    {
+     "topic": 18,
+     "f": "What packages lysosomes?",
+     "b": "The Golgi body",
+     "s": "L4, slide 16",
+     "u": "L4"
+    },
+    {
+     "topic": 19,
+     "f": "Collagen fibers",
+     "b": "STRONGEST; high tensile strength",
+     "s": "L5, slide 7",
+     "u": "L5"
+    },
+    {
+     "topic": 19,
+     "f": "Elastic fibers",
+     "b": "Stretch and RECOIL like a rubber band",
+     "s": "L5, slide 7",
+     "u": "L5"
+    },
+    {
+     "topic": 19,
+     "f": "Reticular fibers",
+     "b": "Skinny, branched collagen; support network (spleen, lymph nodes)",
+     "s": "L5, slide 8",
+     "u": "L5"
+    },
+    {
+     "topic": 19,
+     "f": "Fibroblasts",
+     "b": "Cells that make and secrete fibers into the matrix",
+     "s": "L5, slide 6",
+     "u": "L5"
+    },
+    {
+     "topic": 19,
+     "f": "Matrix components",
+     "b": "Ground substance + fibers",
+     "s": "L5, slide 6",
+     "u": "L5"
+    },
+    {
+     "topic": 20,
+     "f": "Layer where ALL cells are dead",
+     "b": "Stratum corneum",
+     "s": "L6, slide 29",
+     "u": "L6"
+    },
+    {
+     "topic": 20,
+     "f": "Layer where cells START to die",
+     "b": "Stratum granulosum",
+     "s": "L6, slide 31",
+     "u": "L6"
+    },
+    {
+     "topic": 20,
+     "f": "Why epidermal cells die moving up",
+     "b": "They get farther from the blood supply in the dermis",
+     "s": "L6, slides 25, 31",
+     "u": "L6"
+    },
+    {
+     "topic": 20,
+     "f": "Living, dividing layer",
+     "b": "Stratum basale",
+     "s": "L6, slide 33",
+     "u": "L6"
+    },
+    {
+     "topic": 20,
+     "f": "Stratum lucidum: alive or dead?",
+     "b": "Dead (a few rows of flat, dead cells)",
+     "s": "L6, slide 30",
+     "u": "L6"
+    },
+    {
+     "topic": 21,
+     "f": "G1",
+     "b": "Growth 1: cell grows to mature size; longest phase; centrioles replicate at the end",
+     "s": "L4, slide 55",
+     "u": "L4"
+    },
+    {
+     "topic": 21,
+     "f": "S phase",
+     "b": "Synthesis: DNA replication",
+     "s": "L4, slide 56",
+     "u": "L4"
+    },
+    {
+     "topic": 21,
+     "f": "G2",
+     "b": "Final preparation / housekeeping before mitosis",
+     "s": "L4, slide 57",
+     "u": "L4"
+    },
+    {
+     "topic": 21,
+     "f": "M phase",
+     "b": "Mitosis: the cell divides",
+     "s": "L4, slide 58",
+     "u": "L4"
+    },
+    {
+     "topic": 22,
+     "f": "Stratum germinativum",
+     "b": "Another name for the stratum basale; makes new cells",
+     "s": "L6, slides 28, 33",
+     "u": "L6"
+    },
+    {
+     "topic": 22,
+     "f": "Stratum basale cells are doing…",
+     "b": "Mitosis (constantly dividing)",
+     "s": "L6, slide 33",
+     "u": "L6"
+    },
+    {
+     "topic": 22,
+     "f": "Direction the epidermis grows",
+     "b": "From the bottom up",
+     "s": "L6, slide 35",
+     "u": "L6"
+    },
+    {
+     "topic": 22,
+     "f": "Stratum basale cell shape",
+     "b": "Cuboidal (to columnar)",
+     "s": "L6, slide 33",
+     "u": "L6"
+    },
+    {
+     "topic": 23,
+     "f": "What forms fingerprints?",
+     "b": "Dermal papillae of the papillary layer",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 23,
+     "f": "Fingerprint ridges help with…",
+     "b": "Friction for gripping",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 23,
+     "f": "Dermal papillae also…",
+     "b": "Bring capillaries close to the epidermis; house touch receptors",
+     "s": "L6, slide 39",
+     "u": "L6"
+    },
+    {
+     "topic": 24,
+     "f": "Goblet cells",
+     "b": "Cup-shaped cells that secrete MUCUS",
+     "s": "L5, slide 27",
+     "u": "L5"
+    },
+    {
+     "topic": 24,
+     "f": "Epithelia with goblet cells",
+     "b": "Simple columnar and pseudostratified columnar",
+     "s": "L5, slides 27, 30",
+     "u": "L5"
+    },
+    {
+     "topic": 24,
+     "f": "Goblet cells in the airway",
+     "b": "Mucus traps dust; cilia sweep it away",
+     "s": "L5, slide 30",
+     "u": "L5"
+    },
+    {
+     "topic": 25,
+     "f": "Cytosol",
+     "b": "Watery portion of the cytoplasm (the 'Jello')",
+     "s": "L4, slide 4",
+     "u": "L4"
+    },
+    {
+     "topic": 25,
+     "f": "Nucleus",
+     "b": "Contains DNA; the cell's 'brain'; surrounded by the nuclear envelope",
+     "s": "L4, slides 6–7",
+     "u": "L4"
+    },
+    {
+     "topic": 25,
+     "f": "Rough ER",
+     "b": "Studded with ribosomes; makes proteins",
+     "s": "L4, slide 14",
+     "u": "L4"
+    },
+    {
+     "topic": 25,
+     "f": "Smooth ER",
+     "b": "No ribosomes; makes lipids and carbs, breaks down drugs",
+     "s": "L4, slide 14",
+     "u": "L4"
+    },
+    {
+     "topic": 25,
+     "f": "Anucleate / binucleate / multinucleate",
+     "b": "No nucleus (RBC) / 2 nuclei / 3+ nuclei",
+     "s": "L4, slide 6",
+     "u": "L4"
+    }
    ]
   },
   {
@@ -7805,6 +9363,720 @@
      "s": "L9, slides 12, 17",
      "img": "img/spine.jpg",
      "u": "L9"
+    }
+   ],
+   "cards": [
+    {
+     "topic": 1,
+     "f": "Osteoprogenitor cell",
+     "b": "Bone STEM cell; becomes an osteoblast",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "f": "Osteoblast",
+     "b": "BUILDS bone ('construction'): Ca from blood onto collagen; becomes an osteocyte",
+     "s": "L7, slide 12",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "f": "Osteocyte",
+     "b": "MATURE bone cell ('general contractor'); maintains bone, oversees blasts and clasts",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "f": "Osteoclast",
+     "b": "BREAKS DOWN bone ('demolition'): Ca from bone into blood; multinucleate",
+     "s": "L7, slide 13",
+     "u": "L7"
+    },
+    {
+     "topic": 1,
+     "f": "Blast vs. clast",
+     "b": "Blast = Build; Clast = break down",
+     "s": "L7, slides 12–13",
+     "u": "L7"
+    },
+    {
+     "topic": 2,
+     "f": "True ribs",
+     "b": "Pairs 1–7: costal cartilage attaches DIRECTLY to the sternum",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "f": "False ribs",
+     "b": "Pairs 8–12: do NOT attach directly; join the cartilage of rib 7",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "f": "Floating ribs",
+     "b": "Pairs 11–12: NO costal cartilage at all",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 2,
+     "f": "Total ribs",
+     "b": "24 (12 pairs)",
+     "s": "L9, slide 27",
+     "u": "L9"
+    },
+    {
+     "topic": 3,
+     "f": "Wolff's Law",
+     "b": "Bone is deposited where mechanical stress is HIGHER and removed where stress is lessened",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "f": "Bone homeostasis",
+     "b": "Bone is constantly broken down AND replaced",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "f": "Three hormones controlling bone",
+     "b": "Vitamin D (cholecalciferol), calcitonin, PTH",
+     "s": "L7, slide 45",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "f": "Calcitonin ('Calci-bone-in')",
+     "b": "Moves Ca from blood INTO bone",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "f": "Vitamin D3 (cholecalciferol)",
+     "b": "Made by skin in sunlight; needed to absorb Ca from food",
+     "s": "L7, slide 46",
+     "u": "L7"
+    },
+    {
+     "topic": 3,
+     "f": "Where long bones grow in length",
+     "b": "Epiphyseal (growth) plate, hyaline cartilage",
+     "s": "L7, slide 25",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "f": "Calcitonin",
+     "b": "Thyroid · Ca blood → bone · stimulates blasts, inhibits clasts",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "f": "Parathyroid hormone (PTH)",
+     "b": "Parathyroids · Ca bone → blood · stimulates clasts, inhibits blasts",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "f": "Hormone that stimulates osteoblasts",
+     "b": "Calcitonin",
+     "s": "L7, slide 47",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "f": "Hormone that stimulates osteoclasts",
+     "b": "PTH",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 4,
+     "f": "Calcitonin and PTH are…",
+     "b": "Antagonists (opposites)",
+     "s": "L7, slide 48",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "f": "Fracture repair, 4 steps",
+     "b": "Hematoma → fibrocartilage callus → bony callus → remodeling (Happy Fibro Bones Remodel)",
+     "s": "L7, slides 56–57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "f": "Step 1: Hematoma",
+     "b": "Broken vessels bleed; a big blood clot forms",
+     "s": "L7, slide 56",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "f": "Step 2: Fibrocartilage callus",
+     "b": "Fibrocartilage connects the broken ends",
+     "s": "L7, slide 56",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "f": "Step 3: Bony callus",
+     "b": "Osteoblasts replace the callus with bone",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 5,
+     "f": "Step 4: Remodeling",
+     "b": "Osteoclasts reshape the bone; weeks to years",
+     "s": "L7, slide 57",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "f": "What makes bone HARD",
+     "b": "Hydroxyapatites: mineral salts (Ca, Mg, P) in the ground substance; inorganic; 2/3 of matrix",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "f": "What makes bone STRONG",
+     "b": "Osteoid: collagen fibers; organic; 1/3 of matrix",
+     "s": "L7, slide 16",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "f": "Hydroxyapatites",
+     "b": "Ground substance → hardness",
+     "s": "L7, slide 15",
+     "u": "L7"
+    },
+    {
+     "topic": 6,
+     "f": "Osteoid",
+     "b": "Fibers → strength and resilience",
+     "s": "L7, slide 16",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Compression fracture",
+     "b": "Bone crushed, height decreases; vertebrae, osteoporosis",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Depressed fracture",
+     "b": "Bone pressed inward; skull",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Comminuted fracture",
+     "b": "3+ pieces; needs hardware",
+     "s": "L7, slide 52",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Impacted fracture",
+     "b": "One end driven into the other; breaking a fall",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Spiral fracture",
+     "b": "Twisting force; sports",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Greenstick fracture",
+     "b": "Incomplete break; children",
+     "s": "L7, slide 54",
+     "u": "L7"
+    },
+    {
+     "topic": 7,
+     "f": "Simple (closed) vs. compound (open)",
+     "b": "Closed = skin intact; open = skin broken (infection risk)",
+     "s": "L7, slide 50",
+     "u": "L7"
+    },
+    {
+     "topic": 8,
+     "f": "Foramen magnum",
+     "b": "'Great hole' in the occipital bone; spinal cord passes through",
+     "s": "L8, slide 21",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "f": "Foramen / meatus / fissure",
+     "b": "Round hole / tunnel / slit",
+     "s": "L8, slide 5",
+     "u": "L8"
+    },
+    {
+     "topic": 8,
+     "f": "Occipital condyles",
+     "b": "Beside the foramen magnum; joint with the atlas (C1)",
+     "s": "L8, slide 23",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "Coronal suture",
+     "b": "Frontal ↔ both parietals",
+     "s": "L8, slide 12",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "Sagittal suture",
+     "b": "Left parietal ↔ right parietal (top midline)",
+     "s": "L8, slide 13",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "Squamosal suture",
+     "b": "Temporal ↔ parietal (above the ear)",
+     "s": "L8, slide 16",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "Lambdoid suture",
+     "b": "Occipital ↔ both parietals (back of head)",
+     "s": "L8, slide 20",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "Zygomatic arch",
+     "b": "Zygomatic bone ↔ temporal bone",
+     "s": "L8, slide 35",
+     "u": "L8"
+    },
+    {
+     "topic": 9,
+     "f": "TMJ",
+     "b": "Mandible (condyle) ↔ temporal bone (mandibular fossa)",
+     "s": "L8, slide 43",
+     "u": "L8"
+    },
+    {
+     "topic": 10,
+     "f": "C1",
+     "b": "Atlas: no body, no spinous process; a ring; meets the occipital condyles",
+     "s": "L9, slide 15",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "f": "C2",
+     "b": "Axis: has the dens (odontoid process)",
+     "s": "L9, slide 16",
+     "u": "L9"
+    },
+    {
+     "topic": 10,
+     "f": "Dens (odontoid process)",
+     "b": "Projects up from C2's body; articulates with the atlas",
+     "s": "L9, slide 16",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "f": "Primary curves",
+     "b": "Kyphotic; present from birth; thoracic and sacrococcygeal",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "f": "Secondary curves",
+     "b": "Lordotic; form after birth; cervical and lumbar",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "f": "Kyphosis",
+     "b": "Convex posteriorly, concave anteriorly; PRIMARY",
+     "s": "L9, slide 25",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "f": "Lordosis",
+     "b": "Concave posteriorly, convex anteriorly; SECONDARY",
+     "s": "L9, slide 24",
+     "u": "L9"
+    },
+    {
+     "topic": 11,
+     "f": "Scoliosis",
+     "b": "Any LATERAL (side-to-side) curve",
+     "s": "L9, slide 23",
+     "u": "L9"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #1",
+     "b": "Frontal bone",
+     "n": "Forehead.",
+     "s": "L8, slide 8",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the frontal bone",
+     "rb": "#1"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #2",
+     "b": "Temporal bone",
+     "n": "Lower side of the head around the ear.",
+     "s": "L8, slide 14",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the temporal bone",
+     "rb": "#2"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #3",
+     "b": "Parietal bone",
+     "n": "Top and upper sides of the head.",
+     "s": "L8, slide 10",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the parietal bone",
+     "rb": "#3"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #4",
+     "b": "Occipital bone",
+     "n": "Back and base of the skull.",
+     "s": "L8, slide 18",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the occipital bone",
+     "rb": "#4"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #5",
+     "b": "Nasal bone",
+     "n": "Bridge of the nose.",
+     "s": "L8, slide 33",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the nasal bone",
+     "rb": "#5"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #6",
+     "b": "Maxilla",
+     "n": "Upper jaw; holds the upper teeth.",
+     "s": "L8, slide 31",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the maxilla",
+     "rb": "#6"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #7",
+     "b": "Mandible",
+     "n": "Lower jaw; only movable skull bone.",
+     "s": "L8, slide 41",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the mandible",
+     "rb": "#7"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #8",
+     "b": "Sphenoid bone",
+     "n": "Butterfly bone; seen at the temple and inside the skull.",
+     "s": "L8, slide 24",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the sphenoid bone",
+     "rb": "#8"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #9",
+     "b": "Zygomatic bone",
+     "n": "Cheekbone.",
+     "s": "L8, slide 35",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the zygomatic bone",
+     "rb": "#9"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #10",
+     "b": "Mastoid process",
+     "n": "Large rounded bump behind the ear.",
+     "s": "L8, slide 17",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the mastoid process",
+     "rb": "#10"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #11",
+     "b": "External auditory meatus",
+     "n": "The ear hole.",
+     "s": "L8, slide 16",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the external auditory meatus",
+     "rb": "#11"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #12",
+     "b": "External occipital protuberance",
+     "n": "Midline bump on the back of the occipital.",
+     "s": "L8, slide 22",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the external occipital protuberance",
+     "rb": "#12"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #13",
+     "b": "Coronal suture",
+     "n": "Frontal ↔ parietal.",
+     "s": "L8, slide 12",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the coronal suture",
+     "rb": "#13"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #14",
+     "b": "Squamosal suture",
+     "n": "Temporal ↔ parietal.",
+     "s": "L8, slide 16",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the squamosal suture",
+     "rb": "#14"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #15",
+     "b": "Lambdoid suture",
+     "n": "Occipital ↔ parietal.",
+     "s": "L8, slide 20",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the lambdoid suture",
+     "rb": "#15"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #16",
+     "b": "Foramen magnum",
+     "n": "The 'great hole' for the spinal cord.",
+     "s": "L8, slide 21",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the foramen magnum",
+     "rb": "#16"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #17",
+     "b": "Styloid process",
+     "n": "Thin spike in front of the mastoid.",
+     "s": "L8, slide 17",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the styloid process",
+     "rb": "#17"
+    },
+    {
+     "topic": 12,
+     "f": "Skull handout #20",
+     "b": "Occipital condyle",
+     "n": "Smooth knobs beside the foramen magnum; joint with C1.",
+     "s": "L8, slide 23",
+     "u": "L8",
+     "img": "img/skull.jpg",
+     "rf": "Find the occipital condyle",
+     "rb": "#20"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #1",
+     "b": "Spinous process",
+     "n": "Most posterior projection; fused laminae.",
+     "s": "L9, slide 9",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the spinous process",
+     "rb": "#1"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #2",
+     "b": "Lamina",
+     "n": "Plate between the transverse and spinous processes.",
+     "s": "L9, slide 8",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the lamina",
+     "rb": "#2"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #3",
+     "b": "Transverse process",
+     "n": "Projects laterally off the arch.",
+     "s": "L9, slide 11",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the transverse process",
+     "rb": "#3"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #4",
+     "b": "Pedicle",
+     "n": "Short stalk from the body to the arch.",
+     "s": "L9, slide 7",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the pedicle",
+     "rb": "#4"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #5",
+     "b": "Body (centrum)",
+     "n": "Large anterior weight-bearing part.",
+     "s": "L9, slide 6",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the body (centrum)",
+     "rb": "#5"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #6",
+     "b": "Vertebral foramen",
+     "n": "Hole for the spinal cord.",
+     "s": "L9, slide 11",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the vertebral foramen",
+     "rb": "#6"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #7",
+     "b": "Superior articular process",
+     "n": "Points up; joints with the vertebra above.",
+     "s": "L9, slide 10",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the superior articular process",
+     "rb": "#7"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #8",
+     "b": "Inferior articular process",
+     "n": "Points down; joints with the vertebra below.",
+     "s": "L9, slide 10",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the inferior articular process",
+     "rb": "#8"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #9",
+     "b": "Transverse foramen",
+     "n": "Hole in a cervical transverse process; vertebral artery.",
+     "s": "L9, slide 14",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the transverse foramen",
+     "rb": "#9"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #10",
+     "b": "Transverse costal facet (rib facet)",
+     "n": "Rib facet on a thoracic transverse process.",
+     "s": "L9, slides 12, 17",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the transverse costal facet (rib facet)",
+     "rb": "#10"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #11",
+     "b": "Superior costal facet (rib facet)",
+     "n": "Rib facet on the top edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the superior costal facet (rib facet)",
+     "rb": "#11"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #12",
+     "b": "Inferior costal facet (rib facet)",
+     "n": "Rib facet on the bottom edge of a thoracic body.",
+     "s": "L9, slides 12, 17",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the inferior costal facet (rib facet)",
+     "rb": "#12"
+    },
+    {
+     "topic": 19,
+     "f": "Spine handout #13",
+     "b": "Intervertebral disc",
+     "n": "Fibrocartilage pad between vertebral bodies.",
+     "s": "L9, slide 13",
+     "u": "L9",
+     "img": "img/spine.jpg",
+     "rf": "Find the intervertebral disc",
+     "rb": "#13"
     }
    ]
   }

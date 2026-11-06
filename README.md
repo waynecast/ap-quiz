@@ -14,6 +14,7 @@ Direct links: [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](ht
 - **Practice quiz:** one question per study-guide topic, in order. A new random set every time, with shuffled answer choices.
 - **Practice by subject:** 20 random questions from one lecture (e.g. just Tissues).
 - **Drill one topic:** every question for a single study-guide topic.
+- **Flashcards:** every quiz has a deck (all cards, by lecture, or by topic). Tap to flip, then Got it or Again; "Again" cards come back at the end. Shuffle, reverse, and "only cards I haven't gotten yet" options. The skull and spine cards show the handout diagram.
 - **Review missed:** retry the questions you got wrong in each quiz. Progress is stored only in your own browser.
 - Each answer shows a short explanation and the lecture/slide it comes from.
 - Add it to your phone's home screen to open it like an app. It also works offline after the first visit.
@@ -27,7 +28,9 @@ add(TOPIC_NUMBER, "Question?", "Correct answer",
     ["Wrong 1", "Wrong 2", "Wrong 3"], "Explanation.", "L4, slide 3")
 ```
 
-Run `python3 build.py` to regenerate `questions.json`, then commit and push. To add a new quiz, copy `banks/quiz2.py` to `banks/quiz3.py`, edit it, and add it to `QUIZZES` in `build.py`.
+Flashcards live in `banks/cards_qN.py`, one `(topic, front, back, source)` line per card. Quiz #3's skull and spine cards are generated from the label keys in `quiz3.py`.
+
+Run `python3 build.py` to regenerate `questions.json`, then commit and push. To add a new quiz, create `banks/quizN.py` and `banks/cards_qN.py` (copy an existing one), then add both to `QUIZZES` in `build.py`.
 
 Cumulative exam practice (midterm/final) is built in but switched off. Set `EXAM_MODE = true` in `index.html` to turn it on before an exam.
 
