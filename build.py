@@ -2,16 +2,26 @@
 # To add a quiz: create banks/quizN.py (copy quiz2.py's layout) and banks/cards_qN.py, then add both below.
 import json, re
 from collections import Counter
-from banks import quiz1, quiz2, quiz3, cards_q1, cards_q2, cards_q3
+from banks import quiz1, quiz2, quiz3, quiz4, cards_q1, cards_q2, cards_q3, cards_q4
 
-QUIZZES = [(quiz1.QUIZ, cards_q1.CARDS), (quiz2.QUIZ, cards_q2.CARDS), (quiz3.QUIZ, cards_q3.CARDS)]
+QUIZZES = [(quiz1.QUIZ, cards_q1.CARDS), (quiz2.QUIZ, cards_q2.CARDS), (quiz3.QUIZ, cards_q3.CARDS), (quiz4.QUIZ, cards_q4.CARDS)]
 
 def diagram_cards(key, topic, img, label):
-    return [(topic, f"{label} #{n}", name, src, img, f"#{n}", hint)
+    tag = lambda n: f"#{n}" if isinstance(n, int) else n
+    return [(topic, f"{label} {tag(n)}", name, src, img, tag(n), hint)
             for n, (name, hint, src) in key.items()]
 
 EXTRA = {"q3": diagram_cards(quiz3.SKULL, 12, "img/skull.jpg", "Skull handout")
-             + diagram_cards(quiz3.SPINE, 19, "img/spine.jpg", "Spine handout")}
+             + diagram_cards(quiz3.SPINE, 19, "img/spine.jpg", "Spine handout"),
+         "q4": diagram_cards(quiz4.SCAPULA, 1, "img/scapula.jpg", "Scapula handout")
+             + diagram_cards(quiz4.GIRDLE, 2, "img/girdle.jpg", "Pectoral girdle handout")
+             + diagram_cards(quiz4.PELVIS, 9, "img/pelvis.jpg", "Pelvis handout")
+             + diagram_cards(quiz4.HUMERUS, 11, "img/humerus.jpg", "Humerus handout")
+             + diagram_cards(quiz4.FEMUR, 12, "img/femur.jpg", "Femur handout")
+             + diagram_cards(quiz4.FOREARM, 15, "img/forearm.jpg", "Forearm handout")
+             + diagram_cards(quiz4.LEG, 16, "img/leg.jpg", "Leg handout")
+             + diagram_cards(quiz4.HAND, 21, "img/hand.jpg", "Hand handout")
+             + diagram_cards(quiz4.FOOT, 22, "img/foot.jpg", "Foot handout")}
 
 def unit(qz, s):
     m = re.match(r"(L\d+)", s)

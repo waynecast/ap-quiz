@@ -8362,7 +8362,7 @@
      "a": "External auditory meatus",
      "w": [
       "Styloid process",
-      "Temporal bone",
+      "Mastoid process",
       "Occipital condyle"
      ],
      "e": "#11 = External auditory meatus. The ear hole.",
@@ -8418,7 +8418,7 @@
      "a": "Occipital condyle",
      "w": [
       "Foramen magnum",
-      "Occipital bone",
+      "External occipital protuberance",
       "Mandible"
      ],
      "e": "#20 = Occipital condyle. Smooth knobs beside the foramen magnum; joint with C1.",
@@ -8431,8 +8431,8 @@
      "q": "Skull handout: which number is the foramen magnum?",
      "a": "#16",
      "w": [
+      "#20",
       "#4",
-      "#12",
       "#3"
      ],
      "e": "#16 = Foramen magnum. The 'great hole' for the spinal cord.",
@@ -8459,7 +8459,7 @@
      "q": "Skull handout: which number is the external auditory meatus?",
      "a": "#11",
      "w": [
-      "#10",
+      "#2",
       "#17",
       "#13"
      ],
@@ -8599,8 +8599,8 @@
      "q": "Skull handout: what does #17 point to?",
      "a": "Styloid process",
      "w": [
+      "External auditory meatus",
       "Mastoid process",
-      "Temporal bone",
       "Parietal bone"
      ],
      "e": "#17 = Styloid process. Thin spike in front of the mastoid.",
@@ -8613,8 +8613,8 @@
      "q": "Skull handout: which number is the styloid process?",
      "a": "#17",
      "w": [
+      "#11",
       "#10",
-      "#2",
       "#14"
      ],
      "e": "#17 = Styloid process. Thin spike in front of the mastoid.",
@@ -8795,8 +8795,8 @@
      "q": "Skull handout: what does #16 point to?",
      "a": "Foramen magnum",
      "w": [
+      "Occipital condyle",
       "Occipital bone",
-      "External occipital protuberance",
       "Zygomatic bone"
      ],
      "e": "#16 = Foramen magnum. The 'great hole' for the spinal cord.",
@@ -8851,7 +8851,7 @@
      "q": "Skull handout: which number is the occipital condyle?",
      "a": "#20",
      "w": [
-      "#4",
+      "#12",
       "#16",
       "#9"
      ],
@@ -9006,7 +9006,7 @@
      "a": "Transverse costal facet (rib facet)",
      "w": [
       "Inferior costal facet (rib facet)",
-      "Transverse process",
+      "Superior costal facet (rib facet)",
       "Body (centrum)"
      ],
      "e": "#10 = Transverse costal facet (rib facet). Rib facet on a thoracic transverse process.",
@@ -9090,7 +9090,7 @@
      "a": "#12",
      "w": [
       "#10",
-      "#3",
+      "#11",
       "#7"
      ],
      "e": "#12 = Inferior costal facet (rib facet). Rib facet on the bottom edge of a thoracic body.",
@@ -9313,7 +9313,7 @@
      "q": "Spine handout: which number is the transverse costal facet (rib facet)?",
      "a": "#10",
      "w": [
-      "#3",
+      "#11",
       "#12",
       "#5"
      ],
@@ -9356,7 +9356,7 @@
      "a": "Inferior costal facet (rib facet)",
      "w": [
       "Transverse costal facet (rib facet)",
-      "Superior costal facet (rib facet)",
+      "Transverse process",
       "Transverse foramen"
      ],
      "e": "#12 = Inferior costal facet (rib facet). Rib facet on the bottom edge of a thoracic body.",
@@ -10077,6 +10077,6220 @@
      "img": "img/spine.jpg",
      "rf": "Find the intervertebral disc",
      "rb": "#13"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "title": "A&P Quiz #4",
+   "lectures": "Lectures 10–12",
+   "units": {
+    "L10": "Upper Extremity",
+    "L11": "Lower Extremity",
+    "L12": "Joints"
+   },
+   "topics": {
+    "1": "Landmarks: which bone is it on? (A)",
+    "2": "Shoulder (pectoral) girdle: its parts",
+    "3": "Joints by movement: immovable, slightly movable, freely movable",
+    "4": "Landmarks + articulations: what fits into what",
+    "5": "The ankle joints",
+    "6": "Types of synovial joints (ball & socket, hinge, saddle…)",
+    "7": "Bones of the hand and where they sit",
+    "8": "Medial vs. lateral bones of the arm/forearm and leg",
+    "9": "Landmarks: which bone is it on? (B)",
+    "10": "Articulations: what joins with what (e.g. medial clavicle)",
+    "11": "Diagram: humerus or femur",
+    "12": "Diagram: humerus or femur",
+    "13": "Diagram: humerus or femur",
+    "14": "Diagram: humerus or femur",
+    "15": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "16": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "17": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "18": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "19": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "20": "Diagram: forearm or leg (radius/ulna, tibia/fibula)",
+    "21": "Diagram: hand or foot",
+    "22": "Diagram: hand or foot",
+    "23": "Diagram: hand or foot",
+    "24": "Diagram: hand or foot",
+    "25": "Diagram: hand or foot"
+   },
+   "questions": [
+    {
+     "topic": 1,
+     "q": "The acromion process is on which bone?",
+     "a": "Scapula",
+     "w": [
+      "Clavicle",
+      "Humerus",
+      "Sternum"
+     ],
+     "e": "The acromion is the high point of the shoulder, at the lateral end of the scapula's spine.",
+     "s": "L10, slide 14",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The coracoid process is on which bone?",
+     "a": "Scapula",
+     "w": [
+      "Clavicle",
+      "Ulna",
+      "Humerus"
+     ],
+     "e": "Finger-like projection off the ANTERIOR scapula, lower than the acromion. (Don't mix it up with the coroNoid process of the ulna.)",
+     "s": "L10, slide 17",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The glenoid fossa is on which bone?",
+     "a": "Scapula",
+     "w": [
+      "Humerus",
+      "Clavicle",
+      "Coxal bone"
+     ],
+     "e": "Shallow socket on the superior lateral border of the scapula; holds the humeral head.",
+     "s": "L10, slide 11",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The deltoid tuberosity is on which bone?",
+     "a": "Humerus",
+     "w": [
+      "Scapula",
+      "Femur",
+      "Radius"
+     ],
+     "e": "Rough bump halfway down the lateral humerus.",
+     "s": "L10, slide 31",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The capitulum and trochlea are on which bone?",
+     "a": "Humerus",
+     "w": [
+      "Ulna",
+      "Radius",
+      "Femur"
+     ],
+     "e": "Both are on the distal humerus: capitulum (lateral) meets the radius, trochlea meets the ulna.",
+     "s": "L10, slides 34–35",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The olecranon process is on which bone?",
+     "a": "Ulna",
+     "w": [
+      "Humerus",
+      "Radius",
+      "Tibia"
+     ],
+     "e": "Forms the point of the elbow. (The humerus has the olecranon FOSSA, where it fits.)",
+     "s": "L10, slide 42",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The trochlear notch is on which bone?",
+     "a": "Ulna",
+     "w": [
+      "Humerus",
+      "Radius",
+      "Scapula"
+     ],
+     "e": "The C-shaped notch of the ulna that wraps the trochlea of the humerus.",
+     "s": "L10, slide 43",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The radial tuberosity is just below the neck of which bone?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Humerus",
+      "Tibia"
+     ],
+     "e": "Head → neck → radial tuberosity, all on the proximal radius.",
+     "s": "L10, slide 40",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Lister's tubercle is on which bone?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Scapula",
+      "Fibula"
+     ],
+     "e": "Posterior distal bump on the radius; a pulley for the extensor pollicis longus tendon.",
+     "s": "L10, slide 41",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The supraspinous and infraspinous fossae are on which bone?",
+     "a": "Scapula",
+     "w": [
+      "Coxal bone",
+      "Humerus",
+      "Clavicle"
+     ],
+     "e": "Above and below the spine of the scapula (posterior surface).",
+     "s": "L10, slides 19–20",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The greater and lesser tubercles are on which bone?",
+     "a": "Humerus",
+     "w": [
+      "Femur",
+      "Scapula",
+      "Tibia"
+     ],
+     "e": "Tubercles = humerus. The femur's matching bumps are called TROCHANTERS.",
+     "s": "L10, slides 28–29",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "The coronoid fossa is on which bone?",
+     "a": "Humerus",
+     "w": [
+      "Ulna",
+      "Radius",
+      "Scapula"
+     ],
+     "e": "Shallow depression on the distal ANTERIOR humerus. The ulna has the coronoid PROCESS that fits into it.",
+     "s": "L10, slide 32",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Which bone has a styloid process on its distal LATERAL end (thumb side)?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Fibula",
+      "Humerus"
+     ],
+     "e": "Radius = thumb side. The ulna's styloid is distal, medial and posterior.",
+     "s": "L10, slide 41",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "The pectoral (shoulder) girdle is made of which two bones?",
+     "a": "Clavicle and scapula",
+     "w": [
+      "Clavicle and humerus",
+      "Scapula and humerus",
+      "Sternum and clavicle"
+     ],
+     "e": "Pectoral girdle = clavicle (collarbone) + scapula (shoulder blade). The humerus is the arm, not the girdle.",
+     "s": "L10, slide 3",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "What is the job of the pectoral girdle?",
+     "a": "Attaches the upper extremity to the trunk",
+     "w": [
+      "Attaches the lower extremity to the axial skeleton",
+      "Protects the heart and lungs",
+      "Forms the elbow joint"
+     ],
+     "e": "The pelvic girdle does the same job for the lower extremity.",
+     "s": "L10, slide 3",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "How many pectoral girdles does a person have?",
+     "a": "Two: a left and a right",
+     "w": [
+      "One",
+      "Four",
+      "Two, but they are fused at the sternum"
+     ],
+     "e": "We have a left and a right shoulder girdle.",
+     "s": "L10, slide 3",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "The clavicle runs from:",
+     "a": "The manubrium of the sternum to the acromion of the scapula",
+     "w": [
+      "The xiphoid process to the coracoid process",
+      "The manubrium to the head of the humerus",
+      "The 1st rib to the glenoid fossa"
+     ],
+     "e": "A small S-shaped bone between the sternum and the scapula.",
+     "s": "L10, slide 4",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Which bone of the shoulder girdle is S-shaped?",
+     "a": "Clavicle",
+     "w": [
+      "Scapula",
+      "Humerus",
+      "Manubrium"
+     ],
+     "e": "The clavicle is a small S-shaped bone.",
+     "s": "L10, slide 4",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Which of these is NOT part of the shoulder girdle?",
+     "a": "Humerus",
+     "w": [
+      "Clavicle",
+      "Scapula",
+      "Acromion"
+     ],
+     "e": "The girdle is clavicle + scapula. The acromion is part of the scapula. The humerus is the arm bone.",
+     "s": "L10, slides 3, 23",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Which two joints are at either end of the clavicle?",
+     "a": "Sternoclavicular (medial) and acromioclavicular (lateral)",
+     "w": [
+      "Glenohumeral and acromioclavicular",
+      "Sternoclavicular and glenohumeral",
+      "Costoclavicular and humeroulnar"
+     ],
+     "e": "SC joint medially, AC joint laterally.",
+     "s": "L10, slides 5–6",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "The shoulder involves how many joints (per the joints lecture)?",
+     "a": "3: sternoclavicular, acromioclavicular, glenohumeral",
+     "w": [
+      "1: glenohumeral",
+      "2: SC and AC",
+      "4: SC, AC, glenohumeral, scapulothoracic"
+     ],
+     "e": "The three joints associated with shoulder movement.",
+     "s": "L12, slides 37–39",
+     "u": "L12"
+    },
+    {
+     "topic": 2,
+     "q": "The common site of a 'shoulder separation' is the:",
+     "a": "Acromioclavicular (AC) joint",
+     "w": [
+      "Glenohumeral joint",
+      "Sternoclavicular joint",
+      "Humeroulnar joint"
+     ],
+     "e": "Separation = AC joint. DISLOCATION = glenohumeral joint.",
+     "s": "L12, slide 38",
+     "u": "L12"
+    },
+    {
+     "topic": 2,
+     "q": "The glenoid labrum is a cartilage rim that:",
+     "a": "Deepens the glenoid fossa for stability",
+     "w": [
+      "Connects the clavicle to the sternum",
+      "Covers the acromion",
+      "Lines the olecranon fossa"
+     ],
+     "e": "Accessory structure of the shoulder joint.",
+     "s": "L12, slide 41",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "A synarthrotic joint is:",
+     "a": "Immovable",
+     "w": [
+      "Slightly movable",
+      "Freely movable",
+      "Only found in the limbs"
+     ],
+     "e": "SAD–ISM: Synarthrotic = Immovable.",
+     "s": "L12, slides 6, 8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "An amphiarthrotic joint is:",
+     "a": "Slightly movable",
+     "w": [
+      "Immovable",
+      "Freely movable",
+      "Always synovial"
+     ],
+     "e": "SAD–ISM: Amphiarthrotic = Slightly movable.",
+     "s": "L12, slides 7–8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "A diarthrotic joint is:",
+     "a": "Freely movable",
+     "w": [
+      "Immovable",
+      "Slightly movable",
+      "Held by fibrocartilage"
+     ],
+     "e": "SAD–ISM: Diarthrotic = Movable (elbows, wrists, shoulders, knees, hips, ankles).",
+     "s": "L12, slide 8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "Sutures of the skull are which functional type?",
+     "a": "Synarthrotic (immovable)",
+     "w": [
+      "Amphiarthrotic (slightly movable)",
+      "Diarthrotic (freely movable)",
+      "Synovial"
+     ],
+     "e": "Sutures between the flat skull bones don't move.",
+     "s": "L12, slide 6",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "A gomphosis (tooth in its socket) is:",
+     "a": "Synarthrotic (immovable)",
+     "w": [
+      "Amphiarthrotic (slightly movable)",
+      "Diarthrotic (freely movable)",
+      "A hinge joint"
+     ],
+     "e": "Cone-shaped process holds the tooth in its socket.",
+     "s": "L12, slide 6",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "The pubic symphysis and intervertebral discs are which functional type?",
+     "a": "Amphiarthrotic (slightly movable)",
+     "w": [
+      "Synarthrotic (immovable)",
+      "Diarthrotic (freely movable)",
+      "Ball and socket"
+     ],
+     "e": "Symphysis = fibrocartilage pad, slightly movable.",
+     "s": "L12, slide 7",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "The syndesmosis between the tibia and fibula (or radius and ulna) is:",
+     "a": "Amphiarthrotic (slightly movable)",
+     "w": [
+      "Synarthrotic (immovable)",
+      "Diarthrotic (freely movable)",
+      "A pivot joint"
+     ],
+     "e": "Fibrous membrane sheet connecting 2 bones; slightly movable.",
+     "s": "L12, slide 7",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "Per the deck, an epiphyseal plate (synchondrosis) is classified as:",
+     "a": "Amphiarthrotic (slightly movable)",
+     "w": [
+      "Diarthrotic (freely movable)",
+      "A suture",
+      "A gomphosis"
+     ],
+     "e": "The deck lists synchondroses under amphiarthrotic (the textbook calls them synarthrotic). Go with the deck.",
+     "s": "L12, slide 7",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "Elbows, knees, hips and shoulders are which functional type?",
+     "a": "Diarthrotic (freely movable)",
+     "w": [
+      "Amphiarthrotic (slightly movable)",
+      "Synarthrotic (immovable)",
+      "Fibrous"
+     ],
+     "e": "Diarthrotic = freely movable. All synovial joints are diarthrotic.",
+     "s": "L12, slide 8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "Functional classification of joints is based on:",
+     "a": "Degree of movement allowed",
+     "w": [
+      "Type of tissue and presence of a joint cavity",
+      "Number of bones involved",
+      "Shape of the bone ends"
+     ],
+     "e": "Structural classification is the one based on tissue and joint cavity.",
+     "s": "L12, slide 4",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "q": "The mnemonic for the functional joint types is:",
+     "a": "SAD – ISM",
+     "w": [
+      "So Long To Pinky",
+      "Tiger Cubs Need MILC",
+      "Come Let's Get Sun Burned"
+     ],
+     "e": "Synarthrotic/Amphiarthrotic/Diarthrotic = Immovable/Slightly movable/Movable.",
+     "s": "L12, slide 8",
+     "u": "L12"
+    },
+    {
+     "topic": 4,
+     "q": "What articulates with the head of the humerus?",
+     "a": "Glenoid fossa of the scapula",
+     "w": [
+      "Acromion process",
+      "Coracoid process",
+      "Acetabulum"
+     ],
+     "e": "Humeral head + glenoid fossa = glenohumeral (shoulder) joint.",
+     "s": "L10, slides 11, 24",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "The capitulum of the humerus articulates with the:",
+     "a": "Head of the radius",
+     "w": [
+      "Trochlear notch of the ulna",
+      "Olecranon process",
+      "Coronoid process of the ulna"
+     ],
+     "e": "Capitulum and radius are both lateral. Hook: capitulum = 'little head' meets the radial head.",
+     "s": "L10, slide 34",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "The trochlea of the humerus articulates with the:",
+     "a": "Trochlear notch of the ulna",
+     "w": [
+      "Head of the radius",
+      "Glenoid fossa",
+      "Radial tuberosity"
+     ],
+     "e": "Trochlea (spool) sits in the trochlear notch of the ulna.",
+     "s": "L10, slides 35, 43",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "The head of the femur articulates with the:",
+     "a": "Acetabulum",
+     "w": [
+      "Glenoid fossa",
+      "Obturator foramen",
+      "Greater sciatic notch"
+     ],
+     "e": "Femoral head + acetabulum = femoroacetabular (hip) joint.",
+     "s": "L11, slide 17",
+     "u": "L11"
+    },
+    {
+     "topic": 4,
+     "q": "The patella articulates with the:",
+     "a": "Patellar surface of the femur",
+     "w": [
+      "Tibial tuberosity",
+      "Head of the fibula",
+      "Medial malleolus"
+     ],
+     "e": "The patellofemoral joint. The patella is the largest sesamoid bone.",
+     "s": "L11, slides 30–31",
+     "u": "L11"
+    },
+    {
+     "topic": 4,
+     "q": "The medial and lateral condyles of the femur articulate with the:",
+     "a": "Medial and lateral condyles of the tibia",
+     "w": [
+      "Head of the fibula",
+      "Patellar surface",
+      "Talus"
+     ],
+     "e": "Tibiofemoral joint (the knee).",
+     "s": "L11, slides 34–35",
+     "u": "L11"
+    },
+    {
+     "topic": 4,
+     "q": "The talus articulates with which bones to form the ankle (talocrural) joint?",
+     "a": "Tibia and fibula",
+     "w": [
+      "Calcaneus and navicular",
+      "Femur and tibia",
+      "Cuboid and calcaneus"
+     ],
+     "e": "Talus + tibia + fibula = talocrural joint, the actual ankle joint.",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 4,
+     "q": "The trochlear notch of the ulna wraps around the:",
+     "a": "Trochlea of the humerus",
+     "w": [
+      "Capitulum of the humerus",
+      "Head of the radius",
+      "Olecranon fossa"
+     ],
+     "e": "Humeroulnar joint, the hinge part of the elbow.",
+     "s": "L10, slide 43",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "The glenoid fossa is found on the superior part of which border of the scapula?",
+     "a": "Lateral (axillary) border",
+     "w": [
+      "Medial (vertebral) border",
+      "Superior border at the superior angle",
+      "Inferior angle"
+     ],
+     "e": "It sits at the top of the lateral border, facing the humerus.",
+     "s": "L10, slide 11",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "Which humeral fossa receives the olecranon process when the elbow is straight?",
+     "a": "Olecranon fossa (posterior)",
+     "w": [
+      "Coronoid fossa (anterior)",
+      "Glenoid fossa",
+      "Iliac fossa"
+     ],
+     "e": "Deep depression on the distal posterior humerus.",
+     "s": "L10, slide 33",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "q": "The PSIS articulates with the sacrum to form the (per the deck):",
+     "a": "Sacroiliac (SI) joint",
+     "w": [
+      "Pubic symphysis",
+      "Hip joint",
+      "Lumbosacral joint"
+     ],
+     "e": "The deck links the PSIS to the SI joint.",
+     "s": "L11, slide 8",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "The actual ankle joint is called the:",
+     "a": "Talocrural joint",
+     "w": [
+      "Subtalar joint",
+      "Tibiofemoral joint",
+      "Intertarsal joint"
+     ],
+     "e": "Talus + tibia + fibula = talocrural joint.",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "Which three bones form the talocrural (ankle) joint?",
+     "a": "Talus, tibia, fibula",
+     "w": [
+      "Calcaneus, talus, navicular",
+      "Tibia, fibula, calcaneus",
+      "Talus, calcaneus, cuboid"
+     ],
+     "e": "The tibia and fibula sit on top of the talus.",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "Per the deck (and the NYS boards), the ankle is which type of synovial joint?",
+     "a": "Hinge",
+     "w": [
+      "Gliding",
+      "Pivot",
+      "Ball and socket"
+     ],
+     "e": "The deck flags it: Ankle = hinge ***NYS Boards***.",
+     "s": "L12, slide 29",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "q": "Which tarsal forms the ankle joint with the tibia and fibula?",
+     "a": "Talus",
+     "w": [
+      "Calcaneus",
+      "Navicular",
+      "Cuboid"
+     ],
+     "e": "Talus = 'tallest'; sits on top of the calcaneus.",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "Which tarsal is the largest and the weight-bearing bone of the ankle (heel bone)?",
+     "a": "Calcaneus",
+     "w": [
+      "Talus",
+      "Cuboid",
+      "Navicular"
+     ],
+     "e": "Calcaneus = heel bone, largest tarsal. The talus is 2nd largest.",
+     "s": "L11, slide 44",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "The bump on the MEDIAL ankle is the medial malleolus of the:",
+     "a": "Tibia",
+     "w": [
+      "Fibula",
+      "Talus",
+      "Calcaneus"
+     ],
+     "e": "Medial malleolus = tibia.",
+     "s": "L11, slide 38",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "The bump on the LATERAL ankle is the lateral malleolus of the:",
+     "a": "Fibula",
+     "w": [
+      "Tibia",
+      "Talus",
+      "Cuboid"
+     ],
+     "e": "Lateral malleolus = fibula.",
+     "s": "L11, slide 41",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "q": "Pointing the foot down is called:",
+     "a": "Plantar flexion",
+     "w": [
+      "Dorsiflexion",
+      "Eversion",
+      "Inversion"
+     ],
+     "e": "Plantar = sole. Like pressing a gas pedal.",
+     "s": "L12, slide 34",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "q": "Pulling the foot up toward the shin is called:",
+     "a": "Dorsiflexion",
+     "w": [
+      "Plantar flexion",
+      "Inversion",
+      "Circumduction"
+     ],
+     "e": "Toes toward the dorsum (top) of the foot.",
+     "s": "L12, slide 34",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "q": "Turning the sole of the foot to face medially (in) is called:",
+     "a": "Inversion",
+     "w": [
+      "Eversion",
+      "Pronation",
+      "Abduction"
+     ],
+     "e": "Inversion = in; eversion = out.",
+     "s": "L12, slide 34",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "q": "The joint between the distal tibia and fibula is a:",
+     "a": "Syndesmosis (fibrous, slightly movable)",
+     "w": [
+      "Synovial hinge joint",
+      "Symphysis",
+      "Suture"
+     ],
+     "e": "Fibrous membrane joining the tibia and fibula.",
+     "s": "L12, slides 7, 12",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "q": "The joints between the tarsal bones (intertarsal joints) are which type?",
+     "a": "Gliding (planar)",
+     "w": [
+      "Hinge",
+      "Saddle",
+      "Condyloid"
+     ],
+     "e": "Gliding joints: intercarpal, intertarsal, spinal facets.",
+     "s": "L12, slide 27",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "The shoulder and hip are which type of synovial joint?",
+     "a": "Ball and socket",
+     "w": [
+      "Hinge",
+      "Condyloid",
+      "Saddle"
+     ],
+     "e": "Ball and socket: multiaxial, the most movable, allows all movements including rotation.",
+     "s": "L12, slide 32",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "Elbows, knees, PIPs, DIPs and the ankle are which type of joint?",
+     "a": "Hinge",
+     "w": [
+      "Pivot",
+      "Gliding",
+      "Ball and socket"
+     ],
+     "e": "Hinge: flexion and extension ONLY (uniaxial).",
+     "s": "L12, slide 29",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "The CMC joint of the thumb is which type of joint?",
+     "a": "Saddle",
+     "w": [
+      "Condyloid",
+      "Hinge",
+      "Pivot"
+     ],
+     "e": "Saddle = thumb CMC; biaxial; same movements as condyloid.",
+     "s": "L12, slide 31",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "The MCP joints (knuckles) are which type of joint?",
+     "a": "Condyloid (ellipsoidal)",
+     "w": [
+      "Saddle",
+      "Hinge",
+      "Gliding"
+     ],
+     "e": "Condyloid: flexion/extension, abduction/adduction, circumduction; biaxial.",
+     "s": "L12, slide 30",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "C1 rotating on C2 is an example of which joint type?",
+     "a": "Pivot",
+     "w": [
+      "Hinge",
+      "Gliding",
+      "Saddle"
+     ],
+     "e": "Pivot: rotation ONLY. Also the radius on the ulna during pronation/supination.",
+     "s": "L12, slide 28",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "Intercarpal, intertarsal and spinal facet joints are which type?",
+     "a": "Gliding (planar)",
+     "w": [
+      "Pivot",
+      "Condyloid",
+      "Hinge"
+     ],
+     "e": "Two flat bones slide over each other; nonaxial.",
+     "s": "L12, slide 27",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "Which synovial joint type is the MOST movable?",
+     "a": "Ball and socket",
+     "w": [
+      "Saddle",
+      "Condyloid",
+      "Hinge"
+     ],
+     "e": "Multiaxial: allows all movements including rotation.",
+     "s": "L12, slide 32",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "A hinge joint allows:",
+     "a": "Flexion and extension only",
+     "w": [
+      "Rotation only",
+      "All movements including rotation",
+      "Sliding only"
+     ],
+     "e": "Uniaxial.",
+     "s": "L12, slide 29",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "A pivot joint allows:",
+     "a": "Rotation only",
+     "w": [
+      "Flexion and extension only",
+      "Circumduction only",
+      "Sliding only"
+     ],
+     "e": "Uniaxial.",
+     "s": "L12, slide 28",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "Which joint type is described as nonaxial?",
+     "a": "Gliding (planar)",
+     "w": [
+      "Pivot",
+      "Hinge",
+      "Saddle"
+     ],
+     "e": "Gliding = nonaxial; pivot and hinge = uniaxial; condyloid and saddle = biaxial; ball and socket = multiaxial.",
+     "s": "L12, slide 27",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "Condyloid and saddle joints are both:",
+     "a": "Biaxial",
+     "w": [
+      "Uniaxial",
+      "Nonaxial",
+      "Multiaxial"
+     ],
+     "e": "They allow the same movements; they differ in shape and location.",
+     "s": "L12, slides 30–31",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "The radius rotating on the ulna during pronation and supination is which joint type?",
+     "a": "Pivot",
+     "w": [
+      "Hinge",
+      "Saddle",
+      "Gliding"
+     ],
+     "e": "Pivot joints: C1 on C2, and radius on ulna.",
+     "s": "L12, slide 28",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "q": "The glenohumeral (shoulder) joint is diarthrotic, synovial and:",
+     "a": "Ball and socket",
+     "w": [
+      "Hinge",
+      "Pivot",
+      "Gliding"
+     ],
+     "e": "Most movable joint in the body, so a common site of dislocation.",
+     "s": "L12, slide 39",
+     "u": "L12"
+    },
+    {
+     "topic": 7,
+     "q": "How many carpal bones are in each wrist?",
+     "a": "8, in 2 rows of 4",
+     "w": [
+      "7, in 2 rows",
+      "5, one per finger",
+      "14"
+     ],
+     "e": "8 carpals; 7 tarsals in the ankle.",
+     "s": "L10, slide 48",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The proximal row of carpals, lateral (thumb) to medial (pinky), is:",
+     "a": "Scaphoid, lunate, triquetrum, pisiform",
+     "w": [
+      "Trapezium, trapezoid, capitate, hamate",
+      "Pisiform, triquetrum, lunate, scaphoid",
+      "Scaphoid, trapezium, lunate, capitate"
+     ],
+     "e": "'So Long To Pinky' = Scaphoid, Lunate, Triquetrum, Pisiform.",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The distal row of carpals, medial (pinky) to lateral (thumb), is:",
+     "a": "Hamate, capitate, trapezoid, trapezium",
+     "w": [
+      "Trapezium, trapezoid, capitate, hamate",
+      "Pisiform, hamate, capitate, scaphoid",
+      "Capitate, hamate, trapezium, trapezoid"
+     ],
+     "e": "'Here Comes The Thumb' = Hamate, Capitate, Trapezoid, Trapezium.",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The most MEDIAL bone of the PROXIMAL row of carpals is the:",
+     "a": "Pisiform",
+     "w": [
+      "Scaphoid",
+      "Hamate",
+      "Triquetrum"
+     ],
+     "e": "So Long To Pinky: the pisiform is last, on the pinky side.",
+     "s": "L10, slides 49, 53",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The most MEDIAL bone of the DISTAL row of carpals is the:",
+     "a": "Hamate",
+     "w": [
+      "Pisiform",
+      "Trapezium",
+      "Capitate"
+     ],
+     "e": "Here Comes The Thumb starts on the pinky side with the Hamate. (The pisiform is medial in the PROXIMAL row.)",
+     "s": "L10, slides 49, 54",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The most LATERAL bone of the PROXIMAL row of carpals is the:",
+     "a": "Scaphoid",
+     "w": [
+      "Pisiform",
+      "Trapezium",
+      "Lunate"
+     ],
+     "e": "So Long To Pinky starts on the thumb side with the Scaphoid.",
+     "s": "L10, slides 49–50",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The most LATERAL bone of the DISTAL row (at the base of the thumb) is the:",
+     "a": "Trapezium",
+     "w": [
+      "Trapezoid",
+      "Scaphoid",
+      "Hamate"
+     ],
+     "e": "Trapezi-UM sits under the thUMb.",
+     "s": "L10, slides 49, 57",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "Which carpal sits in the CENTER of the distal row?",
+     "a": "Capitate",
+     "w": [
+      "Lunate",
+      "Trapezoid",
+      "Triquetrum"
+     ],
+     "e": "Distal row M→L: hamate, CAPITATE, trapezoid, trapezium. The capitate is the largest carpal.",
+     "s": "L10, slide 55",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The tunnel of Guyon runs between which two carpals?",
+     "a": "Pisiform and the hook of the hamate",
+     "w": [
+      "Scaphoid and lunate",
+      "Trapezium and trapezoid",
+      "Capitate and lunate"
+     ],
+     "e": "The ulnar nerve and ulnar artery pass through it.",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "Which metacarpal goes to the thumb?",
+     "a": "The 1st (lateral)",
+     "w": [
+      "The 5th (lateral)",
+      "The 1st (medial)",
+      "The 5th (medial)"
+     ],
+     "e": "Metacarpals are numbered 1 (thumb, lateral) to 5 (pinky, medial).",
+     "s": "L10, slide 58",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "How many phalanges are in one hand?",
+     "a": "14",
+     "w": [
+      "10",
+      "15",
+      "27"
+     ],
+     "e": "3 in each finger (proximal, middle, distal) and 2 in the thumb (proximal, distal).",
+     "s": "L10, slide 60",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The thumb has which phalanges?",
+     "a": "Proximal and distal only",
+     "w": [
+      "Proximal, middle and distal",
+      "Middle and distal only",
+      "Proximal and middle only"
+     ],
+     "e": "No middle phalanx in the thumb, so it has one IP joint.",
+     "s": "L10, slide 60",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The joint between the middle and distal phalanges is the:",
+     "a": "DIP (distal interphalangeal)",
+     "w": [
+      "PIP (proximal interphalangeal)",
+      "MCP (metacarpophalangeal)",
+      "CMC (carpometacarpal)"
+     ],
+     "e": "PIP = proximal–middle; DIP = middle–distal.",
+     "s": "L10, slides 62–63",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "Which carpal is LATERAL to the lunate in the proximal row?",
+     "a": "Scaphoid",
+     "w": [
+      "Triquetrum",
+      "Pisiform",
+      "Capitate"
+     ],
+     "e": "Proximal row L→M: scaphoid, lunate, triquetrum, pisiform.",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "q": "The trapezoid sits between which two carpals in the distal row?",
+     "a": "Trapezium and capitate",
+     "w": [
+      "Hamate and capitate",
+      "Scaphoid and lunate",
+      "Pisiform and hamate"
+     ],
+     "e": "Distal row L→M: trapezium, trapezoid, capitate, hamate.",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "Which forearm bone is LATERAL (thumb side)?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Fibula",
+      "Tibia"
+     ],
+     "e": "Radius = thumb side. Hook: palm up holding a bowl of soup, the radius is on the outside.",
+     "s": "L10, slide 39",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "Which forearm bone is MEDIAL (pinky side)?",
+     "a": "Ulna",
+     "w": [
+      "Radius",
+      "Humerus",
+      "Fibula"
+     ],
+     "e": "Ulna = pinky side; forms most of the elbow.",
+     "s": "L10, slide 42",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "Which leg bone is MEDIAL and weight-bearing?",
+     "a": "Tibia",
+     "w": [
+      "Fibula",
+      "Femur",
+      "Patella"
+     ],
+     "e": "The tibia (shin bone) is the large medial, weight-bearing bone.",
+     "s": "L11, slide 33",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "q": "Which leg bone is LATERAL and NON-weight-bearing?",
+     "a": "Fibula",
+     "w": [
+      "Tibia",
+      "Radius",
+      "Patella"
+     ],
+     "e": "The fibula is the small lateral bone; it carries no weight.",
+     "s": "L11, slide 39",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "q": "The arm (brachium, shoulder to elbow) has how many bones?",
+     "a": "One: the humerus",
+     "w": [
+      "Two: radius and ulna",
+      "Two: humerus and scapula",
+      "Three"
+     ],
+     "e": "Arm = humerus only. Forearm = radius + ulna.",
+     "s": "L10, slide 23",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "The thigh (hip to knee) has how many bones?",
+     "a": "One: the femur",
+     "w": [
+      "Two: tibia and fibula",
+      "Two: femur and patella",
+      "Three"
+     ],
+     "e": "Thigh = femur. Leg (knee to ankle) = tibia + fibula.",
+     "s": "L11, slide 19",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "q": "Which pair is correctly matched?",
+     "a": "Radius–lateral; tibia–medial",
+     "w": [
+      "Radius–medial; tibia–lateral",
+      "Ulna–lateral; fibula–medial",
+      "Ulna–lateral; tibia–lateral"
+     ],
+     "e": "Radius lateral, ulna medial; tibia medial, fibula lateral.",
+     "s": "L10, slide 39; L11, slide 32",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "The medial malleolus belongs to the ___ and the lateral malleolus belongs to the ___.",
+     "a": "Tibia; fibula",
+     "w": [
+      "Fibula; tibia",
+      "Talus; calcaneus",
+      "Tibia; talus"
+     ],
+     "e": "Medial = tibia, lateral = fibula.",
+     "s": "L11, slides 38, 41",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "q": "In anatomical position, the 1st metatarsal (big toe) is on which side of the foot?",
+     "a": "Medial",
+     "w": [
+      "Lateral",
+      "Posterior",
+      "Superior"
+     ],
+     "e": "Metatarsal 1 = medial (big toe). Metacarpal 1 = lateral (thumb).",
+     "s": "L11, slide 49",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "q": "In anatomical position, the 1st metacarpal (thumb) is on which side of the hand?",
+     "a": "Lateral",
+     "w": [
+      "Medial",
+      "Anterior",
+      "Posterior"
+     ],
+     "e": "Thumb = lateral; pinky = medial.",
+     "s": "L10, slide 58",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "Which side of the humerus has the deltoid tuberosity and greater tubercle?",
+     "a": "Lateral",
+     "w": [
+      "Medial",
+      "Posterior only",
+      "Distal"
+     ],
+     "e": "Greater tubercle = superior lateral; deltoid tuberosity = halfway down the lateral side.",
+     "s": "L10, slides 28, 31",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "q": "Which side of the femur has the greater trochanter?",
+     "a": "Lateral",
+     "w": [
+      "Medial",
+      "Posterior",
+      "Distal"
+     ],
+     "e": "Greater trochanter = proximal lateral; lesser trochanter = proximal medial.",
+     "s": "L11, slides 22–23",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The greater trochanter is on which bone?",
+     "a": "Femur",
+     "w": [
+      "Humerus",
+      "Coxal bone",
+      "Tibia"
+     ],
+     "e": "Trochanters = femur only. The humerus has tubercles.",
+     "s": "L11, slide 22",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The linea aspera is on which bone?",
+     "a": "Femur",
+     "w": [
+      "Tibia",
+      "Humerus",
+      "Fibula"
+     ],
+     "e": "Ridge on the back of the femur.",
+     "s": "L11, slide 24",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The tibial tuberosity is on which bone?",
+     "a": "Tibia",
+     "w": [
+      "Femur",
+      "Fibula",
+      "Patella"
+     ],
+     "e": "Proximal anterior tibia; quadriceps tendon/patellar ligament attaches.",
+     "s": "L11, slide 36",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The medial malleolus is on which bone?",
+     "a": "Tibia",
+     "w": [
+      "Fibula",
+      "Talus",
+      "Femur"
+     ],
+     "e": "Medial ankle bump = tibia.",
+     "s": "L11, slide 38",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The lateral malleolus is on which bone?",
+     "a": "Fibula",
+     "w": [
+      "Tibia",
+      "Calcaneus",
+      "Femur"
+     ],
+     "e": "Lateral ankle bump = fibula.",
+     "s": "L11, slide 41",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The ASIS and PSIS are on which bone?",
+     "a": "Ilium",
+     "w": [
+      "Ischium",
+      "Pubis",
+      "Sacrum"
+     ],
+     "e": "Anterior/posterior superior ILIAC spines.",
+     "s": "L11, slides 6, 8",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The ischial tuberosity ('sit bone') is on which bone?",
+     "a": "Ischium",
+     "w": [
+      "Ilium",
+      "Pubis",
+      "Femur"
+     ],
+     "e": "Large roughened bump on the inferior ischium.",
+     "s": "L11, slide 13",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The pubic tubercle is on which bone?",
+     "a": "Pubis",
+     "w": [
+      "Ischium",
+      "Ilium",
+      "Femur"
+     ],
+     "e": "Small bumps on the superior pubic bones.",
+     "s": "L11, slide 15",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The adductor tubercle is on which bone?",
+     "a": "Femur",
+     "w": [
+      "Tibia",
+      "Humerus",
+      "Pubis"
+     ],
+     "e": "Attachment site above the medial epicondyle of the femur.",
+     "s": "L11, slide 29",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The fovea capitis is a pit in the head of which bone?",
+     "a": "Femur",
+     "w": [
+      "Humerus",
+      "Radius",
+      "Fibula"
+     ],
+     "e": "A ligament (ligament of the head of the femur) attaches there.",
+     "s": "L11, slide 21",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The iliac crest is on which bone?",
+     "a": "Ilium",
+     "w": [
+      "Ischium",
+      "Pubis",
+      "Sacrum"
+     ],
+     "e": "The main superior ridge of the ilium.",
+     "s": "L11, slide 5",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The acetabulum is formed by which bone(s)?",
+     "a": "Ilium, ischium and pubis (all three)",
+     "w": [
+      "Ilium only",
+      "Ischium and pubis only",
+      "Femur"
+     ],
+     "e": "Acetabulum = where all three meet and fuse. Obturator foramen = ischium + pubis only.",
+     "s": "L11, slide 17",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The obturator foramen is formed by which bones?",
+     "a": "Ischium and pubis",
+     "w": [
+      "Ilium and ischium",
+      "Ilium and pubis",
+      "Ilium, ischium and pubis"
+     ],
+     "e": "Largest foramen in the body, 'the eyes of the pelvis.'",
+     "s": "L11, slide 18",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The ischial spine sits between:",
+     "a": "The greater and lesser sciatic notches",
+     "w": [
+      "The ASIS and AIIS",
+      "The PSIS and PIIS",
+      "The pubic tubercle and symphysis"
+     ],
+     "e": "Top to bottom: greater sciatic notch → ischial spine → lesser sciatic notch → ischial tuberosity.",
+     "s": "L11, slide 12",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "The greater sciatic notch lies between:",
+     "a": "The PIIS (above) and the ischial spine (below)",
+     "w": [
+      "The ASIS and AIIS",
+      "The ischial spine and ischial tuberosity",
+      "The iliac crest and PSIS"
+     ],
+     "e": "Passage for nerves, the piriformis muscle and vessels.",
+     "s": "L11, slide 11",
+     "u": "L11"
+    },
+    {
+     "topic": 10,
+     "q": "What articulates with the MEDIAL end of the clavicle?",
+     "a": "Manubrium of the sternum",
+     "w": [
+      "Acromion process",
+      "Coracoid process",
+      "1st thoracic vertebra"
+     ],
+     "e": "Medial clavicle + manubrium = sternoclavicular (SC) joint.",
+     "s": "L10, slide 5",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "What articulates with the LATERAL end of the clavicle?",
+     "a": "Acromion process of the scapula",
+     "w": [
+      "Manubrium",
+      "Coracoid process",
+      "Head of the humerus"
+     ],
+     "e": "Lateral clavicle + acromion = acromioclavicular (AC) joint.",
+     "s": "L10, slide 6",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The sternoclavicular joint is between:",
+     "a": "The medial clavicle and the manubrium",
+     "w": [
+      "The lateral clavicle and the acromion",
+      "The humeral head and glenoid fossa",
+      "The 1st rib and the sternum"
+     ],
+     "e": "SC joint. Extremely stable.",
+     "s": "L10, slide 5; L12, slide 37",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The acromioclavicular (AC) joint is between:",
+     "a": "The acromion and the lateral clavicle",
+     "w": [
+      "The coracoid and the medial clavicle",
+      "The manubrium and the medial clavicle",
+      "The acromion and the humerus"
+     ],
+     "e": "AC joint: common site of shoulder separation.",
+     "s": "L10, slide 6; L12, slide 38",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The glenohumeral joint is between:",
+     "a": "The head of the humerus and the glenoid fossa",
+     "w": [
+      "The acromion and the clavicle",
+      "The humerus and the ulna",
+      "The head of the femur and the acetabulum"
+     ],
+     "e": "The shoulder joint.",
+     "s": "L10, slide 24",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The femoroacetabular joint is the:",
+     "a": "Hip joint",
+     "w": [
+      "Knee joint",
+      "Sacroiliac joint",
+      "Ankle joint"
+     ],
+     "e": "Head of the femur + acetabulum of the coxal bone.",
+     "s": "L11, slide 17; L12, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 10,
+     "q": "The elbow is made of which two articulations (per the joints lecture)?",
+     "a": "Humeroulnar and humeroradial",
+     "w": [
+      "Tibiofemoral and patellofemoral",
+      "Sternoclavicular and acromioclavicular",
+      "Radiocarpal and intercarpal"
+     ],
+     "e": "Hinge between ulna and humerus; pivot between ulna and radius.",
+     "s": "L12, slide 42",
+     "u": "L12"
+    },
+    {
+     "topic": 10,
+     "q": "The knee is made of which two articulations?",
+     "a": "Tibiofemoral and patellofemoral",
+     "w": [
+      "Humeroulnar and humeroradial",
+      "Talocrural and subtalar",
+      "Femoroacetabular and sacroiliac"
+     ],
+     "e": "Femoral + tibial condyles; patella + patellar surface.",
+     "s": "L12, slide 48",
+     "u": "L12"
+    },
+    {
+     "topic": 10,
+     "q": "The carpometacarpal (CMC) joints are between:",
+     "a": "The carpals and the metacarpals",
+     "w": [
+      "The metacarpals and the phalanges",
+      "The radius and the carpals",
+      "Two phalanges"
+     ],
+     "e": "MCP = metacarpals–phalanges.",
+     "s": "L10, slide 59",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The metacarpophalangeal (MCP) joints are between:",
+     "a": "The metacarpals and the proximal phalanges",
+     "w": [
+      "The carpals and the metacarpals",
+      "The proximal and middle phalanges",
+      "The middle and distal phalanges"
+     ],
+     "e": "Sometimes called 'knuckles,' an inexact term.",
+     "s": "L10, slide 61",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The PIP joint joins which bones?",
+     "a": "Proximal and middle phalanges",
+     "w": [
+      "Middle and distal phalanges",
+      "Metacarpal and proximal phalanx",
+      "The two thumb phalanges"
+     ],
+     "e": "The thumb has an IP joint instead.",
+     "s": "L10, slide 62",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "q": "The pubic symphysis is where:",
+     "a": "The right and left pubic bones meet",
+     "w": [
+      "The ilium meets the sacrum",
+      "The femur meets the acetabulum",
+      "The ischium meets the pubis"
+     ],
+     "e": "A cartilaginous joint (fibrocartilage), not a bone marking.",
+     "s": "L11, slide 16",
+     "u": "L11"
+    },
+    {
+     "topic": 10,
+     "q": "The talocrural joint is between:",
+     "a": "The talus, tibia and fibula",
+     "w": [
+      "The talus and calcaneus",
+      "The tibia and femur",
+      "The calcaneus and cuboid"
+     ],
+     "e": "The actual ankle joint.",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 10,
+     "q": "Each of the 1st three metatarsals sits on which tarsal? (1st, 2nd, 3rd)",
+     "a": "Medial, intermediate, lateral cuneiform",
+     "w": [
+      "Navicular, cuboid, talus",
+      "Cuboid, medial cuneiform, navicular",
+      "Talus, navicular, cuboid"
+     ],
+     "e": "M-I-L cuneiforms sit at the bases of metatarsals 1, 2, 3.",
+     "s": "L11, slide 48",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout (anterior left, posterior right): which label is the lateral epicondyle?",
+     "a": "#9",
+     "w": [
+      "#8",
+      "#12",
+      "#5"
+     ],
+     "e": "#9 = Lateral epicondyle. Bump on the distal lateral humerus.",
+     "s": "L10, slide 37",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): which label is the anatomical neck?",
+     "a": "#2",
+     "w": [
+      "#1",
+      "#3",
+      "#10"
+     ],
+     "e": "#2 = Anatomical neck. Ridge right around the head (old growth plate).",
+     "s": "L10, slide 26",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Femur handout (anterior left, posterior right): which label is the greater trochanter?",
+     "a": "#3",
+     "w": [
+      "#4",
+      "#1",
+      "#7"
+     ],
+     "e": "#3 = Greater trochanter. Large bump, proximal lateral.",
+     "s": "L11, slide 22",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): what does #8 point to?",
+     "a": "Lateral supracondylar ridge",
+     "w": [
+      "Lateral epicondyle",
+      "Medial epicondyle",
+      "Surgical neck"
+     ],
+     "e": "#8 = Lateral supracondylar ridge. Sharp ridge on the lateral shaft just above the lateral epicondyle (on the class handout; not on the slides).",
+     "s": "L10 handout diagram",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout (anterior left, posterior right): which label is the trochlea?",
+     "a": "#11",
+     "w": [
+      "#10",
+      "#4",
+      "#3"
+     ],
+     "e": "#11 = Trochlea. Spool beside the capitulum; meets the ulna's trochlear notch.",
+     "s": "L10, slide 35",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): which label is the greater tubercle?",
+     "a": "#4",
+     "w": [
+      "#6",
+      "#5",
+      "#10"
+     ],
+     "e": "#4 = Greater tubercle. Large bump, superior lateral.",
+     "s": "L10, slide 28",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout: #10 (capitulum) articulates with which bone?",
+     "a": "Radius (its head)",
+     "w": [
+      "Ulna (trochlear notch)",
+      "Scapula",
+      "Clavicle"
+     ],
+     "e": "Capitulum = lateral = radius.",
+     "s": "L10, slide 34",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): which label is the patellar surface?",
+     "a": "#8",
+     "w": [
+      "#6",
+      "#7",
+      "#1"
+     ],
+     "e": "#8 = Patellar surface. Anterior groove where the patella sits.",
+     "s": "L11, slide 30",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout (anterior left, posterior right): which label is the surgical neck?",
+     "a": "#3",
+     "w": [
+      "#1",
+      "#2",
+      "#11"
+     ],
+     "e": "#3 = Surgical neck. Below the tubercles; common fracture site.",
+     "s": "L10, slide 27",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #2 point to?",
+     "a": "Neck of the femur",
+     "w": [
+      "Fovea capitis",
+      "Head of the femur",
+      "Patellar surface"
+     ],
+     "e": "#2 = Neck of the femur. Just distal to the head.",
+     "s": "L11, slide 20",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #7 point to?",
+     "a": "Deltoid tuberosity",
+     "w": [
+      "Greater tubercle",
+      "Lesser tubercle",
+      "Lateral epicondyle"
+     ],
+     "e": "#7 = Deltoid tuberosity. Rough bump halfway down the lateral shaft.",
+     "s": "L10, slide 31",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the lesser tubercle?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#4",
+      "#11"
+     ],
+     "e": "#5 = Lesser tubercle. Small bump, superior anterior.",
+     "s": "L10, slide 29",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): what does #8 point to?",
+     "a": "Patellar surface",
+     "w": [
+      "Linea aspera",
+      "Neck of the femur",
+      "Fovea capitis"
+     ],
+     "e": "#8 = Patellar surface. Anterior groove where the patella sits.",
+     "s": "L11, slide 30",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout: #11 and #12 articulate with the:",
+     "a": "Condyles of the tibia",
+     "w": [
+      "Patella",
+      "Head of the fibula",
+      "Acetabulum"
+     ],
+     "e": "Tibiofemoral joint.",
+     "s": "L11, slides 34–35",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #1 point to?",
+     "a": "Head of the humerus",
+     "w": [
+      "Surgical neck",
+      "Anatomical neck",
+      "Deltoid tuberosity"
+     ],
+     "e": "#1 = Head of the humerus. Smooth, rounded top; points medially.",
+     "s": "L10, slide 25",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): what does #10 point to?",
+     "a": "Lateral epicondyle",
+     "w": [
+      "Medial condyle",
+      "Adductor tubercle",
+      "Linea aspera"
+     ],
+     "e": "#10 = Lateral epicondyle. Attachment bump above the lateral condyle.",
+     "s": "L11, slide 28",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout (anterior left, posterior right): what does #9 point to?",
+     "a": "Lateral epicondyle",
+     "w": [
+      "Medial epicondyle",
+      "Capitulum",
+      "Anatomical neck"
+     ],
+     "e": "#9 = Lateral epicondyle. Bump on the distal lateral humerus.",
+     "s": "L10, slide 37",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): which label is the fovea capitis?",
+     "a": "#5",
+     "w": [
+      "#1",
+      "#2",
+      "#9"
+     ],
+     "e": "#5 = Fovea capitis. Pit in the femoral head for a ligament.",
+     "s": "L11, slide 21",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Femur handout (anterior left, posterior right): what does #11 point to?",
+     "a": "Medial condyle",
+     "w": [
+      "Lateral epicondyle",
+      "Medial epicondyle",
+      "Patellar surface"
+     ],
+     "e": "#11 = Medial condyle. Smooth distal medial surface (joint with the tibia).",
+     "s": "L11, slide 25",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): what does #4 point to?",
+     "a": "Greater tubercle",
+     "w": [
+      "Intertubercular (bicipital) groove",
+      "Deltoid tuberosity",
+      "Head of the humerus"
+     ],
+     "e": "#4 = Greater tubercle. Large bump, superior lateral.",
+     "s": "L10, slide 28",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): which label is the linea aspera?",
+     "a": "#6",
+     "w": [
+      "#8",
+      "#4",
+      "#5"
+     ],
+     "e": "#6 = Linea aspera. Ridge down the back of the femur.",
+     "s": "L11, slide 24",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #9 point to?",
+     "a": "Medial epicondyle",
+     "w": [
+      "Medial condyle",
+      "Lateral condyle",
+      "Patellar surface"
+     ],
+     "e": "#9 = Medial epicondyle. Attachment bump above the medial condyle.",
+     "s": "L11, slide 27",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout: #11 (trochlea) articulates with which bone?",
+     "a": "Ulna (trochlear notch)",
+     "w": [
+      "Radius (head)",
+      "Scapula (glenoid fossa)",
+      "Femur"
+     ],
+     "e": "Trochlea = ulna.",
+     "s": "L10, slide 35",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): what does #4 point to?",
+     "a": "Lesser trochanter",
+     "w": [
+      "Greater trochanter",
+      "Medial condyle",
+      "Lateral condyle"
+     ],
+     "e": "#4 = Lesser trochanter. Small bump, proximal medial.",
+     "s": "L11, slide 23",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): which label is the head of the femur?",
+     "a": "#1",
+     "w": [
+      "#2",
+      "#5",
+      "#7"
+     ],
+     "e": "#1 = Head of the femur. Rounded top; points medially into the acetabulum.",
+     "s": "L11, slide 20",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #12 point to?",
+     "a": "Lateral condyle",
+     "w": [
+      "Lateral epicondyle",
+      "Medial condyle",
+      "Patellar surface"
+     ],
+     "e": "#12 = Lateral condyle. Smooth distal lateral surface (joint with the tibia).",
+     "s": "L11, slide 26",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #6 point to?",
+     "a": "Intertubercular (bicipital) groove",
+     "w": [
+      "Greater tubercle",
+      "Lesser tubercle",
+      "Trochlea"
+     ],
+     "e": "#6 = Intertubercular (bicipital) groove. Channel between the tubercles.",
+     "s": "L10, slide 30",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): what does #5 point to?",
+     "a": "Lesser tubercle",
+     "w": [
+      "Intertubercular (bicipital) groove",
+      "Greater tubercle",
+      "Olecranon fossa"
+     ],
+     "e": "#5 = Lesser tubercle. Small bump, superior anterior.",
+     "s": "L10, slide 29",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): which label is the medial condyle?",
+     "a": "#11",
+     "w": [
+      "#10",
+      "#12",
+      "#7"
+     ],
+     "e": "#11 = Medial condyle. Smooth distal medial surface (joint with the tibia).",
+     "s": "L11, slide 25",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #1 point to?",
+     "a": "Head of the femur",
+     "w": [
+      "Fovea capitis",
+      "Neck of the femur",
+      "Greater trochanter"
+     ],
+     "e": "#1 = Head of the femur. Rounded top; points medially into the acetabulum.",
+     "s": "L11, slide 20",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Femur handout: #6 (linea aspera) is seen on which view?",
+     "a": "Posterior (right drawing)",
+     "w": [
+      "Anterior (left drawing)",
+      "Both equally",
+      "Neither"
+     ],
+     "e": "Linea aspera = ridge on the BACK of the femur.",
+     "s": "L11, slide 24",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the head of the humerus?",
+     "a": "#1",
+     "w": [
+      "#3",
+      "#2",
+      "#11"
+     ],
+     "e": "#1 = Head of the humerus. Smooth, rounded top; points medially.",
+     "s": "L10, slide 25",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): what does #5 point to?",
+     "a": "Fovea capitis",
+     "w": [
+      "Head of the femur",
+      "Neck of the femur",
+      "Medial condyle"
+     ],
+     "e": "#5 = Fovea capitis. Pit in the femoral head for a ligament.",
+     "s": "L11, slide 21",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): which label is the medial epicondyle?",
+     "a": "#9",
+     "w": [
+      "#12",
+      "#11",
+      "#4"
+     ],
+     "e": "#9 = Medial epicondyle. Attachment bump above the medial condyle.",
+     "s": "L11, slide 27",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #11 point to?",
+     "a": "Trochlea",
+     "w": [
+      "Capitulum",
+      "Surgical neck",
+      "Greater tubercle"
+     ],
+     "e": "#11 = Trochlea. Spool beside the capitulum; meets the ulna's trochlear notch.",
+     "s": "L10, slide 35",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the olecranon fossa?",
+     "a": "#14",
+     "w": [
+      "#13",
+      "#10",
+      "#5"
+     ],
+     "e": "#14 = Olecranon fossa. Deep depression, distal POSTERIOR.",
+     "s": "L10, slide 33",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout: #8 (patellar surface) articulates with the:",
+     "a": "Patella",
+     "w": [
+      "Tibial tuberosity",
+      "Fibular head",
+      "Medial malleolus"
+     ],
+     "e": "Patellofemoral joint.",
+     "s": "L11, slides 30–31",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): what does #10 point to?",
+     "a": "Capitulum",
+     "w": [
+      "Lateral epicondyle",
+      "Trochlea",
+      "Olecranon fossa"
+     ],
+     "e": "#10 = Capitulum. Ball on the distal lateral end; meets the radial head.",
+     "s": "L10, slide 34",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Femur handout (anterior left, posterior right): which label is the lesser trochanter?",
+     "a": "#4",
+     "w": [
+      "#3",
+      "#1",
+      "#5"
+     ],
+     "e": "#4 = Lesser trochanter. Small bump, proximal medial.",
+     "s": "L11, slide 23",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): which label is the lateral condyle?",
+     "a": "#12",
+     "w": [
+      "#10",
+      "#11",
+      "#2"
+     ],
+     "e": "#12 = Lateral condyle. Smooth distal lateral surface (joint with the tibia).",
+     "s": "L11, slide 26",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): which label is the adductor tubercle?",
+     "a": "#7",
+     "w": [
+      "#10",
+      "#9",
+      "#11"
+     ],
+     "e": "#7 = Adductor tubercle. Bump above the medial epicondyle.",
+     "s": "L11, slide 29",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #3 point to?",
+     "a": "Greater trochanter",
+     "w": [
+      "Lesser trochanter",
+      "Patellar surface",
+      "Linea aspera"
+     ],
+     "e": "#3 = Greater trochanter. Large bump, proximal lateral.",
+     "s": "L11, slide 22",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #3 point to?",
+     "a": "Surgical neck",
+     "w": [
+      "Head of the humerus",
+      "Anatomical neck",
+      "Lesser tubercle"
+     ],
+     "e": "#3 = Surgical neck. Below the tubercles; common fracture site.",
+     "s": "L10, slide 27",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): which label is the neck of the femur?",
+     "a": "#2",
+     "w": [
+      "#5",
+      "#1",
+      "#7"
+     ],
+     "e": "#2 = Neck of the femur. Just distal to the head.",
+     "s": "L11, slide 20",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout (anterior left, posterior right): what does #14 point to?",
+     "a": "Olecranon fossa",
+     "w": [
+      "Coronoid fossa",
+      "Intertubercular (bicipital) groove",
+      "Anatomical neck"
+     ],
+     "e": "#14 = Olecranon fossa. Deep depression, distal POSTERIOR.",
+     "s": "L10, slide 33",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): which label is the intertubercular (bicipital) groove?",
+     "a": "#6",
+     "w": [
+      "#4",
+      "#5",
+      "#14"
+     ],
+     "e": "#6 = Intertubercular (bicipital) groove. Channel between the tubercles.",
+     "s": "L10, slide 30",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #2 point to?",
+     "a": "Anatomical neck",
+     "w": [
+      "Head of the humerus",
+      "Surgical neck",
+      "Coronoid fossa"
+     ],
+     "e": "#2 = Anatomical neck. Ridge right around the head (old growth plate).",
+     "s": "L10, slide 26",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the coronoid fossa?",
+     "a": "#13",
+     "w": [
+      "#14",
+      "#1",
+      "#5"
+     ],
+     "e": "#13 = Coronoid fossa. Shallow depression, distal ANTERIOR.",
+     "s": "L10, slide 32",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout (anterior left, posterior right): what does #6 point to?",
+     "a": "Linea aspera",
+     "w": [
+      "Patellar surface",
+      "Head of the femur",
+      "Medial condyle"
+     ],
+     "e": "#6 = Linea aspera. Ridge down the back of the femur.",
+     "s": "L11, slide 24",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Femur handout (anterior left, posterior right): what does #7 point to?",
+     "a": "Adductor tubercle",
+     "w": [
+      "Medial epicondyle",
+      "Lateral epicondyle",
+      "Lesser trochanter"
+     ],
+     "e": "#7 = Adductor tubercle. Bump above the medial epicondyle.",
+     "s": "L11, slide 29",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): what does #13 point to?",
+     "a": "Coronoid fossa",
+     "w": [
+      "Olecranon fossa",
+      "Lesser tubercle",
+      "Head of the humerus"
+     ],
+     "e": "#13 = Coronoid fossa. Shallow depression, distal ANTERIOR.",
+     "s": "L10, slide 32",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the capitulum?",
+     "a": "#10",
+     "w": [
+      "#12",
+      "#9",
+      "#11"
+     ],
+     "e": "#10 = Capitulum. Ball on the distal lateral end; meets the radial head.",
+     "s": "L10, slide 34",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 11,
+     "q": "Humerus handout: the left drawing is the anterior view. Which numbers appear ONLY on the posterior (right) drawing?",
+     "a": "#14 (olecranon fossa)",
+     "w": [
+      "#13 (coronoid fossa)",
+      "#5 (lesser tubercle)",
+      "#10 (capitulum)"
+     ],
+     "e": "The olecranon fossa is posterior; the coronoid fossa (#13) is anterior.",
+     "s": "L10, slides 32–33",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): what does #12 point to?",
+     "a": "Medial epicondyle",
+     "w": [
+      "Lateral epicondyle",
+      "Lateral supracondylar ridge",
+      "Greater tubercle"
+     ],
+     "e": "#12 = Medial epicondyle. Bump on the distal medial humerus.",
+     "s": "L10, slide 36",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout: #1 fits into which structure?",
+     "a": "Glenoid fossa of the scapula",
+     "w": [
+      "Acetabulum",
+      "Acromion",
+      "Olecranon fossa"
+     ],
+     "e": "Humeral head + glenoid fossa = glenohumeral joint.",
+     "s": "L10, slide 24",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Femur handout (anterior left, posterior right): which label is the lateral epicondyle?",
+     "a": "#10",
+     "w": [
+      "#11",
+      "#7",
+      "#12"
+     ],
+     "e": "#10 = Lateral epicondyle. Attachment bump above the lateral condyle.",
+     "s": "L11, slide 28",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 11,
+     "q": "Femur handout: #1 fits into which structure?",
+     "a": "Acetabulum",
+     "w": [
+      "Glenoid fossa",
+      "Obturator foramen",
+      "Tibial condyles"
+     ],
+     "e": "Femoral head + acetabulum = hip joint.",
+     "s": "L11, slide 17",
+     "img": "img/femur.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 12,
+     "q": "Humerus handout (anterior left, posterior right): which label is the lateral supracondylar ridge?",
+     "a": "#8",
+     "w": [
+      "#9",
+      "#12",
+      "#11"
+     ],
+     "e": "#8 = Lateral supracondylar ridge. Sharp ridge on the lateral shaft just above the lateral epicondyle (on the class handout; not on the slides).",
+     "s": "L10 handout diagram",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 13,
+     "q": "Humerus handout (anterior left, posterior right): which label is the medial epicondyle?",
+     "a": "#12",
+     "w": [
+      "#10",
+      "#8",
+      "#3"
+     ],
+     "e": "#12 = Medial epicondyle. Bump on the distal medial humerus.",
+     "s": "L10, slide 36",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 14,
+     "q": "Humerus handout (anterior left, posterior right): which label is the deltoid tuberosity?",
+     "a": "#7",
+     "w": [
+      "#4",
+      "#10",
+      "#11"
+     ],
+     "e": "#7 = Deltoid tuberosity. Rough bump halfway down the lateral shaft.",
+     "s": "L10, slide 31",
+     "img": "img/humerus.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 15,
+     "q": "Forearm handout (anterior view): which label is the trochlear notch (ulna)?",
+     "a": "#1",
+     "w": [
+      "#9",
+      "#8",
+      "#10"
+     ],
+     "e": "#1 = Trochlear notch (ulna). C-shaped notch that wraps the trochlea.",
+     "s": "L10, slide 43",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout: the joint formed by #7 (interosseous membrane) is a:",
+     "a": "Syndesmosis (slightly movable)",
+     "w": [
+      "Synovial hinge",
+      "Suture",
+      "Symphysis"
+     ],
+     "e": "Fibrous sheet between the radius and ulna = syndesmosis, amphiarthrotic.",
+     "s": "L12, slide 7",
+     "img": "img/forearm.jpg",
+     "u": "L12"
+    },
+    {
+     "topic": 17,
+     "q": "Leg handout (anterior view): which label is the lateral malleolus (fibula)?",
+     "a": "#8",
+     "w": [
+      "#7",
+      "#6",
+      "#4"
+     ],
+     "e": "#8 = Lateral malleolus (fibula). Lateral ankle bump.",
+     "s": "L11, slide 41",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): what does #6 point to?",
+     "a": "Anterior crest of the tibia",
+     "w": [
+      "Tibial tuberosity",
+      "Medial condyle of the tibia",
+      "Neck of the fibula"
+     ],
+     "e": "#6 = Anterior crest of the tibia. Raised ridge down the front: the shin.",
+     "s": "L11, slide 37",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Forearm handout (anterior view): what does #9 point to?",
+     "a": "Olecranon process (ulna)",
+     "w": [
+      "Trochlear notch (ulna)",
+      "Coronoid process (ulna)",
+      "Styloid process of the radius"
+     ],
+     "e": "#9 = Olecranon process (ulna). Forms the point of the elbow.",
+     "s": "L10, slide 42",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 20,
+     "q": "Forearm handout (anterior view): which label is the interosseous membrane?",
+     "a": "#7",
+     "w": [
+      "#4",
+      "#1",
+      "#3"
+     ],
+     "e": "#7 = Interosseous membrane. Fibrous sheet joining the radius and ulna.",
+     "s": "L10, slide 46",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 15,
+     "q": "Forearm handout (anterior view): which label is the styloid process of the ulna?",
+     "a": "#6",
+     "w": [
+      "#5",
+      "#10",
+      "#8"
+     ],
+     "e": "#6 = Styloid process of the ulna. Distal medial, posterior bump (pinky side).",
+     "s": "L10, slide 45",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout (anterior view): which label is the radial tuberosity?",
+     "a": "#4",
+     "w": [
+      "#2",
+      "#7",
+      "#1"
+     ],
+     "e": "#4 = Radial tuberosity. Bump just below the radial neck.",
+     "s": "L10, slide 40",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Leg handout (anterior view): what does #4 point to?",
+     "a": "Medial condyle of the tibia",
+     "w": [
+      "Lateral condyle of the tibia",
+      "Tibial tuberosity",
+      "Anterior crest of the tibia"
+     ],
+     "e": "#4 = Medial condyle of the tibia. Proximal medial tibia; meets the femur's medial condyle.",
+     "s": "L11, slide 34",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 18,
+     "q": "Forearm handout (anterior view): which label is the head of the radius?",
+     "a": "#2",
+     "w": [
+      "#4",
+      "#3",
+      "#7"
+     ],
+     "e": "#2 = Head of the radius. Rounded proximal end, like a bat handle.",
+     "s": "L10, slide 39",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 19,
+     "q": "Forearm handout (anterior view): what does #7 point to?",
+     "a": "Interosseous membrane",
+     "w": [
+      "Radial tuberosity",
+      "Head of the ulna",
+      "Head of the radius"
+     ],
+     "e": "#7 = Interosseous membrane. Fibrous sheet joining the radius and ulna.",
+     "s": "L10, slide 46",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 20,
+     "q": "Leg handout (anterior view): which label is the lateral condyle of the tibia?",
+     "a": "#1",
+     "w": [
+      "#3",
+      "#2",
+      "#5"
+     ],
+     "e": "#1 = Lateral condyle of the tibia. Proximal lateral tibia; meets the femur's lateral condyle.",
+     "s": "L11, slide 35",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 15,
+     "q": "Forearm handout: #2 (radial head) articulates with the:",
+     "a": "Capitulum of the humerus",
+     "w": [
+      "Trochlea of the humerus",
+      "Olecranon fossa",
+      "Glenoid fossa"
+     ],
+     "e": "Capitulum meets the radial head.",
+     "s": "L10, slide 34",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 16,
+     "q": "Leg handout: which bone has #4, #5, #6 and #7?",
+     "a": "Tibia",
+     "w": [
+      "Fibula",
+      "Femur",
+      "Ulna"
+     ],
+     "e": "Medial condyle, tibial tuberosity, anterior crest and medial malleolus.",
+     "s": "L11, slides 33–38",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 17,
+     "q": "Forearm handout (anterior view): what does #3 point to?",
+     "a": "Neck of the radius",
+     "w": [
+      "Head of the radius",
+      "Radial tuberosity",
+      "Head of the ulna"
+     ],
+     "e": "#3 = Neck of the radius. Just distal to the radial head.",
+     "s": "L10, slide 40",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): what does #5 point to?",
+     "a": "Tibial tuberosity",
+     "w": [
+      "Medial condyle of the tibia",
+      "Anterior crest of the tibia",
+      "Neck of the fibula"
+     ],
+     "e": "#5 = Tibial tuberosity. Proximal anterior bump; patellar ligament attaches.",
+     "s": "L11, slide 36",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Leg handout: #7 and #8 together hold which tarsal to form the ankle joint?",
+     "a": "Talus",
+     "w": [
+      "Calcaneus",
+      "Navicular",
+      "Cuboid"
+     ],
+     "e": "Talocrural joint = tibia + fibula + talus.",
+     "s": "L11, slide 45",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 20,
+     "q": "Leg handout (anterior view): what does #7 point to?",
+     "a": "Medial malleolus (tibia)",
+     "w": [
+      "Lateral malleolus (fibula)",
+      "Tibial tuberosity",
+      "Medial condyle of the tibia"
+     ],
+     "e": "#7 = Medial malleolus (tibia). Medial ankle bump.",
+     "s": "L11, slide 38",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 15,
+     "q": "Forearm handout (anterior view): what does #5 point to?",
+     "a": "Styloid process of the radius",
+     "w": [
+      "Head of the ulna",
+      "Styloid process of the ulna",
+      "Neck of the radius"
+     ],
+     "e": "#5 = Styloid process of the radius. Distal lateral bump (thumb side).",
+     "s": "L10, slide 41",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout (anterior view): what does #4 point to?",
+     "a": "Radial tuberosity",
+     "w": [
+      "Head of the radius",
+      "Neck of the radius",
+      "Styloid process of the radius"
+     ],
+     "e": "#4 = Radial tuberosity. Bump just below the radial neck.",
+     "s": "L10, slide 40",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Forearm handout: which bone is on the LEFT (with #2–#5)?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Humerus",
+      "Fibula"
+     ],
+     "e": "Radial head, neck, tuberosity and styloid: the lateral (thumb-side) bone.",
+     "s": "L10, slide 39",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): what does #3 point to?",
+     "a": "Neck of the fibula",
+     "w": [
+      "Head of the fibula",
+      "Lateral condyle of the tibia",
+      "Anterior crest of the tibia"
+     ],
+     "e": "#3 = Neck of the fibula. Just distal to the fibular head.",
+     "s": "L11, slide 40",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Leg handout (anterior view): which label is the neck of the fibula?",
+     "a": "#3",
+     "w": [
+      "#1",
+      "#2",
+      "#8"
+     ],
+     "e": "#3 = Neck of the fibula. Just distal to the fibular head.",
+     "s": "L11, slide 40",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 20,
+     "q": "Leg handout: which bone in this drawing is weight-bearing?",
+     "a": "Tibia (right)",
+     "w": [
+      "Fibula (left)",
+      "Both equally",
+      "Neither"
+     ],
+     "e": "Tibia = weight-bearing; fibula = non-weight-bearing.",
+     "s": "L11, slides 33, 39",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 15,
+     "q": "Leg handout: which bone is on the LEFT (with #2, #3, #8)?",
+     "a": "Fibula",
+     "w": [
+      "Tibia",
+      "Femur",
+      "Radius"
+     ],
+     "e": "The thin lateral, non-weight-bearing bone.",
+     "s": "L11, slide 39",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout (anterior view): what does #10 point to?",
+     "a": "Head of the ulna",
+     "w": [
+      "Styloid process of the ulna",
+      "Styloid process of the radius",
+      "Coronoid process (ulna)"
+     ],
+     "e": "#10 = Head of the ulna. Distal end of the ulna, just above its styloid.",
+     "s": "L10, slide 45",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Leg handout (anterior view): what does #1 point to?",
+     "a": "Lateral condyle of the tibia",
+     "w": [
+      "Head of the fibula",
+      "Tibial tuberosity",
+      "Medial condyle of the tibia"
+     ],
+     "e": "#1 = Lateral condyle of the tibia. Proximal lateral tibia; meets the femur's lateral condyle.",
+     "s": "L11, slide 35",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): which label is the anterior crest of the tibia?",
+     "a": "#6",
+     "w": [
+      "#5",
+      "#2",
+      "#7"
+     ],
+     "e": "#6 = Anterior crest of the tibia. Raised ridge down the front: the shin.",
+     "s": "L11, slide 37",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Forearm handout (anterior view): which label is the neck of the radius?",
+     "a": "#3",
+     "w": [
+      "#4",
+      "#2",
+      "#9"
+     ],
+     "e": "#3 = Neck of the radius. Just distal to the radial head.",
+     "s": "L10, slide 40",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 20,
+     "q": "Forearm handout (anterior view): what does #8 point to?",
+     "a": "Coronoid process (ulna)",
+     "w": [
+      "Olecranon process (ulna)",
+      "Trochlear notch (ulna)",
+      "Radial tuberosity"
+     ],
+     "e": "#8 = Coronoid process (ulna). Just distal to the trochlear notch, anterior.",
+     "s": "L10, slide 44",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 15,
+     "q": "Leg handout: the patellar ligament (quadriceps tendon) attaches at:",
+     "a": "#5 (tibial tuberosity)",
+     "w": [
+      "#6 (anterior crest)",
+      "#2 (head of the fibula)",
+      "#4 (medial condyle)"
+     ],
+     "e": "Tibial tuberosity.",
+     "s": "L11, slide 36",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout (anterior view): which label is the coronoid process (ulna)?",
+     "a": "#8",
+     "w": [
+      "#9",
+      "#1",
+      "#6"
+     ],
+     "e": "#8 = Coronoid process (ulna). Just distal to the trochlear notch, anterior.",
+     "s": "L10, slide 44",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Leg handout (anterior view): which label is the tibial tuberosity?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#1",
+      "#7"
+     ],
+     "e": "#5 = Tibial tuberosity. Proximal anterior bump; patellar ligament attaches.",
+     "s": "L11, slide 36",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): which label is the head of the fibula?",
+     "a": "#2",
+     "w": [
+      "#3",
+      "#1",
+      "#5"
+     ],
+     "e": "#2 = Head of the fibula. Most proximal part of the fibula.",
+     "s": "L11, slide 40",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Leg handout (anterior view): which label is the medial malleolus (tibia)?",
+     "a": "#7",
+     "w": [
+      "#8",
+      "#5",
+      "#3"
+     ],
+     "e": "#7 = Medial malleolus (tibia). Medial ankle bump.",
+     "s": "L11, slide 38",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 20,
+     "q": "Forearm handout (anterior view): which label is the styloid process of the radius?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#10",
+      "#1"
+     ],
+     "e": "#5 = Styloid process of the radius. Distal lateral bump (thumb side).",
+     "s": "L10, slide 41",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 15,
+     "q": "Leg handout (anterior view): what does #2 point to?",
+     "a": "Head of the fibula",
+     "w": [
+      "Neck of the fibula",
+      "Lateral condyle of the tibia",
+      "Medial malleolus (tibia)"
+     ],
+     "e": "#2 = Head of the fibula. Most proximal part of the fibula.",
+     "s": "L11, slide 40",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout: which bone has #1, #8 and #9?",
+     "a": "Ulna",
+     "w": [
+      "Radius",
+      "Humerus",
+      "Tibia"
+     ],
+     "e": "Trochlear notch, coronoid process and olecranon process are all on the ulna.",
+     "s": "L10, slides 42–44",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Forearm handout (anterior view): which label is the head of the ulna?",
+     "a": "#10",
+     "w": [
+      "#6",
+      "#5",
+      "#9"
+     ],
+     "e": "#10 = Head of the ulna. Distal end of the ulna, just above its styloid.",
+     "s": "L10, slide 45",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 18,
+     "q": "Leg handout (anterior view): which label is the medial condyle of the tibia?",
+     "a": "#4",
+     "w": [
+      "#1",
+      "#5",
+      "#7"
+     ],
+     "e": "#4 = Medial condyle of the tibia. Proximal medial tibia; meets the femur's medial condyle.",
+     "s": "L11, slide 34",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 19,
+     "q": "Leg handout (anterior view): what does #8 point to?",
+     "a": "Lateral malleolus (fibula)",
+     "w": [
+      "Medial malleolus (tibia)",
+      "Lateral condyle of the tibia",
+      "Head of the fibula"
+     ],
+     "e": "#8 = Lateral malleolus (fibula). Lateral ankle bump.",
+     "s": "L11, slide 41",
+     "img": "img/leg.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 20,
+     "q": "Forearm handout (anterior view): which label is the olecranon process (ulna)?",
+     "a": "#9",
+     "w": [
+      "#8",
+      "#1",
+      "#4"
+     ],
+     "e": "#9 = Olecranon process (ulna). Forms the point of the elbow.",
+     "s": "L10, slide 42",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 15,
+     "q": "Forearm handout (anterior view): what does #2 point to?",
+     "a": "Head of the radius",
+     "w": [
+      "Radial tuberosity",
+      "Neck of the radius",
+      "Interosseous membrane"
+     ],
+     "e": "#2 = Head of the radius. Rounded proximal end, like a bat handle.",
+     "s": "L10, slide 39",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 16,
+     "q": "Forearm handout (anterior view): what does #6 point to?",
+     "a": "Styloid process of the ulna",
+     "w": [
+      "Head of the ulna",
+      "Styloid process of the radius",
+      "Olecranon process (ulna)"
+     ],
+     "e": "#6 = Styloid process of the ulna. Distal medial, posterior bump (pinky side).",
+     "s": "L10, slide 45",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 17,
+     "q": "Forearm handout (anterior view): what does #1 point to?",
+     "a": "Trochlear notch (ulna)",
+     "w": [
+      "Coronoid process (ulna)",
+      "Olecranon process (ulna)",
+      "Styloid process of the ulna"
+     ],
+     "e": "#1 = Trochlear notch (ulna). C-shaped notch that wraps the trochlea.",
+     "s": "L10, slide 43",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 18,
+     "q": "Forearm handout: #1 (trochlear notch) articulates with the:",
+     "a": "Trochlea of the humerus",
+     "w": [
+      "Capitulum of the humerus",
+      "Head of the radius",
+      "Carpals"
+     ],
+     "e": "Humeroulnar joint.",
+     "s": "L10, slide 43",
+     "img": "img/forearm.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: what does #6 point to?",
+     "a": "Carpals",
+     "w": [
+      "Metacarpals",
+      "Phalanges",
+      "Radius"
+     ],
+     "e": "#6 = Carpals. 8 wrist bones in 2 rows of 4.",
+     "s": "L10, slide 48",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: which label is the proximal phalanx of the thumb?",
+     "a": "#17",
+     "w": [
+      "#18",
+      "#2",
+      "#10"
+     ],
+     "e": "#17 = Proximal phalanx of the thumb. Thumb has only proximal and distal phalanges.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: which label is the lunate?",
+     "a": "#10",
+     "w": [
+      "#14",
+      "#9",
+      "#17"
+     ],
+     "e": "#10 = Lunate. Proximal row, between the scaphoid and triquetrum.",
+     "s": "L10, slide 51",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the trapezium?",
+     "a": "#15",
+     "w": [
+      "#16",
+      "#13",
+      "#1"
+     ],
+     "e": "#15 = Trapezium. Distal row, most lateral: under the thumb.",
+     "s": "L10, slide 57",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: which number forms the ankle joint with the tibia and fibula?",
+     "a": "#4 (talus)",
+     "w": [
+      "#5 (calcaneus)",
+      "#3 (navicular)",
+      "#6 (cuboid)"
+     ],
+     "e": "Talocrural joint.",
+     "s": "L11, slide 45",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: which label is the capitate?",
+     "a": "#13",
+     "w": [
+      "#16",
+      "#15",
+      "#18"
+     ],
+     "e": "#13 = Capitate. Center of the distal row.",
+     "s": "L10, slide 55",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #17 point to?",
+     "a": "Proximal phalanx of the thumb",
+     "w": [
+      "Distal phalanx of the thumb",
+      "Middle phalanx",
+      "Pisiform"
+     ],
+     "e": "#17 = Proximal phalanx of the thumb. Thumb has only proximal and distal phalanges.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: what does #4 point to?",
+     "a": "Talus",
+     "w": [
+      "Calcaneus",
+      "Phalanges",
+      "Middle phalanx"
+     ],
+     "e": "#4 = Talus. On top of the calcaneus; forms the ankle joint.",
+     "s": "L11, slide 45",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the phalanges?",
+     "a": "#4",
+     "w": [
+      "#5",
+      "#6",
+      "#16"
+     ],
+     "e": "#4 = Phalanges. Finger bones: 14 per hand.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: why does the thumb show only #17 and #18?",
+     "a": "The thumb has no middle phalanx",
+     "w": [
+      "The middle phalanx is fused to the metacarpal",
+      "The thumb has no proximal phalanx",
+      "It's hidden behind the trapezium"
+     ],
+     "e": "Thumb = proximal + distal phalanges only.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: what does #15 point to?",
+     "a": "Trapezium",
+     "w": [
+      "Capitate",
+      "Scaphoid",
+      "Trapezoid"
+     ],
+     "e": "#15 = Trapezium. Distal row, most lateral: under the thumb.",
+     "s": "L10, slide 57",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: what does #7 point to?",
+     "a": "Lateral cuneiform",
+     "w": [
+      "Intermediate cuneiform",
+      "Medial cuneiform",
+      "Cuboid"
+     ],
+     "e": "#7 = Lateral cuneiform. Base of the 3rd metatarsal.",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: which label is the carpals?",
+     "a": "#6",
+     "w": [
+      "#5",
+      "#4",
+      "#12"
+     ],
+     "e": "#6 = Carpals. 8 wrist bones in 2 rows of 4.",
+     "s": "L10, slide 48",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which side of this drawing is the thumb (lateral) side?",
+     "a": "Right side (#14–#18)",
+     "w": [
+      "Left side (#7–#11)",
+      "Top",
+      "Bottom"
+     ],
+     "e": "Scaphoid, trapezium, trapezoid and the thumb are on the right.",
+     "s": "L10, slide 49",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: which label is the ulna?",
+     "a": "#11",
+     "w": [
+      "#12",
+      "#8",
+      "#15"
+     ],
+     "e": "#11 = Ulna. Medial (pinky-side) forearm bone.",
+     "s": "L10, slide 42",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: what does #3 point to?",
+     "a": "Navicular",
+     "w": [
+      "Medial cuneiform",
+      "Cuboid",
+      "Phalanges"
+     ],
+     "e": "#3 = Navicular. Medial, in front of the talus.",
+     "s": "L11, slide 46",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: which label is the calcaneus?",
+     "a": "#5",
+     "w": [
+      "#4",
+      "#10",
+      "#8"
+     ],
+     "e": "#5 = Calcaneus. Heel bone; largest tarsal.",
+     "s": "L11, slide 44",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: which label is the navicular?",
+     "a": "#3",
+     "w": [
+      "#1",
+      "#6",
+      "#9"
+     ],
+     "e": "#3 = Navicular. Medial, in front of the talus.",
+     "s": "L11, slide 46",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: what does #2 point to?",
+     "a": "Middle phalanx",
+     "w": [
+      "Distal phalanx of the thumb",
+      "Proximal phalanx of the thumb",
+      "Triquetrum"
+     ],
+     "e": "#2 = Middle phalanx. Between the proximal and distal phalanges (not in the thumb).",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: what does #5 point to?",
+     "a": "Calcaneus",
+     "w": [
+      "Talus",
+      "Proximal phalanx",
+      "Medial cuneiform"
+     ],
+     "e": "#5 = Calcaneus. Heel bone; largest tarsal.",
+     "s": "L11, slide 44",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: which label is the intermediate cuneiform?",
+     "a": "#2",
+     "w": [
+      "#7",
+      "#1",
+      "#9"
+     ],
+     "e": "#2 = Intermediate cuneiform. Base of the 2nd metatarsal.",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #9 point to?",
+     "a": "Triquetrum",
+     "w": [
+      "Pisiform",
+      "Scaphoid",
+      "Carpals"
+     ],
+     "e": "#9 = Triquetrum. Proximal row, beside the pisiform.",
+     "s": "L10, slide 52",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: what does #6 point to?",
+     "a": "Cuboid",
+     "w": [
+      "Medial cuneiform",
+      "Navicular",
+      "Talus"
+     ],
+     "e": "#6 = Cuboid. Lateral, in front of the calcaneus.",
+     "s": "L11, slide 47",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the scaphoid?",
+     "a": "#14",
+     "w": [
+      "#8",
+      "#15",
+      "#3"
+     ],
+     "e": "#14 = Scaphoid. Proximal row, most lateral (thumb side).",
+     "s": "L10, slide 50",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: what does #1 point to?",
+     "a": "Distal phalanx",
+     "w": [
+      "Middle phalanx",
+      "Proximal phalanx",
+      "Proximal phalanx of the thumb"
+     ],
+     "e": "#1 = Distal phalanx. Fingertip bone.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: which numbers are the 7 tarsals?",
+     "a": "#1–#7",
+     "w": [
+      "#1–#8",
+      "#8–#12",
+      "#3–#9"
+     ],
+     "e": "Talus, calcaneus, navicular, cuboid and the three cuneiforms.",
+     "s": "L11, slide 43",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: what does #12 point to?",
+     "a": "Phalanges",
+     "w": [
+      "Metatarsals",
+      "Proximal phalanx",
+      "Lateral cuneiform"
+     ],
+     "e": "#12 = Phalanges. Toe bones: 14 per foot.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: the tunnel of Guyon lies between #8 and the hook of which bone?",
+     "a": "#7 (hamate)",
+     "w": [
+      "#13 (capitate)",
+      "#9 (triquetrum)",
+      "#15 (trapezium)"
+     ],
+     "e": "Pisiform + hook of the hamate; ulnar nerve and artery pass through.",
+     "s": "L10, slide 49",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the proximal phalanx?",
+     "a": "#3",
+     "w": [
+      "#1",
+      "#2",
+      "#11"
+     ],
+     "e": "#3 = Proximal phalanx. Closest to the palm.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: what does #1 point to?",
+     "a": "Medial cuneiform",
+     "w": [
+      "Lateral cuneiform",
+      "Intermediate cuneiform",
+      "Proximal phalanx"
+     ],
+     "e": "#1 = Medial cuneiform. Base of the 1st metatarsal (big toe).",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: which label is the cuboid?",
+     "a": "#6",
+     "w": [
+      "#3",
+      "#1",
+      "#10"
+     ],
+     "e": "#6 = Cuboid. Lateral, in front of the calcaneus.",
+     "s": "L11, slide 47",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: what does #8 point to?",
+     "a": "Metatarsals",
+     "w": [
+      "Proximal phalanx",
+      "Phalanges",
+      "Medial cuneiform"
+     ],
+     "e": "#8 = Metatarsals. Bones of the arch, numbered 1 (big toe) to 5.",
+     "s": "L11, slide 49",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: which label is the medial cuneiform?",
+     "a": "#1",
+     "w": [
+      "#2",
+      "#3",
+      "#9"
+     ],
+     "e": "#1 = Medial cuneiform. Base of the 1st metatarsal (big toe).",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Foot handout: which label is the phalanges?",
+     "a": "#12",
+     "w": [
+      "#8",
+      "#9",
+      "#1"
+     ],
+     "e": "#12 = Phalanges. Toe bones: 14 per foot.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: what does #4 point to?",
+     "a": "Phalanges",
+     "w": [
+      "Carpals",
+      "Metacarpals",
+      "Hamate"
+     ],
+     "e": "#4 = Phalanges. Finger bones: 14 per hand.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: which label is the triquetrum?",
+     "a": "#9",
+     "w": [
+      "#14",
+      "#8",
+      "#15"
+     ],
+     "e": "#9 = Triquetrum. Proximal row, beside the pisiform.",
+     "s": "L10, slide 52",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: which label is the pisiform?",
+     "a": "#8",
+     "w": [
+      "#7",
+      "#14",
+      "#16"
+     ],
+     "e": "#8 = Pisiform. Proximal row, most medial (pinky side); pea-shaped.",
+     "s": "L10, slide 53",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: which label is the distal phalanx of the thumb?",
+     "a": "#18",
+     "w": [
+      "#17",
+      "#2",
+      "#3"
+     ],
+     "e": "#18 = Distal phalanx of the thumb. Tip of the thumb.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: what does #7 point to?",
+     "a": "Hamate",
+     "w": [
+      "Triquetrum",
+      "Capitate",
+      "Middle phalanx"
+     ],
+     "e": "#7 = Hamate. Distal row, most medial (pinky side); has a hook.",
+     "s": "L10, slide 54",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: what does #11 point to?",
+     "a": "Distal phalanx",
+     "w": [
+      "Proximal phalanx",
+      "Middle phalanx",
+      "Calcaneus"
+     ],
+     "e": "#11 = Distal phalanx. Tip of the toe (also labeled on the big toe).",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: which label is the metacarpals?",
+     "a": "#5",
+     "w": [
+      "#4",
+      "#6",
+      "#2"
+     ],
+     "e": "#5 = Metacarpals. Palm bones, numbered 1 (thumb) to 5 (pinky).",
+     "s": "L10, slide 58",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #3 point to?",
+     "a": "Proximal phalanx",
+     "w": [
+      "Middle phalanx",
+      "Distal phalanx",
+      "Trapezoid"
+     ],
+     "e": "#3 = Proximal phalanx. Closest to the palm.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: what does #13 point to?",
+     "a": "Capitate",
+     "w": [
+      "Triquetrum",
+      "Scaphoid",
+      "Proximal phalanx"
+     ],
+     "e": "#13 = Capitate. Center of the distal row.",
+     "s": "L10, slide 55",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Foot handout: which side of the drawing is medial (big toe side)?",
+     "a": "Left",
+     "w": [
+      "Right",
+      "Top",
+      "Bottom"
+     ],
+     "e": "Metatarsal 1 and the great toe are medial.",
+     "s": "L11, slide 49",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: which label is the hamate?",
+     "a": "#7",
+     "w": [
+      "#8",
+      "#9",
+      "#11"
+     ],
+     "e": "#7 = Hamate. Distal row, most medial (pinky side); has a hook.",
+     "s": "L10, slide 54",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: which label is the distal phalanx?",
+     "a": "#11",
+     "w": [
+      "#10",
+      "#9",
+      "#4"
+     ],
+     "e": "#11 = Distal phalanx. Tip of the toe (also labeled on the big toe).",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #16 point to?",
+     "a": "Trapezoid",
+     "w": [
+      "Capitate",
+      "Scaphoid",
+      "Metacarpals"
+     ],
+     "e": "#16 = Trapezoid. Distal row, between the trapezium and capitate.",
+     "s": "L10, slide 56",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: which label is the radius?",
+     "a": "#12",
+     "w": [
+      "#11",
+      "#17",
+      "#3"
+     ],
+     "e": "#12 = Radius. Lateral (thumb-side) forearm bone.",
+     "s": "L10, slide 39",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: what does #10 point to?",
+     "a": "Lunate",
+     "w": [
+      "Pisiform",
+      "Scaphoid",
+      "Metacarpals"
+     ],
+     "e": "#10 = Lunate. Proximal row, between the scaphoid and triquetrum.",
+     "s": "L10, slide 51",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Hand handout: what does #8 point to?",
+     "a": "Pisiform",
+     "w": [
+      "Capitate",
+      "Lunate",
+      "Distal phalanx of the thumb"
+     ],
+     "e": "#8 = Pisiform. Proximal row, most medial (pinky side); pea-shaped.",
+     "s": "L10, slide 53",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: what does #14 point to?",
+     "a": "Scaphoid",
+     "w": [
+      "Capitate",
+      "Lunate",
+      "Carpals"
+     ],
+     "e": "#14 = Scaphoid. Proximal row, most lateral (thumb side).",
+     "s": "L10, slide 50",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: what does #9 point to?",
+     "a": "Proximal phalanx",
+     "w": [
+      "Distal phalanx",
+      "Middle phalanx",
+      "Calcaneus"
+     ],
+     "e": "#9 = Proximal phalanx. Toe bone closest to the metatarsal.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: what does #2 point to?",
+     "a": "Intermediate cuneiform",
+     "w": [
+      "Medial cuneiform",
+      "Lateral cuneiform",
+      "Talus"
+     ],
+     "e": "#2 = Intermediate cuneiform. Base of the 2nd metatarsal.",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: #8, #9, #10 and #14 make up which row of carpals?",
+     "a": "Proximal row",
+     "w": [
+      "Distal row",
+      "Metacarpals",
+      "Phalanges"
+     ],
+     "e": "Proximal row: scaphoid (14), lunate (10), triquetrum (9), pisiform (8).",
+     "s": "L10, slide 49",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: what does #10 point to?",
+     "a": "Middle phalanx",
+     "w": [
+      "Distal phalanx",
+      "Proximal phalanx",
+      "Cuboid"
+     ],
+     "e": "#10 = Middle phalanx. Toes 2–5 only; the big toe has no middle phalanx.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: what does #11 point to?",
+     "a": "Ulna",
+     "w": [
+      "Radius",
+      "Trapezoid",
+      "Hamate"
+     ],
+     "e": "#11 = Ulna. Medial (pinky-side) forearm bone.",
+     "s": "L10, slide 42",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #12 point to?",
+     "a": "Radius",
+     "w": [
+      "Ulna",
+      "Trapezoid",
+      "Metacarpals"
+     ],
+     "e": "#12 = Radius. Lateral (thumb-side) forearm bone.",
+     "s": "L10, slide 39",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Hand handout: what does #18 point to?",
+     "a": "Distal phalanx of the thumb",
+     "w": [
+      "Middle phalanx",
+      "Proximal phalanx of the thumb",
+      "Metacarpals"
+     ],
+     "e": "#18 = Distal phalanx of the thumb. Tip of the thumb.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the trapezoid?",
+     "a": "#16",
+     "w": [
+      "#13",
+      "#15",
+      "#18"
+     ],
+     "e": "#16 = Trapezoid. Distal row, between the trapezium and capitate.",
+     "s": "L10, slide 56",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: which label is the proximal phalanx?",
+     "a": "#9",
+     "w": [
+      "#12",
+      "#8",
+      "#7"
+     ],
+     "e": "#9 = Proximal phalanx. Toe bone closest to the metatarsal.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Hand handout: which label is the distal phalanx?",
+     "a": "#1",
+     "w": [
+      "#3",
+      "#2",
+      "#5"
+     ],
+     "e": "#1 = Distal phalanx. Fingertip bone.",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 22,
+     "q": "Foot handout: #1, #2 and #7 together are the:",
+     "a": "Cuneiforms (medial, intermediate, lateral)",
+     "w": [
+      "Metatarsals 1–3",
+      "Navicular, cuboid, talus",
+      "Phalanges"
+     ],
+     "e": "M-I-L cuneiforms sit at the bases of metatarsals 1–3.",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: which label is the lateral cuneiform?",
+     "a": "#7",
+     "w": [
+      "#2",
+      "#1",
+      "#12"
+     ],
+     "e": "#7 = Lateral cuneiform. Base of the 3rd metatarsal.",
+     "s": "L11, slide 48",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: which label is the middle phalanx?",
+     "a": "#2",
+     "w": [
+      "#3",
+      "#17",
+      "#5"
+     ],
+     "e": "#2 = Middle phalanx. Between the proximal and distal phalanges (not in the thumb).",
+     "s": "L10, slide 60",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: which label is the metatarsals?",
+     "a": "#8",
+     "w": [
+      "#12",
+      "#9",
+      "#1"
+     ],
+     "e": "#8 = Metatarsals. Bones of the arch, numbered 1 (big toe) to 5.",
+     "s": "L11, slide 49",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 21,
+     "q": "Foot handout: the big toe (left) has which phalanges?",
+     "a": "Proximal and distal only",
+     "w": [
+      "Proximal, middle and distal",
+      "Middle and distal only",
+      "Only a proximal phalanx"
+     ],
+     "e": "The great toe has 2 phalanges; toes 2–5 have 3.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 22,
+     "q": "Hand handout: what does #5 point to?",
+     "a": "Metacarpals",
+     "w": [
+      "Carpals",
+      "Phalanges",
+      "Middle phalanx"
+     ],
+     "e": "#5 = Metacarpals. Palm bones, numbered 1 (thumb) to 5 (pinky).",
+     "s": "L10, slide 58",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 23,
+     "q": "Foot handout: which label is the talus?",
+     "a": "#4",
+     "w": [
+      "#5",
+      "#3",
+      "#1"
+     ],
+     "e": "#4 = Talus. On top of the calcaneus; forms the ankle joint.",
+     "s": "L11, slide 45",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 24,
+     "q": "Hand handout: #7, #13, #15 and #16 make up which row of carpals?",
+     "a": "Distal row",
+     "w": [
+      "Proximal row",
+      "Metacarpals",
+      "Forearm"
+     ],
+     "e": "Distal row: hamate (7), capitate (13), trapezoid (16), trapezium (15).",
+     "s": "L10, slide 49",
+     "img": "img/hand.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 25,
+     "q": "Foot handout: which label is the middle phalanx?",
+     "a": "#10",
+     "w": [
+      "#9",
+      "#11",
+      "#7"
+     ],
+     "e": "#10 = Middle phalanx. Toes 2–5 only; the big toe has no middle phalanx.",
+     "s": "L11, slide 50",
+     "img": "img/foot.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): which label is the glenohumeral joint?",
+     "a": "C",
+     "w": [
+      "E",
+      "B",
+      "D"
+     ],
+     "e": "C = Glenohumeral joint. Head of the humerus meets the glenoid fossa: the shoulder joint.",
+     "s": "L10, slide 24",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): which label is the acromioclavicular (AC) joint?",
+     "a": "B",
+     "w": [
+      "C",
+      "E",
+      "A"
+     ],
+     "e": "B = Acromioclavicular (AC) joint. Lateral clavicle meets the acromion.",
+     "s": "L10, slide 6",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): which label is the acromion process?",
+     "a": "A",
+     "w": [
+      "D",
+      "B",
+      "C"
+     ],
+     "e": "A = Acromion process. Lateral tip of the scapula; high point of the shoulder.",
+     "s": "L10, slide 14",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): what does A point to?",
+     "a": "Acromion process",
+     "w": [
+      "Clavicle",
+      "Sternoclavicular (SC) joint",
+      "Acromioclavicular (AC) joint"
+     ],
+     "e": "A = Acromion process. Lateral tip of the scapula; high point of the shoulder.",
+     "s": "L10, slide 14",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): what does B point to?",
+     "a": "Acromioclavicular (AC) joint",
+     "w": [
+      "Sternoclavicular (SC) joint",
+      "Glenohumeral joint",
+      "Clavicle"
+     ],
+     "e": "B = Acromioclavicular (AC) joint. Lateral clavicle meets the acromion.",
+     "s": "L10, slide 6",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): what does C point to?",
+     "a": "Glenohumeral joint",
+     "w": [
+      "Acromioclavicular (AC) joint",
+      "Sternoclavicular (SC) joint",
+      "Acromion process"
+     ],
+     "e": "C = Glenohumeral joint. Head of the humerus meets the glenoid fossa: the shoulder joint.",
+     "s": "L10, slide 24",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): what does E point to?",
+     "a": "Sternoclavicular (SC) joint",
+     "w": [
+      "Glenohumeral joint",
+      "Acromioclavicular (AC) joint",
+      "Clavicle"
+     ],
+     "e": "E = Sternoclavicular (SC) joint. Medial clavicle meets the manubrium.",
+     "s": "L10, slide 5",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): what does D point to?",
+     "a": "Clavicle",
+     "w": [
+      "Acromion process",
+      "Glenohumeral joint",
+      "Sternoclavicular (SC) joint"
+     ],
+     "e": "D = Clavicle. S-shaped collarbone.",
+     "s": "L10, slide 4",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): which label is the sternoclavicular (SC) joint?",
+     "a": "E",
+     "w": [
+      "B",
+      "C",
+      "D"
+     ],
+     "e": "E = Sternoclavicular (SC) joint. Medial clavicle meets the manubrium.",
+     "s": "L10, slide 5",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "q": "Right pectoral girdle (anterior): which label is the clavicle?",
+     "a": "D",
+     "w": [
+      "A",
+      "B",
+      "C"
+     ],
+     "e": "D = Clavicle. S-shaped collarbone.",
+     "s": "L10, slide 4",
+     "img": "img/girdle.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #1 point to?",
+     "a": "Medial (vertebral) border",
+     "w": [
+      "Lateral (axillary) border",
+      "Infraglenoid tubercle",
+      "Supraspinous fossa"
+     ],
+     "e": "#1 = Medial (vertebral) border. Edge closest to the spine.",
+     "s": "L10, slide 7",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the acromion process?",
+     "a": "#3",
+     "w": [
+      "#7",
+      "#4",
+      "#1"
+     ],
+     "e": "#3 = Acromion process. High point of the shoulder; end of the spine.",
+     "s": "L10, slide 14",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the coracoid process?",
+     "a": "#4",
+     "w": [
+      "#15",
+      "#3",
+      "#8"
+     ],
+     "e": "#4 = Coracoid process. Finger-like ANTERIOR projection.",
+     "s": "L10, slide 17",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the medial (vertebral) border?",
+     "a": "#1",
+     "w": [
+      "#2",
+      "#6",
+      "#5"
+     ],
+     "e": "#1 = Medial (vertebral) border. Edge closest to the spine.",
+     "s": "L10, slide 7",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the inferior angle?",
+     "a": "#5",
+     "w": [
+      "#6",
+      "#8",
+      "#11"
+     ],
+     "e": "#5 = Inferior angle. Bottom corner where the borders meet.",
+     "s": "L10, slide 9",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the lateral (axillary) border?",
+     "a": "#2",
+     "w": [
+      "#1",
+      "#4",
+      "#5"
+     ],
+     "e": "#2 = Lateral (axillary) border. Edge toward the armpit.",
+     "s": "L10, slide 8",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #4 point to?",
+     "a": "Coracoid process",
+     "w": [
+      "Glenoid fossa",
+      "Acromion process",
+      "Superior angle"
+     ],
+     "e": "#4 = Coracoid process. Finger-like ANTERIOR projection.",
+     "s": "L10, slide 17",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #3 point to?",
+     "a": "Acromion process",
+     "w": [
+      "Glenoid fossa",
+      "Coracoid process",
+      "Scapular notch"
+     ],
+     "e": "#3 = Acromion process. High point of the shoulder; end of the spine.",
+     "s": "L10, slide 14",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #5 point to?",
+     "a": "Inferior angle",
+     "w": [
+      "Superior angle",
+      "Supraspinous fossa",
+      "Spine of the scapula"
+     ],
+     "e": "#5 = Inferior angle. Bottom corner where the borders meet.",
+     "s": "L10, slide 9",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #2 point to?",
+     "a": "Lateral (axillary) border",
+     "w": [
+      "Medial (vertebral) border",
+      "Scapular notch",
+      "Infraspinous fossa"
+     ],
+     "e": "#2 = Lateral (axillary) border. Edge toward the armpit.",
+     "s": "L10, slide 8",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): what does #6 point to?",
+     "a": "Superior angle",
+     "w": [
+      "Inferior angle",
+      "Supraspinous fossa",
+      "Infraspinous fossa"
+     ],
+     "e": "#6 = Superior angle. Top corner of the medial border.",
+     "s": "L10, slide 10",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "q": "Scapula handout (posterior left, anterior right): which label is the superior angle?",
+     "a": "#6",
+     "w": [
+      "#5",
+      "#12",
+      "#14"
+     ],
+     "e": "#6 = Superior angle. Top corner of the medial border.",
+     "s": "L10, slide 10",
+     "img": "img/scapula.jpg",
+     "u": "L10"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the acetabulum?",
+     "a": "D",
+     "w": [
+      "E",
+      "#10",
+      "#12"
+     ],
+     "e": "D = Acetabulum. Hip socket where all three bones fuse.",
+     "s": "L11, slide 17",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the obturator foramen?",
+     "a": "E",
+     "w": [
+      "D",
+      "A",
+      "#3"
+     ],
+     "e": "E = Obturator foramen. Hole framed by the ischium and pubis.",
+     "s": "L11, slide 18",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does C point to?",
+     "a": "Pubis",
+     "w": [
+      "Ischium",
+      "Ilium",
+      "AIIS (anterior inferior iliac spine)"
+     ],
+     "e": "C = Pubis. Anterior part; meets its partner at the symphysis.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does A point to?",
+     "a": "Ilium",
+     "w": [
+      "Ischium",
+      "Pubis",
+      "Greater sciatic notch"
+     ],
+     "e": "A = Ilium. Large upper wing of the coxal bone.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the ilium?",
+     "a": "A",
+     "w": [
+      "B",
+      "C",
+      "#7"
+     ],
+     "e": "A = Ilium. Large upper wing of the coxal bone.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does E point to?",
+     "a": "Obturator foramen",
+     "w": [
+      "Acetabulum",
+      "Ischium",
+      "PIIS (posterior inferior iliac spine)"
+     ],
+     "e": "E = Obturator foramen. Hole framed by the ischium and pubis.",
+     "s": "L11, slide 18",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the iliac crest?",
+     "a": "#1",
+     "w": [
+      "#2",
+      "#11",
+      "E"
+     ],
+     "e": "#1 = Iliac crest. Main ridge along the top of the ilium.",
+     "s": "L11, slide 5",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the ischium?",
+     "a": "B",
+     "w": [
+      "C",
+      "A",
+      "E"
+     ],
+     "e": "B = Ischium. Lower posterior part of the coxal bone.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: which label is the pubis?",
+     "a": "C",
+     "w": [
+      "B",
+      "A",
+      "#14"
+     ],
+     "e": "C = Pubis. Anterior part; meets its partner at the symphysis.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does #1 point to?",
+     "a": "Iliac crest",
+     "w": [
+      "Iliac fossa",
+      "Pubis",
+      "AIIS (anterior inferior iliac spine)"
+     ],
+     "e": "#1 = Iliac crest. Main ridge along the top of the ilium.",
+     "s": "L11, slide 5",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does B point to?",
+     "a": "Ischium",
+     "w": [
+      "Ilium",
+      "Pubis",
+      "Obturator foramen"
+     ],
+     "e": "B = Ischium. Lower posterior part of the coxal bone.",
+     "s": "L11, slide 4",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "q": "Pelvis handout: what does D point to?",
+     "a": "Acetabulum",
+     "w": [
+      "Obturator foramen",
+      "Ischial spine",
+      "Pubic tubercle"
+     ],
+     "e": "D = Acetabulum. Hip socket where all three bones fuse.",
+     "s": "L11, slide 17",
+     "img": "img/pelvis.jpg",
+     "u": "L11"
+    }
+   ],
+   "cards": [
+    {
+     "topic": 1,
+     "f": "Acromion process",
+     "b": "SCAPULA: high point of the shoulder; lateral end of the spine",
+     "s": "L10, slide 14",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Coracoid process",
+     "b": "SCAPULA: finger-like ANTERIOR projection, lower than the acromion",
+     "s": "L10, slide 17",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Glenoid fossa",
+     "b": "SCAPULA: shallow socket at the top of the lateral border; holds the humeral head",
+     "s": "L10, slide 11",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Deltoid tuberosity",
+     "b": "HUMERUS: rough bump halfway down the lateral shaft",
+     "s": "L10, slide 31",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Capitulum vs. trochlea",
+     "b": "Both HUMERUS (distal). Capitulum (lateral) → radius; trochlea → ulna",
+     "s": "L10, slides 34–35",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Olecranon process vs. olecranon fossa",
+     "b": "Process = ULNA (point of elbow). Fossa = HUMERUS (posterior, deep)",
+     "s": "L10, slides 33, 42",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Coronoid process vs. coronoid fossa",
+     "b": "Process = ULNA (below trochlear notch). Fossa = HUMERUS (anterior, shallow)",
+     "s": "L10, slides 32, 44",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Radial tuberosity / Lister's tubercle",
+     "b": "RADIUS: tuberosity below the neck; Lister's = posterior distal bump (EPL pulley)",
+     "s": "L10, slides 40–41",
+     "u": "L10"
+    },
+    {
+     "topic": 9,
+     "f": "Greater / lesser trochanter",
+     "b": "FEMUR: greater = proximal lateral; lesser = proximal medial",
+     "s": "L11, slides 22–23",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Linea aspera",
+     "b": "FEMUR: ridge down the back",
+     "s": "L11, slide 24",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Adductor tubercle",
+     "b": "FEMUR: above the medial epicondyle",
+     "s": "L11, slide 29",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Tibial tuberosity",
+     "b": "TIBIA: proximal anterior bump; patellar ligament attaches",
+     "s": "L11, slide 36",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Medial vs. lateral malleolus",
+     "b": "Medial = TIBIA; lateral = FIBULA",
+     "s": "L11, slides 38, 41",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "ASIS, AIIS, PSIS, PIIS, iliac crest, iliac fossa",
+     "b": "All on the ILIUM",
+     "s": "L11, slides 5–10",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Ischial spine / ischial tuberosity",
+     "b": "ISCHIUM (tuberosity = 'sit bone')",
+     "s": "L11, slides 12–13",
+     "u": "L11"
+    },
+    {
+     "topic": 9,
+     "f": "Acetabulum vs. obturator foramen",
+     "b": "Acetabulum = ilium + ischium + pubis. Obturator foramen = ischium + pubis",
+     "s": "L11, slides 17–18",
+     "u": "L11"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral (shoulder) girdle",
+     "b": "2 bones: CLAVICLE + SCAPULA; attaches the upper limb to the trunk; L and R girdles",
+     "s": "L10, slide 3",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "f": "Clavicle runs from…",
+     "b": "Manubrium of the sternum → acromion of the scapula; S-shaped",
+     "s": "L10, slide 4",
+     "u": "L10"
+    },
+    {
+     "topic": 2,
+     "f": "3 joints of the shoulder",
+     "b": "Sternoclavicular, acromioclavicular, glenohumeral",
+     "s": "L12, slides 37–39",
+     "u": "L12"
+    },
+    {
+     "topic": 2,
+     "f": "Shoulder separation vs. dislocation",
+     "b": "Separation = AC joint. Dislocation = glenohumeral joint",
+     "s": "L12, slides 38–39",
+     "u": "L12"
+    },
+    {
+     "topic": 2,
+     "f": "Glenoid labrum",
+     "b": "Cartilage rim that deepens the glenoid fossa for stability",
+     "s": "L12, slide 41",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "f": "SAD – ISM",
+     "b": "Synarthrotic = Immovable · Amphiarthrotic = Slightly movable · Diarthrotic = Movable",
+     "s": "L12, slide 8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "f": "Synarthrotic examples",
+     "b": "Sutures (skull); gomphosis (tooth in socket)",
+     "s": "L12, slide 6",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "f": "Amphiarthrotic examples",
+     "b": "Synchondrosis (epiphyseal plate), symphysis (discs, pubic symphysis), syndesmosis (radius–ulna, tibia–fibula)",
+     "s": "L12, slide 7",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "f": "Diarthrotic examples",
+     "b": "Elbows, wrists, shoulders, knees, hips, ankles (all synovial joints)",
+     "s": "L12, slide 8",
+     "u": "L12"
+    },
+    {
+     "topic": 3,
+     "f": "Functional vs. structural classification",
+     "b": "Functional = degree of movement. Structural = tissue type + joint cavity (fibrous, cartilaginous, synovial)",
+     "s": "L12, slide 4",
+     "u": "L12"
+    },
+    {
+     "topic": 4,
+     "f": "Head of humerus articulates with…",
+     "b": "Glenoid fossa of the scapula → glenohumeral joint",
+     "s": "L10, slide 24",
+     "u": "L10"
+    },
+    {
+     "topic": 4,
+     "f": "Head of femur articulates with…",
+     "b": "Acetabulum → femoroacetabular (hip) joint",
+     "s": "L11, slide 17",
+     "u": "L11"
+    },
+    {
+     "topic": 4,
+     "f": "Femoral condyles articulate with…",
+     "b": "Tibial condyles (tibiofemoral); patella sits on the patellar surface (patellofemoral)",
+     "s": "L12, slide 48",
+     "u": "L12"
+    },
+    {
+     "topic": 10,
+     "f": "Medial clavicle articulates with…",
+     "b": "Manubrium of the sternum → sternoclavicular (SC) joint",
+     "s": "L10, slide 5",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "f": "Lateral clavicle articulates with…",
+     "b": "Acromion of the scapula → acromioclavicular (AC) joint",
+     "s": "L10, slide 6",
+     "u": "L10"
+    },
+    {
+     "topic": 10,
+     "f": "Elbow: 2 articulations",
+     "b": "Humeroulnar (hinge) + humeroradial; radius pivots on the ulna",
+     "s": "L12, slide 42",
+     "u": "L12"
+    },
+    {
+     "topic": 10,
+     "f": "CMC / MCP / PIP / DIP / IP",
+     "b": "Carpal–metacarpal · metacarpal–phalanx · proximal–middle · middle–distal · thumb's 2 phalanges",
+     "s": "L10, slides 59–63",
+     "u": "L10"
+    },
+    {
+     "topic": 5,
+     "f": "Talocrural joint",
+     "b": "The actual ankle joint: TALUS + TIBIA + FIBULA",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "f": "Ankle joint type (NYS boards)",
+     "b": "HINGE (synovial, diarthrotic)",
+     "s": "L12, slide 29",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "f": "Calcaneus",
+     "b": "Heel bone; LARGEST tarsal; weight-bearing bone of the ankle",
+     "s": "L11, slide 44",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "f": "Talus",
+     "b": "'Tallest': sits on the calcaneus; 2nd largest tarsal; forms the ankle joint",
+     "s": "L11, slide 45",
+     "u": "L11"
+    },
+    {
+     "topic": 5,
+     "f": "Ankle movements",
+     "b": "Plantar flexion (point down) · dorsiflexion (up) · inversion (sole in) · eversion (sole out)",
+     "s": "L12, slide 34",
+     "u": "L12"
+    },
+    {
+     "topic": 5,
+     "f": "Distal tibia–fibula joint",
+     "b": "Syndesmosis: fibrous, amphiarthrotic",
+     "s": "L12, slides 7, 12",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Gliding (planar)",
+     "b": "Nonaxial · slide · intercarpal, intertarsal, spinal facets",
+     "s": "L12, slide 27",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Pivot",
+     "b": "Uniaxial · rotation ONLY · C1 on C2; radius on ulna",
+     "s": "L12, slide 28",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Hinge",
+     "b": "Uniaxial · flexion/extension ONLY · elbow, knee, PIP, DIP, IP, ankle",
+     "s": "L12, slide 29",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Condyloid (ellipsoidal)",
+     "b": "Biaxial · flex/ext, abd/add, circumduction · MCP",
+     "s": "L12, slide 30",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Saddle",
+     "b": "Biaxial · same as condyloid · CMC of the THUMB",
+     "s": "L12, slide 31",
+     "u": "L12"
+    },
+    {
+     "topic": 6,
+     "f": "Ball and socket",
+     "b": "Multiaxial · all movements incl. rotation · most movable · shoulder, hip",
+     "s": "L12, slide 32",
+     "u": "L12"
+    },
+    {
+     "topic": 7,
+     "f": "Carpals: proximal row (lateral → medial)",
+     "b": "Scaphoid, Lunate, Triquetrum, Pisiform — 'So Long To Pinky'",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "f": "Carpals: distal row (medial → lateral)",
+     "b": "Hamate, Capitate, Trapezoid, Trapezium — 'Here Comes The Thumb'",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "f": "Most medial carpal in each row",
+     "b": "Proximal row: PISIFORM. Distal row: HAMATE",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "f": "Most lateral carpal in each row",
+     "b": "Proximal row: SCAPHOID. Distal row: TRAPEZIUM (under the thUMb)",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "f": "Tunnel of Guyon",
+     "b": "Between the pisiform and the hook of the hamate; ulnar nerve + artery",
+     "s": "L10, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 7,
+     "f": "Bones per hand",
+     "b": "8 carpals + 5 metacarpals + 14 phalanges = 27",
+     "s": "L10, slides 48–60",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "f": "Forearm: lateral / medial",
+     "b": "RADIUS = lateral (thumb). ULNA = medial (pinky)",
+     "s": "L10, slides 39, 42",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "f": "Leg: medial / lateral",
+     "b": "TIBIA = medial, weight-bearing. FIBULA = lateral, non-weight-bearing",
+     "s": "L11, slides 33, 39",
+     "u": "L11"
+    },
+    {
+     "topic": 8,
+     "f": "Digit #1 side",
+     "b": "Metacarpal 1 (thumb) = LATERAL. Metatarsal 1 (big toe) = MEDIAL",
+     "s": "L10, slide 58; L11, slide 49",
+     "u": "L10"
+    },
+    {
+     "topic": 8,
+     "f": "Arm vs. forearm; thigh vs. leg",
+     "b": "Arm = humerus; forearm = radius + ulna. Thigh = femur; leg = tibia + fibula",
+     "s": "L10, slide 23; L11, slide 19",
+     "u": "L10"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #1",
+     "b": "Medial (vertebral) border",
+     "n": "Edge closest to the spine.",
+     "s": "L10, slide 7",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the medial (vertebral) border",
+     "rb": "#1"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #2",
+     "b": "Lateral (axillary) border",
+     "n": "Edge toward the armpit.",
+     "s": "L10, slide 8",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the lateral (axillary) border",
+     "rb": "#2"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #3",
+     "b": "Acromion process",
+     "n": "High point of the shoulder; end of the spine.",
+     "s": "L10, slide 14",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the acromion process",
+     "rb": "#3"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #4",
+     "b": "Coracoid process",
+     "n": "Finger-like ANTERIOR projection.",
+     "s": "L10, slide 17",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the coracoid process",
+     "rb": "#4"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #5",
+     "b": "Inferior angle",
+     "n": "Bottom corner where the borders meet.",
+     "s": "L10, slide 9",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the inferior angle",
+     "rb": "#5"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #6",
+     "b": "Superior angle",
+     "n": "Top corner of the medial border.",
+     "s": "L10, slide 10",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the superior angle",
+     "rb": "#6"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #7",
+     "b": "Glenoid fossa",
+     "n": "Shallow socket for the humeral head.",
+     "s": "L10, slide 11",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the glenoid fossa",
+     "rb": "#7"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #8",
+     "b": "Infraglenoid tubercle",
+     "n": "Bump just below the glenoid fossa.",
+     "s": "L10, slide 12",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the infraglenoid tubercle",
+     "rb": "#8"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #10",
+     "b": "Spine of the scapula",
+     "n": "Posterior ridge running medial to lateral.",
+     "s": "L10, slide 15",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the spine of the scapula",
+     "rb": "#10"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #11",
+     "b": "Root of the spine",
+     "n": "Medial start of the spine (about T4).",
+     "s": "L10, slide 16",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the root of the spine",
+     "rb": "#11"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #12",
+     "b": "Infraspinous fossa",
+     "n": "Below the spine (posterior).",
+     "s": "L10, slide 20",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the infraspinous fossa",
+     "rb": "#12"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #13",
+     "b": "Supraspinous fossa",
+     "n": "Above the spine (posterior).",
+     "s": "L10, slide 19",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the supraspinous fossa",
+     "rb": "#13"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #14",
+     "b": "Subscapular fossa",
+     "n": "Anterior surface, against the ribs.",
+     "s": "L10, slide 21",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the subscapular fossa",
+     "rb": "#14"
+    },
+    {
+     "topic": 1,
+     "f": "Scapula handout #15",
+     "b": "Scapular notch",
+     "n": "Notch just medial to the coracoid.",
+     "s": "L10, slide 22",
+     "u": "L10",
+     "img": "img/scapula.jpg",
+     "rf": "Find the scapular notch",
+     "rb": "#15"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral girdle handout A",
+     "b": "Acromion process",
+     "n": "Lateral tip of the scapula; high point of the shoulder.",
+     "s": "L10, slide 14",
+     "u": "L10",
+     "img": "img/girdle.jpg",
+     "rf": "Find the acromion process",
+     "rb": "A"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral girdle handout B",
+     "b": "Acromioclavicular (AC) joint",
+     "n": "Lateral clavicle meets the acromion.",
+     "s": "L10, slide 6",
+     "u": "L10",
+     "img": "img/girdle.jpg",
+     "rf": "Find the acromioclavicular (AC) joint",
+     "rb": "B"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral girdle handout C",
+     "b": "Glenohumeral joint",
+     "n": "Head of the humerus meets the glenoid fossa: the shoulder joint.",
+     "s": "L10, slide 24",
+     "u": "L10",
+     "img": "img/girdle.jpg",
+     "rf": "Find the glenohumeral joint",
+     "rb": "C"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral girdle handout D",
+     "b": "Clavicle",
+     "n": "S-shaped collarbone.",
+     "s": "L10, slide 4",
+     "u": "L10",
+     "img": "img/girdle.jpg",
+     "rf": "Find the clavicle",
+     "rb": "D"
+    },
+    {
+     "topic": 2,
+     "f": "Pectoral girdle handout E",
+     "b": "Sternoclavicular (SC) joint",
+     "n": "Medial clavicle meets the manubrium.",
+     "s": "L10, slide 5",
+     "u": "L10",
+     "img": "img/girdle.jpg",
+     "rf": "Find the sternoclavicular (SC) joint",
+     "rb": "E"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout A",
+     "b": "Ilium",
+     "n": "Large upper wing of the coxal bone.",
+     "s": "L11, slide 4",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the ilium",
+     "rb": "A"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout B",
+     "b": "Ischium",
+     "n": "Lower posterior part of the coxal bone.",
+     "s": "L11, slide 4",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the ischium",
+     "rb": "B"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout C",
+     "b": "Pubis",
+     "n": "Anterior part; meets its partner at the symphysis.",
+     "s": "L11, slide 4",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the pubis",
+     "rb": "C"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout D",
+     "b": "Acetabulum",
+     "n": "Hip socket where all three bones fuse.",
+     "s": "L11, slide 17",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the acetabulum",
+     "rb": "D"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout E",
+     "b": "Obturator foramen",
+     "n": "Hole framed by the ischium and pubis.",
+     "s": "L11, slide 18",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the obturator foramen",
+     "rb": "E"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #1",
+     "b": "Iliac crest",
+     "n": "Main ridge along the top of the ilium.",
+     "s": "L11, slide 5",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the iliac crest",
+     "rb": "#1"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #2",
+     "b": "Iliac fossa",
+     "n": "Shallow depression on the inner ilium.",
+     "s": "L11, slide 10",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the iliac fossa",
+     "rb": "#2"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #3",
+     "b": "PSIS (posterior superior iliac spine)",
+     "n": "Where the crest ends in back.",
+     "s": "L11, slide 8",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the pSIS (posterior superior iliac spine)",
+     "rb": "#3"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #4",
+     "b": "PIIS (posterior inferior iliac spine)",
+     "n": "Below the PSIS.",
+     "s": "L11, slide 9",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the pIIS (posterior inferior iliac spine)",
+     "rb": "#4"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #6",
+     "b": "ASIS (anterior superior iliac spine)",
+     "n": "Where the crest ends in front.",
+     "s": "L11, slide 6",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the aSIS (anterior superior iliac spine)",
+     "rb": "#6"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #7",
+     "b": "AIIS (anterior inferior iliac spine)",
+     "n": "Below the ASIS.",
+     "s": "L11, slide 7",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the aIIS (anterior inferior iliac spine)",
+     "rb": "#7"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #10",
+     "b": "Greater sciatic notch",
+     "n": "Between the PIIS and ischial spine.",
+     "s": "L11, slide 11",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the greater sciatic notch",
+     "rb": "#10"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #11",
+     "b": "Ischial tuberosity",
+     "n": "Large rough 'sit bone.'",
+     "s": "L11, slide 13",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the ischial tuberosity",
+     "rb": "#11"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #12",
+     "b": "Ischial spine",
+     "n": "Between the greater and lesser sciatic notches.",
+     "s": "L11, slide 12",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the ischial spine",
+     "rb": "#12"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #13",
+     "b": "Lesser sciatic notch",
+     "n": "Between the ischial spine and tuberosity.",
+     "s": "L11, slide 14",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the lesser sciatic notch",
+     "rb": "#13"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #14",
+     "b": "Pubic symphysis",
+     "n": "Cartilaginous joint between the pubic bones.",
+     "s": "L11, slide 16",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the pubic symphysis",
+     "rb": "#14"
+    },
+    {
+     "topic": 9,
+     "f": "Pelvis handout #15",
+     "b": "Pubic tubercle",
+     "n": "Small bump on the superior pubis.",
+     "s": "L11, slide 15",
+     "u": "L11",
+     "img": "img/pelvis.jpg",
+     "rf": "Find the pubic tubercle",
+     "rb": "#15"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #1",
+     "b": "Head of the humerus",
+     "n": "Smooth, rounded top; points medially.",
+     "s": "L10, slide 25",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the head of the humerus",
+     "rb": "#1"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #2",
+     "b": "Anatomical neck",
+     "n": "Ridge right around the head (old growth plate).",
+     "s": "L10, slide 26",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the anatomical neck",
+     "rb": "#2"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #3",
+     "b": "Surgical neck",
+     "n": "Below the tubercles; common fracture site.",
+     "s": "L10, slide 27",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the surgical neck",
+     "rb": "#3"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #4",
+     "b": "Greater tubercle",
+     "n": "Large bump, superior lateral.",
+     "s": "L10, slide 28",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the greater tubercle",
+     "rb": "#4"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #5",
+     "b": "Lesser tubercle",
+     "n": "Small bump, superior anterior.",
+     "s": "L10, slide 29",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the lesser tubercle",
+     "rb": "#5"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #6",
+     "b": "Intertubercular (bicipital) groove",
+     "n": "Channel between the tubercles.",
+     "s": "L10, slide 30",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the intertubercular (bicipital) groove",
+     "rb": "#6"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #7",
+     "b": "Deltoid tuberosity",
+     "n": "Rough bump halfway down the lateral shaft.",
+     "s": "L10, slide 31",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the deltoid tuberosity",
+     "rb": "#7"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #8",
+     "b": "Lateral supracondylar ridge",
+     "n": "Sharp ridge on the lateral shaft just above the lateral epicondyle (on the class handout; not on the slides).",
+     "s": "L10 handout diagram",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the lateral supracondylar ridge",
+     "rb": "#8"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #9",
+     "b": "Lateral epicondyle",
+     "n": "Bump on the distal lateral humerus.",
+     "s": "L10, slide 37",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the lateral epicondyle",
+     "rb": "#9"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #10",
+     "b": "Capitulum",
+     "n": "Ball on the distal lateral end; meets the radial head.",
+     "s": "L10, slide 34",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the capitulum",
+     "rb": "#10"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #11",
+     "b": "Trochlea",
+     "n": "Spool beside the capitulum; meets the ulna's trochlear notch.",
+     "s": "L10, slide 35",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the trochlea",
+     "rb": "#11"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #12",
+     "b": "Medial epicondyle",
+     "n": "Bump on the distal medial humerus.",
+     "s": "L10, slide 36",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the medial epicondyle",
+     "rb": "#12"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #13",
+     "b": "Coronoid fossa",
+     "n": "Shallow depression, distal ANTERIOR.",
+     "s": "L10, slide 32",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the coronoid fossa",
+     "rb": "#13"
+    },
+    {
+     "topic": 11,
+     "f": "Humerus handout #14",
+     "b": "Olecranon fossa",
+     "n": "Deep depression, distal POSTERIOR.",
+     "s": "L10, slide 33",
+     "u": "L10",
+     "img": "img/humerus.jpg",
+     "rf": "Find the olecranon fossa",
+     "rb": "#14"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #1",
+     "b": "Head of the femur",
+     "n": "Rounded top; points medially into the acetabulum.",
+     "s": "L11, slide 20",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the head of the femur",
+     "rb": "#1"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #2",
+     "b": "Neck of the femur",
+     "n": "Just distal to the head.",
+     "s": "L11, slide 20",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the neck of the femur",
+     "rb": "#2"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #3",
+     "b": "Greater trochanter",
+     "n": "Large bump, proximal lateral.",
+     "s": "L11, slide 22",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the greater trochanter",
+     "rb": "#3"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #4",
+     "b": "Lesser trochanter",
+     "n": "Small bump, proximal medial.",
+     "s": "L11, slide 23",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the lesser trochanter",
+     "rb": "#4"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #5",
+     "b": "Fovea capitis",
+     "n": "Pit in the femoral head for a ligament.",
+     "s": "L11, slide 21",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the fovea capitis",
+     "rb": "#5"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #6",
+     "b": "Linea aspera",
+     "n": "Ridge down the back of the femur.",
+     "s": "L11, slide 24",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the linea aspera",
+     "rb": "#6"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #7",
+     "b": "Adductor tubercle",
+     "n": "Bump above the medial epicondyle.",
+     "s": "L11, slide 29",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the adductor tubercle",
+     "rb": "#7"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #8",
+     "b": "Patellar surface",
+     "n": "Anterior groove where the patella sits.",
+     "s": "L11, slide 30",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the patellar surface",
+     "rb": "#8"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #9",
+     "b": "Medial epicondyle",
+     "n": "Attachment bump above the medial condyle.",
+     "s": "L11, slide 27",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the medial epicondyle",
+     "rb": "#9"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #10",
+     "b": "Lateral epicondyle",
+     "n": "Attachment bump above the lateral condyle.",
+     "s": "L11, slide 28",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the lateral epicondyle",
+     "rb": "#10"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #11",
+     "b": "Medial condyle",
+     "n": "Smooth distal medial surface (joint with the tibia).",
+     "s": "L11, slide 25",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the medial condyle",
+     "rb": "#11"
+    },
+    {
+     "topic": 12,
+     "f": "Femur handout #12",
+     "b": "Lateral condyle",
+     "n": "Smooth distal lateral surface (joint with the tibia).",
+     "s": "L11, slide 26",
+     "u": "L11",
+     "img": "img/femur.jpg",
+     "rf": "Find the lateral condyle",
+     "rb": "#12"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #1",
+     "b": "Trochlear notch (ulna)",
+     "n": "C-shaped notch that wraps the trochlea.",
+     "s": "L10, slide 43",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the trochlear notch (ulna)",
+     "rb": "#1"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #2",
+     "b": "Head of the radius",
+     "n": "Rounded proximal end, like a bat handle.",
+     "s": "L10, slide 39",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the head of the radius",
+     "rb": "#2"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #3",
+     "b": "Neck of the radius",
+     "n": "Just distal to the radial head.",
+     "s": "L10, slide 40",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the neck of the radius",
+     "rb": "#3"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #4",
+     "b": "Radial tuberosity",
+     "n": "Bump just below the radial neck.",
+     "s": "L10, slide 40",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the radial tuberosity",
+     "rb": "#4"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #5",
+     "b": "Styloid process of the radius",
+     "n": "Distal lateral bump (thumb side).",
+     "s": "L10, slide 41",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the styloid process of the radius",
+     "rb": "#5"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #6",
+     "b": "Styloid process of the ulna",
+     "n": "Distal medial, posterior bump (pinky side).",
+     "s": "L10, slide 45",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the styloid process of the ulna",
+     "rb": "#6"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #7",
+     "b": "Interosseous membrane",
+     "n": "Fibrous sheet joining the radius and ulna.",
+     "s": "L10, slide 46",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the interosseous membrane",
+     "rb": "#7"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #8",
+     "b": "Coronoid process (ulna)",
+     "n": "Just distal to the trochlear notch, anterior.",
+     "s": "L10, slide 44",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the coronoid process (ulna)",
+     "rb": "#8"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #9",
+     "b": "Olecranon process (ulna)",
+     "n": "Forms the point of the elbow.",
+     "s": "L10, slide 42",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the olecranon process (ulna)",
+     "rb": "#9"
+    },
+    {
+     "topic": 15,
+     "f": "Forearm handout #10",
+     "b": "Head of the ulna",
+     "n": "Distal end of the ulna, just above its styloid.",
+     "s": "L10, slide 45",
+     "u": "L10",
+     "img": "img/forearm.jpg",
+     "rf": "Find the head of the ulna",
+     "rb": "#10"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #1",
+     "b": "Lateral condyle of the tibia",
+     "n": "Proximal lateral tibia; meets the femur's lateral condyle.",
+     "s": "L11, slide 35",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the lateral condyle of the tibia",
+     "rb": "#1"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #2",
+     "b": "Head of the fibula",
+     "n": "Most proximal part of the fibula.",
+     "s": "L11, slide 40",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the head of the fibula",
+     "rb": "#2"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #3",
+     "b": "Neck of the fibula",
+     "n": "Just distal to the fibular head.",
+     "s": "L11, slide 40",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the neck of the fibula",
+     "rb": "#3"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #4",
+     "b": "Medial condyle of the tibia",
+     "n": "Proximal medial tibia; meets the femur's medial condyle.",
+     "s": "L11, slide 34",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the medial condyle of the tibia",
+     "rb": "#4"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #5",
+     "b": "Tibial tuberosity",
+     "n": "Proximal anterior bump; patellar ligament attaches.",
+     "s": "L11, slide 36",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the tibial tuberosity",
+     "rb": "#5"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #6",
+     "b": "Anterior crest of the tibia",
+     "n": "Raised ridge down the front: the shin.",
+     "s": "L11, slide 37",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the anterior crest of the tibia",
+     "rb": "#6"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #7",
+     "b": "Medial malleolus (tibia)",
+     "n": "Medial ankle bump.",
+     "s": "L11, slide 38",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the medial malleolus (tibia)",
+     "rb": "#7"
+    },
+    {
+     "topic": 16,
+     "f": "Leg handout #8",
+     "b": "Lateral malleolus (fibula)",
+     "n": "Lateral ankle bump.",
+     "s": "L11, slide 41",
+     "u": "L11",
+     "img": "img/leg.jpg",
+     "rf": "Find the lateral malleolus (fibula)",
+     "rb": "#8"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #1",
+     "b": "Distal phalanx",
+     "n": "Fingertip bone.",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the distal phalanx",
+     "rb": "#1"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #2",
+     "b": "Middle phalanx",
+     "n": "Between the proximal and distal phalanges (not in the thumb).",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the middle phalanx",
+     "rb": "#2"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #3",
+     "b": "Proximal phalanx",
+     "n": "Closest to the palm.",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the proximal phalanx",
+     "rb": "#3"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #4",
+     "b": "Phalanges",
+     "n": "Finger bones: 14 per hand.",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the phalanges",
+     "rb": "#4"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #5",
+     "b": "Metacarpals",
+     "n": "Palm bones, numbered 1 (thumb) to 5 (pinky).",
+     "s": "L10, slide 58",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the metacarpals",
+     "rb": "#5"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #6",
+     "b": "Carpals",
+     "n": "8 wrist bones in 2 rows of 4.",
+     "s": "L10, slide 48",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the carpals",
+     "rb": "#6"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #7",
+     "b": "Hamate",
+     "n": "Distal row, most medial (pinky side); has a hook.",
+     "s": "L10, slide 54",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the hamate",
+     "rb": "#7"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #8",
+     "b": "Pisiform",
+     "n": "Proximal row, most medial (pinky side); pea-shaped.",
+     "s": "L10, slide 53",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the pisiform",
+     "rb": "#8"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #9",
+     "b": "Triquetrum",
+     "n": "Proximal row, beside the pisiform.",
+     "s": "L10, slide 52",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the triquetrum",
+     "rb": "#9"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #10",
+     "b": "Lunate",
+     "n": "Proximal row, between the scaphoid and triquetrum.",
+     "s": "L10, slide 51",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the lunate",
+     "rb": "#10"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #11",
+     "b": "Ulna",
+     "n": "Medial (pinky-side) forearm bone.",
+     "s": "L10, slide 42",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the ulna",
+     "rb": "#11"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #12",
+     "b": "Radius",
+     "n": "Lateral (thumb-side) forearm bone.",
+     "s": "L10, slide 39",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the radius",
+     "rb": "#12"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #13",
+     "b": "Capitate",
+     "n": "Center of the distal row.",
+     "s": "L10, slide 55",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the capitate",
+     "rb": "#13"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #14",
+     "b": "Scaphoid",
+     "n": "Proximal row, most lateral (thumb side).",
+     "s": "L10, slide 50",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the scaphoid",
+     "rb": "#14"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #15",
+     "b": "Trapezium",
+     "n": "Distal row, most lateral: under the thumb.",
+     "s": "L10, slide 57",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the trapezium",
+     "rb": "#15"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #16",
+     "b": "Trapezoid",
+     "n": "Distal row, between the trapezium and capitate.",
+     "s": "L10, slide 56",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the trapezoid",
+     "rb": "#16"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #17",
+     "b": "Proximal phalanx of the thumb",
+     "n": "Thumb has only proximal and distal phalanges.",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the proximal phalanx of the thumb",
+     "rb": "#17"
+    },
+    {
+     "topic": 21,
+     "f": "Hand handout #18",
+     "b": "Distal phalanx of the thumb",
+     "n": "Tip of the thumb.",
+     "s": "L10, slide 60",
+     "u": "L10",
+     "img": "img/hand.jpg",
+     "rf": "Find the distal phalanx of the thumb",
+     "rb": "#18"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #1",
+     "b": "Medial cuneiform",
+     "n": "Base of the 1st metatarsal (big toe).",
+     "s": "L11, slide 48",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the medial cuneiform",
+     "rb": "#1"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #2",
+     "b": "Intermediate cuneiform",
+     "n": "Base of the 2nd metatarsal.",
+     "s": "L11, slide 48",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the intermediate cuneiform",
+     "rb": "#2"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #3",
+     "b": "Navicular",
+     "n": "Medial, in front of the talus.",
+     "s": "L11, slide 46",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the navicular",
+     "rb": "#3"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #4",
+     "b": "Talus",
+     "n": "On top of the calcaneus; forms the ankle joint.",
+     "s": "L11, slide 45",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the talus",
+     "rb": "#4"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #5",
+     "b": "Calcaneus",
+     "n": "Heel bone; largest tarsal.",
+     "s": "L11, slide 44",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the calcaneus",
+     "rb": "#5"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #6",
+     "b": "Cuboid",
+     "n": "Lateral, in front of the calcaneus.",
+     "s": "L11, slide 47",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the cuboid",
+     "rb": "#6"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #7",
+     "b": "Lateral cuneiform",
+     "n": "Base of the 3rd metatarsal.",
+     "s": "L11, slide 48",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the lateral cuneiform",
+     "rb": "#7"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #8",
+     "b": "Metatarsals",
+     "n": "Bones of the arch, numbered 1 (big toe) to 5.",
+     "s": "L11, slide 49",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the metatarsals",
+     "rb": "#8"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #9",
+     "b": "Proximal phalanx",
+     "n": "Toe bone closest to the metatarsal.",
+     "s": "L11, slide 50",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the proximal phalanx",
+     "rb": "#9"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #10",
+     "b": "Middle phalanx",
+     "n": "Toes 2–5 only; the big toe has no middle phalanx.",
+     "s": "L11, slide 50",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the middle phalanx",
+     "rb": "#10"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #11",
+     "b": "Distal phalanx",
+     "n": "Tip of the toe (also labeled on the big toe).",
+     "s": "L11, slide 50",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the distal phalanx",
+     "rb": "#11"
+    },
+    {
+     "topic": 22,
+     "f": "Foot handout #12",
+     "b": "Phalanges",
+     "n": "Toe bones: 14 per foot.",
+     "s": "L11, slide 50",
+     "u": "L11",
+     "img": "img/foot.jpg",
+     "rf": "Find the phalanges",
+     "rb": "#12"
     }
    ]
   }

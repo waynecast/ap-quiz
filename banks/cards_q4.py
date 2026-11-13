@@ -1,0 +1,67 @@
+# Flashcards for A&P Quiz #4 (Lectures 10-12). Each card: (topic, front, back, source).
+# Diagram cards for the handouts are generated from the keys in quiz4.py (see EXTRA in build.py).
+CARDS = [
+    # 1 / 9. Landmarks: which bone
+    (1, "Acromion process", "SCAPULA: high point of the shoulder; lateral end of the spine", "L10, slide 14"),
+    (1, "Coracoid process", "SCAPULA: finger-like ANTERIOR projection, lower than the acromion", "L10, slide 17"),
+    (1, "Glenoid fossa", "SCAPULA: shallow socket at the top of the lateral border; holds the humeral head", "L10, slide 11"),
+    (1, "Deltoid tuberosity", "HUMERUS: rough bump halfway down the lateral shaft", "L10, slide 31"),
+    (1, "Capitulum vs. trochlea", "Both HUMERUS (distal). Capitulum (lateral) → radius; trochlea → ulna", "L10, slides 34–35"),
+    (1, "Olecranon process vs. olecranon fossa", "Process = ULNA (point of elbow). Fossa = HUMERUS (posterior, deep)", "L10, slides 33, 42"),
+    (1, "Coronoid process vs. coronoid fossa", "Process = ULNA (below trochlear notch). Fossa = HUMERUS (anterior, shallow)", "L10, slides 32, 44"),
+    (1, "Radial tuberosity / Lister's tubercle", "RADIUS: tuberosity below the neck; Lister's = posterior distal bump (EPL pulley)", "L10, slides 40–41"),
+    (9, "Greater / lesser trochanter", "FEMUR: greater = proximal lateral; lesser = proximal medial", "L11, slides 22–23"),
+    (9, "Linea aspera", "FEMUR: ridge down the back", "L11, slide 24"),
+    (9, "Adductor tubercle", "FEMUR: above the medial epicondyle", "L11, slide 29"),
+    (9, "Tibial tuberosity", "TIBIA: proximal anterior bump; patellar ligament attaches", "L11, slide 36"),
+    (9, "Medial vs. lateral malleolus", "Medial = TIBIA; lateral = FIBULA", "L11, slides 38, 41"),
+    (9, "ASIS, AIIS, PSIS, PIIS, iliac crest, iliac fossa", "All on the ILIUM", "L11, slides 5–10"),
+    (9, "Ischial spine / ischial tuberosity", "ISCHIUM (tuberosity = 'sit bone')", "L11, slides 12–13"),
+    (9, "Acetabulum vs. obturator foramen", "Acetabulum = ilium + ischium + pubis. Obturator foramen = ischium + pubis", "L11, slides 17–18"),
+    # 2. Shoulder girdle
+    (2, "Pectoral (shoulder) girdle", "2 bones: CLAVICLE + SCAPULA; attaches the upper limb to the trunk; L and R girdles", "L10, slide 3"),
+    (2, "Clavicle runs from…", "Manubrium of the sternum → acromion of the scapula; S-shaped", "L10, slide 4"),
+    (2, "3 joints of the shoulder", "Sternoclavicular, acromioclavicular, glenohumeral", "L12, slides 37–39"),
+    (2, "Shoulder separation vs. dislocation", "Separation = AC joint. Dislocation = glenohumeral joint", "L12, slides 38–39"),
+    (2, "Glenoid labrum", "Cartilage rim that deepens the glenoid fossa for stability", "L12, slide 41"),
+    # 3. Functional classes
+    (3, "SAD – ISM", "Synarthrotic = Immovable · Amphiarthrotic = Slightly movable · Diarthrotic = Movable", "L12, slide 8"),
+    (3, "Synarthrotic examples", "Sutures (skull); gomphosis (tooth in socket)", "L12, slide 6"),
+    (3, "Amphiarthrotic examples", "Synchondrosis (epiphyseal plate), symphysis (discs, pubic symphysis), syndesmosis (radius–ulna, tibia–fibula)", "L12, slide 7"),
+    (3, "Diarthrotic examples", "Elbows, wrists, shoulders, knees, hips, ankles (all synovial joints)", "L12, slide 8"),
+    (3, "Functional vs. structural classification", "Functional = degree of movement. Structural = tissue type + joint cavity (fibrous, cartilaginous, synovial)", "L12, slide 4"),
+    # 4 / 10. Articulations
+    (4, "Head of humerus articulates with…", "Glenoid fossa of the scapula → glenohumeral joint", "L10, slide 24"),
+    (4, "Head of femur articulates with…", "Acetabulum → femoroacetabular (hip) joint", "L11, slide 17"),
+    (4, "Femoral condyles articulate with…", "Tibial condyles (tibiofemoral); patella sits on the patellar surface (patellofemoral)", "L12, slide 48"),
+    (10, "Medial clavicle articulates with…", "Manubrium of the sternum → sternoclavicular (SC) joint", "L10, slide 5"),
+    (10, "Lateral clavicle articulates with…", "Acromion of the scapula → acromioclavicular (AC) joint", "L10, slide 6"),
+    (10, "Elbow: 2 articulations", "Humeroulnar (hinge) + humeroradial; radius pivots on the ulna", "L12, slide 42"),
+    (10, "CMC / MCP / PIP / DIP / IP", "Carpal–metacarpal · metacarpal–phalanx · proximal–middle · middle–distal · thumb's 2 phalanges", "L10, slides 59–63"),
+    # 5. Ankle
+    (5, "Talocrural joint", "The actual ankle joint: TALUS + TIBIA + FIBULA", "L11, slide 45"),
+    (5, "Ankle joint type (NYS boards)", "HINGE (synovial, diarthrotic)", "L12, slide 29"),
+    (5, "Calcaneus", "Heel bone; LARGEST tarsal; weight-bearing bone of the ankle", "L11, slide 44"),
+    (5, "Talus", "'Tallest': sits on the calcaneus; 2nd largest tarsal; forms the ankle joint", "L11, slide 45"),
+    (5, "Ankle movements", "Plantar flexion (point down) · dorsiflexion (up) · inversion (sole in) · eversion (sole out)", "L12, slide 34"),
+    (5, "Distal tibia–fibula joint", "Syndesmosis: fibrous, amphiarthrotic", "L12, slides 7, 12"),
+    # 6. Synovial joint types
+    (6, "Gliding (planar)", "Nonaxial · slide · intercarpal, intertarsal, spinal facets", "L12, slide 27"),
+    (6, "Pivot", "Uniaxial · rotation ONLY · C1 on C2; radius on ulna", "L12, slide 28"),
+    (6, "Hinge", "Uniaxial · flexion/extension ONLY · elbow, knee, PIP, DIP, IP, ankle", "L12, slide 29"),
+    (6, "Condyloid (ellipsoidal)", "Biaxial · flex/ext, abd/add, circumduction · MCP", "L12, slide 30"),
+    (6, "Saddle", "Biaxial · same as condyloid · CMC of the THUMB", "L12, slide 31"),
+    (6, "Ball and socket", "Multiaxial · all movements incl. rotation · most movable · shoulder, hip", "L12, slide 32"),
+    # 7. Hand
+    (7, "Carpals: proximal row (lateral → medial)", "Scaphoid, Lunate, Triquetrum, Pisiform — 'So Long To Pinky'", "L10, slide 49"),
+    (7, "Carpals: distal row (medial → lateral)", "Hamate, Capitate, Trapezoid, Trapezium — 'Here Comes The Thumb'", "L10, slide 49"),
+    (7, "Most medial carpal in each row", "Proximal row: PISIFORM. Distal row: HAMATE", "L10, slide 49"),
+    (7, "Most lateral carpal in each row", "Proximal row: SCAPHOID. Distal row: TRAPEZIUM (under the thUMb)", "L10, slide 49"),
+    (7, "Tunnel of Guyon", "Between the pisiform and the hook of the hamate; ulnar nerve + artery", "L10, slide 49"),
+    (7, "Bones per hand", "8 carpals + 5 metacarpals + 14 phalanges = 27", "L10, slides 48–60"),
+    # 8. Medial vs. lateral
+    (8, "Forearm: lateral / medial", "RADIUS = lateral (thumb). ULNA = medial (pinky)", "L10, slides 39, 42"),
+    (8, "Leg: medial / lateral", "TIBIA = medial, weight-bearing. FIBULA = lateral, non-weight-bearing", "L11, slides 33, 39"),
+    (8, "Digit #1 side", "Metacarpal 1 (thumb) = LATERAL. Metatarsal 1 (big toe) = MEDIAL", "L10, slide 58; L11, slide 49"),
+    (8, "Arm vs. forearm; thigh vs. leg", "Arm = humerus; forearm = radius + ulna. Thigh = femur; leg = tibia + fibula", "L10, slide 23; L11, slide 19"),
+]

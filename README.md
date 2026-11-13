@@ -3,13 +3,14 @@
 Mobile-friendly practice quizzes for NYIM A&P.
 
 **Use it:** https://waynecast.github.io/ap-quiz/
-Direct links: [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](https://waynecast.github.io/ap-quiz/#q2) · [Quiz #1](https://waynecast.github.io/ap-quiz/#q1)
+Direct links: [Quiz #4](https://waynecast.github.io/ap-quiz/#q4) · [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](https://waynecast.github.io/ap-quiz/#q2) · [Quiz #1](https://waynecast.github.io/ap-quiz/#q1)
 
 | Quiz | Lectures | Subjects |
 |---|---|---|
 | Quiz #1 | 1–3 | Intro to A&P, Atoms & Molecules, Biochemistry & Cells |
 | Quiz #2 | 4–6 | Cells, Tissues, Skin & Body Membranes |
 | Quiz #3 | 7–9 | Skeletal System, Skull, Spine (with handout diagram matching) |
+| Quiz #4 | 10–12 | Upper Extremity, Lower Extremity, Joints (with humerus, femur, forearm, leg, hand, foot, scapula, pelvis and shoulder-girdle diagram matching) |
 
 - **Practice quiz:** one question per study-guide topic, in order. A new random set every time, with shuffled answer choices.
 - **Practice by subject:** 20 random questions from one lecture (e.g. just Tissues).
@@ -21,7 +22,7 @@ Direct links: [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](ht
 
 ## Editing questions
 
-Each quiz has its own bank in `banks/` (`quiz1.py`, `quiz2.py`, `quiz3.py`). Quiz #3's diagram topics (12–25) are generated from the label keys in `quiz3.py` and show the handout image from `img/`. Each question is one `add(...)` call:
+Each quiz has its own bank in `banks/` (`quiz1.py` … `quiz4.py`). Diagram topics (Quiz #3 topics 12–25, Quiz #4 topics 11–25) are generated from the label keys in each bank and show the class handout image from `img/`. Quiz #4's keys match the completed class diagrams. Each question is one `add(...)` call:
 
 ```python
 add(TOPIC_NUMBER, "Question?", "Correct answer",
