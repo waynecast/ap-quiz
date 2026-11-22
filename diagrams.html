@@ -115,11 +115,24 @@ function tapPoint(e, stage, d){
   return [(t.clientX - r.left) / r.width * d.w, (t.clientY - r.top) / r.height * d.h];
 }
 // which structure did a tap land on? nearest by distance relative to each hotspot's radius
+const LINE_R = 34;  // how close (image px) a tap must be to an arrow line
+function segDist(x, y, x1, y1, x2, y2){
+  const dx = x2 - x1, dy = y2 - y1, L = dx * dx + dy * dy;
+  const t = L ? Math.max(0, Math.min(1, ((x - x1) * dx + (y - y1) * dy) / L)) : 0;
+  return Math.hypot(x - (x1 + t * dx), y - (y1 + t * dy));
+}
+// a tap counts for a structure if it's near the structure itself or anywhere on its arrow
 function hitTest(d, x, y){
   let bestItem = null, bestScore = Infinity;
-  for (const it of d.items) for (const [px, py, pr] of it.pts) {
-    const s = Math.hypot(x - px, y - py) / pr;
-    if (s < bestScore) { bestScore = s; bestItem = it; }
+  for (const it of d.items) {
+    for (const [px, py, pr] of it.pts) {
+      const s = Math.hypot(x - px, y - py) / pr;
+      if (s < bestScore) { bestScore = s; bestItem = it; }
+    }
+    for (const [x1, y1, x2, y2] of (it.lines || [])) {
+      const s = segDist(x, y, x1, y1, x2, y2) / LINE_R;
+      if (s < bestScore) { bestScore = s; bestItem = it; }
+    }
   }
   return { item: bestItem, score: bestScore };
 }
