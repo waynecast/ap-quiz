@@ -3,10 +3,11 @@
 Mobile-friendly practice quizzes for NYIM A&P.
 
 **Use it:** https://waynecast.github.io/ap-quiz/
-Direct links: [Quiz #4](https://waynecast.github.io/ap-quiz/#q4) · [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](https://waynecast.github.io/ap-quiz/#q2) · [Quiz #1](https://waynecast.github.io/ap-quiz/#q1)
+Direct links: [Midterm](https://waynecast.github.io/ap-quiz/#mid) · [Quiz #4](https://waynecast.github.io/ap-quiz/#q4) · [Quiz #3](https://waynecast.github.io/ap-quiz/#q3) · [Quiz #2](https://waynecast.github.io/ap-quiz/#q2) · [Quiz #1](https://waynecast.github.io/ap-quiz/#q1)
 
 | Quiz | Lectures | Subjects |
 |---|---|---|
+| **Midterm** | 1–15 | 50-question practice midterm: 40 written questions across every lecture (extra weight on Muscle Tissue and Endocrine, which had no quiz), then 10 diagram questions on 2 of 4 diagrams (pelvis, scapula, tibia/fibula, humerus), a new pair each time |
 | Quiz #1 | 1–3 | Intro to A&P, Atoms & Molecules, Biochemistry & Cells |
 | Quiz #2 | 4–6 | Cells, Tissues, Skin & Body Membranes |
 | Quiz #3 | 7–9 | Skeletal System, Skull, Spine (with handout diagram matching) |
@@ -33,7 +34,9 @@ Flashcards live in `banks/cards_qN.py`, one `(topic, front, back, source)` line 
 
 Run `python3 build.py` to regenerate `questions.json`, then commit and push. To add a new quiz, create `banks/quizN.py` and `banks/cards_qN.py` (copy an existing one), then add both to `QUIZZES` in `build.py`.
 
-Cumulative exam practice (midterm/final) is built in but switched off. Set `EXAM_MODE = true` in `index.html` to turn it on before an exam.
+The midterm bank is `banks/midterm.py`. It reuses questions from the quiz banks by topic and adds new ones for compact bone, glands, hormones (matching the class Hormones chart) and muscle. Diagram questions carry a `dg` tag; the app picks 2 diagrams per exam (`dgTopics` / `dgNames` in the bank).
+
+The older cumulative exam mode is built in but switched off. Set `EXAM_MODE = true` in `index.html` to turn it on before an exam.
 
 Generated questions (in `index.html`): Quiz #1 topics 4 (atomic mass/number) and 21 (pH); Quiz #2 topic 5 (DNA/RNA base pairing with random sequences).
 

@@ -2,9 +2,9 @@
 # To add a quiz: create banks/quizN.py (copy quiz2.py's layout) and banks/cards_qN.py, then add both below.
 import json, re
 from collections import Counter
-from banks import quiz1, quiz2, quiz3, quiz4, cards_q1, cards_q2, cards_q3, cards_q4
+from banks import quiz1, quiz2, quiz3, quiz4, midterm, cards_q1, cards_q2, cards_q3, cards_q4
 
-QUIZZES = [(quiz1.QUIZ, cards_q1.CARDS), (quiz2.QUIZ, cards_q2.CARDS), (quiz3.QUIZ, cards_q3.CARDS), (quiz4.QUIZ, cards_q4.CARDS)]
+QUIZZES = [(quiz1.QUIZ, cards_q1.CARDS), (quiz2.QUIZ, cards_q2.CARDS), (quiz3.QUIZ, cards_q3.CARDS), (quiz4.QUIZ, cards_q4.CARDS), (midterm.QUIZ, [])]
 
 def diagram_cards(key, topic, img, label):
     tag = lambda n: f"#{n}" if isinstance(n, int) else n
@@ -50,7 +50,9 @@ for qz, cards in QUIZZES:
     for t in qz["topics"]:
         names.setdefault(qz["topics"][t], 0)
         names[qz["topics"][t]] += ct[t]
-    assert all(v >= 2 for v in names.values()), names
+    assert not deck or all(v >= 2 for v in names.values()), names
+    for g in qz.get("dgNames", {}):
+        assert sum(q.get("dg") == g for q in qz["questions"]) >= 10, g
     qz["cards"] = deck
     out["quizzes"].append(qz)
     print(qz["id"], len(qz["questions"]), "questions,", len(deck), "cards")

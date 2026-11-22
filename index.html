@@ -249,8 +249,22 @@ function prepare(q){
   return Object.assign({}, q, {opts, correct: opts.indexOf(q.a), id: q.id || ("g:"+q.quiz+":"+q.q)});
 }
 function buildPractice(qz){
-  const used = new Set();
-  return topicNums(qz).map(t=>{ const q=drawOne(qz,t,used); if(q.id) used.add(q.id); return prepare(q); });
+  const used = new Set(), z = QZ[qz], dgT = z.dgTopics || [];
+  const out = topicNums(qz).filter(t=>!dgT.includes(t)).map(t=>{ const q=drawOne(qz,t,used); if(q.id) used.add(q.id); return prepare(q); });
+  if(dgT.length){
+    // Exam-style diagram section: pick 2 of the diagrams, ask half the diagram questions on each.
+    const groups = shuffle(Object.keys(z.dgNames)).slice(0,2), per = Math.ceil(dgT.length/2);
+    groups.forEach((g,gi)=>{
+      const seen = new Set(), picks = [];
+      for(const q of shuffle(z.questions.filter(q=>q.dg===g))){
+        const m = q.e.match(/^(#?\w+) = /), key = m ? m[1] : q.q;   // one question per label
+        if(seen.has(key)) continue; seen.add(key); picks.push(q);
+        if(picks.length===per) break;
+      }
+      picks.forEach((q,i)=>{ const t = dgT[gi*per+i]; if(t!==undefined) out.push(prepare(Object.assign({}, q, {topic:t}))); });
+    });
+  }
+  return out;
 }
 function buildDrill(qz,t){
   let list = byTopic(qz,t).slice();
@@ -325,6 +339,7 @@ function quizHome(qz){
     <div class="topbar"><button class="linkbtn" id="back">‹ All quizzes</button></div>
     <h1>${esc(z.title)} Practice</h1>
     <p class="muted">${esc(z.lectures)}. One question per study-guide topic, in order (1 → ${n}).</p>
+    ${z.note?`<p class="small muted">${esc(z.note)}</p>`:""}
     <button class="btn primary" id="go">Start practice quiz<span class="sub">${n} questions · new random set every time</span></button>
     ${(z.cards||[]).length?`<button class="btn" id="cards">Flashcards<span class="sub">${z.cards.length} cards · tap to flip, mark Got it or Again</span></button>`:""}
     <h2 style="margin-top:22px">Practice by subject</h2>
@@ -399,7 +414,7 @@ function question(){
       <span class="small muted">Question ${run.i+1} of ${run.list.length} · Score ${run.score}</span>
     </div>
     <div class="progress"><div style="width:${pct}%"></div></div>
-    <span class="tag">${tagQuiz}Topic ${q.topic} · ${esc(QZ[q.quiz].topics[q.topic])}</span>
+    <span class="tag">${tagQuiz}Topic ${q.topic} · ${esc(q.dg && QZ[q.quiz].dgNames ? "Diagram: "+QZ[q.quiz].dgNames[q.dg] : QZ[q.quiz].topics[q.topic])}</span>
     <p class="prompt">${esc(q.q)}</p>
     ${q.img?`<a href="${esc(q.img)}" target="_blank" class="qimg"><img src="${esc(q.img)}" alt="Handout diagram"></a><div class="small muted" style="text-align:center;margin:-4px 0 8px">Tap the diagram to open it full size and zoom.</div>`:""}
     <div id="opts">${q.opts.map((o,i)=>`<button class="btn opt" data-i="${i}"><span class="key">${keys[i]}</span>${esc(o)}</button>`).join("")}</div>
@@ -415,7 +430,7 @@ function answer(i){
   const q = run.list[run.i];
   const ok = i===q.correct;
   app.querySelectorAll(".opt").forEach((b,j)=>{ b.disabled=true; if(j===q.correct) b.classList.add("correct"); else if(j===i) b.classList.add("wrong"); });
-  const saved = {quiz:q.quiz,topic:q.topic,u:q.u,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id,img:q.img};
+  const saved = {quiz:q.quiz,topic:q.topic,u:q.u,q:q.q,a:q.a,w:q.w,e:q.e,s:q.s,id:q.id,img:q.img,dg:q.dg};
   if(ok){ run.score++; delete state.missed[q.id]; }
   else { run.wrong.push(q); state.missed[q.id]=saved; }
   saveState();
