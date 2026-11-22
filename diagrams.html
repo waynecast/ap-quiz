@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A&amp;P Diagram Lab</title>
+<meta name="description" content="Learn where each structure is on the midterm diagrams: pelvis, scapula, tibia/fibula, humerus.">
+<meta name="theme-color" content="#0f766e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<style>
+:root{
+  --bg:#f6f7f5; --card:#ffffff; --ink:#1c2321; --muted:#5f6b67; --line:#dfe4e1;
+  --accent:#0f766e; --accent-ink:#ffffff; --accent-soft:#e3f2ef;
+  --ok:#15803d; --ok-soft:#e5f5ea; --bad:#b91c1c; --bad-soft:#fbe9e9; --pin:#e11d48;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#111615; --card:#1a2120; --ink:#e8eeec; --muted:#9aa7a3; --line:#2c3633;
+    --accent:#2dd4bf; --accent-ink:#06201d; --accent-soft:#163430;
+    --ok:#4ade80; --ok-soft:#14301f; --bad:#f87171; --bad-soft:#3a1b1b; --pin:#fb7185;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:720px;margin:0 auto;padding:12px 16px 48px}
+h1{font-size:1.5rem;margin:8px 0 4px;letter-spacing:-.01em}
+h2{font-size:1.1rem;margin:22px 0 6px}
+p{margin:0 0 12px}
+.muted{color:var(--muted)} .small{font-size:.85rem}
+button,select{font:inherit;color:inherit}
+button{cursor:pointer}
+.linkbtn{background:none;border:0;padding:8px 0;color:var(--accent);font-weight:600;text-decoration:none;display:inline-block}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.btn{display:block;width:100%;min-height:52px;padding:12px 16px;margin:10px 0 0;border-radius:12px;border:1px solid var(--line);background:var(--card);text-align:left}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.btn .sub{display:block;font-size:.85rem;color:var(--muted);font-weight:400}
+.btn.primary .sub{color:inherit;opacity:.85}
+.row{display:flex;gap:10px} .row .btn{flex:1;text-align:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;margin:12px 0}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:3px 10px;border-radius:99px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.dcard{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:0;overflow:hidden;text-align:left}
+.dcard img{display:block;width:100%;height:120px;object-fit:contain;background:#fff}
+.dcard div{padding:8px 10px;font-weight:600}
+.dcard span{display:block;font-weight:400;font-size:.8rem;color:var(--muted)}
+
+/* diagram stage */
+.stage{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;touch-action:manipulation;user-select:none;-webkit-user-select:none}
+.stage img{display:block;width:100%;height:auto}
+.pin{position:absolute;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;border:3px solid #fff;background:var(--pin);box-shadow:0 1px 4px rgba(0,0,0,.45);padding:0;color:#fff;font-size:.62rem;font-weight:800;line-height:16px;text-align:center}
+.pin:empty{width:16px;height:16px;margin:-8px 0 0 -8px;border-width:2px}
+.pin.on{background:var(--accent);transform:scale(1.25)}
+.pin.ok{background:#16a34a}
+.pin.ring{animation:ring 1.2s ease-out infinite}
+@keyframes ring{0%{box-shadow:0 0 0 0 rgba(225,29,72,.7)}100%{box-shadow:0 0 0 18px rgba(225,29,72,0)}}
+.tap{position:absolute;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;border:3px solid #fff;background:#111;box-shadow:0 1px 3px rgba(0,0,0,.5)}
+.tap.bad{background:var(--bad)} .tap.good{background:#16a34a}
+.prompt{position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0 10px}
+.prompt .q{font-size:1.25rem;font-weight:750;line-height:1.25}
+.prompt .q small{display:block;font-size:.85rem;font-weight:500;color:var(--muted);margin-top:2px}
+.progress{height:6px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 0}
+.progress>div{height:100%;background:var(--accent);width:0;transition:width .25s}
+.fb{margin-top:10px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card)}
+.fb.ok{border-color:var(--ok);background:var(--ok-soft)} .fb.bad{border-color:var(--bad);background:var(--bad-soft)}
+.fb b{display:block}
+.info{min-height:72px}
+.list{list-style:none;padding:0;margin:0}
+.list li{display:flex;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line);cursor:pointer}
+.list li .k{min-width:34px;height:28px;border-radius:8px;background:var(--accent-soft);color:var(--accent);font-weight:800;display:flex;align-items:center;justify-content:center}
+.mrow{display:flex;gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.mrow .k{min-width:34px;height:34px;border-radius:8px;background:var(--accent-soft);color:var(--accent);font-weight:800;display:flex;align-items:center;justify-content:center}
+.mrow > div{min-width:0}
+.mrow select{width:100%;min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--card);padding:6px 8px}
+.mrow.ok select{border-color:var(--ok);background:var(--ok-soft)} .mrow.bad select{border-color:var(--bad);background:var(--bad-soft)}
+.mrow .fix{font-size:.8rem;color:var(--ok);display:block}
+.opts .btn{text-align:center}
+.opt.correct{border-color:var(--ok);background:var(--ok-soft)} .opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.score{font-size:3rem;font-weight:800;line-height:1;margin:6px 0}
+.toggle{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.toggle button{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 12px;font-size:.85rem;font-weight:600}
+.toggle button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.stickyimg{position:sticky;top:0;z-index:4;background:var(--bg);padding:4px 0 8px}
+.stickyimg .stage{width:min(100%, calc(42vh * var(--r))) !important}
+.chip{position:absolute;transform:translate(-30%,-50%);background:#fff;border:2px solid #111;border-radius:4px;font-size:.7rem;font-weight:800;padding:0 4px;color:#111}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script>
+const $ = id => document.getElementById(id);
+const app = $("app");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const store = {
+  get(k){ try { return JSON.parse(localStorage.getItem("apq-dg:" + k)); } catch(e){ return null; } },
+  set(k, v){ try { localStorage.setItem("apq-dg:" + k, JSON.stringify(v)); } catch(e){} }
+};
+let DG = [], byId = {};
+const render = html => { app.innerHTML = html; window.scrollTo(0, 0); };
+const setHash = h => history.replaceState(null, "", h ? "#" + h : location.pathname);
+const best = key => { const b = store.get("best:" + key); return b ? `Best: <b>${b}</b>` : "Not tried yet"; };
+const saveBest = (key, pct) => { const b = store.get("best:" + key); if (b == null || pct > parseInt(b)) store.set("best:" + key, pct + "%"); };
+
+/* ---------- geometry ---------- */
+// image-space point for a tap on the stage
+function tapPoint(e, stage, d){
+  const r = stage.getBoundingClientRect();
+  const t = e.changedTouches ? e.changedTouches[0] : e;
+  return [(t.clientX - r.left) / r.width * d.w, (t.clientY - r.top) / r.height * d.h];
+}
+// which structure did a tap land on? nearest by distance relative to each hotspot's radius
+function hitTest(d, x, y){
+  let bestItem = null, bestScore = Infinity;
+  for (const it of d.items) for (const [px, py, pr] of it.pts) {
+    const s = Math.hypot(x - px, y - py) / pr;
+    if (s < bestScore) { bestScore = s; bestItem = it; }
+  }
+  return { item: bestItem, score: bestScore };
+}
+const pct = (v, total) => (v / total * 100) + "%";
+function stageHTML(d, clean, inner = "", fit = false){
+  // fit: shrink so the whole diagram fits on screen with the prompt and answer area
+  const r = (d.w / d.h).toFixed(3);
+  const style = fit ? ` style="--r:${r};width:min(100%, calc(58vh * ${r}));margin:0 auto"` : ` style="--r:${r}"`;
+  return `<div class="stage" id="stage"${style}><img src="${clean ? d.clean : d.img}" alt="${esc(d.title)} diagram" draggable="false">${inner}</div>`;
+}
+function pinHTML(d, it, i, cls = "", label = ""){
+  const [x, y] = it.pts[i];
+  return `<button class="pin ${cls}" data-k="${esc(it.k)}" style="left:${pct(x, d.w)};top:${pct(y, d.h)}" aria-label="${esc(it.name)}">${label}</button>`;
+}
+
+/* ---------- home ---------- */
+function home(){
+  setHash("");
+  render(`
+    <div class="topbar"><a class="linkbtn" href="./">‹ Quizzes</a></div>
+    <h1>Diagram Lab</h1>
+    <p class="muted">The four diagrams that can appear on the midterm. Learn where each structure is, then test yourself with the terminology list.</p>
+    <div class="grid">${DG.map(d => `<button class="dcard" data-d="${d.id}"><img src="${d.img}" alt=""><div>${esc(d.title)}<span>${d.items.length} terms</span></div></button>`).join("")}</div>
+    <h2>All four together</h2>
+    <button class="btn primary" id="mixfind">Find it: mixed<span class="sub">${DG.reduce((n, d) => n + d.items.length, 0)} terms from all four diagrams, shuffled · ${best("mix:find")}</span></button>
+    <button class="btn" id="mixname">Name it: mixed<span class="sub">A spot lights up, you pick the term · ${best("mix:name")}</span></button>
+    <footer>Unofficial study aid based on the NYIM A&amp;P class handouts. Pinch to zoom on any diagram.</footer>`);
+  app.querySelectorAll("[data-d]").forEach(b => b.onclick = () => diagramHome(b.dataset.d));
+  $("mixfind").onclick = () => findIt(null);
+  $("mixname").onclick = () => nameIt(null);
+}
+
+function diagramHome(id){
+  const d = byId[id]; setHash(id);
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ Diagram Lab</button></div>
+    <h1>${esc(d.title)}</h1>
+    <p class="muted small">${esc(d.note)}</p>
+    <button class="btn primary" id="study">Study<span class="sub">Tap the dots to see each structure, or tap a term to find it</span></button>
+    <button class="btn" id="find">Find it<span class="sub">See a term, tap where it is · ${best(id + ":find")}</span></button>
+    <button class="btn" id="name">Name it<span class="sub">A spot lights up, pick the term · ${best(id + ":name")}</span></button>
+    <button class="btn" id="match">Match the list<span class="sub">Exam style: numbered diagram plus the terminology list · ${best(id + ":match")}</span></button>`);
+  $("back").onclick = home;
+  $("study").onclick = () => study(id);
+  $("find").onclick = () => findIt(id);
+  $("name").onclick = () => nameIt(id);
+  $("match").onclick = () => matchList(id);
+}
+
+/* ---------- Study ---------- */
+function study(id){
+  const d = byId[id]; setHash(id + "/study");
+  let showNums = false;
+  const draw = () => {
+    const pins = d.items.flatMap(it => it.pts.map((_, i) => pinHTML(d, it, i, "", showNums ? esc(it.k) : "")));
+    render(`
+      <div class="topbar"><button class="linkbtn" id="back">‹ ${esc(d.title)}</button></div>
+      <div class="toggle"><button id="dots" class="${showNums ? "" : "on"}">Dots</button><button id="nums" class="${showNums ? "on" : ""}">Handout numbers</button></div>
+      ${stageHTML(d, true, pins.join(""))}
+      <div class="fb info" id="info"><span class="muted">Tap a dot.</span></div>
+      <h2>Terminology list</h2>
+      <ul class="list">${d.items.map(it => `<li data-k="${esc(it.k)}"><span class="k">${esc(it.k)}</span><span>${esc(it.name)}</span></li>`).join("")}</ul>`);
+    $("back").onclick = () => diagramHome(id);
+    $("dots").onclick = () => { showNums = false; draw(); };
+    $("nums").onclick = () => { showNums = true; draw(); };
+    const show = k => {
+      const it = d.items.find(x => x.k === k);
+      app.querySelectorAll(".pin").forEach(p => p.classList.toggle("on", p.dataset.k === k));
+      $("info").innerHTML = `<span class="tag">${esc(it.k)}</span> <b style="display:inline">${esc(it.name)}</b><div class="small">${esc(it.hint)}</div><div class="small muted">${esc(it.src)}</div>`;
+    };
+    app.querySelectorAll(".pin").forEach(p => p.onclick = e => { e.stopPropagation(); show(p.dataset.k); });
+    app.querySelectorAll("li[data-k]").forEach(li => li.onclick = () => { show(li.dataset.k); $("stage").scrollIntoView({behavior:"smooth", block:"start"}); });
+  };
+  draw();
+}
+
+/* ---------- Find it ---------- */
+// mixed mode: queue of {d, it} across diagrams
+function makeQueue(id){
+  const ds = id ? [byId[id]] : DG;
+  return shuffle(ds.flatMap(d => d.items.map(it => ({ d, it }))));
+}
+function findIt(id, queue){
+  const key = (id || "mix") + ":find";
+  setHash((id || "mix") + "/find");
+  const Q = queue || makeQueue(id);
+  let i = 0, right = 0, missed = [];
+  const step = () => {
+    if (i >= Q.length) return results("Find it", key, right, Q.length, missed, () => findIt(id), m => findIt(id, m));
+    const { d, it } = Q[i];
+    render(`
+      <div class="prompt">
+        <div class="topbar"><button class="linkbtn" id="back">‹ Done</button><span class="small muted">${i + 1} of ${Q.length}${id ? "" : " · " + esc(d.title)}</span></div>
+        <div class="q">Tap: ${esc(it.name)}<small id="hintline"><button class="linkbtn small" id="hint">Show hint</button></small></div>
+        <div class="progress"><div style="width:${pct(i, Q.length)}"></div></div>
+      </div>
+      ${stageHTML(d, true, "", true)}
+      <div id="fb"></div>`);
+    $("back").onclick = () => id ? diagramHome(id) : home();
+    $("hint").onclick = () => { $("hintline").textContent = it.hint; };
+    const stage = $("stage");
+    let done = false;
+    stage.onclick = e => {
+      if (done) return;
+      done = true;
+      const [x, y] = tapPoint(e, stage, d);
+      const { item, score } = hitTest(d, x, y);
+      const ok = item === it && score <= 1;
+      if (ok) right++; else missed.push(Q[i]);
+      stage.insertAdjacentHTML("beforeend",
+        `<div class="tap ${ok ? "good" : "bad"}" style="left:${pct(x, d.w)};top:${pct(y, d.h)}"></div>` +
+        it.pts.map((_, j) => pinHTML(d, it, j, "ok ring")).join(""));
+      const wrongName = !ok && item && item !== it && score <= 1.3 ? `You tapped the <b style="display:inline">${esc(item.name)}</b>.` : (!ok ? "That spot isn't on target." : "");
+      $("fb").innerHTML = `<div class="fb ${ok ? "ok" : "bad"}"><b>${ok ? "Got it." : "Not quite."}</b>${wrongName ? `<div class="small">${wrongName}</div>` : ""}<div class="small">The green dot${it.pts.length > 1 ? "s show" : " shows"} the ${esc(it.name.toLowerCase())}. ${esc(it.hint)}</div></div>
+        <button class="btn primary" id="next" style="text-align:center">${i + 1 < Q.length ? "Next" : "See results"}</button>`;
+      $("next").onclick = () => { i++; step(); };
+      $("next").scrollIntoView({behavior:"smooth", block:"nearest"});
+    };
+  };
+  step();
+}
+
+/* ---------- Name it ---------- */
+function nameIt(id, queue){
+  const key = (id || "mix") + ":name";
+  setHash((id || "mix") + "/name");
+  const Q = queue || makeQueue(id);
+  let i = 0, right = 0, missed = [];
+  const step = () => {
+    if (i >= Q.length) return results("Name it", key, right, Q.length, missed, () => nameIt(id), m => nameIt(id, m));
+    const { d, it } = Q[i];
+    const j = Math.floor(Math.random() * it.pts.length);
+    const others = shuffle(d.items.filter(x => x !== it && x.name !== it.name)).slice(0, 3);
+    const opts = shuffle([it, ...others]);
+    render(`
+      <div class="prompt">
+        <div class="topbar"><button class="linkbtn" id="back">‹ Done</button><span class="small muted">${i + 1} of ${Q.length}${id ? "" : " · " + esc(d.title)}</span></div>
+        <div class="q">What is at the red dot?</div>
+        <div class="progress"><div style="width:${pct(i, Q.length)}"></div></div>
+      </div>
+      ${stageHTML(d, true, pinHTML(d, it, j, "ring"), true)}
+      <div class="opts">${opts.map((o, n) => `<button class="btn opt" data-n="${n}">${esc(o.name)}</button>`).join("")}</div>
+      <div id="fb"></div>`);
+    $("back").onclick = () => id ? diagramHome(id) : home();
+    app.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+      const o = opts[+b.dataset.n], ok = o === it;
+      if (ok) right++; else missed.push(Q[i]);
+      app.querySelectorAll(".opt").forEach(x => { x.disabled = true; const oo = opts[+x.dataset.n]; if (oo === it) x.classList.add("correct"); else if (x === b) x.classList.add("wrong"); });
+      $("fb").innerHTML = `<div class="fb ${ok ? "ok" : "bad"}"><b>${ok ? "Right." : "Not quite."}</b><div class="small">${esc(it.name)}: ${esc(it.hint)}</div></div>
+        <button class="btn primary" id="next" style="text-align:center">${i + 1 < Q.length ? "Next" : "See results"}</button>`;
+      $("next").onclick = () => { i++; step(); };
+      $("next").scrollIntoView({behavior:"smooth", block:"nearest"});
+    });
+  };
+  step();
+}
+
+/* ---------- Match the list (exam style) ---------- */
+function matchList(id){
+  const d = byId[id]; setHash(id + "/match");
+  const bank = shuffle(d.items.map(it => it.name));
+  const keys = d.items.map(it => it.k);
+  render(`
+    <div class="topbar"><button class="linkbtn" id="back">‹ ${esc(d.title)}</button></div>
+    <p class="small muted">Like the exam: match each number or letter on the handout to a term from the list. Pinch to zoom on the diagram.</p>
+    <div class="stickyimg">${stageHTML(d, false, d.items.filter(it => !it.glyphs.length).map(it => `<span class="chip" style="left:${pct((it.chip || it.pts[0])[0], d.w)};top:${pct((it.chip || it.pts[0])[1], d.h)}">${esc(it.k)}</span>`).join(""), true)}</div>
+    ${d.items.some(it => !it.glyphs.length) ? `<p class="small muted">Labels ${d.items.filter(it => !it.glyphs.length).map(it => it.k).join(" and ")} are cut off at the edge of this copy of the handout, so they're shown in boxes.</p>` : ""}
+    <div class="card" style="padding:4px 14px">
+      ${keys.map(k => `<div class="mrow" data-k="${esc(k)}"><span class="k">${esc(k)}</span><div style="flex:1"><select aria-label="Term for ${esc(k)}"><option value="">Choose a term…</option>${bank.map(n => `<option>${esc(n)}</option>`).join("")}</select><span class="fix"></span></div></div>`).join("")}
+    </div>
+    <button class="btn primary" id="check" style="text-align:center">Check my answers</button>
+    <button class="btn" id="reset" style="text-align:center">Start over</button>
+    <div id="fb"></div>`);
+  $("back").onclick = () => diagramHome(id);
+  $("reset").onclick = () => matchList(id);
+  // grey out terms already used in another row
+  const sync = () => {
+    const used = new Set([...app.querySelectorAll(".mrow select")].map(s => s.value).filter(Boolean));
+    app.querySelectorAll(".mrow select").forEach(s => [...s.options].forEach(o => { if (o.value) o.disabled = used.has(o.value) && s.value !== o.value; }));
+  };
+  app.querySelectorAll(".mrow select").forEach(s => s.onchange = sync);
+  $("check").onclick = () => {
+    let right = 0;
+    app.querySelectorAll(".mrow").forEach(row => {
+      const it = d.items.find(x => x.k === row.dataset.k), v = row.querySelector("select").value, ok = v === it.name;
+      if (ok) right++;
+      row.classList.toggle("ok", ok); row.classList.toggle("bad", !ok);
+      row.querySelector(".fix").textContent = ok ? "" : "Answer: " + it.name;
+    });
+    const p = Math.round(right / keys.length * 100);
+    saveBest(id + ":match", p);
+    $("fb").innerHTML = `<div class="fb ${p === 100 ? "ok" : ""}"><b>${right} of ${keys.length} correct (${p}%)</b><div class="small">Corrections are shown under each wrong row.</div></div>`;
+    $("fb").scrollIntoView({behavior:"smooth", block:"nearest"});
+  };
+}
+
+/* ---------- results ---------- */
+function results(mode, key, right, total, missed, again, retry){
+  const p = Math.round(right / total * 100);
+  saveBest(key, p);
+  render(`
+    <div class="card" style="text-align:center">
+      <div class="muted">${esc(mode)}</div>
+      <div class="score">${right}/${total}</div>
+      <div class="muted">${p}%</div>
+    </div>
+    ${missed.length ? `<button class="btn primary" id="retry" style="text-align:center">Retry the ${missed.length} I missed</button>` : ""}
+    <button class="btn ${missed.length ? "" : "primary"}" id="again" style="text-align:center">New round</button>
+    <button class="btn" id="home" style="text-align:center">Back to Diagram Lab</button>
+    ${missed.length ? `<div class="card"><h2 style="margin-top:0">Missed</h2><ul class="list">${missed.map(m => `<li><span class="k">${esc(m.it.k)}</span><span>${esc(m.it.name)} <span class="small muted">· ${esc(m.d.title)}</span></span></li>`).join("")}</ul></div>` : ""}`);
+  if (missed.length) $("retry").onclick = () => retry(shuffle(missed));
+  $("again").onclick = again;
+  $("home").onclick = home;
+}
+
+/* ---------- boot ---------- */
+fetch("diagrams.json").then(r => r.json()).then(data => {
+  DG = data; DG.forEach(d => byId[d.id] = d);
+  const [id, mode] = location.hash.slice(1).split("/");
+  if (id === "mix" && mode === "find") findIt(null);
+  else if (id === "mix" && mode === "name") nameIt(null);
+  else if (byId[id]) ({study, find: findIt, name: nameIt, match: matchList}[mode] || diagramHome)(id);
+  else home();
+});
+</script>
+</body>
+</html>

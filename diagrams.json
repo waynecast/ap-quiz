@@ -1,0 +1,1222 @@
+[
+ {
+  "id": "pelvis",
+  "title": "Pelvis (os coxae)",
+  "note": "Top: anterior view of the pelvis. Bottom: lateral view of a right coxal bone. Letters are the 3 fused bones plus the acetabulum and obturator foramen.",
+  "img": "img/pelvis.jpg",
+  "clean": "img/clean/pelvis.jpg",
+  "w": 964,
+  "h": 1400,
+  "items": [
+   {
+    "k": "A",
+    "name": "Ilium",
+    "hint": "Large upper wing of the coxal bone.",
+    "src": "L11, slide 4",
+    "pts": [
+     [
+      185,
+      200,
+      120
+     ],
+     [
+      240,
+      850,
+      130
+     ]
+    ],
+    "glyphs": [
+     [
+      185,
+      163
+     ],
+     [
+      240,
+      828
+     ]
+    ]
+   },
+   {
+    "k": "B",
+    "name": "Ischium",
+    "hint": "Lower posterior part of the coxal bone.",
+    "src": "L11, slide 4",
+    "pts": [
+     [
+      305,
+      560,
+      70
+     ],
+     [
+      210,
+      1170,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      305,
+      560
+     ],
+     [
+      207,
+      1165
+     ]
+    ]
+   },
+   {
+    "k": "C",
+    "name": "Pubis",
+    "hint": "Anterior part; meets its partner at the symphysis.",
+    "src": "L11, slide 4",
+    "pts": [
+     [
+      505,
+      480,
+      50
+     ],
+     [
+      380,
+      1160,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      505,
+      480
+     ],
+     [
+      372,
+      1163
+     ]
+    ]
+   },
+   {
+    "k": "D",
+    "name": "Acetabulum",
+    "hint": "Hip socket where all three bones fuse.",
+    "src": "L11, slide 17",
+    "pts": [
+     [
+      225,
+      445,
+      55
+     ],
+     [
+      305,
+      1070,
+      80
+     ]
+    ],
+    "glyphs": [
+     [
+      103,
+      455
+     ],
+     [
+      307,
+      1065
+     ]
+    ]
+   },
+   {
+    "k": "E",
+    "name": "Obturator foramen",
+    "hint": "Hole framed by the ischium and pubis.",
+    "src": "L11, slide 18",
+    "pts": [
+     [
+      540,
+      515,
+      55
+     ],
+     [
+      285,
+      1200,
+      70
+     ]
+    ],
+    "glyphs": [
+     [
+      537,
+      515
+     ],
+     [
+      287,
+      1200
+     ]
+    ]
+   },
+   {
+    "k": "1",
+    "name": "Iliac crest",
+    "hint": "Main ridge along the top of the ilium.",
+    "src": "L11, slide 5",
+    "pts": [
+     [
+      795,
+      120,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      912,
+      47
+     ]
+    ]
+   },
+   {
+    "k": "2",
+    "name": "Iliac fossa",
+    "hint": "Shallow depression on the inner ilium.",
+    "src": "L11, slide 10",
+    "pts": [
+     [
+      683,
+      172,
+      110
+     ]
+    ],
+    "glyphs": [
+     [
+      683,
+      172
+     ]
+    ]
+   },
+   {
+    "k": "3",
+    "name": "PSIS (posterior superior iliac spine)",
+    "hint": "Where the crest ends in back.",
+    "src": "L11, slide 8",
+    "pts": [
+     [
+      25,
+      855,
+      60
+     ]
+    ],
+    "glyphs": [],
+    "chip": [
+     16,
+     745
+    ]
+   },
+   {
+    "k": "4",
+    "name": "PIIS (posterior inferior iliac spine)",
+    "hint": "Below the PSIS.",
+    "src": "L11, slide 9",
+    "pts": [
+     [
+      95,
+      1000,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      17,
+      1087
+     ]
+    ]
+   },
+   {
+    "k": "6",
+    "name": "ASIS (anterior superior iliac spine)",
+    "hint": "Where the crest ends in front.",
+    "src": "L11, slide 6",
+    "pts": [
+     [
+      425,
+      830,
+      50
+     ]
+    ],
+    "glyphs": [
+     [
+      580,
+      756
+     ]
+    ]
+   },
+   {
+    "k": "7",
+    "name": "AIIS (anterior inferior iliac spine)",
+    "hint": "Below the ASIS.",
+    "src": "L11, slide 7",
+    "pts": [
+     [
+      390,
+      960,
+      50
+     ]
+    ],
+    "glyphs": [
+     [
+      563,
+      872
+     ]
+    ]
+   },
+   {
+    "k": "10",
+    "name": "Greater sciatic notch",
+    "hint": "Between the PIIS and ischial spine.",
+    "src": "L11, slide 11",
+    "pts": [
+     [
+      160,
+      1000,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      12,
+      1137
+     ]
+    ]
+   },
+   {
+    "k": "11",
+    "name": "Ischial tuberosity",
+    "hint": "Large rough 'sit bone.'",
+    "src": "L11, slide 13",
+    "pts": [
+     [
+      185,
+      1270,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      457,
+      1308
+     ]
+    ]
+   },
+   {
+    "k": "12",
+    "name": "Ischial spine",
+    "hint": "Between the greater and lesser sciatic notches.",
+    "src": "L11, slide 12",
+    "pts": [
+     [
+      130,
+      1135,
+      40
+     ]
+    ],
+    "glyphs": [],
+    "chip": [
+     16,
+     1188
+    ]
+   },
+   {
+    "k": "13",
+    "name": "Lesser sciatic notch",
+    "hint": "Between the ischial spine and tuberosity.",
+    "src": "L11, slide 14",
+    "pts": [
+     [
+      145,
+      1170,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      28,
+      1287
+     ]
+    ]
+   },
+   {
+    "k": "14",
+    "name": "Pubic symphysis",
+    "hint": "Cartilaginous joint between the pubic bones.",
+    "src": "L11, slide 16",
+    "pts": [
+     [
+      460,
+      515,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      557,
+      673
+     ]
+    ]
+   },
+   {
+    "k": "15",
+    "name": "Pubic tubercle",
+    "hint": "Small bump on the superior pubis.",
+    "src": "L11, slide 15",
+    "pts": [
+     [
+      390,
+      505,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      375,
+      688
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "scapula",
+  "title": "Scapula",
+  "note": "Left: posterior view. Right: anterior view.",
+  "img": "img/scapula.jpg",
+  "clean": "img/clean/scapula.jpg",
+  "w": 1100,
+  "h": 1229,
+  "items": [
+   {
+    "k": "1",
+    "name": "Medial (vertebral) border",
+    "hint": "Edge closest to the spine.",
+    "src": "L10, slide 7",
+    "pts": [
+     [
+      950,
+      950,
+      70
+     ],
+     [
+      80,
+      520,
+      70
+     ]
+    ],
+    "glyphs": [
+     [
+      1058,
+      980
+     ]
+    ]
+   },
+   {
+    "k": "2",
+    "name": "Lateral (axillary) border",
+    "hint": "Edge toward the armpit.",
+    "src": "L10, slide 8",
+    "pts": [
+     [
+      650,
+      950,
+      70
+     ],
+     [
+      400,
+      530,
+      70
+     ]
+    ],
+    "glyphs": [
+     [
+      537,
+      1022
+     ],
+     [
+      483,
+      573
+     ]
+    ]
+   },
+   {
+    "k": "3",
+    "name": "Acromion process",
+    "hint": "High point of the shoulder; end of the spine.",
+    "src": "L10, slide 14",
+    "pts": [
+     [
+      452,
+      142,
+      90
+     ],
+     [
+      607,
+      512,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      452,
+      142
+     ],
+     [
+      768,
+      423
+     ]
+    ]
+   },
+   {
+    "k": "4",
+    "name": "Coracoid process",
+    "hint": "Finger-like ANTERIOR projection.",
+    "src": "L10, slide 17",
+    "pts": [
+     [
+      665,
+      597,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      665,
+      597
+     ]
+    ]
+   },
+   {
+    "k": "5",
+    "name": "Inferior angle",
+    "hint": "Bottom corner where the borders meet.",
+    "src": "L10, slide 9",
+    "pts": [
+     [
+      255,
+      712,
+      55
+     ],
+     [
+      828,
+      1163,
+      55
+     ]
+    ],
+    "glyphs": [
+     [
+      255,
+      712
+     ],
+     [
+      828,
+      1163
+     ]
+    ]
+   },
+   {
+    "k": "6",
+    "name": "Superior angle",
+    "hint": "Top corner of the medial border.",
+    "src": "L10, slide 10",
+    "pts": [
+     [
+      98,
+      122,
+      45
+     ],
+     [
+      930,
+      563,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      48,
+      33
+     ],
+     [
+      987,
+      383
+     ]
+    ]
+   },
+   {
+    "k": "7",
+    "name": "Glenoid fossa",
+    "hint": "Shallow socket for the humeral head.",
+    "src": "L10, slide 11",
+    "pts": [
+     [
+      478,
+      237,
+      45
+     ],
+     [
+      585,
+      677,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      682,
+      183
+     ],
+     [
+      518,
+      680
+     ]
+    ]
+   },
+   {
+    "k": "8",
+    "name": "Infraglenoid tubercle",
+    "hint": "Bump just below the glenoid fossa.",
+    "src": "L10, slide 12",
+    "pts": [
+     [
+      637,
+      820,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      642,
+      913
+     ]
+    ]
+   },
+   {
+    "k": "10",
+    "name": "Spine of the scapula",
+    "hint": "Posterior ridge running medial to lateral.",
+    "src": "L10, slide 15",
+    "pts": [
+     [
+      230,
+      265,
+      60
+     ]
+    ],
+    "glyphs": [
+     [
+      238,
+      262
+     ]
+    ]
+   },
+   {
+    "k": "11",
+    "name": "Root of the spine",
+    "hint": "Medial start of the spine (about T4).",
+    "src": "L10, slide 16",
+    "pts": [
+     [
+      45,
+      320,
+      40
+     ]
+    ],
+    "glyphs": [],
+    "chip": [
+     16,
+     232
+    ]
+   },
+   {
+    "k": "12",
+    "name": "Infraspinous fossa",
+    "hint": "Below the spine (posterior).",
+    "src": "L10, slide 20",
+    "pts": [
+     [
+      253,
+      458,
+      120
+     ]
+    ],
+    "glyphs": [
+     [
+      253,
+      458
+     ]
+    ]
+   },
+   {
+    "k": "13",
+    "name": "Supraspinous fossa",
+    "hint": "Above the spine (posterior).",
+    "src": "L10, slide 19",
+    "pts": [
+     [
+      160,
+      215,
+      70
+     ]
+    ],
+    "glyphs": [
+     [
+      160,
+      215
+     ]
+    ]
+   },
+   {
+    "k": "14",
+    "name": "Subscapular fossa",
+    "hint": "Anterior surface, against the ribs.",
+    "src": "L10, slide 21",
+    "pts": [
+     [
+      805,
+      870,
+      130
+     ]
+    ],
+    "glyphs": [
+     [
+      805,
+      870
+     ]
+    ]
+   },
+   {
+    "k": "15",
+    "name": "Scapular notch",
+    "hint": "Notch just medial to the coracoid.",
+    "src": "L10, slide 22",
+    "pts": [
+     [
+      287,
+      168,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      248,
+      62
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "leg",
+  "title": "Tibia / fibula",
+  "note": "Anterior view of the right leg. The fibula is the thin lateral bone.",
+  "img": "img/leg.jpg",
+  "clean": "img/clean/leg.jpg",
+  "w": 1028,
+  "h": 1400,
+  "items": [
+   {
+    "k": "1",
+    "name": "Lateral condyle of the tibia",
+    "hint": "Proximal lateral tibia; meets the femur's lateral condyle.",
+    "src": "L11, slide 35",
+    "pts": [
+     [
+      345,
+      105,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      203,
+      83
+     ]
+    ]
+   },
+   {
+    "k": "2",
+    "name": "Head of the fibula",
+    "hint": "Most proximal part of the fibula.",
+    "src": "L11, slide 40",
+    "pts": [
+     [
+      345,
+      195,
+      35
+     ]
+    ],
+    "glyphs": [
+     [
+      35,
+      158
+     ]
+    ]
+   },
+   {
+    "k": "3",
+    "name": "Neck of the fibula",
+    "hint": "Just distal to the fibular head.",
+    "src": "L11, slide 40",
+    "pts": [
+     [
+      330,
+      243,
+      35
+     ]
+    ],
+    "glyphs": [
+     [
+      83,
+      303
+     ]
+    ]
+   },
+   {
+    "k": "4",
+    "name": "Medial condyle of the tibia",
+    "hint": "Proximal medial tibia; meets the femur's medial condyle.",
+    "src": "L11, slide 34",
+    "pts": [
+     [
+      555,
+      95,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      687,
+      38
+     ]
+    ]
+   },
+   {
+    "k": "5",
+    "name": "Tibial tuberosity",
+    "hint": "Proximal anterior bump; patellar ligament attaches.",
+    "src": "L11, slide 36",
+    "pts": [
+     [
+      540,
+      180,
+      50
+     ]
+    ],
+    "glyphs": [
+     [
+      735,
+      165
+     ]
+    ]
+   },
+   {
+    "k": "6",
+    "name": "Anterior crest of the tibia",
+    "hint": "Raised ridge down the front: the shin.",
+    "src": "L11, slide 37",
+    "pts": [
+     [
+      490,
+      470,
+      50
+     ],
+     [
+      500,
+      695,
+      50
+     ]
+    ],
+    "glyphs": [
+     [
+      700,
+      485
+     ]
+    ]
+   },
+   {
+    "k": "7",
+    "name": "Medial malleolus (tibia)",
+    "hint": "Medial ankle bump.",
+    "src": "L11, slide 38",
+    "pts": [
+     [
+      560,
+      1280,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      745,
+      1110
+     ]
+    ]
+   },
+   {
+    "k": "8",
+    "name": "Lateral malleolus (fibula)",
+    "hint": "Lateral ankle bump.",
+    "src": "L11, slide 41",
+    "pts": [
+     [
+      390,
+      1310,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      138,
+      1225
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "humerus",
+  "title": "Humerus",
+  "note": "Left: anterior view. Right: posterior view.",
+  "img": "img/humerus.jpg",
+  "clean": "img/clean/humerus.jpg",
+  "w": 1043,
+  "h": 1400,
+  "items": [
+   {
+    "k": "1",
+    "name": "Head of the humerus",
+    "hint": "Smooth, rounded top; points medially.",
+    "src": "L10, slide 25",
+    "pts": [
+     [
+      350,
+      100,
+      40
+     ],
+     [
+      680,
+      110,
+      55
+     ]
+    ],
+    "glyphs": [
+     [
+      422,
+      52
+     ],
+     [
+      610,
+      48
+     ]
+    ]
+   },
+   {
+    "k": "2",
+    "name": "Anatomical neck",
+    "hint": "Ridge right around the head (old growth plate).",
+    "src": "L10, slide 26",
+    "pts": [
+     [
+      318,
+      130,
+      30
+     ],
+     [
+      650,
+      225,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      497,
+      187
+     ],
+     [
+      590,
+      282
+     ]
+    ]
+   },
+   {
+    "k": "3",
+    "name": "Surgical neck",
+    "hint": "Below the tubercles; common fracture site.",
+    "src": "L10, slide 27",
+    "pts": [
+     [
+      323,
+      262,
+      40
+     ],
+     [
+      712,
+      275,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      385,
+      342
+     ],
+     [
+      645,
+      318
+     ]
+    ]
+   },
+   {
+    "k": "4",
+    "name": "Greater tubercle",
+    "hint": "Large bump, superior lateral.",
+    "src": "L10, slide 28",
+    "pts": [
+     [
+      185,
+      85,
+      40
+     ],
+     [
+      830,
+      95,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      37,
+      48
+     ],
+     [
+      1010,
+      33
+     ]
+    ]
+   },
+   {
+    "k": "5",
+    "name": "Lesser tubercle",
+    "hint": "Small bump, superior anterior.",
+    "src": "L10, slide 29",
+    "pts": [
+     [
+      265,
+      128,
+      35
+     ]
+    ],
+    "glyphs": [
+     [
+      440,
+      285
+     ]
+    ]
+   },
+   {
+    "k": "6",
+    "name": "Intertubercular (bicipital) groove",
+    "hint": "Channel between the tubercles.",
+    "src": "L10, slide 30",
+    "pts": [
+     [
+      225,
+      190,
+      35
+     ]
+    ],
+    "glyphs": [
+     [
+      78,
+      290
+     ]
+    ]
+   },
+   {
+    "k": "7",
+    "name": "Deltoid tuberosity",
+    "hint": "Rough bump halfway down the lateral shaft.",
+    "src": "L10, slide 31",
+    "pts": [
+     [
+      195,
+      622,
+      50
+     ],
+     [
+      810,
+      605,
+      50
+     ]
+    ],
+    "glyphs": [
+     [
+      83,
+      593
+     ],
+     [
+      908,
+      477
+     ]
+    ]
+   },
+   {
+    "k": "8",
+    "name": "Lateral supracondylar ridge",
+    "hint": "Sharp ridge on the lateral shaft just above the lateral epicondyle (on the class handout; not on the slides).",
+    "src": "L10 handout diagram",
+    "pts": [
+     [
+      170,
+      1125,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      83,
+      1077
+     ]
+    ]
+   },
+   {
+    "k": "9",
+    "name": "Lateral epicondyle",
+    "hint": "Bump on the distal lateral humerus.",
+    "src": "L10, slide 37",
+    "pts": [
+     [
+      133,
+      1198,
+      35
+     ],
+     [
+      838,
+      1222,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      65,
+      1150
+     ],
+     [
+      875,
+      1178
+     ]
+    ]
+   },
+   {
+    "k": "10",
+    "name": "Capitulum",
+    "hint": "Ball on the distal lateral end; meets the radial head.",
+    "src": "L10, slide 34",
+    "pts": [
+     [
+      160,
+      1255,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      20,
+      1260
+     ]
+    ]
+   },
+   {
+    "k": "11",
+    "name": "Trochlea",
+    "hint": "Spool beside the capitulum; meets the ulna's trochlear notch.",
+    "src": "L10, slide 35",
+    "pts": [
+     [
+      265,
+      1275,
+      40
+     ],
+     [
+      740,
+      1305,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      295,
+      1353
+     ],
+     [
+      790,
+      1367
+     ]
+    ]
+   },
+   {
+    "k": "12",
+    "name": "Medial epicondyle",
+    "hint": "Bump on the distal medial humerus.",
+    "src": "L10, slide 36",
+    "pts": [
+     [
+      345,
+      1215,
+      40
+     ],
+     [
+      620,
+      1228,
+      40
+     ]
+    ],
+    "glyphs": [
+     [
+      410,
+      1145
+     ],
+     [
+      580,
+      1125
+     ]
+    ]
+   },
+   {
+    "k": "13",
+    "name": "Coronoid fossa",
+    "hint": "Shallow depression, distal ANTERIOR.",
+    "src": "L10, slide 32",
+    "pts": [
+     [
+      255,
+      1210,
+      35
+     ]
+    ],
+    "glyphs": [
+     [
+      373,
+      1090
+     ]
+    ]
+   },
+   {
+    "k": "14",
+    "name": "Olecranon fossa",
+    "hint": "Deep depression, distal POSTERIOR.",
+    "src": "L10, slide 33",
+    "pts": [
+     [
+      745,
+      1225,
+      45
+     ]
+    ],
+    "glyphs": [
+     [
+      866,
+      1100
+     ]
+    ]
+   }
+  ]
+ }
+]

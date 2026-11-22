@@ -314,6 +314,7 @@ function chooser(){
     <p class="muted">Pick a quiz. Every practice quiz is a new random set, one question per study-guide topic.</p>
     ${cards}
     <a class="btn" href="story.html" style="text-decoration:none">Story mode: listen &amp; review<span class="sub">Narrated stories with pictures that connect terms across lectures</span></a>
+    <a class="btn" href="diagrams.html" style="text-decoration:none">Diagram Lab: midterm diagrams<span class="sub">Pelvis, scapula, tibia/fibula, humerus: find each structure, then match the terminology list</span></a>
     ${EXAM_MODE?`<button class="btn" data-q="exam">Cumulative exam practice<span class="sub">Midterm / final review · ${DATA.quizzes.length} quizzes, ${totalTopics} topics</span></button>`:""}
     <footer>Unofficial study aid based on NYIM A&amp;P lectures. Progress is saved only on this device.<br>
       <button class="linkbtn small" id="reset">Reset my progress</button></footer>

@@ -20,6 +20,7 @@ Direct links: [Midterm](https://waynecast.github.io/ap-quiz/#mid) · [Quiz #4](h
 - **Review missed:** retry the questions you got wrong in each quiz. Progress is stored only in your own browser.
 - Each answer shows a short explanation and the lecture/slide it comes from.
 - **Story mode** (`story.html`): narrated review stories. The picture, key terms and words appear on screen while it reads, and it keeps playing with the screen locked. 20 stories (about 80 minutes): 5 cross-lecture *Connections* (Calcium's Journey, Connective Tissue Everywhere, Feedback Loops, Atom to Organism, Fueling the Body: ATP) and one story per lecture for Lectures 1–15. Lecture stories play straight into the next one.
+- **Diagram Lab** (`diagrams.html`): the four midterm diagrams (pelvis, scapula, tibia/fibula, humerus). Study (tap dots), Find it (tap where a term is), Name it (pick the term for a lit-up spot), and Match the list (exam style: handout numbers plus the terminology list). Hotspot coordinates live in `tools/diagrams/diagram_coords.py`; `build_clean.py` paints the printed labels out of the handout images for Find it / Name it.
 - Add it to your phone's home screen to open it like an app. It also works offline after the first visit.
 
 ## Editing questions
