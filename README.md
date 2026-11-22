@@ -19,6 +19,7 @@ Direct links: [Midterm](https://waynecast.github.io/ap-quiz/#mid) · [Quiz #4](h
 - **Flashcards:** every quiz has a deck (all cards, by lecture, or by topic). Tap to flip, then Got it or Again; "Again" cards come back at the end. Shuffle, reverse, and "only cards I haven't gotten yet" options. The skull and spine cards show the handout diagram.
 - **Review missed:** retry the questions you got wrong in each quiz. Progress is stored only in your own browser.
 - Each answer shows a short explanation and the lecture/slide it comes from.
+- **Story mode** (`story.html`): narrated review stories. The picture, key terms and words appear on screen while it reads, and it keeps playing with the screen locked. First story: *Calcium's Journey* (Lectures 1–15).
 - Add it to your phone's home screen to open it like an app. It also works offline after the first visit.
 
 ## Editing questions
@@ -41,3 +42,7 @@ The older cumulative exam mode is built in but switched off. Set `EXAM_MODE = tr
 Generated questions (in `index.html`): Quiz #1 topics 4 (atomic mass/number) and 21 (pH); Quiz #2 topic 5 (DNA/RNA base pairing with random sequences).
 
 Unofficial study aid made by a student. Not affiliated with or reviewed by NYIM.
+
+## Story mode
+
+Each story is a Python script in `stories/src/` (scenes with a lecture tag, title, image, key terms and short lines). `stories/src/build_story.py` narrates every line with the Kokoro neural voice (`kokoro-onnx`), joins them into one MP3 and writes the JSON cue sheet the player uses to sync the captions. Images live in `img/story/`. List each story in `stories/index.json`.

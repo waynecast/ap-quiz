@@ -1,0 +1,217 @@
+# Calcium thread — Story mode script.
+# Each scene: lecture tag, title, image (or None), key terms, lines.
+# A line is either a string (shown and spoken) or (shown, spoken) when the
+# spoken form needs to differ (symbols, abbreviations). **word** = highlight.
+
+STORY = {
+    "id": "calcium",
+    "title": "Calcium's Journey",
+    "subtitle": "One ion, from atom to muscle contraction",
+    "lectures": "Lectures 1, 2, 3, 5, 6, 7, 13, 14, 15",
+    "scenes": [
+        {
+            "lec": "Overview", "title": "One ion, many lectures", "img": None,
+            "terms": ["Chemistry", "Bone", "Hormones", "Muscle"],
+            "lines": [
+                "This story follows one ion through the midterm.",
+                "That ion is **calcium**.",
+                "You met it in chemistry.",
+                "You met it again in bone, in hormones, and in muscle.",
+                "Let's connect those pieces.",
+            ],
+        },
+        {
+            "lec": "L2 · Atoms", "title": "Calcium the element", "img": "L2_01.jpg",
+            "terms": ["Element", "Atomic number", "Ca"],
+            "lines": [
+                "Calcium is an **element**.",
+                ("Its symbol is **Ca**.", "Its symbol is C A."),
+                ("Its **atomic number** is 20.", "Its atomic number is twenty."),
+                "So it has 20 protons in its nucleus.",
+                "A neutral calcium atom also has 20 electrons.",
+            ],
+        },
+        {
+            "lec": "L2 · Bonds", "title": "Calcium the ion", "img": "L2_06.jpg",
+            "terms": ["Ion", "Cation", "Ionic bond"],
+            "lines": [
+                "Calcium gives away two electrons.",
+                "Now it has more protons than electrons.",
+                "An atom with a charge is an **ion**.",
+                "A positive ion is a **cation**.",
+                ("We write it **Ca²⁺**.", "We write it C A, two plus."),
+                "Cations pair with anions in **ionic bonds**, like sodium and chloride in table salt.",
+            ],
+        },
+        {
+            "lec": "L3 · Inorganic compounds", "title": "An electrolyte", "img": None,
+            "terms": ["Electrolyte", "Salts", "Inorganic"],
+            "lines": [
+                "Salts are inorganic compounds.",
+                "In water, salts release ions.",
+                "A substance that releases ions and conducts electric current is an **electrolyte**.",
+                "Calcium ions are electrolytes.",
+                "Keep that in mind. Calcium carries a charge, and that matters in muscle.",
+            ],
+        },
+        {
+            "lec": "L5 + L7 · Bone tissue", "title": "Bone is the calcium bank", "img": "L7_14.jpg",
+            "terms": ["Hydroxyapatite", "Osteoid", "Storage"],
+            "lines": [
+                "Bone is a connective tissue: cells plus matrix.",
+                "The matrix ground substance is **hydroxyapatite**.",
+                "Hydroxyapatite is mineral salts of calcium, magnesium and phosphorus.",
+                "It makes bone **hard**. It is two thirds of the matrix.",
+                "The fibers are **osteoid**, mostly collagen. They make bone **strong**.",
+                "Storing minerals is one of the five functions of the skeleton.",
+            ],
+        },
+        {
+            "lec": "L7 · Bone cells", "title": "Blasts build, clasts crush", "img": "L7_03.png",
+            "terms": ["Osteoblast", "Osteoclast", "Osteocyte"],
+            "lines": [
+                "Bone cells move calcium in and out of the bank.",
+                "**Osteoblasts** are the builders.",
+                "They take calcium from the blood and deposit it onto collagen.",
+                "**Osteoclasts** are the demolition crew.",
+                "They break bone down and send calcium back into the blood.",
+                "**Osteocytes** are mature bone cells. They maintain bone and oversee the blasts and clasts.",
+                "Memory trick: blast means build. Clast means crush.",
+            ],
+        },
+        {
+            "lec": "L6 + L7 · Skin", "title": "Vitamin D lets calcium in", "img": "L6_05.jpg",
+            "terms": ["Vitamin D", "Cholecalciferol", "Synthesis"],
+            "lines": [
+                "Calcium has to get into the blood first.",
+                "Synthesis is one of the skin's functions.",
+                "When sunlight hits the skin, modified cholesterol becomes **vitamin D**.",
+                ("Activated vitamin D3 is called **cholecalciferol**.", "Activated vitamin D three is called cole a calciferol."),
+                "It is needed to absorb calcium from food into the blood.",
+                "Too little in children causes **rickets**. In adults it causes **osteomalacia**.",
+            ],
+        },
+        {
+            "lec": "L1 · Homeostasis", "title": "Keep it in range", "img": "L1_13.png",
+            "terms": ["Homeostasis", "Negative feedback"],
+            "lines": [
+                "Blood calcium has to stay in a narrow range.",
+                "Keeping a stable internal environment is **homeostasis**.",
+                "The body uses **negative feedback**.",
+                "The response opposes the change.",
+                "Stimulus, receptor, control center, effector.",
+                "For calcium, two hormones pull in opposite directions.",
+            ],
+        },
+        {
+            "lec": "L7 + L15 · Thyroid", "title": "Calcitonin: calci-bone-in", "img": "L7_17.png",
+            "terms": ["Calcitonin", "Thyroid gland", "↓ blood Ca²⁺"],
+            "lines": [
+                "Blood calcium is too **high**.",
+                "The **thyroid gland** releases **calcitonin**.",
+                "Calcitonin stimulates osteoblasts and inhibits osteoclasts.",
+                "Calcium moves from the blood into bone.",
+                "Blood calcium falls back to normal.",
+                ("Memory trick: calci-**bone-in**.", "Memory trick: calci, bone, in."),
+            ],
+        },
+        {
+            "lec": "L15 · Parathyroids", "title": "PTH: calcium out of bone", "img": "L15_04.png",
+            "terms": ["PTH", "Parathyroid glands", "Antagonist"],
+            "lines": [
+                "Blood calcium is too **low**.",
+                "The **parathyroid glands** respond.",
+                "They are four small nodules on the back of the thyroid.",
+                ("They release **parathyroid hormone**, or **PTH**.", "They release parathyroid hormone, or P. T. H."),
+                ("PTH stimulates osteoclasts and inhibits osteoblasts.", "P. T. H. stimulates osteoclasts and inhibits osteoblasts."),
+                "Calcium moves from bone into the blood.",
+                ("PTH and calcitonin are **antagonists**. Both also act on the kidney.", "P. T. H. and calcitonin are antagonists. Both also act on the kidney."),
+            ],
+        },
+        {
+            "lec": "L15 · Endocrine", "title": "A humoral stimulus", "img": "L15_01.jpg",
+            "terms": ["Humoral", "Endocrine gland", "Hormone"],
+            "lines": [
+                "What tells the parathyroids to act?",
+                "The calcium level in the blood itself.",
+                "A change in blood ion or nutrient levels is a **humoral** stimulus.",
+                "The other two kinds are neural and hormonal.",
+                "Endocrine glands lack ducts.",
+                "Their **hormones** travel in the blood to a target tissue.",
+            ],
+        },
+        {
+            "lec": "L13 · Muscle fiber", "title": "Calcium waits in the SR", "img": "L13_05.jpg",
+            "terms": ["Sarcoplasmic reticulum", "Troponin", "Tropomyosin"],
+            "lines": [
+                "Now calcium's second big job: muscle.",
+                "Inside each skeletal muscle fiber is the **sarcoplasmic reticulum**.",
+                "It stores calcium and releases it on demand.",
+                "Its **terminal cisternae** sit next to the T-tubules. They are calcium reservoirs.",
+                "On the thin filament, **tropomyosin** covers the myosin-binding sites.",
+                "**Troponin** holds tropomyosin in place. Troponin has a binding site for calcium.",
+            ],
+        },
+        {
+            "lec": "L14 · NMJ", "title": "Calcium opens the gate", "img": "L14_08.jpg",
+            "terms": ["Synaptic knob", "ACh", "Motor end plate"],
+            "lines": [
+                "A nerve impulse reaches the **synaptic knob**.",
+                "Voltage-gated calcium channels open.",
+                "Calcium flows into the knob.",
+                ("Vesicles release **acetylcholine**, or **ACh**, into the synaptic cleft.", "Vesicles release a seetle coaleen into the synaptic cleft."),
+                ("ACh binds receptors on the **motor end plate**.", "A seetle coaleen binds receptors on the motor end plate."),
+                ("Sodium rushes in. An **action potential** spreads along the sarcolemma.", "Sodium rushes in. An action potential spreads along the sarco-lemma."),
+            ],
+        },
+        {
+            "lec": "L14 · Excitation", "title": "Calcium unlocks actin", "img": "L14_11.jpg",
+            "terms": ["T-tubules", "Ca²⁺ + troponin", "Binding sites"],
+            "lines": [
+                "The action potential travels down the **T-tubules**.",
+                "The sarcoplasmic reticulum releases calcium into the cytosol.",
+                "Calcium binds **troponin**.",
+                "Troponin pulls tropomyosin away.",
+                "The myosin-binding sites on actin are exposed.",
+                "Now myosin can grab on.",
+            ],
+        },
+        {
+            "lec": "L14 · Cross-bridge cycle", "title": "Calcium plus ATP", "img": "L14_10.png",
+            "terms": ["Power stroke", "ATP", "Relaxation"],
+            "lines": [
+                "Myosin heads attach to actin. That is a **cross bridge**.",
+                "The **power stroke** pulls actin toward the center of the sarcomere.",
+                "ATP binds myosin, and the head lets go.",
+                "ATP splits and re-cocks the head.",
+                "The cycle repeats as long as **calcium** and **ATP** are present.",
+                "When nerve signals stop, calcium is pumped back into the SR. The muscle **relaxes**.",
+            ],
+        },
+        {
+            "lec": "L7 + L14 · When it fails", "title": "Out of balance", "img": "L7_24.jpg",
+            "terms": ["Osteoporosis", "Wolff's law", "Fatigue"],
+            "lines": [
+                "**Osteoporosis** is a loss of bone quantity.",
+                "It is typical in post-menopausal women and causes compression fractures of the vertebrae.",
+                "Weight-bearing exercise, plus calcium with vitamin D, helps prevent it.",
+                "That is **Wolff's law**: bone is laid down where stress is higher.",
+                "In muscle, calcium imbalance is one cause of **muscle fatigue**.",
+            ],
+        },
+        {
+            "lec": "Recap", "title": "The whole chain", "img": None,
+            "terms": ["Ca²⁺", "Bone bank", "Calcitonin ⇄ PTH", "Troponin"],
+            "lines": [
+                "Let's run the chain once more.",
+                ("Calcium is an element that becomes a cation, **Ca²⁺**.", "Calcium is an element that becomes a cation, C A two plus."),
+                "Vitamin D from the skin helps absorb it.",
+                "Bone stores it in hydroxyapatite.",
+                "Osteoblasts deposit it. Osteoclasts release it.",
+                ("Calcitonin lowers blood calcium. PTH raises it.", "Calcitonin lowers blood calcium. P. T. H. raises it."),
+                "In muscle, calcium binds troponin and starts contraction.",
+                "One ion. Nine lectures. One story.",
+            ],
+        },
+    ],
+}
