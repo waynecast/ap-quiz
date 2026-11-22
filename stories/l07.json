@@ -140,30 +140,30 @@
     {
      "text": "**Osteoprogenitor** cells are bone stem cells. They become osteoblasts.",
      "start": 56.23,
-     "end": 60.81
+     "end": 60.91
     },
     {
      "text": "**Osteoblasts** are construction. They deposit calcium onto collagen.",
-     "start": 61.26,
-     "end": 65.63
+     "start": 61.36,
+     "end": 65.61
     },
     {
      "text": "**Osteocytes** are the general contractor. They maintain bone.",
-     "start": 66.08,
-     "end": 69.54
+     "start": 66.06,
+     "end": 69.52
     },
     {
      "text": "**Osteoclasts** are demolition. They break bone down and release calcium.",
-     "start": 69.99,
+     "start": 69.97,
      "end": 74.36
     },
     {
      "text": "Osteoclasts have many nuclei.",
      "start": 74.81,
-     "end": 76.65
+     "end": 76.72
     }
    ],
-   "end": 77.75
+   "end": 77.82
   },
   {
    "lec": "L7 · Matrix",
@@ -173,25 +173,25 @@
     "Hydroxyapatite",
     "Osteoid"
    ],
-   "start": 77.75,
+   "start": 77.82,
    "lines": [
     {
      "text": "The bone matrix is completely solid.",
-     "start": 77.75,
-     "end": 79.85
+     "start": 77.82,
+     "end": 79.93
     },
     {
      "text": "**Hydroxyapatite** is mineral salt. It makes bone hard. It's two thirds of the matrix.",
-     "start": 80.3,
-     "end": 85.8
+     "start": 80.38,
+     "end": 85.88
     },
     {
      "text": "**Osteoid** is mostly collagen. It makes bone strong. It's one third.",
-     "start": 86.25,
-     "end": 90.59
+     "start": 86.33,
+     "end": 90.66
     }
    ],
-   "end": 91.69
+   "end": 91.76
   },
   {
    "lec": "L7 · Shapes",
@@ -204,40 +204,40 @@
     "Irregular",
     "Sesamoid"
    ],
-   "start": 91.69,
+   "start": 91.76,
    "lines": [
     {
      "text": "**Long** bones are longer than wide. All are in the limbs.",
-     "start": 91.69,
-     "end": 94.89
+     "start": 91.76,
+     "end": 94.97
     },
     {
      "text": "**Short** bones are box shaped: the carpals and tarsals.",
-     "start": 95.34,
-     "end": 98.63
+     "start": 95.42,
+     "end": 98.71
     },
     {
      "text": "**Flat** bones are thin: most of the skull, the ribs, sternum and scapulae.",
-     "start": 99.08,
-     "end": 103.38
+     "start": 99.16,
+     "end": 103.46
     },
     {
      "text": "**Irregular** bones are odd shaped: vertebrae and the coxal bones.",
-     "start": 103.83,
-     "end": 107.87
+     "start": 103.91,
+     "end": 107.95
     },
     {
      "text": "**Sesamoid** bones form in tendons. The patella is one.",
-     "start": 108.32,
-     "end": 111.85
+     "start": 108.4,
+     "end": 111.92
     },
     {
      "text": "Wormian bones are extra bones in skull sutures.",
-     "start": 112.3,
-     "end": 115.3
+     "start": 112.37,
+     "end": 115.37
     }
    ],
-   "end": 116.4
+   "end": 116.47
   },
   {
    "lec": "L7 · Long bone",
@@ -249,40 +249,40 @@
     "Epiphyseal plate",
     "Periosteum"
    ],
-   "start": 116.4,
+   "start": 116.47,
    "lines": [
     {
      "text": "The **diaphysis** is the shaft.",
-     "start": 116.4,
-     "end": 117.96
+     "start": 116.47,
+     "end": 118.06
     },
     {
      "text": "The **epiphyses** are the ends. They form joints.",
-     "start": 118.41,
-     "end": 121.22
+     "start": 118.51,
+     "end": 121.15
     },
     {
      "text": "The **epiphyseal plate** is the growth plate. It's the only place bone grows in length.",
-     "start": 121.67,
-     "end": 126.57
+     "start": 121.6,
+     "end": 126.45
     },
     {
      "text": "In adults it becomes the epiphyseal line.",
-     "start": 127.02,
-     "end": 129.52
+     "start": 126.9,
+     "end": 129.41
     },
     {
      "text": "Articular cartilage covers the ends.",
-     "start": 129.97,
-     "end": 132.14
+     "start": 129.86,
+     "end": 132.03
     },
     {
      "text": "The **periosteum** wraps the outside. The endosteum lines the marrow cavity.",
-     "start": 132.59,
-     "end": 137.21
+     "start": 132.48,
+     "end": 137.09
     }
    ],
-   "end": 138.31
+   "end": 138.19
   },
   {
    "lec": "L7 · Compact bone",
@@ -295,40 +295,40 @@
     "Lacunae",
     "Canaliculi"
    ],
-   "start": 138.31,
+   "start": 138.19,
    "lines": [
     {
      "text": "Compact bone is built from **osteons**.",
-     "start": 138.31,
-     "end": 140.5
+     "start": 138.19,
+     "end": 140.37
     },
     {
      "text": "The **central canal** carries vessels and nerves.",
-     "start": 140.95,
-     "end": 143.64
+     "start": 140.82,
+     "end": 143.52
     },
     {
      "text": "Perforating canals run sideways to connect them.",
-     "start": 144.09,
-     "end": 146.88
+     "start": 143.97,
+     "end": 146.76
     },
     {
      "text": "**Lamellae** are rings around the canal, for strength.",
-     "start": 147.33,
-     "end": 150.07
+     "start": 147.21,
+     "end": 149.97
     },
     {
      "text": "**Lacunae** are little lakes that hold osteocytes.",
-     "start": 150.52,
-     "end": 153.19
+     "start": 150.42,
+     "end": 153.05
     },
     {
      "text": "**Canaliculi** are little canals that carry nutrients and waste.",
-     "start": 153.64,
-     "end": 157.44
+     "start": 153.5,
+     "end": 157.3
     }
    ],
-   "end": 158.54
+   "end": 158.4
   },
   {
    "lec": "L7 · Spongy bone",
@@ -339,30 +339,30 @@
     "Trabeculae",
     "Woven"
    ],
-   "start": 158.54,
+   "start": 158.4,
    "lines": [
     {
      "text": "**Spongy** bone fills the ends of long bones and the inside of other bones.",
-     "start": 158.54,
-     "end": 163.15
+     "start": 158.4,
+     "end": 163.01
     },
     {
      "text": "It has no osteons. It is made of thin plates called **trabeculae**.",
-     "start": 163.6,
-     "end": 167.25
+     "start": 163.46,
+     "end": 167.26
     },
     {
      "text": "**Woven** bone is poorly mineralized and slightly flexible.",
-     "start": 167.7,
-     "end": 171.05
+     "start": 167.71,
+     "end": 171.07
     },
     {
      "text": "It's normal in children and abnormal in adults.",
-     "start": 171.5,
-     "end": 174.35
+     "start": 171.52,
+     "end": 174.36
     }
    ],
-   "end": 175.45
+   "end": 175.46
   },
   {
    "lec": "L7 · Formation",
@@ -372,25 +372,25 @@
     "Endochondral",
     "Intramembranous"
    ],
-   "start": 175.45,
+   "start": 175.46,
    "lines": [
     {
      "text": "Most bones form inside hyaline cartilage. That's **endochondral** ossification.",
-     "start": 175.45,
-     "end": 180.68
+     "start": 175.46,
+     "end": 180.7
     },
     {
      "text": "Flat bones of the skull form in a fibrous membrane.",
-     "start": 181.13,
-     "end": 184.07
+     "start": 181.15,
+     "end": 184.08
     },
     {
      "text": "That's **intramembranous** ossification.",
-     "start": 184.52,
-     "end": 186.55
+     "start": 184.53,
+     "end": 186.59
     }
    ],
-   "end": 187.65
+   "end": 187.69
   },
   {
    "lec": "L7 · Homeostasis",
@@ -402,35 +402,35 @@
     "Calcitonin",
     "PTH"
    ],
-   "start": 187.65,
+   "start": 187.69,
    "lines": [
     {
      "text": "Bone is constantly broken down and rebuilt.",
-     "start": 187.65,
-     "end": 190.17
+     "start": 187.69,
+     "end": 190.21
     },
     {
      "text": "**Wolff's law**: bone is laid down where stress is higher.",
-     "start": 190.62,
-     "end": 193.63
+     "start": 190.66,
+     "end": 193.61
     },
     {
      "text": "**Vitamin D** from the skin helps absorb calcium from food.",
-     "start": 194.08,
-     "end": 197.71
+     "start": 194.06,
+     "end": 197.69
     },
     {
      "text": "**Calcitonin** from the thyroid moves calcium into bone.",
-     "start": 198.16,
-     "end": 201.51
+     "start": 198.14,
+     "end": 201.44
     },
     {
      "text": "**PTH** from the parathyroids moves calcium out of bone.",
-     "start": 201.96,
-     "end": 206.03
+     "start": 201.89,
+     "end": 205.96
     }
    ],
-   "end": 207.13
+   "end": 207.06
   },
   {
    "lec": "L7 · Fractures",
@@ -442,35 +442,35 @@
     "Spiral",
     "Greenstick"
    ],
-   "start": 207.13,
+   "start": 207.06,
    "lines": [
     {
      "text": "A simple fracture is closed. A compound fracture breaks the skin.",
-     "start": 207.13,
-     "end": 210.97
+     "start": 207.06,
+     "end": 210.89
     },
     {
      "text": "**Compression**: bone is crushed, like vertebrae in osteoporosis.",
-     "start": 211.42,
-     "end": 215.58
+     "start": 211.34,
+     "end": 215.38
     },
     {
      "text": "Depressed: pressed inward, typical of the skull.",
-     "start": 216.03,
-     "end": 218.67
+     "start": 215.83,
+     "end": 218.47
     },
     {
      "text": "**Comminuted**: three or more pieces. Impacted: one end driven into the other.",
-     "start": 219.12,
-     "end": 223.83
+     "start": 218.92,
+     "end": 223.64
     },
     {
      "text": "**Spiral**: from twisting. **Greenstick**: incomplete, in children.",
-     "start": 224.28,
-     "end": 228.19
+     "start": 224.09,
+     "end": 227.99
     }
    ],
-   "end": 229.29
+   "end": 229.09
   },
   {
    "lec": "L7 · Repair",
@@ -482,30 +482,30 @@
     "Bony callus",
     "Remodeling"
    ],
-   "start": 229.29,
+   "start": 229.09,
    "lines": [
     {
      "text": "Step one: a **hematoma**, a big clot, stops the bleeding.",
-     "start": 229.29,
-     "end": 232.61
+     "start": 229.09,
+     "end": 232.41
     },
     {
      "text": "Step two: a **fibrocartilage callus** connects the ends.",
-     "start": 233.06,
-     "end": 236.16
+     "start": 232.86,
+     "end": 235.96
     },
     {
      "text": "Step three: osteoblasts turn it into a **bony callus**.",
-     "start": 236.61,
-     "end": 239.76
+     "start": 236.41,
+     "end": 239.46
     },
     {
      "text": "Step four: **remodeling**. Osteoclasts remove the extra. It can take years.",
-     "start": 240.21,
-     "end": 245.14
+     "start": 239.91,
+     "end": 244.8
     }
    ],
-   "end": 246.24
+   "end": 245.9
   },
   {
    "lec": "L7 · Pathology",
@@ -517,32 +517,32 @@
     "Osteomalacia",
     "OI"
    ],
-   "start": 246.24,
+   "start": 245.9,
    "lines": [
     {
      "text": "**Osteoporosis** is a loss of bone quantity. Bones become porous.",
-     "start": 246.24,
-     "end": 250.72
+     "start": 245.9,
+     "end": 250.29
     },
     {
      "text": "**Rickets** is soft bone in children, from low calcium and vitamin D.",
-     "start": 251.17,
-     "end": 255.27
+     "start": 250.74,
+     "end": 254.84
     },
     {
      "text": "**Osteomalacia** is soft bone in adults.",
-     "start": 255.72,
-     "end": 258.22
+     "start": 255.29,
+     "end": 257.89
     },
     {
      "text": "Osteogenesis imperfecta, or **OI**, is brittle bone disease. The body can't make working collagen.",
-     "start": 258.67,
-     "end": 264.49
+     "start": 258.34,
+     "end": 264.16
     }
    ],
-   "end": 265.59
+   "end": 265.26
   }
  ],
- "duration": 265.59,
+ "duration": 265.26,
  "audio": "stories/l07.mp3"
 }

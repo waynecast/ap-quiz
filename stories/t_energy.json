@@ -188,20 +188,20 @@
     {
      "text": "ATP is adenosine with three phosphates.",
      "start": 70.65,
-     "end": 73.44
+     "end": 72.88
     },
     {
      "text": "Breaking the last **phosphate bond** releases energy.",
-     "start": 73.89,
-     "end": 76.86
+     "start": 73.33,
+     "end": 76.3
     },
     {
      "text": "ATP becomes **ADP** plus phosphate. That's hydrolysis.",
-     "start": 77.31,
-     "end": 81.53
+     "start": 76.75,
+     "end": 80.97
     }
    ],
-   "end": 82.63
+   "end": 82.07
   },
   {
    "lec": "L4 · Mitochondria",
@@ -212,25 +212,25 @@
     "Cristae",
     "Muscle cells"
    ],
-   "start": 82.63,
+   "start": 82.07,
    "lines": [
     {
      "text": "**Mitochondria** make most of the body's ATP.",
-     "start": 82.63,
-     "end": 85.69
+     "start": 82.07,
+     "end": 85.12
     },
     {
      "text": "Their folded **cristae** add surface area for the work.",
-     "start": 86.14,
-     "end": 88.86
+     "start": 85.57,
+     "end": 88.29
     },
     {
      "text": "They're abundant in **muscle cells**, which use the most energy.",
-     "start": 89.31,
-     "end": 92.63
+     "start": 88.74,
+     "end": 92.06
     }
    ],
-   "end": 93.73
+   "end": 93.16
   },
   {
    "lec": "L3 · Transport",
@@ -240,25 +240,25 @@
     "Active transport",
     "Sodium-potassium pump"
    ],
-   "start": 93.73,
+   "start": 93.16,
    "lines": [
     {
      "text": "**Active transport** spends ATP.",
-     "start": 93.73,
-     "end": 95.81
+     "start": 93.16,
+     "end": 95.25
     },
     {
      "text": "The **sodium potassium pump** is the classic example.",
-     "start": 96.26,
-     "end": 99.34
+     "start": 95.7,
+     "end": 98.77
     },
     {
      "text": "It resets sodium and potassium after a muscle fires.",
-     "start": 99.79,
-     "end": 103.18
+     "start": 99.22,
+     "end": 102.62
     }
    ],
-   "end": 104.28
+   "end": 103.72
   },
   {
    "lec": "L14 · Contraction",
@@ -269,30 +269,30 @@
     "Reset",
     "Rigor mortis"
    ],
-   "start": 104.28,
+   "start": 103.72,
    "lines": [
     {
      "text": "In muscle, ATP has two jobs in the cross-bridge cycle.",
-     "start": 104.28,
-     "end": 107.89
+     "start": 103.72,
+     "end": 107.33
     },
     {
      "text": "ATP binding makes myosin **release** actin.",
-     "start": 108.34,
-     "end": 111.51
+     "start": 107.78,
+     "end": 110.95
     },
     {
      "text": "ATP splitting **resets** the myosin head.",
-     "start": 111.96,
-     "end": 114.68
+     "start": 111.4,
+     "end": 114.11
     },
     {
      "text": "No ATP means no release. That's **rigor mortis**.",
-     "start": 115.13,
-     "end": 118.59
+     "start": 114.56,
+     "end": 117.9
     }
    ],
-   "end": 119.69
+   "end": 119.0
   },
   {
    "lec": "L14 · Energy",
@@ -303,30 +303,30 @@
     "Anaerobic glycolysis",
     "Aerobic respiration"
    ],
-   "start": 119.69,
+   "start": 119.0,
    "lines": [
     {
      "text": "Muscle stores only a little ATP. It has to keep making more.",
-     "start": 119.69,
-     "end": 123.78
+     "start": 119.0,
+     "end": 123.1
     },
     {
      "text": "**Creatine phosphate** is fastest. About 10 to 15 seconds.",
-     "start": 124.23,
-     "end": 128.28
+     "start": 123.55,
+     "end": 127.59
     },
     {
      "text": "**Anaerobic glycolysis** makes 2 ATP per glucose, with lactic acid. About 30 to 40 seconds.",
-     "start": 128.73,
-     "end": 135.83
+     "start": 128.04,
+     "end": 135.14
     },
     {
      "text": "**Aerobic respiration** in the mitochondria makes about 32 ATP per glucose. It lasts for hours.",
-     "start": 136.28,
-     "end": 143.09
+     "start": 135.59,
+     "end": 142.4
     }
    ],
-   "end": 144.19
+   "end": 143.5
   },
   {
    "lec": "L14 · Fiber types",
@@ -337,30 +337,30 @@
     "Fast glycolytic",
     "Myoglobin"
    ],
-   "start": 144.19,
+   "start": 143.5,
    "lines": [
     {
      "text": "**Slow oxidative** fibers run on aerobic respiration.",
-     "start": 144.19,
-     "end": 147.78
+     "start": 143.5,
+     "end": 147.09
     },
     {
      "text": "They're packed with mitochondria and **myoglobin**, so they're dark red. They resist fatigue.",
-     "start": 148.23,
-     "end": 153.32
+     "start": 147.54,
+     "end": 152.64
     },
     {
      "text": "**Fast glycolytic** fibers run anaerobically. They're white, powerful and tire fast.",
-     "start": 153.77,
-     "end": 159.13
+     "start": 153.09,
+     "end": 158.45
     },
     {
      "text": "Endurance training adds mitochondria. That means more ATP.",
-     "start": 159.58,
-     "end": 163.6
+     "start": 158.9,
+     "end": 162.91
     }
    ],
-   "end": 164.7
+   "end": 164.01
   },
   {
    "lec": "L14 · Fatigue",
@@ -371,20 +371,20 @@
     "Lactic acid",
     "Oxygen deficit"
    ],
-   "start": 164.7,
+   "start": 164.01,
    "lines": [
     {
      "text": "**Fatigue** comes when supply can't keep up.",
-     "start": 164.7,
-     "end": 167.03
+     "start": 164.01,
+     "end": 166.35
     },
     {
      "text": "Low ATP. An **oxygen deficit**. **Lactic acid** buildup. Ion imbalance.",
-     "start": 167.48,
-     "end": 172.46
+     "start": 166.8,
+     "end": 171.77
     }
    ],
-   "end": 173.56
+   "end": 172.87
   },
   {
    "lec": "L15 · Hormones",
@@ -396,30 +396,30 @@
     "Thyroid hormone",
     "Cortisol"
    ],
-   "start": 173.56,
+   "start": 172.87,
    "lines": [
     {
      "text": "**Insulin** moves glucose into cells and storage.",
-     "start": 173.56,
-     "end": 176.39
+     "start": 172.87,
+     "end": 175.71
     },
     {
      "text": "**Glucagon** releases it from the liver.",
-     "start": 176.84,
-     "end": 178.82
+     "start": 176.16,
+     "end": 178.13
     },
     {
      "text": "**Thyroid hormone** is the main metabolic hormone. It raises heat production.",
-     "start": 179.27,
-     "end": 184.02
+     "start": 178.58,
+     "end": 183.34
     },
     {
      "text": "**Cortisol** raises blood sugar to resist stress.",
-     "start": 184.47,
-     "end": 187.31
+     "start": 183.79,
+     "end": 186.62
     }
    ],
-   "end": 188.41
+   "end": 187.72
   },
   {
    "lec": "Recap",
@@ -432,37 +432,37 @@
     "ATP",
     "Cross bridge"
    ],
-   "start": 188.41,
+   "start": 187.72,
    "lines": [
     {
      "text": "Energy sits in chemical **bonds**.",
-     "start": 188.41,
-     "end": 190.28
+     "start": 187.72,
+     "end": 189.59
     },
     {
      "text": "Digestion breaks food into **glucose**.",
-     "start": 190.73,
-     "end": 192.78
+     "start": 190.04,
+     "end": 192.1
     },
     {
      "text": "Enzymes and **mitochondria** turn glucose into **ATP**.",
-     "start": 193.23,
-     "end": 196.81
+     "start": 192.55,
+     "end": 196.13
     },
     {
      "text": "ATP powers pumps, and every **cross bridge** in your muscles.",
-     "start": 197.26,
-     "end": 201.03
+     "start": 196.58,
+     "end": 200.35
     },
     {
      "text": "Hormones keep the fuel supply in range.",
-     "start": 201.48,
-     "end": 203.83
+     "start": 200.8,
+     "end": 203.14
     }
    ],
-   "end": 204.93
+   "end": 204.24
   }
  ],
- "duration": 204.93,
+ "duration": 204.24,
  "audio": "stories/t_energy.mp3"
 }

@@ -6,6 +6,8 @@ usage: python3 build_story.py <script_module> <out_dir> [voice]
 import importlib.util, json, re, subprocess, sys, os
 import numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from pron import to_phonemes
 
 mod_path, out_dir = sys.argv[1], sys.argv[2]
 voice = sys.argv[3] if len(sys.argv) > 3 else "af_heart"
@@ -34,7 +36,11 @@ for si, sc in enumerate(story["scenes"]):
     for li, line in enumerate(sc["lines"]):
         show, say = (line, strip(line)) if isinstance(line, str) else line
         say = strip(say)
-        audio, sr = k.create(say, voice=voice, speed=0.95, lang="en-us")
+        ph = to_phonemes(say, lambda x: k.tokenizer.phonemize(x, "en-us"))
+        if ph:
+            audio, sr = k.create(ph, voice=voice, speed=0.95, is_phonemes=True)
+        else:
+            audio, sr = k.create(say, voice=voice, speed=0.95, lang="en-us")
         assert sr == SR
         # trim leading/trailing near-silence so gaps are consistent
         nz = np.where(np.abs(audio) > 0.01)[0]

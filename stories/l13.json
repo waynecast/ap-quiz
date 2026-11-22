@@ -61,25 +61,25 @@
     {
      "text": "**Skeletal** muscle is voluntary. Long cylinders, many nuclei, striated.",
      "start": 16.67,
-     "end": 21.37
+     "end": 21.42
     },
     {
      "text": "**Cardiac** muscle is only in the heart. Involuntary, branched, striated, usually one nucleus.",
-     "start": 21.82,
-     "end": 28.15
+     "start": 21.87,
+     "end": 28.2
     },
     {
      "text": "**Smooth** muscle lines hollow organs. Involuntary, spindle shaped, one nucleus, no striations.",
-     "start": 28.6,
-     "end": 35.07
+     "start": 28.65,
+     "end": 35.12
     },
     {
      "text": "Only smooth muscle can divide.",
-     "start": 35.52,
-     "end": 37.27
+     "start": 35.57,
+     "end": 37.32
     }
    ],
-   "end": 38.37
+   "end": 38.42
   },
   {
    "lec": "L13 · Skeletal",
@@ -89,35 +89,35 @@
     "Origin",
     "Insertion"
    ],
-   "start": 38.37,
+   "start": 38.42,
    "lines": [
     {
      "text": "Skeletal muscle is 30 to 40 percent of body mass.",
-     "start": 38.37,
-     "end": 41.62
+     "start": 38.42,
+     "end": 41.67
     },
     {
      "text": "The **origin** doesn't move. It's usually proximal.",
-     "start": 42.07,
-     "end": 44.94
+     "start": 42.12,
+     "end": 44.99
     },
     {
      "text": "The **insertion** moves. It's usually distal.",
-     "start": 45.39,
-     "end": 48.02
+     "start": 45.44,
+     "end": 47.95
     },
     {
      "text": "Contraction pulls the insertion toward the origin.",
-     "start": 48.47,
-     "end": 51.4
+     "start": 48.4,
+     "end": 51.33
     },
     {
      "text": "Skeletal muscle moves the body, holds posture, stabilizes joints and makes heat.",
-     "start": 51.85,
-     "end": 57.16
+     "start": 51.78,
+     "end": 57.09
     }
    ],
-   "end": 58.26
+   "end": 58.19
   },
   {
    "lec": "L13 · Cardiac",
@@ -128,30 +128,30 @@
     "Desmosomes",
     "Gap junctions"
    ],
-   "start": 58.26,
+   "start": 58.19,
    "lines": [
     {
      "text": "Only cardiac muscle has **intercalated discs**.",
-     "start": 58.26,
-     "end": 61.1
+     "start": 58.19,
+     "end": 61.03
     },
     {
      "text": "They hold **desmosomes**, which resist stress.",
-     "start": 61.55,
-     "end": 64.11
+     "start": 61.48,
+     "end": 64.04
     },
     {
      "text": "And **gap junctions**, which pass ions between cells.",
-     "start": 64.56,
-     "end": 67.69
+     "start": 64.49,
+     "end": 67.62
     },
     {
      "text": "Those are the junctions from Lecture 5.",
-     "start": 68.14,
-     "end": 70.36
+     "start": 68.07,
+     "end": 70.29
     }
    ],
-   "end": 71.46
+   "end": 71.39
   },
   {
    "lec": "L13 · Smooth",
@@ -161,30 +161,30 @@
     "Visceral",
     "Multi-unit"
    ],
-   "start": 71.46,
+   "start": 71.39,
    "lines": [
     {
      "text": "**Visceral** smooth muscle is common. It lines hollow organs.",
-     "start": 71.46,
-     "end": 75.14
+     "start": 71.39,
+     "end": 75.07
     },
     {
      "text": "It usually has an inner circular and an outer longitudinal layer.",
-     "start": 75.59,
-     "end": 79.55
+     "start": 75.52,
+     "end": 79.48
     },
     {
      "text": "The stomach and uterus add an oblique layer.",
-     "start": 80.0,
-     "end": 82.53
+     "start": 79.93,
+     "end": 82.46
     },
     {
      "text": "**Multi-unit** smooth muscle is rare. The iris and the arrector pili.",
-     "start": 82.98,
-     "end": 87.18
+     "start": 82.91,
+     "end": 87.11
     }
    ],
-   "end": 88.28
+   "end": 88.21
   },
   {
    "lec": "L13 · Fiber",
@@ -196,40 +196,40 @@
     "T-tubules",
     "Sarcoplasmic reticulum"
    ],
-   "start": 88.28,
+   "start": 88.21,
    "lines": [
     {
      "text": "A skeletal muscle cell is a muscle fiber.",
-     "start": 88.28,
-     "end": 90.74
+     "start": 88.21,
+     "end": 90.67
     },
     {
      "text": "Its membrane is the **sarcolemma**. Its cytoplasm is the **sarcoplasm**.",
-     "start": 91.19,
-     "end": 95.71
+     "start": 91.12,
+     "end": 95.69
     },
     {
      "text": "**T-tubules** dive inward and carry the signal deep into the cell.",
-     "start": 96.16,
-     "end": 99.93
+     "start": 96.14,
+     "end": 99.91
     },
     {
      "text": "The **sarcoplasmic reticulum** stores calcium and releases it on demand.",
-     "start": 100.38,
-     "end": 104.95
+     "start": 100.36,
+     "end": 104.93
     },
     {
      "text": "Its terminal cisternae are calcium reservoirs next to the T-tubules.",
-     "start": 105.4,
-     "end": 109.73
+     "start": 105.38,
+     "end": 109.71
     },
     {
      "text": "Myofibrils fill 80 percent of the fiber.",
-     "start": 110.18,
-     "end": 112.62
+     "start": 110.16,
+     "end": 112.6
     }
    ],
-   "end": 113.72
+   "end": 113.7
   },
   {
    "lec": "L13 · Myofilaments",
@@ -241,35 +241,35 @@
     "Troponin",
     "Myosin"
    ],
-   "start": 113.72,
+   "start": 113.7,
    "lines": [
     {
      "text": "**Actin** is the thin filament. It has myosin-binding sites.",
-     "start": 113.72,
-     "end": 117.36
+     "start": 113.7,
+     "end": 117.34
     },
     {
      "text": "**Tropomyosin** covers those sites.",
-     "start": 117.81,
-     "end": 119.77
+     "start": 117.79,
+     "end": 119.73
     },
     {
      "text": "**Troponin** sits on tropomyosin. It has a binding site for calcium.",
-     "start": 120.22,
-     "end": 124.52
+     "start": 120.18,
+     "end": 124.39
     },
     {
      "text": "**Myosin** is the thick filament. Its heads reach out to grab actin.",
-     "start": 124.97,
-     "end": 129.05
+     "start": 124.84,
+     "end": 128.92
     },
     {
      "text": "Myofilaments make myofibrils. Myofibrils make fibers.",
-     "start": 129.5,
-     "end": 133.29
+     "start": 129.37,
+     "end": 133.16
     }
    ],
-   "end": 134.39
+   "end": 134.26
   },
   {
    "lec": "L13 · Sarcomere",
@@ -282,40 +282,40 @@
     "H zone",
     "M line"
    ],
-   "start": 134.39,
+   "start": 134.26,
    "lines": [
     {
      "text": "The **sarcomere** is the smallest unit that can contract.",
-     "start": 134.39,
-     "end": 137.46
+     "start": 134.26,
+     "end": 137.32
     },
     {
      "text": "**Z-discs** mark its ends and anchor the thin filaments.",
-     "start": 137.91,
-     "end": 140.98
+     "start": 137.77,
+     "end": 140.85
     },
     {
      "text": "The **I band** is thin filament only. It's light.",
-     "start": 141.43,
-     "end": 144.32
+     "start": 141.3,
+     "end": 144.19
     },
     {
      "text": "The **A band** is the full thick filament. It's dark, and it never changes length.",
-     "start": 144.77,
-     "end": 149.53
+     "start": 144.64,
+     "end": 149.4
     },
     {
      "text": "The **H zone** is thick filament only, in the middle.",
-     "start": 149.98,
-     "end": 152.76
+     "start": 149.85,
+     "end": 152.63
     },
     {
      "text": "The **M line** holds the thick filaments in line.",
-     "start": 153.21,
-     "end": 155.83
+     "start": 153.08,
+     "end": 155.7
     }
    ],
-   "end": 156.93
+   "end": 156.8
   },
   {
    "lec": "L13 · Sliding filaments",
@@ -326,35 +326,35 @@
     "ATP",
     "Calcium"
    ],
-   "start": 156.93,
+   "start": 156.8,
    "lines": [
     {
      "text": "Myosin uses **ATP** to walk along actin.",
-     "start": 156.93,
-     "end": 159.92
+     "start": 156.8,
+     "end": 159.79
     },
     {
      "text": "Each grip is a **cross bridge**.",
-     "start": 160.37,
-     "end": 161.92
+     "start": 160.24,
+     "end": 161.79
     },
     {
      "text": "The thin filaments slide toward the center. The sarcomere shortens.",
-     "start": 162.37,
-     "end": 166.37
+     "start": 162.24,
+     "end": 166.24
     },
     {
      "text": "The I band and H zone disappear at full contraction.",
-     "start": 166.82,
-     "end": 170.17
+     "start": 166.69,
+     "end": 170.04
     },
     {
      "text": "It keeps going as long as **calcium** is present.",
-     "start": 170.62,
-     "end": 173.06
+     "start": 170.49,
+     "end": 172.93
     }
    ],
-   "end": 174.16
+   "end": 174.03
   },
   {
    "lec": "L13 · Wrappings",
@@ -365,35 +365,35 @@
     "Perimysium",
     "Epimysium"
    ],
-   "start": 174.16,
+   "start": 174.03,
    "lines": [
     {
      "text": "Three connective tissue layers wrap skeletal muscle.",
-     "start": 174.16,
-     "end": 176.93
+     "start": 174.03,
+     "end": 176.8
     },
     {
      "text": "**Endomysium** wraps one fiber. Paper around a straw.",
-     "start": 177.38,
-     "end": 180.66
+     "start": 177.25,
+     "end": 180.53
     },
     {
      "text": "**Perimysium** wraps a bundle, a fascicle. A box of straws.",
-     "start": 181.11,
-     "end": 184.68
+     "start": 180.98,
+     "end": 184.55
     },
     {
      "text": "**Epimysium** wraps the whole muscle. A shipping box of boxes.",
-     "start": 185.13,
-     "end": 189.0
+     "start": 185.0,
+     "end": 188.87
     },
     {
      "text": "Cardiac and smooth muscle don't have all three.",
-     "start": 189.45,
-     "end": 192.17
+     "start": 189.32,
+     "end": 192.03
     }
    ],
-   "end": 193.27
+   "end": 193.13
   },
   {
    "lec": "L13 · Accessory",
@@ -404,32 +404,32 @@
     "Aponeurosis",
     "Fascia"
    ],
-   "start": 193.27,
+   "start": 193.13,
    "lines": [
     {
      "text": "All three are dense regular connective tissue.",
-     "start": 193.27,
-     "end": 195.96
+     "start": 193.13,
+     "end": 195.83
     },
     {
      "text": "A **tendon** is a thick cord from muscle to bone.",
-     "start": 196.41,
-     "end": 198.99
+     "start": 196.28,
+     "end": 198.86
     },
     {
      "text": "An **aponeurosis** is a flat sheet, muscle to muscle or muscle to bone.",
-     "start": 199.44,
-     "end": 203.91
+     "start": 199.31,
+     "end": 203.77
     },
     {
      "text": "**Fascia** is outside the epimysium. It separates muscles and binds groups together.",
-     "start": 204.36,
-     "end": 209.68
+     "start": 204.22,
+     "end": 209.45
     }
    ],
-   "end": 210.78
+   "end": 210.55
   }
  ],
- "duration": 210.78,
+ "duration": 210.55,
  "audio": "stories/l13.mp3"
 }

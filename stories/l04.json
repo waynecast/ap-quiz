@@ -143,10 +143,10 @@
     {
      "text": "They are abundant in the liver.",
      "start": 64.88,
-     "end": 66.34
+     "end": 66.35
     }
    ],
-   "end": 67.44
+   "end": 67.45
   },
   {
    "lec": "L4 · Organelles",
@@ -157,26 +157,26 @@
     "Cristae",
     "ATP"
    ],
-   "start": 67.44,
+   "start": 67.45,
    "lines": [
     {
      "text": "**Mitochondria** produce **ATP**.",
-     "start": 67.44,
+     "start": 67.45,
      "end": 69.4
     },
     {
      "text": "Their inner folds are **cristae**. They add surface area.",
      "start": 69.85,
-     "end": 72.87
+     "end": 72.88
     },
     {
      "text": "Mitochondria have a double membrane and copy themselves.",
-     "start": 73.32,
-     "end": 76.7
+     "start": 73.33,
+     "end": 76.71
     },
     {
      "text": "They are abundant in muscle cells.",
-     "start": 77.15,
+     "start": 77.16,
      "end": 79.0
     }
    ],
@@ -217,10 +217,10 @@
     {
      "text": "**Microvilli** are tiny fingers that add surface area for absorption.",
      "start": 96.89,
-     "end": 101.16
+     "end": 101.17
     }
    ],
-   "end": 102.26
+   "end": 102.27
   },
   {
    "lec": "L4 · Cytoskeleton",
@@ -231,16 +231,16 @@
     "Intermediate filaments",
     "Microfilaments"
    ],
-   "start": 102.26,
+   "start": 102.27,
    "lines": [
     {
      "text": "The cytoskeleton gives the cell shape and support.",
-     "start": 102.26,
-     "end": 105.23
+     "start": 102.27,
+     "end": 105.24
     },
     {
      "text": "Think of a tent.",
-     "start": 105.68,
+     "start": 105.69,
      "end": 106.68
     },
     {
@@ -256,10 +256,10 @@
     {
      "text": "**Microfilaments** are the small ropes.",
      "start": 112.22,
-     "end": 114.34
+     "end": 114.35
     }
    ],
-   "end": 115.44
+   "end": 115.45
   },
   {
    "lec": "L4 · DNA",
@@ -270,11 +270,11 @@
     "Gene",
     "A–T, C–G"
    ],
-   "start": 115.44,
+   "start": 115.45,
    "lines": [
     {
      "text": "DNA is a **double helix**, a spiral staircase.",
-     "start": 115.44,
+     "start": 115.45,
      "end": 118.63
     },
     {
@@ -285,11 +285,11 @@
     {
      "text": "Weak hydrogen bonds pair A with T, and C with G.",
      "start": 122.87,
-     "end": 126.1
+     "end": 126.11
     },
     {
      "text": "A **gene** is a blueprint for one protein. We have about 25 thousand.",
-     "start": 126.55,
+     "start": 126.56,
      "end": 131.07
     }
    ],
@@ -320,15 +320,15 @@
     {
      "text": "**mRNA** copies a gene and carries the code to the cytoplasm.",
      "start": 139.85,
-     "end": 144.39
+     "end": 144.4
     },
     {
      "text": "**tRNA** reads the code and brings the right amino acid.",
-     "start": 144.84,
-     "end": 149.09
+     "start": 144.85,
+     "end": 149.1
     }
    ],
-   "end": 150.19
+   "end": 150.2
   },
   {
    "lec": "L4 · Replication",
@@ -339,30 +339,30 @@
     "Helicase",
     "Polymerase"
    ],
-   "start": 150.19,
+   "start": 150.2,
    "lines": [
     {
      "text": "Human DNA is 46 chromosomes, 23 pairs.",
-     "start": 150.19,
+     "start": 150.2,
      "end": 153.95
     },
     {
      "text": "Replication copies all of it, before mitosis.",
      "start": 154.4,
-     "end": 157.3
+     "end": 157.31
     },
     {
      "text": "It is **semiconservative**. Each new DNA is half old strand, half new.",
-     "start": 157.75,
-     "end": 162.11
+     "start": 157.76,
+     "end": 162.12
     },
     {
      "text": "**Helicase** unzips the strands. **Polymerase** builds the new ones.",
-     "start": 162.56,
-     "end": 166.4
+     "start": 162.57,
+     "end": 166.26
     }
    ],
-   "end": 167.5
+   "end": 167.36
   },
   {
    "lec": "L4 · Protein synthesis",
@@ -374,35 +374,35 @@
     "Codon",
     "Anticodon"
    ],
-   "start": 167.5,
+   "start": 167.36,
    "lines": [
     {
      "text": "**Transcription** makes messenger RNA from DNA. It happens in the nucleus.",
-     "start": 167.5,
-     "end": 172.5
+     "start": 167.36,
+     "end": 172.36
     },
     {
      "text": "**Translation** makes the protein at the ribosome.",
-     "start": 172.95,
-     "end": 175.89
+     "start": 172.81,
+     "end": 175.76
     },
     {
      "text": "DNA is read in triplets. Three bases code one amino acid.",
-     "start": 176.34,
-     "end": 180.65
+     "start": 176.21,
+     "end": 180.51
     },
     {
      "text": "On messenger RNA, a triplet is a **codon**. On transfer RNA, it's an **anticodon**.",
-     "start": 181.1,
-     "end": 186.91
+     "start": 180.96,
+     "end": 186.77
     },
     {
      "text": "Four codons make four amino acids, joined by three peptide bonds.",
-     "start": 187.36,
-     "end": 191.98
+     "start": 187.22,
+     "end": 191.85
     }
    ],
-   "end": 193.08
+   "end": 192.95
   },
   {
    "lec": "L4 · Cell cycle",
@@ -413,35 +413,35 @@
     "S",
     "G2"
    ],
-   "start": 193.08,
+   "start": 192.95,
    "lines": [
     {
      "text": "The cell cycle has two stages: interphase and mitosis.",
-     "start": 193.08,
-     "end": 196.83
+     "start": 192.95,
+     "end": 196.69
     },
     {
      "text": "**G1** is the longest phase. The cell grows to full size.",
-     "start": 197.28,
-     "end": 201.1
+     "start": 197.14,
+     "end": 200.97
     },
     {
      "text": "Some cells never leave G one.",
-     "start": 201.55,
-     "end": 203.41
+     "start": 201.42,
+     "end": 203.28
     },
     {
      "text": "In the **S** phase, DNA is copied.",
-     "start": 203.86,
-     "end": 206.08
+     "start": 203.73,
+     "end": 205.95
     },
     {
      "text": "**G2** is housekeeping before division.",
-     "start": 206.53,
-     "end": 208.9
+     "start": 206.4,
+     "end": 208.76
     }
    ],
-   "end": 210.0
+   "end": 209.86
   },
   {
    "lec": "L4 · Mitosis",
@@ -453,42 +453,42 @@
     "Anaphase",
     "Telophase"
    ],
-   "start": 210.0,
+   "start": 209.86,
    "lines": [
     {
      "text": "Mitosis splits one mother cell into two daughter cells.",
-     "start": 210.0,
-     "end": 213.23
+     "start": 209.86,
+     "end": 213.1
     },
     {
      "text": "**Prophase** is first and longest. The nuclear membrane breaks down and chromosomes condense.",
-     "start": 213.68,
-     "end": 219.31
+     "start": 213.55,
+     "end": 219.18
     },
     {
      "text": "**Metaphase**: meet in the middle.",
-     "start": 219.76,
-     "end": 221.42
+     "start": 219.63,
+     "end": 221.29
     },
     {
      "text": "**Anaphase**: away to opposite ends.",
-     "start": 221.87,
-     "end": 224.0
+     "start": 221.74,
+     "end": 223.87
     },
     {
      "text": "**Telophase**: the nuclei reform and the spindle falls apart.",
-     "start": 224.45,
-     "end": 228.05
+     "start": 224.32,
+     "end": 228.02
     },
     {
      "text": "**Cytokinesis** pinches the cell in two.",
-     "start": 228.5,
-     "end": 230.88
+     "start": 228.47,
+     "end": 230.85
     }
    ],
-   "end": 231.98
+   "end": 231.95
   }
  ],
- "duration": 231.98,
+ "duration": 231.95,
  "audio": "stories/l04.mp3"
 }

@@ -7,7 +7,7 @@ export KOKORO_DIR="$HOME/.cache/kokoro"
 PY="$KOKORO_DIR/venv/bin/python"
 for f in stories/src/*.py; do
   id=$(basename "$f" .py)
-  case "$id" in build_story|make_index) continue;; esac
+  case "$id" in build_story|make_index|pron) continue;; esac
   if [ ! -f "stories/$id.json" ] || [ "$f" -nt "stories/$id.json" ]; then
     echo "narrating $id"; "$PY" stories/src/build_story.py "$f" stories > /tmp/story_$id.log 2>&1 || { echo "FAILED $id"; tail -5 /tmp/story_$id.log; }
   fi
