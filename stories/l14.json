@@ -26,20 +26,20 @@
     {
      "text": "**Sensory input**: receptors notice changes.",
      "start": 3.54,
-     "end": 6.38
+     "end": 6.4
     },
     {
      "text": "**Integration**: the system processes and decides.",
-     "start": 6.83,
-     "end": 9.87
+     "start": 6.85,
+     "end": 9.89
     },
     {
      "text": "**Motor output**: it activates muscles and glands.",
-     "start": 10.32,
-     "end": 13.43
+     "start": 10.34,
+     "end": 13.45
     }
    ],
-   "end": 14.53
+   "end": 14.55
   },
   {
    "lec": "L14 · Divisions",
@@ -51,35 +51,35 @@
     "Afferent",
     "Efferent"
    ],
-   "start": 14.53,
+   "start": 14.55,
    "lines": [
     {
      "text": "The **CNS** is the brain and spinal cord. It's the command center.",
-     "start": 14.53,
-     "end": 19.34
+     "start": 14.55,
+     "end": 19.33
     },
     {
      "text": "The **PNS** is the spinal and cranial nerves.",
-     "start": 19.79,
-     "end": 23.37
+     "start": 19.78,
+     "end": 23.36
     },
     {
      "text": "Sensory, or **afferent**, nerves carry signals to the CNS.",
-     "start": 23.82,
-     "end": 27.45
+     "start": 23.81,
+     "end": 27.37
     },
     {
      "text": "Motor, or **efferent**, nerves carry signals out to effectors.",
-     "start": 27.9,
-     "end": 31.47
+     "start": 27.82,
+     "end": 31.36
     },
     {
      "text": "Somatic motor is voluntary. Autonomic motor is involuntary: sympathetic and parasympathetic.",
-     "start": 31.92,
-     "end": 38.45
+     "start": 31.81,
+     "end": 38.36
     }
    ],
-   "end": 39.55
+   "end": 39.46
   },
   {
    "lec": "L14 · Neurons",
@@ -91,30 +91,30 @@
     "Axon",
     "Multipolar"
    ],
-   "start": 39.55,
+   "start": 39.46,
    "lines": [
     {
      "text": "**Dendrites** bring signals to the **cell body**.",
-     "start": 39.55,
-     "end": 41.76
+     "start": 39.46,
+     "end": 41.67
     },
     {
      "text": "The **axon** carries them away to other cells.",
-     "start": 42.21,
-     "end": 44.61
+     "start": 42.12,
+     "end": 44.53
     },
     {
      "text": "**Multipolar** neurons have many dendrites. All motor neurons are multipolar.",
-     "start": 45.06,
-     "end": 49.91
+     "start": 44.98,
+     "end": 49.83
     },
     {
      "text": "Sensory neurons are unipolar. Interneurons live only in the CNS.",
-     "start": 50.36,
-     "end": 55.04
+     "start": 50.28,
+     "end": 55.01
     }
    ],
-   "end": 56.14
+   "end": 56.11
   },
   {
    "lec": "L14 · Motor units",
@@ -126,11 +126,11 @@
     "Motor unit",
     "Recruitment"
    ],
-   "start": 56.14,
+   "start": 56.11,
    "lines": [
     {
      "text": "A muscle fiber contracts completely or not at all. That's **all-or-nothing**.",
-     "start": 56.14,
+     "start": 56.11,
      "end": 60.37
     },
     {
@@ -141,20 +141,20 @@
     {
      "text": "A **motor unit** is one neuron and all the fibers it controls.",
      "start": 62.99,
-     "end": 66.66
+     "end": 66.76
     },
     {
      "text": "Small units give fine control, like the eye. Large units give power, like the thigh.",
-     "start": 67.11,
-     "end": 72.36
+     "start": 67.21,
+     "end": 72.51
     },
     {
      "text": "**Recruitment** adds more motor units for more force.",
-     "start": 72.81,
-     "end": 75.64
+     "start": 72.96,
+     "end": 75.72
     }
    ],
-   "end": 76.74
+   "end": 76.82
   },
   {
    "lec": "L14 · NMJ",
@@ -166,25 +166,25 @@
     "Motor end plate",
     "ACh"
    ],
-   "start": 76.74,
+   "start": 76.82,
    "lines": [
     {
      "text": "The **synaptic knob** holds vesicles of acetylcholine.",
-     "start": 76.74,
-     "end": 79.95
+     "start": 76.82,
+     "end": 80.03
     },
     {
      "text": "The **synaptic cleft** is the gap. It holds the enzyme that breaks down acetylcholine.",
-     "start": 80.4,
-     "end": 85.61
+     "start": 80.48,
+     "end": 85.7
     },
     {
      "text": "The **motor end plate** is folded muscle membrane covered in receptors.",
-     "start": 86.06,
-     "end": 90.3
+     "start": 86.15,
+     "end": 90.4
     }
    ],
-   "end": 91.4
+   "end": 91.5
   },
   {
    "lec": "L14 · Excitation",
@@ -196,35 +196,35 @@
     "Depolarization",
     "Action potential"
    ],
-   "start": 91.4,
+   "start": 91.5,
    "lines": [
     {
      "text": "The impulse reaches the knob. Calcium channels open, and **calcium** rushes in.",
-     "start": 91.4,
-     "end": 96.41
+     "start": 91.5,
+     "end": 96.5
     },
     {
      "text": "Vesicles release acetylcholine into the cleft.",
-     "start": 96.86,
-     "end": 99.64
+     "start": 96.95,
+     "end": 99.71
     },
     {
      "text": "It binds the end plate. Sodium flows in. Potassium flows out.",
-     "start": 100.09,
-     "end": 104.39
+     "start": 100.16,
+     "end": 104.44
     },
     {
      "text": "More sodium enters than potassium leaves. That's **depolarization**.",
-     "start": 104.84,
-     "end": 109.06
+     "start": 104.89,
+     "end": 109.13
     },
     {
      "text": "An **action potential** races along the sarcolemma and down the T-tubules.",
-     "start": 109.51,
-     "end": 114.0
+     "start": 109.58,
+     "end": 114.05
     }
    ],
-   "end": 115.1
+   "end": 115.15
   },
   {
    "lec": "L14 · Excitation",
@@ -235,30 +235,30 @@
     "Troponin",
     "Tropomyosin"
    ],
-   "start": 115.1,
+   "start": 115.15,
    "lines": [
     {
      "text": "The action potential reaches the sarcoplasmic reticulum.",
-     "start": 115.1,
-     "end": 118.83
+     "start": 115.15,
+     "end": 118.91
     },
     {
      "text": "It releases calcium into the cytosol.",
-     "start": 119.28,
-     "end": 121.65
+     "start": 119.36,
+     "end": 121.71
     },
     {
      "text": "Calcium binds **troponin**.",
-     "start": 122.1,
-     "end": 123.63
+     "start": 122.16,
+     "end": 123.69
     },
     {
      "text": "Troponin pulls **tropomyosin** off the binding sites on actin.",
-     "start": 124.08,
-     "end": 127.91
+     "start": 124.14,
+     "end": 128.0
     }
    ],
-   "end": 129.01
+   "end": 129.1
   },
   {
    "lec": "L14 · Cross bridges",
@@ -270,40 +270,40 @@
     "Release",
     "Reset"
    ],
-   "start": 129.01,
+   "start": 129.1,
    "lines": [
     {
      "text": "**Attach**: myosin heads grab actin.",
-     "start": 129.01,
-     "end": 131.27
+     "start": 129.1,
+     "end": 131.36
     },
     {
      "text": "**Power stroke**: myosin pulls actin toward the center.",
-     "start": 131.72,
-     "end": 134.87
+     "start": 131.81,
+     "end": 134.94
     },
     {
      "text": "**Release**: ATP binds myosin, and it lets go.",
-     "start": 135.32,
-     "end": 138.58
+     "start": 135.39,
+     "end": 138.65
     },
     {
      "text": "**Reset**: ATP splits and re-cocks the head.",
-     "start": 139.03,
-     "end": 141.71
+     "start": 139.1,
+     "end": 141.8
     },
     {
      "text": "When signals stop, calcium goes back into the SR, and the muscle relaxes.",
-     "start": 142.16,
-     "end": 146.92
+     "start": 142.25,
+     "end": 147.07
     },
     {
      "text": "With no ATP, heads can't let go. That's rigor mortis.",
-     "start": 147.37,
-     "end": 151.14
+     "start": 147.52,
+     "end": 151.32
     }
    ],
-   "end": 152.24
+   "end": 152.42
   },
   {
    "lec": "L14 · Energy",
@@ -314,35 +314,35 @@
     "Anaerobic",
     "Aerobic"
    ],
-   "start": 152.24,
+   "start": 152.42,
    "lines": [
     {
      "text": "ATP is the only energy muscle uses directly.",
-     "start": 152.24,
-     "end": 155.72
+     "start": 152.42,
+     "end": 155.92
     },
     {
      "text": "**Creatine phosphate** is fastest. No oxygen. About 10 to 15 seconds.",
-     "start": 156.17,
-     "end": 161.42
+     "start": 156.37,
+     "end": 161.49
     },
     {
      "text": "**Anaerobic** glycolysis makes 2 ATP per glucose. No oxygen. 30 to 40 seconds. It leaves lactic acid.",
-     "start": 161.87,
-     "end": 170.06
+     "start": 161.94,
+     "end": 170.12
     },
     {
      "text": "**Aerobic** respiration in the mitochondria makes about 32 ATP. It needs oxygen and lasts for hours.",
-     "start": 170.51,
-     "end": 178.01
+     "start": 170.57,
+     "end": 178.09
     },
     {
      "text": "It supplies 95 percent of the ATP for muscle.",
-     "start": 178.46,
-     "end": 181.89
+     "start": 178.54,
+     "end": 181.75
     }
    ],
-   "end": 182.99
+   "end": 182.85
   },
   {
    "lec": "L14 · Fatigue",
@@ -353,25 +353,25 @@
     "Ion imbalance",
     "Lactic acid"
    ],
-   "start": 182.99,
+   "start": 182.85,
    "lines": [
     {
      "text": "Fatigue is when a muscle can't contract even when stimulated.",
-     "start": 182.99,
-     "end": 186.6
+     "start": 182.85,
+     "end": 186.39
     },
     {
      "text": "Causes include **oxygen deficit** and **ion imbalance** of calcium and potassium.",
-     "start": 187.05,
-     "end": 192.45
+     "start": 186.84,
+     "end": 192.27
     },
     {
      "text": "Also **lactic acid** buildup, low ATP, and running out of acetylcholine.",
-     "start": 192.9,
-     "end": 197.21
+     "start": 192.72,
+     "end": 197.69
     }
    ],
-   "end": 198.31
+   "end": 198.79
   },
   {
    "lec": "L14 · Fiber types",
@@ -382,25 +382,25 @@
     "Fast oxidative",
     "Fast glycolytic"
    ],
-   "start": 198.31,
+   "start": 198.79,
    "lines": [
     {
      "text": "**Slow oxidative** fibers are dark red and fatigue resistant. Posture and marathons.",
-     "start": 198.31,
-     "end": 204.12
+     "start": 198.79,
+     "end": 204.62
     },
     {
      "text": "**Fast oxidative** fibers are light red. Walking and biking. They're the least common.",
-     "start": 204.57,
-     "end": 209.72
+     "start": 205.07,
+     "end": 210.28
     },
     {
      "text": "**Fast glycolytic** fibers are white and tire quickly. Sprints and lifting. They're the most common.",
-     "start": 210.17,
-     "end": 215.95
+     "start": 210.73,
+     "end": 216.54
     }
    ],
-   "end": 217.05
+   "end": 217.64
   },
   {
    "lec": "L14 · Twitch",
@@ -412,30 +412,30 @@
     "Relaxation",
     "Refractory"
    ],
-   "start": 217.05,
+   "start": 217.64,
    "lines": [
     {
      "text": "A twitch is one contraction to one stimulus.",
-     "start": 217.05,
-     "end": 219.81
+     "start": 217.64,
+     "end": 220.37
     },
     {
      "text": "The **latent** period comes first. Calcium is being released.",
-     "start": 220.26,
-     "end": 223.74
+     "start": 220.82,
+     "end": 224.3
     },
     {
      "text": "Then the **contraction** period, then the **relaxation** period.",
-     "start": 224.19,
-     "end": 227.43
+     "start": 224.75,
+     "end": 227.96
     },
     {
      "text": "During the **refractory** period, the muscle won't respond.",
-     "start": 227.88,
-     "end": 231.01
+     "start": 228.41,
+     "end": 231.54
     }
    ],
-   "end": 232.11
+   "end": 232.64
   },
   {
    "lec": "L14 · Graded response",
@@ -447,35 +447,35 @@
     "Fused tetanus",
     "Muscle tone"
    ],
-   "start": 232.11,
+   "start": 232.64,
    "lines": [
     {
      "text": "A whole muscle can grade its force.",
-     "start": 232.11,
-     "end": 234.03
+     "start": 232.64,
+     "end": 234.59
     },
     {
      "text": "Rapid stimuli add up. That's **summation**.",
-     "start": 234.48,
-     "end": 237.09
+     "start": 235.04,
+     "end": 237.65
     },
     {
      "text": "It becomes **unfused tetanus**, then smooth **fused tetanus**.",
-     "start": 237.54,
-     "end": 241.11
+     "start": 238.1,
+     "end": 241.77
     },
     {
      "text": "Recruiting more fibers adds force too.",
-     "start": 241.56,
-     "end": 243.63
+     "start": 242.22,
+     "end": 244.26
     },
     {
      "text": "**Muscle tone** is the slight tension a resting muscle always keeps.",
-     "start": 244.08,
-     "end": 248.05
+     "start": 244.71,
+     "end": 248.74
     }
    ],
-   "end": 249.15
+   "end": 249.84
   },
   {
    "lec": "L14 · Contractions",
@@ -486,30 +486,30 @@
     "Concentric",
     "Eccentric"
    ],
-   "start": 249.15,
+   "start": 249.84,
    "lines": [
     {
      "text": "**Isometric**: the muscle tenses but doesn't change length.",
-     "start": 249.15,
-     "end": 252.44
+     "start": 249.84,
+     "end": 253.15
     },
     {
      "text": "Isotonic contractions move.",
-     "start": 252.89,
-     "end": 254.63
+     "start": 253.6,
+     "end": 255.39
     },
     {
      "text": "**Concentric**: the muscle shortens.",
-     "start": 255.08,
-     "end": 257.12
+     "start": 255.84,
+     "end": 257.88
     },
     {
      "text": "**Eccentric**: the muscle lengthens while it contracts.",
-     "start": 257.57,
-     "end": 260.32
+     "start": 258.33,
+     "end": 261.11
     }
    ],
-   "end": 261.42
+   "end": 262.21
   },
   {
    "lec": "L14 · Training",
@@ -521,32 +521,32 @@
     "Hypertrophy",
     "Atrophy"
    ],
-   "start": 261.42,
+   "start": 262.21,
    "lines": [
     {
      "text": "**Endurance** exercise adds mitochondria and blood supply.",
-     "start": 261.42,
-     "end": 265.07
+     "start": 262.21,
+     "end": 265.91
     },
     {
      "text": "**Resistance** exercise adds actin and myosin. Fibers get bigger.",
-     "start": 265.52,
-     "end": 269.94
+     "start": 266.36,
+     "end": 270.76
     },
     {
      "text": "**Hypertrophy** is growth with more function. **Atrophy** is shrinking.",
-     "start": 270.39,
-     "end": 274.14
+     "start": 271.21,
+     "end": 275.03
     },
     {
      "text": "Muscle slowly declines from the mid thirties.",
-     "start": 274.59,
-     "end": 277.15
+     "start": 275.48,
+     "end": 278.01
     }
    ],
-   "end": 278.25
+   "end": 279.11
   }
  ],
- "duration": 278.25,
+ "duration": 279.11,
  "audio": "stories/l14.mp3"
 }

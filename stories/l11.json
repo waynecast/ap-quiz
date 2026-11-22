@@ -23,30 +23,30 @@
     {
      "text": "Let's walk down the leg.",
      "start": 0.4,
-     "end": 1.66
+     "end": 1.67
     },
     {
      "text": "The two **coxal bones** form the pelvic girdle.",
-     "start": 2.11,
-     "end": 4.76
+     "start": 2.12,
+     "end": 4.74
     },
     {
      "text": "The **femur** is the thigh.",
-     "start": 5.21,
+     "start": 5.19,
      "end": 6.47
     },
     {
      "text": "The **tibia** and **fibula** are the leg.",
      "start": 6.92,
-     "end": 8.71
+     "end": 8.74
     },
     {
      "text": "Then the **tarsals**, metatarsals and phalanges.",
-     "start": 9.16,
-     "end": 11.97
+     "start": 9.19,
+     "end": 12.0
     }
    ],
-   "end": 13.07
+   "end": 13.1
   },
   {
    "lec": "L11 · Pelvis",
@@ -59,30 +59,30 @@
     "Ischium",
     "Pubis"
    ],
-   "start": 13.07,
+   "start": 13.1,
    "lines": [
     {
      "text": "The **pelvic girdle** is two coxal bones.",
-     "start": 13.07,
-     "end": 15.43
+     "start": 13.1,
+     "end": 15.41
     },
     {
      "text": "The **pelvis** is four bones: both coxal bones, the sacrum and the coccyx.",
-     "start": 15.88,
-     "end": 20.67
+     "start": 15.86,
+     "end": 20.63
     },
     {
      "text": "Each coxal bone is three fused bones.",
-     "start": 21.12,
-     "end": 23.64
+     "start": 21.08,
+     "end": 23.52
     },
     {
      "text": "The **ilium**, the **ischium** and the **pubis**.",
-     "start": 24.09,
-     "end": 26.25
+     "start": 23.97,
+     "end": 26.08
     }
    ],
-   "end": 27.35
+   "end": 27.18
   },
   {
    "lec": "L11 · Ilium",
@@ -94,40 +94,40 @@
     "PSIS",
     "SI joint"
    ],
-   "start": 27.35,
+   "start": 27.18,
    "lines": [
     {
      "text": "The **iliac crest** is the top ridge.",
-     "start": 27.35,
-     "end": 29.48
+     "start": 27.18,
+     "end": 29.32
     },
     {
      "text": "It ends in front at the **ASIS**, the anterior superior iliac spine.",
-     "start": 29.93,
-     "end": 34.9
+     "start": 29.77,
+     "end": 34.64
     },
     {
      "text": "The anterior inferior iliac spine is below it.",
-     "start": 35.35,
-     "end": 38.43
+     "start": 35.09,
+     "end": 38.22
     },
     {
      "text": "It ends in back at the **PSIS**, the posterior superior iliac spine.",
-     "start": 38.88,
-     "end": 43.88
+     "start": 38.67,
+     "end": 43.7
     },
     {
      "text": "The ilium meets the sacrum at the **SI joint**, the sacroiliac joint.",
-     "start": 44.33,
-     "end": 47.58
+     "start": 44.15,
+     "end": 47.4
     },
     {
      "text": "The iliac fossa is the inside wall of the basin.",
-     "start": 48.03,
-     "end": 51.28
+     "start": 47.85,
+     "end": 51.08
     }
    ],
-   "end": 52.38
+   "end": 52.18
   },
   {
    "lec": "L11 · Ilium",
@@ -137,20 +137,20 @@
     "Greater sciatic notch",
     "Piriformis"
    ],
-   "start": 52.38,
+   "start": 52.18,
    "lines": [
     {
      "text": "The **greater sciatic notch** is a deep curve on the back.",
-     "start": 52.38,
-     "end": 55.4
+     "start": 52.18,
+     "end": 55.22
     },
     {
      "text": "Nerves, vessels and the **piriformis** muscle pass through it.",
-     "start": 55.85,
-     "end": 59.21
+     "start": 55.67,
+     "end": 59.06
     }
    ],
-   "end": 60.31
+   "end": 60.16
   },
   {
    "lec": "L11 · Ischium and pubis",
@@ -161,35 +161,35 @@
     "Ischial tuberosity",
     "Pubic symphysis"
    ],
-   "start": 60.31,
+   "start": 60.16,
    "lines": [
     {
      "text": "The **ischial spine** sits between the two sciatic notches.",
-     "start": 60.31,
-     "end": 63.78
+     "start": 60.16,
+     "end": 63.63
     },
     {
      "text": "The **ischial tuberosity** is the big rough bump you sit on.",
-     "start": 64.23,
-     "end": 67.66
+     "start": 64.08,
+     "end": 67.49
     },
     {
      "text": "The lesser sciatic notch is between them.",
-     "start": 68.11,
-     "end": 70.29
+     "start": 67.94,
+     "end": 70.13
     },
     {
      "text": "The pubic tubercles are small bumps on top of the pubis.",
-     "start": 70.74,
-     "end": 74.02
+     "start": 70.58,
+     "end": 73.83
     },
     {
      "text": "The two pubic bones meet at the **pubic symphysis**, a cartilage joint.",
-     "start": 74.47,
-     "end": 78.57
+     "start": 74.28,
+     "end": 78.38
     }
    ],
-   "end": 79.67
+   "end": 79.48
   },
   {
    "lec": "L11 · Shared",
@@ -199,35 +199,35 @@
     "Acetabulum",
     "Obturator foramen"
    ],
-   "start": 79.67,
+   "start": 79.48,
    "lines": [
     {
      "text": "The **acetabulum** is the hip socket.",
-     "start": 79.67,
-     "end": 81.85
+     "start": 79.48,
+     "end": 81.66
     },
     {
      "text": "All three coxal bones fuse there.",
-     "start": 82.3,
-     "end": 84.25
+     "start": 82.11,
+     "end": 84.03
     },
     {
      "text": "It meets the femoral head at the hip joint.",
-     "start": 84.7,
-     "end": 86.89
+     "start": 84.48,
+     "end": 86.69
     },
     {
      "text": "The **obturator foramen** is the largest foramen in the body.",
-     "start": 87.34,
-     "end": 90.99
+     "start": 87.14,
+     "end": 90.79
     },
     {
      "text": "It's formed by the ischium and pubis. The eyes of the pelvis.",
-     "start": 91.44,
-     "end": 95.04
+     "start": 91.24,
+     "end": 94.79
     }
    ],
-   "end": 96.14
+   "end": 95.89
   },
   {
    "lec": "L11 · Femur",
@@ -239,30 +239,30 @@
     "Greater trochanter",
     "Lesser trochanter"
    ],
-   "start": 96.14,
+   "start": 95.89,
    "lines": [
     {
      "text": "The femoral **head** points medially. The neck is just below it.",
-     "start": 96.14,
-     "end": 99.63
+     "start": 95.89,
+     "end": 99.46
     },
     {
      "text": "The **fovea capitis** is a pit in the head where a ligament attaches.",
-     "start": 100.08,
-     "end": 103.86
+     "start": 99.91,
+     "end": 103.71
     },
     {
      "text": "The **greater trochanter** is the big lateral bump.",
-     "start": 104.31,
-     "end": 107.11
+     "start": 104.16,
+     "end": 106.95
     },
     {
      "text": "The **lesser trochanter** is the small medial bump.",
-     "start": 107.56,
-     "end": 110.39
+     "start": 107.4,
+     "end": 110.19
     }
    ],
-   "end": 111.49
+   "end": 111.29
   },
   {
    "lec": "L11 · Femur",
@@ -274,35 +274,35 @@
     "Adductor tubercle",
     "Patella"
    ],
-   "start": 111.49,
+   "start": 111.29,
    "lines": [
     {
      "text": "The **linea aspera** is a ridge down the back.",
-     "start": 111.49,
-     "end": 113.95
+     "start": 111.29,
+     "end": 113.72
     },
     {
      "text": "The medial and lateral **condyles** are smooth surfaces at the knee.",
-     "start": 114.4,
-     "end": 118.18
+     "start": 114.17,
+     "end": 117.96
     },
     {
      "text": "The epicondyles sit above them.",
-     "start": 118.63,
-     "end": 120.37
+     "start": 118.41,
+     "end": 120.13
     },
     {
      "text": "The **adductor tubercle** sits above the medial epicondyle.",
-     "start": 120.82,
-     "end": 124.15
+     "start": 120.58,
+     "end": 123.89
     },
     {
      "text": "The **patella** rides on the front. It's the largest sesamoid bone.",
-     "start": 124.6,
-     "end": 128.54
+     "start": 124.34,
+     "end": 128.15
     }
    ],
-   "end": 129.64
+   "end": 129.25
   },
   {
    "lec": "L11 · Tibia",
@@ -314,35 +314,35 @@
     "Anterior crest",
     "Medial malleolus"
    ],
-   "start": 129.64,
+   "start": 129.25,
    "lines": [
     {
      "text": "The tibia is the shin bone. It's large, medial and **weight bearing**.",
-     "start": 129.64,
-     "end": 133.8
+     "start": 129.25,
+     "end": 133.44
     },
     {
      "text": "Its condyles meet the femoral condyles.",
-     "start": 134.25,
-     "end": 136.53
+     "start": 133.89,
+     "end": 136.19
     },
     {
      "text": "The **tibial tuberosity** anchors the patellar ligament.",
-     "start": 136.98,
-     "end": 140.11
+     "start": 136.64,
+     "end": 139.76
     },
     {
      "text": "The **anterior crest** is the ridge of the shin.",
-     "start": 140.56,
-     "end": 143.08
+     "start": 140.21,
+     "end": 142.74
     },
     {
      "text": "The **medial malleolus** is the inner ankle bump.",
-     "start": 143.53,
-     "end": 146.25
+     "start": 143.19,
+     "end": 145.94
     }
    ],
-   "end": 147.35
+   "end": 147.04
   },
   {
    "lec": "L11 · Fibula",
@@ -353,30 +353,30 @@
     "Fibular head",
     "Lateral malleolus"
    ],
-   "start": 147.35,
+   "start": 147.04,
    "lines": [
     {
      "text": "The fibula is small, lateral and **non-weight bearing**.",
-     "start": 147.35,
-     "end": 150.37
+     "start": 147.04,
+     "end": 150.19
     },
     {
      "text": "The **fibular head** is at the top.",
-     "start": 150.82,
-     "end": 152.51
+     "start": 150.64,
+     "end": 152.3
     },
     {
      "text": "The **lateral malleolus** is the outer ankle bump.",
-     "start": 152.96,
-     "end": 155.75
+     "start": 152.75,
+     "end": 155.56
     },
     {
      "text": "An interosseous membrane joins the tibia and fibula.",
-     "start": 156.2,
-     "end": 159.53
+     "start": 156.01,
+     "end": 159.34
     }
    ],
-   "end": 160.63
+   "end": 160.44
   },
   {
    "lec": "L11 · Tarsals",
@@ -389,35 +389,35 @@
     "Cuboid",
     "Cuneiforms"
    ],
-   "start": 160.63,
+   "start": 160.44,
    "lines": [
     {
      "text": "Seven tarsals. Tiger Cubs Need MILC.",
-     "start": 160.63,
-     "end": 163.25
+     "start": 160.44,
+     "end": 163.06
     },
     {
      "text": "**Talus**, **calcaneus**, **navicular**, **cuboid**, and the medial, intermediate and lateral **cuneiforms**.",
-     "start": 163.7,
-     "end": 169.78
+     "start": 163.51,
+     "end": 169.67
     },
     {
      "text": "The calcaneus is the heel, the largest tarsal.",
-     "start": 170.23,
-     "end": 173.08
+     "start": 170.12,
+     "end": 173.01
     },
     {
      "text": "The talus sits on top. With the tibia and fibula it forms the talocrural joint, the true ankle.",
-     "start": 173.53,
-     "end": 179.65
+     "start": 173.46,
+     "end": 179.63
     },
     {
      "text": "The navicular is medial. The cuboid is lateral.",
-     "start": 180.1,
-     "end": 183.03
+     "start": 180.08,
+     "end": 183.0
     }
    ],
-   "end": 184.13
+   "end": 184.1
   },
   {
    "lec": "L11 · Foot",
@@ -427,16 +427,16 @@
     "Metatarsals",
     "Phalanges"
    ],
-   "start": 184.13,
+   "start": 184.1,
    "lines": [
     {
      "text": "Five **metatarsals** form the arch. Number 1 is the big toe.",
-     "start": 184.13,
-     "end": 187.92
+     "start": 184.1,
+     "end": 187.93
     },
     {
      "text": "Each foot has 14 **phalanges**. Three per toe, two in the big toe.",
-     "start": 188.37,
+     "start": 188.38,
      "end": 192.6
     }
    ],

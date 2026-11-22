@@ -27,25 +27,25 @@
     {
      "text": "A **trochanter** is a very large blunt projection. It's only on the femur.",
      "start": 4.29,
-     "end": 8.91
+     "end": 8.93
     },
     {
      "text": "A spine is sharp. A **process** is any projection.",
-     "start": 9.36,
-     "end": 12.45
+     "start": 9.38,
+     "end": 12.39
     },
     {
      "text": "A **tuberosity** is large and rough. A **tubercle** is small and smooth.",
-     "start": 12.9,
-     "end": 17.17
+     "start": 12.84,
+     "end": 17.11
     },
     {
      "text": "An epicondyle sits above a condyle.",
-     "start": 17.62,
-     "end": 19.92
+     "start": 17.56,
+     "end": 19.9
     }
    ],
-   "end": 21.02
+   "end": 21.0
   },
   {
    "lec": "L8 · Markings",
@@ -58,35 +58,35 @@
     "Fossa",
     "Sinus"
    ],
-   "start": 21.02,
+   "start": 21.0,
    "lines": [
     {
      "text": "Openings let vessels and nerves through.",
-     "start": 21.02,
-     "end": 22.99
+     "start": 21.0,
+     "end": 22.97
     },
     {
      "text": "A notch is on an edge. A **foramen** is a round hole.",
-     "start": 23.44,
-     "end": 26.49
+     "start": 23.42,
+     "end": 26.48
     },
     {
      "text": "A **meatus** is a tunnel. A fissure is a slit.",
-     "start": 26.94,
-     "end": 29.6
+     "start": 26.93,
+     "end": 29.8
     },
     {
      "text": "A **condyle** is a round joint surface. A facet is flat.",
-     "start": 30.05,
-     "end": 33.76
+     "start": 30.25,
+     "end": 34.01
     },
     {
      "text": "A **fossa** is a shallow basin. A **sinus** is an air-filled cavity.",
-     "start": 34.21,
-     "end": 38.31
+     "start": 34.46,
+     "end": 38.56
     }
    ],
-   "end": 39.41
+   "end": 39.66
   },
   {
    "lec": "L8 · Cranium",
@@ -98,30 +98,30 @@
     "Coronal suture",
     "Sagittal suture"
    ],
-   "start": 39.41,
+   "start": 39.66,
    "lines": [
     {
      "text": "The **frontal** bone is the forehead. It holds the frontal sinus.",
-     "start": 39.41,
-     "end": 42.99
+     "start": 39.66,
+     "end": 43.29
     },
     {
      "text": "The two **parietal** bones form the top sides of the head.",
-     "start": 43.44,
-     "end": 46.59
+     "start": 43.74,
+     "end": 46.84
     },
     {
      "text": "The **coronal suture** joins the frontal and parietal bones.",
-     "start": 47.04,
-     "end": 50.58
+     "start": 47.29,
+     "end": 50.89
     },
     {
      "text": "The **sagittal suture** joins the two parietals, right down the top.",
-     "start": 51.03,
-     "end": 54.86
+     "start": 51.34,
+     "end": 55.28
     }
    ],
-   "end": 55.96
+   "end": 56.38
   },
   {
    "lec": "L8 · Cranium",
@@ -133,40 +133,40 @@
     "Mastoid",
     "Styloid"
    ],
-   "start": 55.96,
+   "start": 56.38,
    "lines": [
     {
      "text": "The temporal bones are the lower sides, under the ears.",
-     "start": 55.96,
-     "end": 59.08
+     "start": 56.38,
+     "end": 59.51
     },
     {
      "text": "The **squamosal suture** joins temporal and parietal.",
-     "start": 59.53,
-     "end": 62.68
+     "start": 59.96,
+     "end": 63.05
     },
     {
      "text": "The **external auditory meatus**, or **EAM**, is the ear hole.",
-     "start": 63.13,
-     "end": 65.92
+     "start": 63.5,
+     "end": 66.32
     },
     {
      "text": "The **mastoid** process is the big bump behind the ear.",
-     "start": 66.37,
-     "end": 69.44
+     "start": 66.77,
+     "end": 69.86
     },
     {
      "text": "The **styloid** process is the sharp point in front of it.",
-     "start": 69.89,
-     "end": 72.98
+     "start": 70.31,
+     "end": 73.33
     },
     {
      "text": "The zygomatic process anchors the chewing muscles.",
-     "start": 73.43,
-     "end": 76.37
+     "start": 73.78,
+     "end": 76.77
     }
    ],
-   "end": 77.47
+   "end": 77.87
   },
   {
    "lec": "L8 · Cranium",
@@ -178,35 +178,35 @@
     "Occipital condyles",
     "EOP"
    ],
-   "start": 77.47,
+   "start": 77.87,
    "lines": [
     {
      "text": "The occipital bone is the base of the skull.",
-     "start": 77.47,
-     "end": 80.03
+     "start": 77.87,
+     "end": 80.44
     },
     {
      "text": "The **lambdoid suture** joins it to the parietals.",
-     "start": 80.48,
-     "end": 83.06
+     "start": 80.89,
+     "end": 83.61
     },
     {
      "text": "The **foramen magnum**, the great hole, lets the spinal cord through.",
-     "start": 83.51,
-     "end": 87.2
+     "start": 84.06,
+     "end": 87.73
     },
     {
      "text": "The **occipital condyles** form a joint with the atlas.",
-     "start": 87.65,
-     "end": 90.87
+     "start": 88.18,
+     "end": 91.4
     },
     {
      "text": "The **EOP** is the midline bump where neck muscles attach.",
-     "start": 91.32,
-     "end": 96.37
+     "start": 91.85,
+     "end": 96.86
     }
    ],
-   "end": 97.47
+   "end": 97.96
   },
   {
    "lec": "L8 · Cranium",
@@ -218,40 +218,40 @@
     "Ethmoid",
     "Cribriform plate"
    ],
-   "start": 97.47,
+   "start": 97.96,
    "lines": [
     {
      "text": "The **sphenoid** is shaped like a bat or butterfly.",
-     "start": 97.47,
-     "end": 100.03
+     "start": 97.96,
+     "end": 100.59
     },
     {
      "text": "Its **sella turcica**, the Turkish saddle, holds the pituitary gland.",
-     "start": 100.48,
-     "end": 104.54
+     "start": 101.04,
+     "end": 105.09
     },
     {
      "text": "The **ethmoid** sits in front of it, in the roof of the nose.",
-     "start": 104.99,
-     "end": 107.93
+     "start": 105.54,
+     "end": 108.51
     },
     {
      "text": "Its crista galli anchors the brain's coverings.",
-     "start": 108.38,
-     "end": 111.04
+     "start": 108.96,
+     "end": 111.65
     },
     {
      "text": "Its **cribriform plate** is full of holes for the smell nerves.",
-     "start": 111.49,
-     "end": 114.81
+     "start": 112.1,
+     "end": 115.42
     },
     {
      "text": "The superior and middle nasal conchae belong to the ethmoid.",
-     "start": 115.26,
-     "end": 119.01
+     "start": 115.87,
+     "end": 119.59
     }
    ],
-   "end": 120.11
+   "end": 120.69
   },
   {
    "lec": "L8 · Face",
@@ -263,35 +263,35 @@
     "Zygomatic",
     "Lacrimal"
    ],
-   "start": 120.11,
+   "start": 120.69,
    "lines": [
     {
      "text": "The **maxillary** bones hold the upper teeth and the maxillary sinus.",
-     "start": 120.11,
-     "end": 124.05
+     "start": 120.69,
+     "end": 124.61
     },
     {
      "text": "The **nasal** bones form the bridge of the nose.",
-     "start": 124.5,
-     "end": 126.89
+     "start": 125.06,
+     "end": 127.48
     },
     {
      "text": "The **zygomatic** bones are the cheekbones.",
-     "start": 127.34,
-     "end": 129.48
+     "start": 127.93,
+     "end": 130.1
     },
     {
      "text": "With the temporal bone, they form the zygomatic arch.",
-     "start": 129.93,
-     "end": 133.01
+     "start": 130.55,
+     "end": 133.68
     },
     {
      "text": "The **lacrimal** bones sit on the inner wall of each orbit.",
-     "start": 133.46,
-     "end": 136.73
+     "start": 134.13,
+     "end": 137.39
     }
    ],
-   "end": 137.83
+   "end": 138.49
   },
   {
    "lec": "L8 · Face",
@@ -302,25 +302,25 @@
     "Palatine",
     "Inferior conchae"
    ],
-   "start": 137.83,
+   "start": 138.49,
    "lines": [
     {
      "text": "The **vomer** is a single bone. It forms the lower nasal septum.",
-     "start": 137.83,
-     "end": 141.59
+     "start": 138.49,
+     "end": 142.33
     },
     {
      "text": "The **palatine** bones form the back third of the hard palate.",
-     "start": 142.04,
-     "end": 145.21
+     "start": 142.78,
+     "end": 145.91
     },
     {
      "text": "The **inferior nasal conchae** form part of the nasal walls.",
-     "start": 145.66,
-     "end": 149.2
+     "start": 146.36,
+     "end": 149.87
     }
    ],
-   "end": 150.3
+   "end": 150.97
   },
   {
    "lec": "L8 · Mandible",
@@ -332,35 +332,35 @@
     "Ramus",
     "Mental foramen"
    ],
-   "start": 150.3,
+   "start": 150.97,
    "lines": [
     {
      "text": "The mandible is the only movable bone of the skull.",
-     "start": 150.3,
-     "end": 153.31
+     "start": 150.97,
+     "end": 154.01
     },
     {
      "text": "Its condyle meets the temporal bone at the **TMJ**, the temporomandibular joint.",
-     "start": 153.76,
-     "end": 159.87
+     "start": 154.46,
+     "end": 160.59
     },
     {
      "text": "The **coronoid** process is in front of the condyle. The mandibular notch is between them.",
-     "start": 160.32,
-     "end": 165.33
+     "start": 161.04,
+     "end": 166.03
     },
     {
      "text": "The **ramus** runs up. The angle is where it turns. The body is the chin.",
-     "start": 165.78,
-     "end": 170.23
+     "start": 166.48,
+     "end": 170.89
     },
     {
      "text": "The alveolar process holds the teeth. The **mental foramina** are holes in the chin.",
-     "start": 170.68,
-     "end": 175.78
+     "start": 171.34,
+     "end": 176.44
     }
    ],
-   "end": 176.88
+   "end": 177.54
   },
   {
    "lec": "L8 · Sinuses",
@@ -372,30 +372,30 @@
     "Maxillary",
     "Sphenoid"
    ],
-   "start": 176.88,
+   "start": 177.54,
    "lines": [
     {
      "text": "The paranasal sinuses warm, humidify and filter air.",
-     "start": 176.88,
-     "end": 180.47
+     "start": 177.54,
+     "end": 181.15
     },
     {
      "text": "They also make the skull lighter.",
-     "start": 180.92,
-     "end": 182.45
+     "start": 181.6,
+     "end": 183.13
     },
     {
      "text": "There are four pairs. FEMS.",
-     "start": 182.9,
-     "end": 184.64
+     "start": 183.58,
+     "end": 185.29
     },
     {
      "text": "**Frontal**, **ethmoid**, **maxillary**, **sphenoid**.",
-     "start": 185.09,
-     "end": 187.55
+     "start": 185.74,
+     "end": 188.2
     }
    ],
-   "end": 188.65
+   "end": 189.3
   },
   {
    "lec": "L8 · Other",
@@ -407,32 +407,32 @@
     "Incus",
     "Stapes"
    ],
-   "start": 188.65,
+   "start": 189.3,
    "lines": [
     {
      "text": "The **hyoid** sits under the tongue.",
-     "start": 188.65,
-     "end": 190.24
+     "start": 189.3,
+     "end": 190.86
     },
     {
      "text": "It is the only bone that doesn't join another bone.",
-     "start": 190.69,
-     "end": 193.73
+     "start": 191.31,
+     "end": 194.35
     },
     {
      "text": "Each ear has three auditory ossicles, the smallest bones in the body.",
-     "start": 194.18,
-     "end": 198.43
+     "start": 194.8,
+     "end": 199.11
     },
     {
      "text": "The **malleus** is the hammer. The **incus** is the anvil. The **stapes** is the stirrup.",
-     "start": 198.88,
-     "end": 203.46
+     "start": 199.56,
+     "end": 204.12
     }
    ],
-   "end": 204.56
+   "end": 205.22
   }
  ],
- "duration": 204.56,
+ "duration": 205.22,
  "audio": "stories/l08.mp3"
 }

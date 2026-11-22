@@ -23,25 +23,25 @@
     {
      "text": "Lecture 1 gave you a ladder.",
      "start": 0.4,
-     "end": 2.16
+     "end": 2.18
     },
     {
      "text": "Atom. Molecule. Macromolecule. Organelle.",
-     "start": 2.61,
-     "end": 5.51
+     "start": 2.63,
+     "end": 5.57
     },
     {
      "text": "Cell. Tissue. Organ. Organ system. Organism.",
-     "start": 5.96,
-     "end": 9.01
+     "start": 6.02,
+     "end": 9.1
     },
     {
      "text": "Lectures 2 through 6 climb it, one rung at a time.",
-     "start": 9.46,
-     "end": 12.56
+     "start": 9.55,
+     "end": 12.58
     }
    ],
-   "end": 13.66
+   "end": 13.68
   },
   {
    "lec": "L2 · Atoms",
@@ -52,30 +52,30 @@
     "Electrons",
     "Valence"
    ],
-   "start": 13.66,
+   "start": 13.68,
    "lines": [
     {
      "text": "Atoms are the smallest unit of matter.",
-     "start": 13.66,
-     "end": 15.64
+     "start": 13.68,
+     "end": 15.66
     },
     {
      "text": "**Protons** and neutrons sit in the nucleus. **Electrons** circle in shells.",
-     "start": 16.09,
-     "end": 20.62
+     "start": 16.11,
+     "end": 20.67
     },
     {
      "text": "**Valence** electrons decide how atoms bond.",
-     "start": 21.07,
-     "end": 23.87
+     "start": 21.12,
+     "end": 23.94
     },
     {
      "text": "Carbon, hydrogen, oxygen and nitrogen make up 96 percent of you.",
-     "start": 24.32,
-     "end": 29.15
+     "start": 24.39,
+     "end": 29.25
     }
    ],
-   "end": 30.25
+   "end": 30.35
   },
   {
    "lec": "L2 · Bonds",
@@ -86,30 +86,30 @@
     "Covalent",
     "Hydrogen bond"
    ],
-   "start": 30.25,
+   "start": 30.35,
    "lines": [
     {
      "text": "**Ionic** bonds form when one atom gives electrons to another.",
-     "start": 30.25,
-     "end": 33.99
+     "start": 30.35,
+     "end": 34.11
     },
     {
      "text": "**Covalent** bonds share electrons. They're strong.",
-     "start": 34.44,
-     "end": 37.09
+     "start": 34.56,
+     "end": 37.34
     },
     {
      "text": "**Hydrogen bonds** are weak links between molecules.",
-     "start": 37.54,
-     "end": 40.71
+     "start": 37.79,
+     "end": 40.93
     },
     {
      "text": "They hold water together and hold DNA's two strands together.",
-     "start": 41.16,
-     "end": 44.71
+     "start": 41.38,
+     "end": 44.98
     }
    ],
-   "end": 45.81
+   "end": 46.08
   },
   {
    "lec": "L2 · Reactions",
@@ -119,25 +119,25 @@
     "Dehydration synthesis",
     "Hydrolysis"
    ],
-   "start": 45.81,
+   "start": 46.08,
    "lines": [
     {
      "text": "Small molecules join into big ones by **dehydration synthesis**. Water comes out.",
-     "start": 45.81,
-     "end": 51.07
+     "start": 46.08,
+     "end": 51.31
     },
     {
      "text": "Big molecules break into small ones by **hydrolysis**. Water goes in.",
-     "start": 51.52,
-     "end": 55.88
+     "start": 51.76,
+     "end": 56.13
     },
     {
      "text": "That one pair of reactions builds every macromolecule.",
-     "start": 56.33,
-     "end": 59.7
+     "start": 56.58,
+     "end": 59.99
     }
    ],
-   "end": 60.8
+   "end": 61.09
   },
   {
    "lec": "L3 · Macromolecules",
@@ -149,35 +149,35 @@
     "Proteins",
     "Nucleic acids"
    ],
-   "start": 60.8,
+   "start": 61.09,
    "lines": [
     {
      "text": "The four macromolecules are the macros on a nutrition label.",
-     "start": 60.8,
-     "end": 64.39
+     "start": 61.09,
+     "end": 64.64
     },
     {
      "text": "**Carbohydrates** are fuel. Glucose, and glycogen for storage.",
-     "start": 64.84,
-     "end": 68.92
+     "start": 65.09,
+     "end": 69.14
     },
     {
      "text": "**Lipids** store energy and build membranes.",
-     "start": 69.37,
-     "end": 71.83
+     "start": 69.59,
+     "end": 72.02
     },
     {
      "text": "**Proteins** do most of the work: enzymes, transport, contraction, structure.",
-     "start": 72.28,
-     "end": 76.8
+     "start": 72.47,
+     "end": 76.99
     },
     {
      "text": "**Nucleic acids**, DNA and RNA, hold the instructions.",
-     "start": 77.25,
-     "end": 81.07
+     "start": 77.44,
+     "end": 81.29
     }
    ],
-   "end": 82.17
+   "end": 82.39
   },
   {
    "lec": "L3 · Membrane",
@@ -188,30 +188,30 @@
     "Cholesterol",
     "Membrane proteins"
    ],
-   "start": 82.17,
+   "start": 82.39,
    "lines": [
     {
      "text": "Phospholipids line up tail to tail. That's the **phospholipid bilayer**.",
-     "start": 82.17,
-     "end": 86.42
+     "start": 82.39,
+     "end": 86.73
     },
     {
      "text": "**Cholesterol** holds it together.",
-     "start": 86.87,
-     "end": 88.52
+     "start": 87.18,
+     "end": 88.83
     },
     {
      "text": "**Membrane proteins** form channels and receptors.",
-     "start": 88.97,
-     "end": 91.74
+     "start": 89.28,
+     "end": 92.07
     },
     {
      "text": "Now there's an inside and an outside. That's the start of a cell.",
-     "start": 92.19,
-     "end": 95.73
+     "start": 92.52,
+     "end": 96.09
     }
    ],
-   "end": 96.83
+   "end": 97.19
   },
   {
    "lec": "L3 · Transport",
@@ -222,25 +222,25 @@
     "Active",
     "ATP"
    ],
-   "start": 96.83,
+   "start": 97.19,
    "lines": [
     {
      "text": "**Passive** transport needs no energy. Diffusion, osmosis, filtration.",
-     "start": 96.83,
-     "end": 101.6
+     "start": 97.19,
+     "end": 101.99
     },
     {
      "text": "**Active** transport needs **ATP**.",
-     "start": 102.05,
-     "end": 104.12
+     "start": 102.44,
+     "end": 104.45
     },
     {
      "text": "Endocytosis, exocytosis and the sodium potassium pump.",
-     "start": 104.57,
-     "end": 108.78
+     "start": 104.9,
+     "end": 109.05
     }
    ],
-   "end": 109.88
+   "end": 110.15
   },
   {
    "lec": "L4 · Organelles",
@@ -253,30 +253,30 @@
     "Golgi",
     "Mitochondria"
    ],
-   "start": 109.88,
+   "start": 110.15,
    "lines": [
     {
      "text": "Organelles are the cell's tiny organs.",
-     "start": 109.88,
-     "end": 112.05
+     "start": 110.15,
+     "end": 112.33
     },
     {
      "text": "The **nucleus** holds the DNA.",
-     "start": 112.5,
-     "end": 114.17
+     "start": 112.78,
+     "end": 114.52
     },
     {
      "text": "**Ribosomes** build proteins. The **ER** transports them. The **Golgi** packages them.",
-     "start": 114.62,
-     "end": 119.75
+     "start": 114.97,
+     "end": 120.01
     },
     {
      "text": "**Mitochondria** make ATP.",
-     "start": 120.2,
-     "end": 122.18
+     "start": 120.46,
+     "end": 122.28
     }
    ],
-   "end": 123.28
+   "end": 123.38
   },
   {
    "lec": "L4 · DNA to protein",
@@ -287,30 +287,30 @@
     "Transcription",
     "Translation"
    ],
-   "start": 123.28,
+   "start": 123.38,
    "lines": [
     {
      "text": "A **gene** is a stretch of DNA for one protein.",
-     "start": 123.28,
-     "end": 126.12
+     "start": 123.38,
+     "end": 126.3
     },
     {
      "text": "**Transcription** copies it to messenger RNA in the nucleus.",
-     "start": 126.57,
-     "end": 130.41
+     "start": 126.75,
+     "end": 130.61
     },
     {
      "text": "**Translation** builds the protein at a ribosome.",
-     "start": 130.86,
-     "end": 133.67
+     "start": 131.06,
+     "end": 133.92
     },
     {
      "text": "So nucleic acids from Lecture 3 make the proteins from Lecture 3.",
-     "start": 134.12,
-     "end": 138.36
+     "start": 134.37,
+     "end": 138.81
     }
    ],
-   "end": 139.46
+   "end": 139.91
   },
   {
    "lec": "L4 · Cell cycle",
@@ -321,30 +321,30 @@
     "Mitosis",
     "Cytokinesis"
    ],
-   "start": 139.46,
+   "start": 139.91,
    "lines": [
     {
      "text": "The cell is the smallest unit of life.",
-     "start": 139.46,
-     "end": 141.55
+     "start": 139.91,
+     "end": 142.01
     },
     {
      "text": "Cells grow during **interphase** and copy their DNA.",
-     "start": 142.0,
-     "end": 145.02
+     "start": 142.46,
+     "end": 145.51
     },
     {
      "text": "**Mitosis** divides the nucleus. **Cytokinesis** splits the cell.",
-     "start": 145.47,
-     "end": 149.56
+     "start": 145.96,
+     "end": 150.03
     },
     {
      "text": "That's how one cell becomes about 35 trillion.",
-     "start": 150.01,
-     "end": 152.84
+     "start": 150.48,
+     "end": 153.3
     }
    ],
-   "end": 153.94
+   "end": 154.4
   },
   {
    "lec": "L5 · Tissues",
@@ -356,30 +356,30 @@
     "Muscle",
     "Nervous"
    ],
-   "start": 153.94,
+   "start": 154.4,
    "lines": [
     {
      "text": "Similar cells plus matrix make a tissue.",
-     "start": 153.94,
-     "end": 156.37
+     "start": 154.4,
+     "end": 156.85
     },
     {
      "text": "**Epithelial** covers. **Connective** supports.",
-     "start": 156.82,
-     "end": 159.39
+     "start": 157.3,
+     "end": 159.87
     },
     {
      "text": "**Muscle** moves. **Nervous** controls.",
-     "start": 159.84,
-     "end": 161.91
+     "start": 160.32,
+     "end": 162.39
     },
     {
      "text": "Cell junctions hold them together: tight, gap and desmosome.",
-     "start": 162.36,
-     "end": 166.3
+     "start": 162.84,
+     "end": 166.76
     }
    ],
-   "end": 167.4
+   "end": 167.86
   },
   {
    "lec": "L6 · Skin",
@@ -390,35 +390,35 @@
     "Dermis",
     "Organ"
    ],
-   "start": 167.4,
+   "start": 167.86,
    "lines": [
     {
      "text": "An organ is two or more tissue types.",
-     "start": 167.4,
-     "end": 169.67
+     "start": 167.86,
+     "end": 170.13
     },
     {
      "text": "Skin is the largest **organ**.",
-     "start": 170.12,
-     "end": 171.89
+     "start": 170.58,
+     "end": 172.33
     },
     {
      "text": "Its **epidermis** is epithelium. Its **dermis** is connective tissue.",
-     "start": 172.34,
-     "end": 176.39
+     "start": 172.78,
+     "end": 176.82
     },
     {
      "text": "It has smooth muscle in the arrector pili, and nerve endings for touch.",
-     "start": 176.84,
-     "end": 180.95
+     "start": 177.27,
+     "end": 181.44
     },
     {
      "text": "All four tissues, in one organ.",
-     "start": 181.4,
-     "end": 183.28
+     "start": 181.89,
+     "end": 183.8
     }
    ],
-   "end": 184.38
+   "end": 184.9
   },
   {
    "lec": "L6 · System",
@@ -430,25 +430,25 @@
     "Nails",
     "Glands"
    ],
-   "start": 184.38,
+   "start": 184.9,
    "lines": [
     {
      "text": "Skin plus **hair**, **nails** and **glands** makes the **integumentary system**.",
-     "start": 184.38,
-     "end": 188.45
+     "start": 184.9,
+     "end": 188.92
     },
     {
      "text": "It's one of eleven organ systems.",
-     "start": 188.9,
-     "end": 190.68
+     "start": 189.37,
+     "end": 191.21
     },
     {
      "text": "All eleven together make the organism. You.",
-     "start": 191.13,
-     "end": 193.89
+     "start": 191.66,
+     "end": 194.44
     }
    ],
-   "end": 194.99
+   "end": 195.54
   },
   {
    "lec": "Recap",
@@ -461,37 +461,37 @@
     "Tissue",
     "Organ"
    ],
-   "start": 194.99,
+   "start": 195.54,
    "lines": [
     {
      "text": "Atoms bond into molecules.",
-     "start": 194.99,
-     "end": 196.76
+     "start": 195.54,
+     "end": 197.32
     },
     {
      "text": "Molecules build membranes and organelles.",
-     "start": 197.21,
-     "end": 199.66
+     "start": 197.77,
+     "end": 200.21
     },
     {
      "text": "Organelles run the cell. Cells divide into many.",
-     "start": 200.11,
-     "end": 203.1
+     "start": 200.66,
+     "end": 203.69
     },
     {
      "text": "Cells form tissues. Tissues form organs like skin.",
-     "start": 203.55,
-     "end": 206.82
+     "start": 204.14,
+     "end": 207.41
     },
     {
      "text": "Each level builds on the one before. Structure determines function.",
-     "start": 207.27,
-     "end": 211.17
+     "start": 207.86,
+     "end": 211.78
     }
    ],
-   "end": 212.27
+   "end": 212.88
   }
  ],
- "duration": 212.27,
+ "duration": 212.88,
  "audio": "stories/t_levels.mp3"
 }

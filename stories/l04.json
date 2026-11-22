@@ -21,25 +21,25 @@
     {
      "text": "Picture a Jello fruit salad.",
      "start": 0.4,
-     "end": 2.02
+     "end": 2.01
     },
     {
      "text": "The Jello is the **cytosol**, the watery part.",
-     "start": 2.47,
-     "end": 5.13
+     "start": 2.46,
+     "end": 5.1
     },
     {
      "text": "The fruit is the **organelles**, small organs with specific jobs.",
-     "start": 5.58,
-     "end": 9.41
+     "start": 5.55,
+     "end": 9.4
     },
     {
      "text": "**Inclusions** are things that don't dissolve, like fat and pigment.",
-     "start": 9.86,
-     "end": 13.55
+     "start": 9.85,
+     "end": 13.52
     }
    ],
-   "end": 14.65
+   "end": 14.62
   },
   {
    "lec": "L4 · Nucleus",
@@ -50,30 +50,30 @@
     "Chromatin",
     "Nucleolus"
    ],
-   "start": 14.65,
+   "start": 14.62,
    "lines": [
     {
      "text": "The nucleus is the brain of the cell. It holds the DNA.",
-     "start": 14.65,
-     "end": 18.12
+     "start": 14.62,
+     "end": 18.09
     },
     {
      "text": "A double membrane with pores surrounds it. That's the **nuclear envelope**.",
-     "start": 18.57,
-     "end": 22.53
+     "start": 18.54,
+     "end": 22.52
     },
     {
      "text": "Relaxed DNA is **chromatin**. Condensed DNA forms chromosomes.",
-     "start": 22.98,
-     "end": 27.45
+     "start": 22.97,
+     "end": 27.47
     },
     {
      "text": "The **nucleolus** has no membrane. It makes ribosomes.",
-     "start": 27.9,
-     "end": 31.1
+     "start": 27.92,
+     "end": 31.15
     }
    ],
-   "end": 32.2
+   "end": 32.25
   },
   {
    "lec": "L4 · Organelles",
@@ -85,35 +85,35 @@
     "Smooth ER",
     "Golgi"
    ],
-   "start": 32.2,
+   "start": 32.25,
    "lines": [
     {
      "text": "**Ribosomes** are where proteins are made.",
-     "start": 32.2,
-     "end": 34.31
+     "start": 32.25,
+     "end": 34.41
     },
     {
      "text": "The endoplasmic reticulum is a set of canals for transport.",
-     "start": 34.76,
-     "end": 38.58
+     "start": 34.86,
+     "end": 38.66
     },
     {
      "text": "**Rough ER** is studded with ribosomes. It makes proteins.",
-     "start": 39.03,
-     "end": 42.6
+     "start": 39.11,
+     "end": 42.7
     },
     {
      "text": "**Smooth ER** has no ribosomes. It makes lipids and carbs and breaks down drugs.",
-     "start": 43.05,
-     "end": 48.34
+     "start": 43.15,
+     "end": 48.42
     },
     {
      "text": "The **Golgi** body packages enzymes, hormones and lysosomes.",
-     "start": 48.79,
-     "end": 52.65
+     "start": 48.87,
+     "end": 52.7
     }
    ],
-   "end": 53.75
+   "end": 53.8
   },
   {
    "lec": "L4 · Organelles",
@@ -123,30 +123,30 @@
     "Lysosome",
     "Peroxisome"
    ],
-   "start": 53.75,
+   "start": 53.8,
    "lines": [
     {
      "text": "**Lysosomes** are the suicide sacs.",
-     "start": 53.75,
-     "end": 55.83
+     "start": 53.8,
+     "end": 55.86
     },
     {
      "text": "Their digestive enzymes break down bacteria, viruses and worn-out parts.",
-     "start": 56.28,
-     "end": 61.06
+     "start": 56.31,
+     "end": 61.08
     },
     {
      "text": "**Peroxisomes** neutralize toxins and alcohol.",
-     "start": 61.51,
-     "end": 64.43
+     "start": 61.53,
+     "end": 64.52
     },
     {
      "text": "They are abundant in the liver.",
-     "start": 64.88,
-     "end": 66.35
+     "start": 64.97,
+     "end": 66.44
     }
    ],
-   "end": 67.45
+   "end": 67.54
   },
   {
    "lec": "L4 · Organelles",
@@ -157,30 +157,30 @@
     "Cristae",
     "ATP"
    ],
-   "start": 67.45,
+   "start": 67.54,
    "lines": [
     {
      "text": "**Mitochondria** produce **ATP**.",
-     "start": 67.45,
-     "end": 69.4
+     "start": 67.54,
+     "end": 69.49
     },
     {
      "text": "Their inner folds are **cristae**. They add surface area.",
-     "start": 69.85,
-     "end": 72.88
+     "start": 69.94,
+     "end": 72.97
     },
     {
      "text": "Mitochondria have a double membrane and copy themselves.",
-     "start": 73.33,
-     "end": 76.71
+     "start": 73.42,
+     "end": 76.83
     },
     {
      "text": "They are abundant in muscle cells.",
-     "start": 77.16,
-     "end": 79.0
+     "start": 77.28,
+     "end": 79.15
     }
    ],
-   "end": 80.1
+   "end": 80.25
   },
   {
    "lec": "L4 · Organelles",
@@ -192,35 +192,35 @@
     "Flagellum",
     "Microvilli"
    ],
-   "start": 80.1,
+   "start": 80.25,
    "lines": [
     {
      "text": "Two **centrioles** at right angles form the centrosome.",
-     "start": 80.1,
-     "end": 83.25
+     "start": 80.25,
+     "end": 83.32
     },
     {
      "text": "They make microtubules and direct the spindle in mitosis.",
-     "start": 83.7,
-     "end": 87.36
+     "start": 83.77,
+     "end": 87.39
     },
     {
      "text": "**Cilia** are short hairs that sweep substances along, like in the lungs.",
-     "start": 87.81,
+     "start": 87.84,
      "end": 91.91
     },
     {
      "text": "A **flagellum** is a long tail. In humans, only sperm have one.",
      "start": 92.36,
-     "end": 96.44
+     "end": 96.49
     },
     {
      "text": "**Microvilli** are tiny fingers that add surface area for absorption.",
-     "start": 96.89,
-     "end": 101.17
+     "start": 96.94,
+     "end": 101.19
     }
    ],
-   "end": 102.27
+   "end": 102.29
   },
   {
    "lec": "L4 · Cytoskeleton",
@@ -231,35 +231,35 @@
     "Intermediate filaments",
     "Microfilaments"
    ],
-   "start": 102.27,
+   "start": 102.29,
    "lines": [
     {
      "text": "The cytoskeleton gives the cell shape and support.",
-     "start": 102.27,
-     "end": 105.24
+     "start": 102.29,
+     "end": 105.23
     },
     {
      "text": "Think of a tent.",
-     "start": 105.69,
-     "end": 106.68
+     "start": 105.68,
+     "end": 106.63
     },
     {
      "text": "**Microtubules** are the poles.",
-     "start": 107.13,
-     "end": 108.87
+     "start": 107.08,
+     "end": 108.83
     },
     {
      "text": "**Intermediate filaments** are the medium ropes.",
-     "start": 109.32,
-     "end": 111.77
+     "start": 109.28,
+     "end": 111.73
     },
     {
      "text": "**Microfilaments** are the small ropes.",
-     "start": 112.22,
-     "end": 114.35
+     "start": 112.18,
+     "end": 114.31
     }
    ],
-   "end": 115.45
+   "end": 115.41
   },
   {
    "lec": "L4 · DNA",
@@ -270,30 +270,30 @@
     "Gene",
     "A–T, C–G"
    ],
-   "start": 115.45,
+   "start": 115.41,
    "lines": [
     {
      "text": "DNA is a **double helix**, a spiral staircase.",
-     "start": 115.45,
-     "end": 118.63
+     "start": 115.41,
+     "end": 118.59
     },
     {
      "text": "The sides are sugar and phosphate. The steps are bases.",
-     "start": 119.08,
-     "end": 122.42
+     "start": 119.04,
+     "end": 122.37
     },
     {
      "text": "Weak hydrogen bonds pair A with T, and C with G.",
-     "start": 122.87,
-     "end": 126.11
+     "start": 122.82,
+     "end": 126.03
     },
     {
      "text": "A **gene** is a blueprint for one protein. We have about 25 thousand.",
-     "start": 126.56,
-     "end": 131.07
+     "start": 126.48,
+     "end": 130.94
     }
    ],
-   "end": 132.17
+   "end": 132.04
   },
   {
    "lec": "L4 · RNA",
@@ -305,30 +305,30 @@
     "tRNA",
     "Uracil"
    ],
-   "start": 132.17,
+   "start": 132.04,
    "lines": [
     {
      "text": "RNA is single stranded. It uses **uracil** in place of thymine.",
-     "start": 132.17,
-     "end": 136.59
+     "start": 132.04,
+     "end": 136.48
     },
     {
      "text": "**rRNA** makes ribosomes.",
-     "start": 137.04,
-     "end": 139.4
+     "start": 136.93,
+     "end": 139.29
     },
     {
      "text": "**mRNA** copies a gene and carries the code to the cytoplasm.",
-     "start": 139.85,
-     "end": 144.4
+     "start": 139.74,
+     "end": 144.33
     },
     {
      "text": "**tRNA** reads the code and brings the right amino acid.",
-     "start": 144.85,
-     "end": 149.1
+     "start": 144.78,
+     "end": 149.01
     }
    ],
-   "end": 150.2
+   "end": 150.11
   },
   {
    "lec": "L4 · Replication",
@@ -339,30 +339,30 @@
     "Helicase",
     "Polymerase"
    ],
-   "start": 150.2,
+   "start": 150.11,
    "lines": [
     {
      "text": "Human DNA is 46 chromosomes, 23 pairs.",
-     "start": 150.2,
-     "end": 153.95
+     "start": 150.11,
+     "end": 153.85
     },
     {
      "text": "Replication copies all of it, before mitosis.",
-     "start": 154.4,
-     "end": 157.31
+     "start": 154.3,
+     "end": 157.2
     },
     {
      "text": "It is **semiconservative**. Each new DNA is half old strand, half new.",
-     "start": 157.76,
-     "end": 162.12
+     "start": 157.65,
+     "end": 162.04
     },
     {
      "text": "**Helicase** unzips the strands. **Polymerase** builds the new ones.",
-     "start": 162.57,
-     "end": 166.26
+     "start": 162.49,
+     "end": 166.17
     }
    ],
-   "end": 167.36
+   "end": 167.27
   },
   {
    "lec": "L4 · Protein synthesis",
@@ -374,35 +374,35 @@
     "Codon",
     "Anticodon"
    ],
-   "start": 167.36,
+   "start": 167.27,
    "lines": [
     {
      "text": "**Transcription** makes messenger RNA from DNA. It happens in the nucleus.",
-     "start": 167.36,
-     "end": 172.36
+     "start": 167.27,
+     "end": 172.27
     },
     {
      "text": "**Translation** makes the protein at the ribosome.",
-     "start": 172.81,
-     "end": 175.76
+     "start": 172.72,
+     "end": 175.61
     },
     {
      "text": "DNA is read in triplets. Three bases code one amino acid.",
-     "start": 176.21,
-     "end": 180.51
+     "start": 176.06,
+     "end": 180.38
     },
     {
      "text": "On messenger RNA, a triplet is a **codon**. On transfer RNA, it's an **anticodon**.",
-     "start": 180.96,
-     "end": 186.77
+     "start": 180.83,
+     "end": 186.67
     },
     {
      "text": "Four codons make four amino acids, joined by three peptide bonds.",
-     "start": 187.22,
-     "end": 191.85
+     "start": 187.12,
+     "end": 191.69
     }
    ],
-   "end": 192.95
+   "end": 192.79
   },
   {
    "lec": "L4 · Cell cycle",
@@ -413,35 +413,35 @@
     "S",
     "G2"
    ],
-   "start": 192.95,
+   "start": 192.79,
    "lines": [
     {
      "text": "The cell cycle has two stages: interphase and mitosis.",
-     "start": 192.95,
-     "end": 196.69
+     "start": 192.79,
+     "end": 196.48
     },
     {
      "text": "**G1** is the longest phase. The cell grows to full size.",
-     "start": 197.14,
-     "end": 200.97
+     "start": 196.93,
+     "end": 200.83
     },
     {
      "text": "Some cells never leave G one.",
-     "start": 201.42,
-     "end": 203.28
+     "start": 201.28,
+     "end": 203.16
     },
     {
      "text": "In the **S** phase, DNA is copied.",
-     "start": 203.73,
-     "end": 205.95
+     "start": 203.61,
+     "end": 205.84
     },
     {
      "text": "**G2** is housekeeping before division.",
-     "start": 206.4,
-     "end": 208.76
+     "start": 206.29,
+     "end": 208.7
     }
    ],
-   "end": 209.86
+   "end": 209.8
   },
   {
    "lec": "L4 · Mitosis",
@@ -453,42 +453,42 @@
     "Anaphase",
     "Telophase"
    ],
-   "start": 209.86,
+   "start": 209.8,
    "lines": [
     {
      "text": "Mitosis splits one mother cell into two daughter cells.",
-     "start": 209.86,
-     "end": 213.1
+     "start": 209.8,
+     "end": 213.09
     },
     {
      "text": "**Prophase** is first and longest. The nuclear membrane breaks down and chromosomes condense.",
-     "start": 213.55,
-     "end": 219.18
+     "start": 213.54,
+     "end": 219.17
     },
     {
      "text": "**Metaphase**: meet in the middle.",
-     "start": 219.63,
-     "end": 221.29
+     "start": 219.62,
+     "end": 221.25
     },
     {
      "text": "**Anaphase**: away to opposite ends.",
-     "start": 221.74,
-     "end": 223.87
+     "start": 221.7,
+     "end": 223.84
     },
     {
      "text": "**Telophase**: the nuclei reform and the spindle falls apart.",
-     "start": 224.32,
-     "end": 228.02
+     "start": 224.29,
+     "end": 227.99
     },
     {
      "text": "**Cytokinesis** pinches the cell in two.",
-     "start": 228.47,
-     "end": 230.85
+     "start": 228.44,
+     "end": 230.82
     }
    ],
-   "end": 231.95
+   "end": 231.92
   }
  ],
- "duration": 231.95,
+ "duration": 231.92,
  "audio": "stories/l04.mp3"
 }

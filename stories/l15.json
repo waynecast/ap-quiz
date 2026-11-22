@@ -21,30 +21,30 @@
     {
      "text": "The endocrine system controls the body with hormones.",
      "start": 0.4,
-     "end": 3.63
+     "end": 3.68
     },
     {
      "text": "An **endocrine gland** has no ducts. It releases hormones into the blood.",
-     "start": 4.08,
-     "end": 8.46
+     "start": 4.13,
+     "end": 8.56
     },
     {
      "text": "A **hormone** is a chemical messenger.",
-     "start": 8.91,
-     "end": 11.01
+     "start": 9.01,
+     "end": 11.11
     },
     {
      "text": "Its **target tissue** is the organ or cell it affects.",
-     "start": 11.46,
-     "end": 14.33
+     "start": 11.56,
+     "end": 14.43
     },
     {
      "text": "For each hormone, know its source, target and effect.",
-     "start": 14.78,
-     "end": 17.72
+     "start": 14.88,
+     "end": 17.88
     }
    ],
-   "end": 18.82
+   "end": 18.98
   },
   {
    "lec": "L15 · Stimuli",
@@ -55,25 +55,25 @@
     "Neural",
     "Hormonal"
    ],
-   "start": 18.82,
+   "start": 18.98,
    "lines": [
     {
      "text": "**Humoral**: a change in blood levels, like calcium.",
-     "start": 18.82,
-     "end": 21.7
+     "start": 18.98,
+     "end": 21.86
     },
     {
      "text": "**Neural**: a nerve signal, like the sympathetic system on the adrenal medulla.",
-     "start": 22.15,
-     "end": 26.76
+     "start": 22.31,
+     "end": 26.98
     },
     {
      "text": "**Hormonal**: another hormone, like the hypothalamus signaling the pituitary.",
-     "start": 27.21,
-     "end": 31.89
+     "start": 27.43,
+     "end": 32.18
     }
    ],
-   "end": 32.99
+   "end": 33.28
   },
   {
    "lec": "L15 · Types",
@@ -84,30 +84,30 @@
     "Biogenic amine",
     "Protein"
    ],
-   "start": 32.99,
+   "start": 33.28,
    "lines": [
     {
      "text": "**Steroid** hormones are made from cholesterol. They pass through the membrane and activate genes directly.",
-     "start": 32.99,
-     "end": 39.2
+     "start": 33.28,
+     "end": 39.49
     },
     {
      "text": "Estrogen, progesterone, testosterone and the corticosteroids.",
-     "start": 39.65,
-     "end": 43.91
+     "start": 39.94,
+     "end": 44.2
     },
     {
      "text": "**Biogenic amines** are modified amino acids. Epinephrine, thyroid hormone, melatonin.",
-     "start": 44.36,
-     "end": 50.9
+     "start": 44.65,
+     "end": 51.17
     },
     {
      "text": "**Protein** hormones are most hormones. They can't cross the membrane, so they use a second messenger.",
-     "start": 51.35,
-     "end": 57.31
+     "start": 51.62,
+     "end": 57.45
     }
    ],
-   "end": 58.41
+   "end": 58.55
   },
   {
    "lec": "L15 · Pituitary",
@@ -118,25 +118,25 @@
     "Posterior pituitary",
     "Sella turcica"
    ],
-   "start": 58.41,
+   "start": 58.55,
    "lines": [
     {
      "text": "The pituitary is pea sized. It sits in the **sella turcica**, below the hypothalamus.",
-     "start": 58.41,
-     "end": 63.88
+     "start": 58.55,
+     "end": 64.05
     },
     {
      "text": "The **anterior pituitary** makes and releases its own hormones.",
-     "start": 64.33,
-     "end": 68.17
+     "start": 64.5,
+     "end": 68.32
     },
     {
      "text": "The **posterior pituitary** stores and releases hormones made by the hypothalamus.",
-     "start": 68.62,
-     "end": 73.76
+     "start": 68.77,
+     "end": 73.9
     }
    ],
-   "end": 74.86
+   "end": 75.0
   },
   {
    "lec": "L15 · Anterior pituitary",
@@ -148,35 +148,35 @@
     "TSH",
     "ACTH"
    ],
-   "start": 74.86,
+   "start": 75.0,
    "lines": [
     {
      "text": "**Growth hormone** targets all cells, especially muscle and bone. It increases body size.",
-     "start": 74.86,
-     "end": 80.61
+     "start": 75.0,
+     "end": 80.73
     },
     {
      "text": "Too much in childhood is gigantism. In adults it's acromegaly.",
-     "start": 81.06,
-     "end": 85.29
+     "start": 81.18,
+     "end": 85.42
     },
     {
      "text": "**Prolactin** targets the mammary glands. It makes milk.",
-     "start": 85.74,
-     "end": 88.98
+     "start": 85.87,
+     "end": 89.1
     },
     {
      "text": "**TSH** targets the thyroid. It releases thyroid hormone.",
-     "start": 89.43,
-     "end": 94.43
+     "start": 89.55,
+     "end": 94.52
     },
     {
      "text": "**ACTH** targets the adrenal cortex. It releases glucocorticoids.",
-     "start": 94.88,
-     "end": 100.31
+     "start": 94.97,
+     "end": 100.26
     }
    ],
-   "end": 101.41
+   "end": 101.36
   },
   {
    "lec": "L15 · Anterior pituitary",
@@ -187,30 +187,30 @@
     "LH",
     "MSH"
    ],
-   "start": 101.41,
+   "start": 101.36,
    "lines": [
     {
      "text": "**FSH** targets the gonads. It develops eggs and sperm.",
-     "start": 101.41,
-     "end": 106.29
+     "start": 101.36,
+     "end": 106.28
     },
     {
      "text": "**LH** triggers ovulation, and testosterone release in men.",
-     "start": 106.74,
-     "end": 111.51
+     "start": 106.73,
+     "end": 111.47
     },
     {
      "text": "Together they are the gonadotropins.",
-     "start": 111.96,
-     "end": 113.99
+     "start": 111.92,
+     "end": 114.01
     },
     {
      "text": "Melanocyte stimulating hormone has little effect in humans.",
-     "start": 114.44,
-     "end": 118.08
+     "start": 114.46,
+     "end": 118.19
     }
    ],
-   "end": 119.18
+   "end": 119.29
   },
   {
    "lec": "L15 · Posterior pituitary",
@@ -220,30 +220,30 @@
     "ADH",
     "Oxytocin"
    ],
-   "start": 119.18,
+   "start": 119.29,
    "lines": [
     {
      "text": "**ADH**, antidiuretic hormone, targets the kidneys.",
-     "start": 119.18,
-     "end": 121.63
+     "start": 119.29,
+     "end": 121.71
     },
     {
      "text": "Anti means against. Diuretic means urination. It holds water and raises blood pressure.",
-     "start": 122.08,
-     "end": 128.29
+     "start": 122.16,
+     "end": 128.35
     },
     {
      "text": "Too little causes diabetes insipidus.",
-     "start": 128.74,
-     "end": 131.19
+     "start": 128.8,
+     "end": 131.28
     },
     {
      "text": "**Oxytocin** targets the uterus and mammary glands. Contractions in birth, and milk release.",
-     "start": 131.64,
-     "end": 137.45
+     "start": 131.73,
+     "end": 137.57
     }
    ],
-   "end": 138.55
+   "end": 138.67
   },
   {
    "lec": "L15 · Pineal",
@@ -253,25 +253,25 @@
     "Melatonin",
     "Circadian rhythm"
    ],
-   "start": 138.55,
+   "start": 138.67,
    "lines": [
     {
      "text": "The pineal gland sits deep in the brain. Light affects it.",
-     "start": 138.55,
-     "end": 141.98
+     "start": 138.67,
+     "end": 142.14
     },
     {
      "text": "It releases **melatonin**.",
-     "start": 142.43,
-     "end": 143.91
+     "start": 142.59,
+     "end": 144.07
     },
     {
      "text": "Melatonin sets the **circadian rhythm**, the daily sleep cycle.",
-     "start": 144.36,
-     "end": 148.0
+     "start": 144.52,
+     "end": 148.14
     }
    ],
-   "end": 149.1
+   "end": 149.24
   },
   {
    "lec": "L15 · Thyroid",
@@ -283,30 +283,30 @@
     "Goiter",
     "Calcitonin"
    ],
-   "start": 149.1,
+   "start": 149.24,
    "lines": [
     {
      "text": "The thyroid is butterfly shaped, just below the larynx.",
-     "start": 149.1,
-     "end": 152.43
+     "start": 149.24,
+     "end": 152.56
     },
     {
      "text": "**Thyroid hormone**, T3 and T4, targets every cell. It's the main metabolic hormone.",
-     "start": 152.88,
-     "end": 158.81
+     "start": 153.01,
+     "end": 159.08
     },
     {
      "text": "Too much is **Graves'** disease. Too little can cause a **goiter**.",
-     "start": 159.26,
-     "end": 162.56
+     "start": 159.53,
+     "end": 162.78
     },
     {
      "text": "**Calcitonin** targets bone. It lowers blood calcium.",
-     "start": 163.01,
-     "end": 166.29
+     "start": 163.23,
+     "end": 166.59
     }
    ],
-   "end": 167.39
+   "end": 167.69
   },
   {
    "lec": "L15 · Parathyroid",
@@ -316,35 +316,35 @@
     "PTH",
     "Thymosin"
    ],
-   "start": 167.39,
+   "start": 167.69,
    "lines": [
     {
      "text": "Four parathyroid nodules sit on the back of the thyroid.",
-     "start": 167.39,
-     "end": 170.71
+     "start": 167.69,
+     "end": 171.01
     },
     {
      "text": "**PTH** targets bone and kidney. It raises blood calcium.",
-     "start": 171.16,
-     "end": 175.49
+     "start": 171.46,
+     "end": 175.84
     },
     {
      "text": "It's the antagonist of calcitonin.",
-     "start": 175.94,
-     "end": 178.0
+     "start": 176.29,
+     "end": 178.35
     },
     {
      "text": "The thymus sits in front of the heart. It shrinks after puberty.",
-     "start": 178.45,
-     "end": 182.01
+     "start": 178.8,
+     "end": 182.37
     },
     {
      "text": "**Thymosin** matures T lymphocytes.",
-     "start": 182.46,
-     "end": 184.35
+     "start": 182.82,
+     "end": 184.69
     }
    ],
-   "end": 185.45
+   "end": 185.79
   },
   {
    "lec": "L15 · Adrenal medulla",
@@ -354,30 +354,30 @@
     "Epinephrine",
     "Norepinephrine"
    ],
-   "start": 185.45,
+   "start": 185.79,
    "lines": [
     {
      "text": "The adrenal glands sit on top of the kidneys.",
-     "start": 185.45,
-     "end": 188.09
+     "start": 185.79,
+     "end": 188.43
     },
     {
      "text": "The inner medulla responds to the sympathetic nervous system.",
-     "start": 188.54,
-     "end": 191.99
+     "start": 188.88,
+     "end": 192.36
     },
     {
      "text": "It releases **epinephrine** and **norepinephrine**.",
-     "start": 192.44,
-     "end": 195.06
+     "start": 192.81,
+     "end": 195.42
     },
     {
      "text": "Heart rate, blood pressure and blood sugar rise. Airways open.",
-     "start": 195.51,
-     "end": 199.22
+     "start": 195.87,
+     "end": 199.58
     }
    ],
-   "end": 200.32
+   "end": 200.68
   },
   {
    "lec": "L15 · Adrenal cortex",
@@ -388,35 +388,35 @@
     "Cortisol",
     "Androgens"
    ],
-   "start": 200.32,
+   "start": 200.68,
    "lines": [
     {
      "text": "The cortex has three zones. Glomerulosa, fasciculata, reticularis.",
-     "start": 200.32,
-     "end": 205.28
+     "start": 200.68,
+     "end": 205.68
     },
     {
      "text": "**Aldosterone** targets the kidney. It holds sodium and releases potassium.",
-     "start": 205.73,
-     "end": 210.46
+     "start": 206.13,
+     "end": 210.87
     },
     {
      "text": "**Cortisol** raises blood sugar to resist stress.",
-     "start": 210.91,
-     "end": 213.75
+     "start": 211.32,
+     "end": 214.15
     },
     {
      "text": "**Androgens** are made in small amounts.",
-     "start": 214.2,
-     "end": 216.25
+     "start": 214.6,
+     "end": 216.63
     },
     {
      "text": "Too little cortex hormone is Addison's. Too much cortisol is Cushing's.",
-     "start": 216.7,
-     "end": 221.13
+     "start": 217.08,
+     "end": 221.48
     }
    ],
-   "end": 222.23
+   "end": 222.58
   },
   {
    "lec": "L15 · Kidneys",
@@ -427,30 +427,30 @@
     "Renin",
     "RAAS"
    ],
-   "start": 222.23,
+   "start": 222.58,
    "lines": [
     {
      "text": "When oxygen is low, the kidneys release **EPO**, erythropoietin.",
-     "start": 222.23,
-     "end": 225.83
+     "start": 222.58,
+     "end": 226.23
     },
     {
      "text": "It tells red bone marrow to make more red blood cells.",
-     "start": 226.28,
-     "end": 229.53
+     "start": 226.68,
+     "end": 229.87
     },
     {
      "text": "When blood pressure or sodium drops, the kidneys release **renin**.",
-     "start": 229.98,
-     "end": 233.73
+     "start": 230.32,
+     "end": 234.05
     },
     {
      "text": "That starts the renin angiotensin aldosterone system, which raises blood pressure.",
-     "start": 234.18,
-     "end": 239.33
+     "start": 234.5,
+     "end": 239.77
     }
    ],
-   "end": 240.43
+   "end": 240.87
   },
   {
    "lec": "L15 · Pancreas",
@@ -461,30 +461,30 @@
     "Glucagon",
     "Insulin"
    ],
-   "start": 240.43,
+   "start": 240.87,
    "lines": [
     {
      "text": "The pancreas is mostly exocrine. Its **islets** of Langerhans are endocrine.",
-     "start": 240.43,
-     "end": 245.39
+     "start": 240.87,
+     "end": 245.88
     },
     {
      "text": "Alpha cells release **glucagon**. It raises blood sugar.",
-     "start": 245.84,
-     "end": 249.18
+     "start": 246.33,
+     "end": 249.74
     },
     {
      "text": "Beta cells release **insulin**. It lowers blood sugar.",
-     "start": 249.63,
-     "end": 252.89
+     "start": 250.19,
+     "end": 253.48
     },
     {
      "text": "Type 1 diabetes: no insulin. Type 2: cells don't respond to it.",
-     "start": 253.34,
-     "end": 258.15
+     "start": 253.93,
+     "end": 258.79
     }
    ],
-   "end": 259.25
+   "end": 259.89
   },
   {
    "lec": "L15 · Gonads",
@@ -495,32 +495,32 @@
     "Progesterone",
     "Testosterone"
    ],
-   "start": 259.25,
+   "start": 259.89,
    "lines": [
     {
      "text": "The ovaries release **estrogen** and **progesterone**.",
-     "start": 259.25,
-     "end": 262.22
+     "start": 259.89,
+     "end": 262.83
     },
     {
      "text": "Both grow the uterine lining. Progesterone maintains pregnancy.",
-     "start": 262.67,
-     "end": 266.92
+     "start": 263.28,
+     "end": 267.52
     },
     {
      "text": "The testes release **testosterone**.",
-     "start": 267.37,
-     "end": 269.37
+     "start": 267.97,
+     "end": 269.96
     },
     {
      "text": "It matures the male reproductive system.",
-     "start": 269.82,
-     "end": 272.07
+     "start": 270.41,
+     "end": 272.65
     }
    ],
-   "end": 273.17
+   "end": 273.75
   }
  ],
- "duration": 273.17,
+ "duration": 273.75,
  "audio": "stories/l15.mp3"
 }

@@ -21,25 +21,25 @@
     {
      "text": "**Inorganic** compounds are small, usually ionic, and have no carbon.",
      "start": 0.4,
-     "end": 4.84
+     "end": 4.81
     },
     {
      "text": "Water, salts, acids, bases and buffers.",
-     "start": 5.29,
+     "start": 5.26,
      "end": 8.11
     },
     {
      "text": "**Organic** compounds are large, covalent, and contain **carbon**.",
      "start": 8.56,
-     "end": 12.48
+     "end": 12.53
     },
     {
      "text": "Carbohydrates, lipids, proteins, nucleic acids and ATP.",
-     "start": 12.93,
-     "end": 17.2
+     "start": 12.98,
+     "end": 17.36
     }
    ],
-   "end": 18.3
+   "end": 18.46
   },
   {
    "lec": "L3 · Water",
@@ -49,30 +49,30 @@
     "Universal solvent",
     "Polar covalent"
    ],
-   "start": 18.3,
+   "start": 18.46,
    "lines": [
     {
      "text": "Water is about two thirds of body weight.",
-     "start": 18.3,
-     "end": 20.56
+     "start": 18.46,
+     "end": 20.7
     },
     {
      "text": "Polar covalent bonds hold it together.",
-     "start": 21.01,
-     "end": 23.17
+     "start": 21.15,
+     "end": 23.42
     },
     {
      "text": "It is the **universal solvent**.",
-     "start": 23.62,
-     "end": 25.56
+     "start": 23.87,
+     "end": 25.78
     },
     {
      "text": "It lubricates, cushions, regulates temperature and transports.",
-     "start": 26.01,
-     "end": 29.86
+     "start": 26.23,
+     "end": 30.09
     }
    ],
-   "end": 30.96
+   "end": 31.19
   },
   {
    "lec": "L3 · Salts",
@@ -82,30 +82,30 @@
     "Salt",
     "Electrolyte"
    ],
-   "start": 30.96,
+   "start": 31.19,
    "lines": [
     {
      "text": "A **salt** comes from an exchange reaction between an acid and a base.",
-     "start": 30.96,
-     "end": 35.0
+     "start": 31.19,
+     "end": 35.2
     },
     {
      "text": "In water, salts release ions.",
-     "start": 35.45,
-     "end": 37.46
+     "start": 35.65,
+     "end": 37.67
     },
     {
      "text": "An **electrolyte** releases ions and conducts electric current.",
-     "start": 37.91,
-     "end": 41.83
+     "start": 38.12,
+     "end": 42.08
     },
     {
      "text": "Salts, acids and bases are all electrolytes.",
-     "start": 42.28,
-     "end": 45.23
+     "start": 42.53,
+     "end": 45.52
     }
    ],
-   "end": 46.33
+   "end": 46.62
   },
   {
    "lec": "L3 · pH",
@@ -117,35 +117,35 @@
     "pH",
     "7.35–7.45"
    ],
-   "start": 46.33,
+   "start": 46.62,
    "lines": [
     {
      "text": "An **acid** donates H⁺. It is sour, with pH below 7.",
-     "start": 46.33,
-     "end": 51.45
+     "start": 46.62,
+     "end": 51.71
     },
     {
      "text": "A **base** donates OH⁻. It is bitter and slippery, with pH above 7.",
-     "start": 51.9,
-     "end": 57.5
+     "start": 52.16,
+     "end": 57.76
     },
     {
      "text": "The **pH** scale runs from 0 to 14. Seven is neutral.",
-     "start": 57.95,
-     "end": 62.17
+     "start": 58.21,
+     "end": 62.41
     },
     {
      "text": "Blood pH is **7.35 to 7.45**, slightly basic.",
-     "start": 62.62,
-     "end": 67.75
+     "start": 62.86,
+     "end": 67.97
     },
     {
      "text": "**Buffers** resist sudden changes in pH.",
-     "start": 68.2,
-     "end": 70.75
+     "start": 68.42,
+     "end": 70.93
     }
    ],
-   "end": 71.85
+   "end": 72.03
   },
   {
    "lec": "L3 · Carbs",
@@ -156,40 +156,40 @@
     "Disaccharide",
     "Glycogen"
    ],
-   "start": 71.85,
+   "start": 72.03,
    "lines": [
     {
      "text": "Carbohydrates are the body's preferred energy source.",
-     "start": 71.85,
-     "end": 74.98
+     "start": 72.03,
+     "end": 75.12
     },
     {
      "text": "**Monosaccharides** are single sugars: glucose, fructose, galactose.",
-     "start": 75.43,
-     "end": 79.86
+     "start": 75.57,
+     "end": 80.01
     },
     {
      "text": "**Disaccharides** are two sugars joined by dehydration synthesis.",
-     "start": 80.31,
-     "end": 84.36
+     "start": 80.46,
+     "end": 84.5
     },
     {
      "text": "Sucrose is glucose plus fructose. Lactose is glucose plus galactose.",
-     "start": 84.81,
-     "end": 89.67
+     "start": 84.95,
+     "end": 89.84
     },
     {
      "text": "Polysaccharides are long chains. Plants store starch.",
-     "start": 90.12,
-     "end": 93.56
+     "start": 90.29,
+     "end": 93.75
     },
     {
      "text": "Animals store **glycogen** in the liver and skeletal muscle.",
-     "start": 94.01,
-     "end": 97.4
+     "start": 94.2,
+     "end": 97.67
     }
    ],
-   "end": 98.5
+   "end": 98.77
   },
   {
    "lec": "L3 · Lipids",
@@ -200,35 +200,35 @@
     "Phospholipid",
     "Cholesterol"
    ],
-   "start": 98.5,
+   "start": 98.77,
    "lines": [
     {
      "text": "**Triglycerides** cushion, insulate and store energy.",
-     "start": 98.5,
-     "end": 101.56
+     "start": 98.77,
+     "end": 101.81
     },
     {
      "text": "Fat stores twice the energy per gram of carbs, but carbs are preferred.",
-     "start": 102.01,
-     "end": 106.25
+     "start": 102.26,
+     "end": 106.49
     },
     {
      "text": "**Phospholipids** have a water-loving head and water-fearing tails.",
-     "start": 106.7,
-     "end": 110.26
+     "start": 106.94,
+     "end": 110.48
     },
     {
      "text": "They are the main part of every cell membrane.",
-     "start": 110.71,
-     "end": 113.02
+     "start": 110.93,
+     "end": 113.22
     },
     {
      "text": "**Cholesterol** holds membranes together and is used to make hormones.",
-     "start": 113.47,
-     "end": 117.3
+     "start": 113.67,
+     "end": 117.53
     }
    ],
-   "end": 118.4
+   "end": 118.63
   },
   {
    "lec": "L3 · Proteins",
@@ -239,30 +239,30 @@
     "Peptide bond",
     "Enzyme"
    ],
-   "start": 118.4,
+   "start": 118.63,
    "lines": [
     {
      "text": "Proteins are **amino acids** joined by **peptide bonds**. There are 20 amino acids.",
-     "start": 118.4,
-     "end": 124.16
+     "start": 118.63,
+     "end": 124.41
     },
     {
      "text": "Bob Helps To Catch Sam's Iguana Early.",
-     "start": 124.61,
-     "end": 126.91
+     "start": 124.86,
+     "end": 127.16
     },
     {
      "text": "Buffers. Hormones. Transport. Contractile. Structural. Immunoglobulins. Enzymes.",
-     "start": 127.36,
-     "end": 133.22
+     "start": 127.61,
+     "end": 133.44
     },
     {
      "text": "Most protein names end in i n. Enzymes end in a s e.",
-     "start": 133.67,
-     "end": 137.67
+     "start": 133.89,
+     "end": 137.9
     }
    ],
-   "end": 138.77
+   "end": 139.0
   },
   {
    "lec": "L3 · Enzymes",
@@ -272,25 +272,25 @@
     "Catalyst",
     "Activation energy"
    ],
-   "start": 138.77,
+   "start": 139.0,
    "lines": [
     {
      "text": "An **enzyme** is a catalyst.",
-     "start": 138.77,
-     "end": 140.42
+     "start": 139.0,
+     "end": 140.67
     },
     {
      "text": "It lowers the **activation energy** a reaction needs.",
-     "start": 140.87,
-     "end": 144.04
+     "start": 141.12,
+     "end": 144.32
     },
     {
      "text": "The enzyme itself is unchanged by the reaction.",
-     "start": 144.49,
-     "end": 147.49
+     "start": 144.77,
+     "end": 147.82
     }
    ],
-   "end": 148.59
+   "end": 148.92
   },
   {
    "lec": "L3 · Nucleic acids",
@@ -301,35 +301,35 @@
     "DNA",
     "RNA"
    ],
-   "start": 148.59,
+   "start": 148.92,
    "lines": [
     {
      "text": "Nucleic acids are the largest molecules in the body.",
-     "start": 148.59,
-     "end": 151.97
+     "start": 148.92,
+     "end": 152.38
     },
     {
      "text": "They are built from **nucleotides**: phosphate, sugar and a base.",
-     "start": 152.42,
-     "end": 156.1
+     "start": 152.83,
+     "end": 156.53
     },
     {
      "text": "**DNA** is double stranded. Its bases are A, T, G and C.",
-     "start": 156.55,
-     "end": 161.04
+     "start": 156.98,
+     "end": 161.47
     },
     {
      "text": "**RNA** is single stranded. It uses U instead of T.",
-     "start": 161.49,
-     "end": 165.14
+     "start": 161.92,
+     "end": 165.6
     },
     {
      "text": "Hydrogen bonds pair A with T, and G with C.",
-     "start": 165.59,
-     "end": 168.47
+     "start": 166.05,
+     "end": 168.96
     }
    ],
-   "end": 169.57
+   "end": 170.06
   },
   {
    "lec": "L3 · ATP",
@@ -340,35 +340,35 @@
     "ADP",
     "Hydrolysis"
    ],
-   "start": 169.57,
+   "start": 170.06,
    "lines": [
     {
      "text": "**ATP** is adenosine triphosphate.",
-     "start": 169.57,
-     "end": 171.38
+     "start": 170.06,
+     "end": 172.38
     },
     {
      "text": "It is ribose, adenine and three phosphates.",
-     "start": 171.83,
-     "end": 174.48
+     "start": 172.83,
+     "end": 175.47
     },
     {
      "text": "Breaking the last phosphate bond releases energy.",
-     "start": 174.93,
-     "end": 177.9
+     "start": 175.92,
+     "end": 178.86
     },
     {
      "text": "That is **hydrolysis**: ATP becomes **ADP** plus phosphate plus energy.",
-     "start": 178.35,
-     "end": 183.42
+     "start": 179.31,
+     "end": 184.44
     },
     {
      "text": "ATP powers every activity in the body.",
-     "start": 183.87,
-     "end": 186.57
+     "start": 184.89,
+     "end": 187.64
     }
    ],
-   "end": 187.67
+   "end": 188.74
   },
   {
    "lec": "L3 · Cells",
@@ -379,30 +379,30 @@
     "Cytoplasm",
     "Nucleus"
    ],
-   "start": 187.67,
+   "start": 188.74,
    "lines": [
     {
      "text": "The body has about 35 trillion cells.",
-     "start": 187.67,
-     "end": 190.25
+     "start": 188.74,
+     "end": 191.3
     },
     {
      "text": "The **cell membrane** is the skin of the cell.",
-     "start": 190.7,
-     "end": 192.97
+     "start": 191.75,
+     "end": 194.02
     },
     {
      "text": "The **cytoplasm** is the guts: cytosol, organelles and inclusions.",
-     "start": 193.42,
-     "end": 197.9
+     "start": 194.47,
+     "end": 198.89
     },
     {
      "text": "The **nucleus** is the command center.",
-     "start": 198.35,
-     "end": 200.37
+     "start": 199.34,
+     "end": 201.34
     }
    ],
-   "end": 201.47
+   "end": 202.44
   },
   {
    "lec": "L3 · Membrane",
@@ -413,40 +413,40 @@
     "Membrane proteins",
     "Cholesterol"
    ],
-   "start": 201.47,
+   "start": 202.44,
    "lines": [
     {
      "text": "The membrane follows the **fluid mosaic** model. Its parts move freely.",
-     "start": 201.47,
-     "end": 205.71
+     "start": 202.44,
+     "end": 206.7
     },
     {
      "text": "A **phospholipid bilayer** forms the base.",
-     "start": 206.16,
-     "end": 208.41
+     "start": 207.15,
+     "end": 209.43
     },
     {
      "text": "**Integral proteins** span the membrane. Peripheral proteins touch one side.",
-     "start": 208.86,
-     "end": 213.44
+     "start": 209.88,
+     "end": 214.43
     },
     {
      "text": "Only integral proteins form channels.",
-     "start": 213.89,
-     "end": 216.22
+     "start": 214.88,
+     "end": 217.21
     },
     {
      "text": "Membrane sugars help with recognition and blood typing.",
-     "start": 216.67,
-     "end": 220.12
+     "start": 217.66,
+     "end": 221.08
     },
     {
      "text": "Cholesterol gives flexible rigidity.",
-     "start": 220.57,
-     "end": 222.8
+     "start": 221.53,
+     "end": 223.88
     }
    ],
-   "end": 223.9
+   "end": 224.98
   },
   {
    "lec": "L3 · Transport",
@@ -458,35 +458,35 @@
     "Facilitated diffusion",
     "Filtration"
    ],
-   "start": 223.9,
+   "start": 224.98,
    "lines": [
     {
      "text": "Passive transport uses no ATP.",
-     "start": 223.9,
-     "end": 226.43
+     "start": 224.98,
+     "end": 227.5
     },
     {
      "text": "**Diffusion** moves from high to low concentration.",
-     "start": 226.88,
-     "end": 229.74
+     "start": 227.95,
+     "end": 230.86
     },
     {
      "text": "**Osmosis** is the diffusion of water.",
-     "start": 230.19,
-     "end": 232.59
+     "start": 231.31,
+     "end": 233.71
     },
     {
      "text": "**Facilitated diffusion** needs a carrier. Insulin helps glucose get in.",
-     "start": 233.04,
-     "end": 237.42
+     "start": 234.16,
+     "end": 238.54
     },
     {
      "text": "**Filtration** pushes particles through tiny holes, driven by blood pressure or gravity.",
-     "start": 237.87,
-     "end": 243.16
+     "start": 238.99,
+     "end": 244.22
     }
    ],
-   "end": 244.26
+   "end": 245.32
   },
   {
    "lec": "L3 · Osmosis",
@@ -497,25 +497,25 @@
     "Hypotonic",
     "Hypertonic"
    ],
-   "start": 244.26,
+   "start": 245.32,
    "lines": [
     {
      "text": "**Isotonic**: equal solutes inside and out. The cell stays the same.",
-     "start": 244.26,
-     "end": 248.77
+     "start": 245.32,
+     "end": 249.76
     },
     {
      "text": "**Hypotonic**: fewer solutes outside. Water moves in, and the cell can burst. That is hemolysis.",
-     "start": 249.22,
-     "end": 255.75
+     "start": 250.21,
+     "end": 256.68
     },
     {
      "text": "**Hypertonic**: more solutes outside. Water moves out, and the cell shrinks. That is crenation.",
-     "start": 256.2,
-     "end": 261.9
+     "start": 257.13,
+     "end": 262.83
     }
    ],
-   "end": 263.0
+   "end": 263.93
   },
   {
    "lec": "L3 · Transport",
@@ -526,37 +526,37 @@
     "Exocytosis",
     "Sodium-potassium pump"
    ],
-   "start": 263.0,
+   "start": 263.93,
    "lines": [
     {
      "text": "Active transport uses ATP.",
-     "start": 263.0,
-     "end": 265.14
+     "start": 263.93,
+     "end": 266.06
     },
     {
      "text": "**Endocytosis** brings things in. Phagocytosis is eating. Pinocytosis is drinking.",
-     "start": 265.59,
-     "end": 271.24
+     "start": 266.51,
+     "end": 272.2
     },
     {
      "text": "**Exocytosis** sends things out, like hormones and neurotransmitters.",
-     "start": 271.69,
-     "end": 275.97
+     "start": 272.65,
+     "end": 277.03
     },
     {
      "text": "An ATP-driven carrier moves things against the gradient.",
-     "start": 276.42,
-     "end": 280.03
+     "start": 277.48,
+     "end": 281.14
     },
     {
      "text": "The **sodium-potassium pump** is the example. You'll see it again in muscle.",
-     "start": 280.48,
-     "end": 284.67
+     "start": 281.59,
+     "end": 285.74
     }
    ],
-   "end": 285.77
+   "end": 286.84
   }
  ],
- "duration": 285.77,
+ "duration": 286.84,
  "audio": "stories/l03.mp3"
 }

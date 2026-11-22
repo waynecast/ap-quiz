@@ -23,35 +23,35 @@
     {
      "text": "The spine has 26 vertebrae. The top 24 move.",
      "start": 0.4,
-     "end": 3.96
+     "end": 3.97
     },
     {
      "text": "**Cervical**: 7, in the neck.",
-     "start": 4.41,
-     "end": 6.13
+     "start": 4.42,
+     "end": 6.15
     },
     {
      "text": "**Thoracic**: 12, in the upper back.",
-     "start": 6.58,
-     "end": 8.64
+     "start": 6.6,
+     "end": 8.66
     },
     {
      "text": "**Lumbar**: 5, in the low back.",
-     "start": 9.09,
-     "end": 10.97
+     "start": 9.11,
+     "end": 10.99
     },
     {
      "text": "The **sacrum** is 5 fused vertebrae. The **coccyx** is 4 fused.",
-     "start": 11.42,
-     "end": 15.42
+     "start": 11.44,
+     "end": 15.49
     },
     {
      "text": "Breakfast at 7, lunch at 12, dinner at 5.",
-     "start": 15.87,
-     "end": 18.79
+     "start": 15.94,
+     "end": 18.88
     }
    ],
-   "end": 19.89
+   "end": 19.98
   },
   {
    "lec": "L9 · Vertebra",
@@ -63,30 +63,30 @@
     "Lamina",
     "Spinous process"
    ],
-   "start": 19.89,
+   "start": 19.98,
    "lines": [
     {
      "text": "The **body** is the big front part. It's largest in the lumbar spine.",
-     "start": 19.89,
-     "end": 23.91
+     "start": 19.98,
+     "end": 24.03
     },
     {
      "text": "Two **pedicles** project back from the body.",
-     "start": 24.36,
-     "end": 26.62
+     "start": 24.48,
+     "end": 26.76
     },
     {
      "text": "Two **laminae** meet in the midline.",
-     "start": 27.07,
-     "end": 28.8
+     "start": 27.21,
+     "end": 28.94
     },
     {
      "text": "Together they form the **spinous process**, the bump you feel down the back.",
-     "start": 29.25,
-     "end": 32.99
+     "start": 29.39,
+     "end": 33.15
     }
    ],
-   "end": 34.09
+   "end": 34.25
   },
   {
    "lec": "L9 · Vertebra",
@@ -97,30 +97,30 @@
     "Transverse process",
     "Vertebral foramen"
    ],
-   "start": 34.09,
+   "start": 34.25,
    "lines": [
     {
      "text": "Superior **articular processes** meet the vertebra above.",
-     "start": 34.09,
-     "end": 37.72
+     "start": 34.25,
+     "end": 37.88
     },
     {
      "text": "Inferior articular processes meet the vertebra below.",
-     "start": 38.17,
-     "end": 41.72
+     "start": 38.33,
+     "end": 41.89
     },
     {
      "text": "**Transverse processes** project to the sides.",
-     "start": 42.17,
-     "end": 44.66
+     "start": 42.34,
+     "end": 44.81
     },
     {
      "text": "The **vertebral foramen** is the hole for the spinal cord.",
-     "start": 45.11,
-     "end": 48.24
+     "start": 45.26,
+     "end": 48.41
     }
    ],
-   "end": 49.34
+   "end": 49.51
   },
   {
    "lec": "L9 · Discs",
@@ -130,25 +130,25 @@
     "Fibrocartilage",
     "Weight bearing"
    ],
-   "start": 49.34,
+   "start": 49.51,
    "lines": [
     {
      "text": "Discs sit between the vertebrae.",
-     "start": 49.34,
-     "end": 51.08
+     "start": 49.51,
+     "end": 51.27
     },
     {
      "text": "They are **fibrocartilage**, the cartilage that resists compression.",
-     "start": 51.53,
-     "end": 55.09
+     "start": 51.72,
+     "end": 55.34
     },
     {
      "text": "They bear weight.",
-     "start": 55.54,
-     "end": 56.45
+     "start": 55.79,
+     "end": 56.69
     }
    ],
-   "end": 57.55
+   "end": 57.79
   },
   {
    "lec": "L9 · Cervical",
@@ -158,25 +158,25 @@
     "Bifid",
     "Transverse foramina"
    ],
-   "start": 57.55,
+   "start": 57.79,
    "lines": [
     {
      "text": "Cervical spinous processes are **bifid**, split in two.",
-     "start": 57.55,
-     "end": 60.79
+     "start": 57.79,
+     "end": 61.03
     },
     {
      "text": "They have two **transverse foramina**. The vertebral arteries run through them.",
-     "start": 61.24,
-     "end": 65.34
+     "start": 61.48,
+     "end": 65.61
     },
     {
      "text": "Their bodies are small. Their foramen is triangular.",
-     "start": 65.79,
-     "end": 68.91
+     "start": 66.06,
+     "end": 69.2
     }
    ],
-   "end": 70.01
+   "end": 70.3
   },
   {
    "lec": "L9 · Cervical",
@@ -187,30 +187,30 @@
     "Axis C2",
     "Dens"
    ],
-   "start": 70.01,
+   "start": 70.3,
    "lines": [
     {
      "text": "The **atlas** is C1. It's a ring with no body and no spinous process.",
-     "start": 70.01,
-     "end": 74.48
+     "start": 70.3,
+     "end": 74.79
     },
     {
      "text": "It meets the occipital condyles.",
-     "start": 74.93,
-     "end": 76.82
+     "start": 75.24,
+     "end": 77.13
     },
     {
      "text": "The **axis** is C2.",
-     "start": 77.27,
-     "end": 78.6
+     "start": 77.58,
+     "end": 78.94
     },
     {
      "text": "Its **dens**, or odontoid process, points up into the atlas.",
-     "start": 79.05,
-     "end": 82.69
+     "start": 79.39,
+     "end": 83.09
     }
    ],
-   "end": 83.79
+   "end": 84.19
   },
   {
    "lec": "L9 · Thoracic and lumbar",
@@ -221,30 +221,30 @@
     "Round foramen",
     "Spatulated"
    ],
-   "start": 83.79,
+   "start": 84.19,
    "lines": [
     {
      "text": "Only thoracic vertebrae have **rib facets**.",
-     "start": 83.79,
-     "end": 86.19
+     "start": 84.19,
+     "end": 86.66
     },
     {
      "text": "Their foramen is round. Their spinous processes point down.",
-     "start": 86.64,
-     "end": 90.12
+     "start": 87.11,
+     "end": 90.57
     },
     {
      "text": "Lumbar vertebrae have large bodies and a triangular foramen.",
-     "start": 90.57,
-     "end": 94.55
+     "start": 91.02,
+     "end": 95.02
     },
     {
      "text": "Their spinous process is wide and **spatulated**.",
-     "start": 95.0,
-     "end": 97.85
+     "start": 95.47,
+     "end": 98.25
     }
    ],
-   "end": 98.95
+   "end": 99.35
   },
   {
    "lec": "L9 · Sacrum",
@@ -255,30 +255,30 @@
     "Sacral foramina",
     "Coccyx"
    ],
-   "start": 98.95,
+   "start": 99.35,
    "lines": [
     {
      "text": "The sacrum is one triangle made of five fused vertebrae.",
-     "start": 98.95,
-     "end": 102.34
+     "start": 99.35,
+     "end": 102.87
     },
     {
      "text": "The **median sacral crest** is what's left of the spinous processes.",
-     "start": 102.79,
-     "end": 106.59
+     "start": 103.32,
+     "end": 107.12
     },
     {
      "text": "It has four pairs of **sacral foramina**.",
-     "start": 107.04,
-     "end": 109.13
+     "start": 107.57,
+     "end": 109.71
     },
     {
      "text": "The **coccyx** is the tailbone at its tip.",
-     "start": 109.58,
-     "end": 111.71
+     "start": 110.16,
+     "end": 112.27
     }
    ],
-   "end": 112.81
+   "end": 113.37
   },
   {
    "lec": "L9 · Curves",
@@ -289,30 +289,30 @@
     "Lordosis",
     "Kyphosis"
    ],
-   "start": 112.81,
+   "start": 113.37,
    "lines": [
     {
      "text": "From behind, the spine should be straight. A sideways curve is **scoliosis**.",
-     "start": 112.81,
-     "end": 117.33
+     "start": 113.37,
+     "end": 117.91
     },
     {
      "text": "From the side, it curves.",
-     "start": 117.78,
-     "end": 119.1
+     "start": 118.36,
+     "end": 119.67
     },
     {
      "text": "**Lordosis** is in the cervical and lumbar spine. It's a secondary curve, formed after birth.",
-     "start": 119.55,
-     "end": 125.17
+     "start": 120.12,
+     "end": 125.8
     },
     {
      "text": "**Kyphosis** is in the thoracic and sacral spine. It's a primary curve, there from birth.",
-     "start": 125.62,
-     "end": 130.83
+     "start": 126.25,
+     "end": 131.63
     }
    ],
-   "end": 131.93
+   "end": 132.73
   },
   {
    "lec": "L9 · Ribs",
@@ -323,30 +323,30 @@
     "False ribs",
     "Floating ribs"
    ],
-   "start": 131.93,
+   "start": 132.73,
    "lines": [
     {
      "text": "There are 12 pairs of ribs.",
-     "start": 131.93,
-     "end": 133.45
+     "start": 132.73,
+     "end": 134.3
     },
     {
      "text": "**True ribs** are 1 to 7. Their cartilage joins the sternum directly.",
-     "start": 133.9,
-     "end": 138.24
+     "start": 134.75,
+     "end": 139.17
     },
     {
      "text": "**False ribs** are 8 to 12. Their cartilage joins rib 7's, or nothing.",
-     "start": 138.69,
-     "end": 143.33
+     "start": 139.62,
+     "end": 144.25
     },
     {
      "text": "**Floating ribs** are 11 and 12. They have no cartilage.",
-     "start": 143.78,
-     "end": 147.32
+     "start": 144.7,
+     "end": 148.27
     }
    ],
-   "end": 148.42
+   "end": 149.37
   },
   {
    "lec": "L9 · Ribs",
@@ -358,30 +358,30 @@
     "Tubercle",
     "Angle"
    ],
-   "start": 148.42,
+   "start": 149.37,
    "lines": [
     {
      "text": "The **head** meets the vertebral body.",
-     "start": 148.42,
-     "end": 150.42
+     "start": 149.37,
+     "end": 151.34
     },
     {
      "text": "The **neck** is between the head and the tubercle.",
-     "start": 150.87,
-     "end": 153.08
+     "start": 151.79,
+     "end": 154.0
     },
     {
      "text": "The **tubercle** meets the transverse process.",
-     "start": 153.53,
-     "end": 155.96
+     "start": 154.45,
+     "end": 156.88
     },
     {
      "text": "The body is the main part. The **angle** is where it curves forward.",
-     "start": 156.41,
-     "end": 159.97
+     "start": 157.33,
+     "end": 160.95
     }
    ],
-   "end": 161.07
+   "end": 162.05
   },
   {
    "lec": "L9 · Sternum",
@@ -393,32 +393,32 @@
     "Body",
     "Xiphoid"
    ],
-   "start": 161.07,
+   "start": 162.05,
    "lines": [
     {
      "text": "The **manubrium** is on top. Rib 1 joins it. The jugular notch is at its top.",
-     "start": 161.07,
-     "end": 166.15
+     "start": 162.05,
+     "end": 167.17
     },
     {
      "text": "The **sternal angle**, or angle of Louis, is where rib 2 attaches.",
-     "start": 166.6,
-     "end": 170.3
+     "start": 167.62,
+     "end": 171.24
     },
     {
      "text": "The **body** is the largest part. Ribs 3 to 7 join it.",
-     "start": 170.75,
-     "end": 174.45
+     "start": 171.69,
+     "end": 175.4
     },
     {
      "text": "The **xiphoid** process is at the bottom. No ribs attach.",
-     "start": 174.9,
-     "end": 178.28
+     "start": 175.85,
+     "end": 179.24
     }
    ],
-   "end": 179.38
+   "end": 180.34
   }
  ],
- "duration": 179.38,
+ "duration": 180.34,
  "audio": "stories/l09.mp3"
 }

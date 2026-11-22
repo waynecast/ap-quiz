@@ -22,25 +22,25 @@
     {
      "text": "A tissue is a group of similar cells. Its study is histology.",
      "start": 0.4,
-     "end": 4.47
+     "end": 4.42
     },
     {
      "text": "**Epithelial** tissue covers.",
-     "start": 4.92,
-     "end": 6.48
+     "start": 4.87,
+     "end": 6.46
     },
     {
      "text": "**Connective** tissue supports.",
-     "start": 6.93,
-     "end": 8.4
+     "start": 6.91,
+     "end": 8.38
     },
     {
      "text": "**Muscle** moves. **Nervous** tissue controls.",
-     "start": 8.85,
-     "end": 11.33
+     "start": 8.83,
+     "end": 11.26
     }
    ],
-   "end": 12.43
+   "end": 12.36
   },
   {
    "lec": "L5 · Matrix",
@@ -52,40 +52,40 @@
     "Elastic",
     "Reticular"
    ],
-   "start": 12.43,
+   "start": 12.36,
    "lines": [
     {
      "text": "Every tissue is cells plus matrix.",
-     "start": 12.43,
-     "end": 14.43
+     "start": 12.36,
+     "end": 14.4
     },
     {
      "text": "The matrix is **ground substance** plus fibers.",
-     "start": 14.88,
-     "end": 17.5
+     "start": 14.85,
+     "end": 17.46
     },
     {
      "text": "Fibroblasts make the fibers.",
-     "start": 17.95,
-     "end": 19.66
+     "start": 17.91,
+     "end": 19.59
     },
     {
      "text": "**Collagen** is the strongest fiber.",
-     "start": 20.11,
-     "end": 22.09
+     "start": 20.04,
+     "end": 22.02
     },
     {
      "text": "**Elastic** fibers stretch and recoil.",
-     "start": 22.54,
-     "end": 24.55
+     "start": 22.47,
+     "end": 24.47
     },
     {
      "text": "**Reticular** fibers are thin branched networks that support organs.",
-     "start": 25.0,
-     "end": 28.86
+     "start": 24.92,
+     "end": 28.82
     }
    ],
-   "end": 29.96
+   "end": 29.92
   },
   {
    "lec": "L5 · Epithelium",
@@ -97,35 +97,35 @@
     "Avascular",
     "Apical"
    ],
-   "start": 29.96,
+   "start": 29.92,
    "lines": [
     {
      "text": "Epithelium covers and lines every free surface. It also forms glands.",
-     "start": 29.96,
-     "end": 34.68
+     "start": 29.92,
+     "end": 34.62
     },
     {
      "text": "It is highly **cellular**, with very little matrix.",
-     "start": 35.13,
-     "end": 37.82
+     "start": 35.07,
+     "end": 37.89
     },
     {
      "text": "It is highly **mitotic**. It replaces itself quickly.",
-     "start": 38.27,
-     "end": 41.52
+     "start": 38.34,
+     "end": 41.68
     },
     {
      "text": "It is **avascular**. It has no blood supply of its own.",
-     "start": 41.97,
-     "end": 45.24
+     "start": 42.13,
+     "end": 45.49
     },
     {
      "text": "It has an **apical** surface on top and a basal surface below.",
-     "start": 45.69,
-     "end": 49.45
+     "start": 45.94,
+     "end": 49.73
     }
    ],
-   "end": 50.55
+   "end": 50.83
   },
   {
    "lec": "L5 · Junctions",
@@ -137,30 +137,30 @@
     "Desmosome",
     "Hemidesmosome"
    ],
-   "start": 50.55,
+   "start": 50.83,
    "lines": [
     {
      "text": "**Tight junctions** fuse cells into a seal. Nothing leaks between them.",
-     "start": 50.55,
-     "end": 54.53
+     "start": 50.83,
+     "end": 54.83
     },
     {
      "text": "**Gap junctions** are protein tubes called connexons. They let cells communicate, like in the heart.",
-     "start": 54.98,
-     "end": 60.93
+     "start": 55.28,
+     "end": 61.26
     },
     {
      "text": "**Desmosomes** are spot welds. They resist stress in the heart and epidermis.",
-     "start": 61.38,
-     "end": 65.88
+     "start": 61.71,
+     "end": 66.26
     },
     {
      "text": "**Hemidesmosomes** anchor the epithelium to the basement membrane below.",
-     "start": 66.33,
-     "end": 70.6
+     "start": 66.71,
+     "end": 71.01
     }
    ],
-   "end": 71.7
+   "end": 72.11
   },
   {
    "lec": "L5 · Naming",
@@ -173,30 +173,30 @@
     "Cuboidal",
     "Columnar"
    ],
-   "start": 71.7,
+   "start": 72.11,
    "lines": [
     {
      "text": "Epithelium has a first name and a last name.",
-     "start": 71.7,
-     "end": 74.47
+     "start": 72.11,
+     "end": 74.87
     },
     {
      "text": "The first name is layers. **Simple** is one layer. **Stratified** is two or more.",
-     "start": 74.92,
-     "end": 79.66
+     "start": 75.32,
+     "end": 79.98
     },
     {
      "text": "The last name is shape.",
-     "start": 80.11,
-     "end": 81.4
+     "start": 80.43,
+     "end": 81.73
     },
     {
      "text": "**Squamous** is flat. **Cuboidal** is cube. **Columnar** is column.",
-     "start": 81.85,
-     "end": 85.66
+     "start": 82.18,
+     "end": 85.97
     }
    ],
-   "end": 86.76
+   "end": 87.07
   },
   {
    "lec": "L5 · Simple",
@@ -207,30 +207,30 @@
     "Simple cuboidal",
     "Simple columnar"
    ],
-   "start": 86.76,
+   "start": 87.07,
    "lines": [
     {
      "text": "**Simple squamous** is thin for fast diffusion. Air sacs and capillaries.",
-     "start": 86.76,
-     "end": 91.18
+     "start": 87.07,
+     "end": 91.5
     },
     {
      "text": "**Simple cuboidal** secretes and absorbs. Kidney tubules.",
-     "start": 91.63,
-     "end": 95.23
+     "start": 91.95,
+     "end": 95.57
     },
     {
      "text": "**Simple columnar** lines the digestive tract, stomach to rectum.",
-     "start": 95.68,
-     "end": 99.53
+     "start": 96.02,
+     "end": 99.86
     },
     {
      "text": "Its goblet cells make mucus.",
-     "start": 99.98,
-     "end": 101.75
+     "start": 100.31,
+     "end": 102.09
     }
    ],
-   "end": 102.85
+   "end": 103.19
   },
   {
    "lec": "L5 · Pseudostratified",
@@ -241,30 +241,30 @@
     "Cilia",
     "Trachea"
    ],
-   "start": 102.85,
+   "start": 103.19,
    "lines": [
     {
      "text": "**Pseudostratified** columnar is really one layer.",
-     "start": 102.85,
-     "end": 105.64
+     "start": 103.19,
+     "end": 106.03
     },
     {
      "text": "Its nuclei sit at different heights, so it looks layered.",
-     "start": 106.09,
-     "end": 108.95
+     "start": 106.48,
+     "end": 109.32
     },
     {
      "text": "It has goblet cells and **cilia**.",
-     "start": 109.4,
-     "end": 111.06
+     "start": 109.77,
+     "end": 111.45
     },
     {
      "text": "It lines the **trachea**.",
-     "start": 111.51,
-     "end": 112.72
+     "start": 111.9,
+     "end": 113.14
     }
    ],
-   "end": 113.82
+   "end": 114.24
   },
   {
    "lec": "L5 · Stratified",
@@ -275,35 +275,35 @@
     "Non-keratinized",
     "Transitional"
    ],
-   "start": 113.82,
+   "start": 114.24,
    "lines": [
     {
      "text": "Stratified squamous protects.",
-     "start": 113.82,
-     "end": 115.52
+     "start": 114.24,
+     "end": 115.95
     },
     {
      "text": "**Keratinized** is dry and waterproof. It forms the outer epidermis.",
-     "start": 115.97,
-     "end": 120.4
+     "start": 116.4,
+     "end": 120.89
     },
     {
      "text": "**Non-keratinized** is wet. It lines the mouth.",
-     "start": 120.85,
-     "end": 123.65
+     "start": 121.34,
+     "end": 124.16
     },
     {
      "text": "Stratified cuboidal and columnar are rare. They line some ducts.",
-     "start": 124.1,
-     "end": 128.03
+     "start": 124.61,
+     "end": 128.47
     },
     {
      "text": "**Transitional** is the only epithelium that stretches. It lines the bladder.",
-     "start": 128.48,
-     "end": 132.99
+     "start": 128.92,
+     "end": 133.41
     }
    ],
-   "end": 134.09
+   "end": 134.51
   },
   {
    "lec": "L5 · Connective",
@@ -314,35 +314,35 @@
     "Vascular",
     "Mesenchyme"
    ],
-   "start": 134.09,
+   "start": 134.51,
    "lines": [
     {
      "text": "Connective tissue is almost the opposite of epithelium.",
-     "start": 134.09,
-     "end": 137.37
+     "start": 134.51,
+     "end": 137.78
     },
     {
      "text": "Few cells. Lots of **matrix**. Low turnover. Very **vascular**.",
-     "start": 137.82,
-     "end": 141.79
+     "start": 138.23,
+     "end": 142.2
     },
     {
      "text": "All adult connective tissue comes from **mesenchyme**.",
-     "start": 142.24,
-     "end": 145.24
+     "start": 142.65,
+     "end": 145.65
     },
     {
      "text": "Wharton's jelly keeps the umbilical cord open.",
-     "start": 145.69,
-     "end": 148.69
+     "start": 146.1,
+     "end": 149.06
     },
     {
      "text": "Adult connective tissue has four kinds: proper, cartilage, blood and bone.",
-     "start": 149.14,
-     "end": 154.01
+     "start": 149.51,
+     "end": 154.4
     }
    ],
-   "end": 155.11
+   "end": 155.5
   },
   {
    "lec": "L5 · CT proper",
@@ -353,30 +353,30 @@
     "Dense irregular",
     "Elastic"
    ],
-   "start": 155.11,
+   "start": 155.5,
    "lines": [
     {
      "text": "Dense tissue has more fibers and less ground substance.",
-     "start": 155.11,
-     "end": 158.54
+     "start": 155.5,
+     "end": 158.91
     },
     {
      "text": "**Dense regular** has parallel collagen. It is strong in one direction. Tendons and ligaments.",
-     "start": 158.99,
-     "end": 164.97
+     "start": 159.36,
+     "end": 165.37
     },
     {
      "text": "**Dense irregular** has collagen in all directions. It is strong every way. The dermis.",
-     "start": 165.42,
-     "end": 170.9
+     "start": 165.82,
+     "end": 171.27
     },
     {
      "text": "**Elastic** tissue stretches. Vocal cords, lungs and large arteries.",
-     "start": 171.35,
-     "end": 175.87
+     "start": 171.72,
+     "end": 176.2
     }
    ],
-   "end": 176.97
+   "end": 177.3
   },
   {
    "lec": "L5 · CT proper",
@@ -387,30 +387,30 @@
     "Adipose",
     "Reticular"
    ],
-   "start": 176.97,
+   "start": 177.3,
    "lines": [
     {
      "text": "Loose tissue has fewer fibers and more ground substance.",
-     "start": 176.97,
-     "end": 180.37
+     "start": 177.3,
+     "end": 180.69
     },
     {
      "text": "**Areolar** has all three fibers. It's the body's packing material.",
-     "start": 180.82,
-     "end": 184.73
+     "start": 181.14,
+     "end": 185.06
     },
     {
      "text": "**Adipose** is fat. PIES: protects, insulates, energy storage.",
-     "start": 185.18,
-     "end": 189.59
+     "start": 185.51,
+     "end": 189.9
     },
     {
      "text": "**Reticular** tissue supports soft organs like lymph nodes.",
-     "start": 190.04,
-     "end": 193.5
+     "start": 190.35,
+     "end": 193.83
     }
    ],
-   "end": 194.6
+   "end": 194.93
   },
   {
    "lec": "L5 · Cartilage",
@@ -421,30 +421,30 @@
     "Elastic cartilage",
     "Fibrocartilage"
    ],
-   "start": 194.6,
+   "start": 194.93,
    "lines": [
     {
      "text": "Cartilage has no blood and no nerves. Its cells are chondrocytes.",
-     "start": 194.6,
-     "end": 198.84
+     "start": 194.93,
+     "end": 199.21
     },
     {
      "text": "**Hyaline** is the most common. Rib cartilage, joint surfaces, tracheal rings.",
-     "start": 199.29,
-     "end": 204.35
+     "start": 199.66,
+     "end": 204.69
     },
     {
      "text": "**Elastic cartilage** bends. The ear and the epiglottis.",
-     "start": 204.8,
-     "end": 208.1
+     "start": 205.14,
+     "end": 208.4
     },
     {
      "text": "**Fibrocartilage** resists compression. Discs, menisci and the pubic symphysis.",
-     "start": 208.55,
-     "end": 213.77
+     "start": 208.85,
+     "end": 214.07
     }
    ],
-   "end": 214.87
+   "end": 215.17
   },
   {
    "lec": "L5 · Blood and bone",
@@ -455,37 +455,37 @@
     "Hydroxyapatite",
     "Osteoid"
    ],
-   "start": 214.87,
+   "start": 215.17,
    "lines": [
     {
      "text": "Blood is the only liquid connective tissue.",
-     "start": 214.87,
-     "end": 217.31
+     "start": 215.17,
+     "end": 217.6
     },
     {
      "text": "Its matrix is **plasma**. Its fibers are dissolved clotting proteins.",
-     "start": 217.76,
-     "end": 222.02
+     "start": 218.05,
+     "end": 222.29
     },
     {
      "text": "Bone has a solid matrix.",
-     "start": 222.47,
-     "end": 224.1
+     "start": 222.74,
+     "end": 224.38
     },
     {
      "text": "Its ground substance is **hydroxyapatite**, a calcium salt.",
-     "start": 224.55,
-     "end": 228.34
+     "start": 224.83,
+     "end": 228.67
     },
     {
      "text": "Its fibers are **osteoid**, mostly collagen.",
-     "start": 228.79,
-     "end": 231.59
+     "start": 229.12,
+     "end": 231.88
     }
    ],
-   "end": 232.69
+   "end": 232.98
   }
  ],
- "duration": 232.69,
+ "duration": 232.98,
  "audio": "stories/l05.mp3"
 }

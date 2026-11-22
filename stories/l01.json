@@ -20,35 +20,35 @@
     {
      "text": "**Anatomy** is the study of structure.",
      "start": 0.4,
-     "end": 2.3
+     "end": 2.31
     },
     {
      "text": "It names the parts and regions of the body.",
-     "start": 2.75,
-     "end": 5.13
+     "start": 2.76,
+     "end": 5.16
     },
     {
      "text": "**Physiology** is the study of function.",
-     "start": 5.58,
-     "end": 7.81
+     "start": 5.61,
+     "end": 7.76
     },
     {
      "text": "It explains how the parts work together.",
-     "start": 8.26,
-     "end": 10.32
+     "start": 8.21,
+     "end": 10.35
     },
     {
      "text": "We learn them together because structure determines function.",
-     "start": 10.77,
-     "end": 13.8
+     "start": 10.8,
+     "end": 13.81
     },
     {
      "text": "Think of a spoon, a fork and a knife. Each shape does a different job.",
-     "start": 14.25,
-     "end": 18.38
+     "start": 14.26,
+     "end": 18.36
     }
    ],
-   "end": 19.48
+   "end": 19.46
   },
   {
    "lec": "L1 · Levels",
@@ -61,45 +61,45 @@
     "Organ",
     "Organism"
    ],
-   "start": 19.48,
+   "start": 19.46,
    "lines": [
     {
      "text": "The body is built in levels. Each level builds on the one before.",
-     "start": 19.48,
-     "end": 23.13
+     "start": 19.46,
+     "end": 23.15
     },
     {
      "text": "**Atoms** join into molecules. Molecules build macromolecules.",
-     "start": 23.58,
-     "end": 27.75
+     "start": 23.6,
+     "end": 27.77
     },
     {
      "text": "Macromolecules build **organelles**, the tiny organs inside a cell.",
-     "start": 28.2,
-     "end": 32.23
+     "start": 28.22,
+     "end": 32.25
     },
     {
      "text": "The **cell** is the smallest unit of life. Its study is cytology.",
-     "start": 32.68,
-     "end": 36.77
+     "start": 32.7,
+     "end": 36.79
     },
     {
      "text": "Similar cells form a **tissue**. Its study is histology.",
-     "start": 37.22,
-     "end": 40.72
+     "start": 37.24,
+     "end": 40.73
     },
     {
      "text": "Two or more tissues form an **organ**. Organs form an organ system.",
-     "start": 41.17,
-     "end": 45.06
+     "start": 41.18,
+     "end": 45.05
     },
     {
      "text": "All the systems together make the **organism**. That's you.",
-     "start": 45.51,
-     "end": 48.66
+     "start": 45.5,
+     "end": 48.69
     }
    ],
-   "end": 49.76
+   "end": 49.79
   },
   {
    "lec": "L1 · Tissues",
@@ -111,30 +111,30 @@
     "Muscle",
     "Nervous"
    ],
-   "start": 49.76,
+   "start": 49.79,
    "lines": [
     {
      "text": "There are four tissue types.",
-     "start": 49.76,
-     "end": 51.22
+     "start": 49.79,
+     "end": 51.25
     },
     {
      "text": "**Epithelial**, **connective**, **muscle** and **nervous**.",
-     "start": 51.67,
-     "end": 54.25
+     "start": 51.7,
+     "end": 54.26
     },
     {
      "text": "Every organ is built from these four.",
-     "start": 54.7,
-     "end": 56.63
+     "start": 54.71,
+     "end": 56.66
     },
     {
      "text": "You will meet each one again in Lecture 5 and beyond.",
-     "start": 57.08,
-     "end": 60.24
+     "start": 57.11,
+     "end": 60.31
     }
    ],
-   "end": 61.34
+   "end": 61.41
   },
   {
    "lec": "L1 · Systems",
@@ -147,40 +147,40 @@
     "Nervous",
     "Endocrine"
    ],
-   "start": 61.34,
+   "start": 61.41,
    "lines": [
     {
      "text": "The body has **eleven** organ systems.",
-     "start": 61.34,
-     "end": 63.48
+     "start": 61.41,
+     "end": 63.56
     },
     {
      "text": "The **integumentary** system is the skin, hair, glands and nails. Skin is the largest organ.",
-     "start": 63.93,
-     "end": 70.32
+     "start": 64.01,
+     "end": 70.41
     },
     {
      "text": "The **skeletal** system supports, protects, stores minerals like calcium and makes blood cells.",
-     "start": 70.77,
-     "end": 76.1
+     "start": 70.86,
+     "end": 76.21
     },
     {
      "text": "The **muscular** system moves the body by contraction.",
-     "start": 76.55,
-     "end": 79.71
+     "start": 76.66,
+     "end": 79.82
     },
     {
      "text": "The **nervous** system controls the body fast, with sensory input, integration and motor output.",
-     "start": 80.16,
-     "end": 86.24
+     "start": 80.27,
+     "end": 86.31
     },
     {
      "text": "The **endocrine** system controls the body more slowly, with hormones in the blood.",
-     "start": 86.69,
-     "end": 91.5
+     "start": 86.76,
+     "end": 91.69
     }
    ],
-   "end": 92.6
+   "end": 92.79
   },
   {
    "lec": "L1 · Systems",
@@ -194,40 +194,40 @@
     "Urinary",
     "Reproductive"
    ],
-   "start": 92.6,
+   "start": 92.79,
    "lines": [
     {
      "text": "The **cardiovascular** system moves gases, nutrients and wastes, and helps regulate temperature.",
-     "start": 92.6,
-     "end": 98.74
+     "start": 92.79,
+     "end": 98.91
     },
     {
      "text": "The **lymphatic** system drains fluid and defends the body. It complements the cardiovascular system.",
-     "start": 99.19,
-     "end": 105.43
+     "start": 99.36,
+     "end": 105.61
     },
     {
      "text": "The **respiratory** system exchanges gases and helps regulate pH.",
-     "start": 105.88,
-     "end": 110.41
+     "start": 106.06,
+     "end": 110.57
     },
     {
      "text": "The **digestive** system takes in food, digests it, absorbs nutrients and gets rid of waste.",
-     "start": 110.86,
-     "end": 116.52
+     "start": 111.02,
+     "end": 116.67
     },
     {
      "text": "The **urinary** system filters nitrogen waste and regulates blood pressure, pH and water and salt balance.",
-     "start": 116.97,
-     "end": 123.99
+     "start": 117.12,
+     "end": 124.2
     },
     {
      "text": "The **reproductive** system produces offspring.",
-     "start": 124.44,
-     "end": 126.89
+     "start": 124.65,
+     "end": 127.1
     }
    ],
-   "end": 127.99
+   "end": 128.2
   },
   {
    "lec": "L1 · Position",
@@ -237,25 +237,25 @@
     "Anatomical position",
     "Client's right"
    ],
-   "start": 127.99,
+   "start": 128.2,
    "lines": [
     {
      "text": "Every direction is described from **anatomical position**.",
-     "start": 127.99,
-     "end": 131.34
+     "start": 128.2,
+     "end": 131.62
     },
     {
      "text": "Standing upright. Feet forward. Arms at the sides. Palms facing forward.",
-     "start": 131.79,
-     "end": 136.53
+     "start": 132.07,
+     "end": 136.86
     },
     {
      "text": "Your client's right is never the same side as your right.",
-     "start": 136.98,
-     "end": 140.07
+     "start": 137.31,
+     "end": 140.46
     }
    ],
-   "end": 141.17
+   "end": 141.56
   },
   {
    "lec": "L1 · Directions",
@@ -268,35 +268,35 @@
     "Proximal",
     "Superficial"
    ],
-   "start": 141.17,
+   "start": 141.56,
    "lines": [
     {
      "text": "**Superior** means toward the head. Inferior means toward the feet.",
-     "start": 141.17,
-     "end": 144.97
+     "start": 141.56,
+     "end": 145.31
     },
     {
      "text": "**Anterior** means front. Posterior means back.",
-     "start": 145.42,
-     "end": 148.22
+     "start": 145.76,
+     "end": 148.5
     },
     {
      "text": "**Medial** means toward the midline. Lateral means away from it.",
-     "start": 148.67,
-     "end": 152.39
+     "start": 148.95,
+     "end": 152.64
     },
     {
      "text": "**Proximal** means close to the point of attachment. Distal means farther away.",
-     "start": 152.84,
-     "end": 157.49
+     "start": 153.09,
+     "end": 157.69
     },
     {
      "text": "**Superficial** means toward the surface. Deep means away from it.",
-     "start": 157.94,
-     "end": 161.52
+     "start": 158.14,
+     "end": 161.78
     }
    ],
-   "end": 162.62
+   "end": 162.88
   },
   {
    "lec": "L1 · Regions",
@@ -308,40 +308,40 @@
     "Popliteal",
     "Plantar"
    ],
-   "start": 162.62,
+   "start": 162.88,
    "lines": [
     {
      "text": "Regional terms name body areas.",
-     "start": 162.62,
-     "end": 164.66
+     "start": 162.88,
+     "end": 164.91
     },
     {
      "text": "**Brachial** is the arm. Antebrachial is the forearm.",
-     "start": 165.11,
-     "end": 168.2
+     "start": 165.36,
+     "end": 168.48
     },
     {
      "text": "**Antecubital** is the front of the elbow. Olecranal is the back.",
-     "start": 168.65,
-     "end": 172.47
+     "start": 168.93,
+     "end": 172.72
     },
     {
      "text": "Patellar is the front of the knee. **Popliteal** is the back.",
-     "start": 172.92,
-     "end": 176.27
+     "start": 173.17,
+     "end": 176.47
     },
     {
      "text": "Sural is the calf. Calcaneal is the heel. **Plantar** is the sole of the foot.",
-     "start": 176.72,
-     "end": 181.48
+     "start": 176.92,
+     "end": 181.71
     },
     {
      "text": "Pollex is the thumb. Hallux is the big toe.",
-     "start": 181.93,
-     "end": 184.76
+     "start": 182.16,
+     "end": 184.92
     }
    ],
-   "end": 185.86
+   "end": 186.02
   },
   {
    "lec": "L1 · Planes",
@@ -352,35 +352,35 @@
     "Coronal",
     "Transverse"
    ],
-   "start": 185.86,
+   "start": 186.02,
    "lines": [
     {
      "text": "A **sagittal** plane divides the body into left and right.",
-     "start": 185.86,
-     "end": 189.26
+     "start": 186.02,
+     "end": 189.39
     },
     {
      "text": "Midsagittal divides it into equal halves.",
-     "start": 189.71,
-     "end": 192.2
+     "start": 189.84,
+     "end": 192.34
     },
     {
      "text": "A **coronal**, or frontal, plane divides front from back.",
-     "start": 192.65,
-     "end": 195.82
+     "start": 192.79,
+     "end": 195.96
     },
     {
      "text": "A **transverse** plane divides top from bottom.",
-     "start": 196.27,
-     "end": 198.82
+     "start": 196.41,
+     "end": 199.06
     },
     {
      "text": "An oblique plane cuts at an angle.",
-     "start": 199.27,
-     "end": 201.15
+     "start": 199.51,
+     "end": 201.36
     }
    ],
-   "end": 202.25
+   "end": 202.46
   },
   {
    "lec": "L1 · Cavities",
@@ -392,35 +392,35 @@
     "Diaphragm",
     "Mediastinum"
    ],
-   "start": 202.25,
+   "start": 202.46,
    "lines": [
     {
      "text": "Cavities protect organs and let them change size and shape.",
-     "start": 202.25,
-     "end": 205.77
+     "start": 202.46,
+     "end": 205.94
     },
     {
      "text": "The **dorsal** cavity holds the brain and spinal cord.",
-     "start": 206.22,
-     "end": 209.26
+     "start": 206.39,
+     "end": 209.46
     },
     {
      "text": "The **ventral** cavity is the largest.",
-     "start": 209.71,
-     "end": 211.91
+     "start": 209.91,
+     "end": 212.06
     },
     {
      "text": "The **diaphragm** separates the thoracic cavity from the abdominopelvic cavity.",
-     "start": 212.36,
-     "end": 217.16
+     "start": 212.51,
+     "end": 217.37
     },
     {
      "text": "The **mediastinum** sits in the middle of the chest. It encloses the heart, trachea and esophagus.",
-     "start": 217.61,
-     "end": 223.49
+     "start": 217.82,
+     "end": 223.71
     }
    ],
-   "end": 224.59
+   "end": 224.81
   },
   {
    "lec": "L1 · Quadrants",
@@ -432,40 +432,40 @@
     "Epigastric",
     "Umbilical"
    ],
-   "start": 224.59,
+   "start": 224.81,
    "lines": [
     {
      "text": "Four quadrants are centered on the navel.",
-     "start": 224.59,
-     "end": 226.73
+     "start": 224.81,
+     "end": 226.95
     },
     {
      "text": "**Right upper quadrant**: liver and gallbladder.",
-     "start": 227.18,
-     "end": 229.68
+     "start": 227.4,
+     "end": 229.83
     },
     {
      "text": "Right lower: the appendix.",
-     "start": 230.13,
-     "end": 231.79
+     "start": 230.28,
+     "end": 231.91
     },
     {
      "text": "**Left upper**: stomach and spleen. Left lower: sigmoid colon.",
-     "start": 232.24,
-     "end": 236.13
+     "start": 232.36,
+     "end": 236.23
     },
     {
      "text": "Nine regions form a tic-tac-toe grid.",
-     "start": 236.58,
-     "end": 238.94
+     "start": 236.68,
+     "end": 239.09
     },
     {
      "text": "The middle column, top to bottom, is **epigastric**, **umbilical**, hypogastric.",
-     "start": 239.39,
-     "end": 244.22
+     "start": 239.54,
+     "end": 244.38
     }
    ],
-   "end": 245.32
+   "end": 245.48
   },
   {
    "lec": "L1 · Homeostasis",
@@ -478,40 +478,40 @@
     "Control center",
     "Effector"
    ],
-   "start": 245.32,
+   "start": 245.48,
    "lines": [
     {
      "text": "**Homeostasis** is a stable internal environment.",
-     "start": 245.32,
-     "end": 248.61
+     "start": 245.48,
+     "end": 248.77
     },
     {
      "text": "A feedback system has four parts.",
-     "start": 249.06,
-     "end": 250.99
+     "start": 249.22,
+     "end": 251.15
     },
     {
      "text": "The **stimulus** is a change from normal.",
-     "start": 251.44,
-     "end": 253.59
+     "start": 251.6,
+     "end": 253.75
     },
     {
      "text": "The **receptor** senses it and signals the control center.",
-     "start": 254.04,
-     "end": 257.22
+     "start": 254.2,
+     "end": 257.38
     },
     {
      "text": "The **control center** decides and sends instructions.",
-     "start": 257.67,
-     "end": 260.71
+     "start": 257.83,
+     "end": 260.91
     },
     {
      "text": "The **effector** responds. It is always a cell, tissue or organ.",
-     "start": 261.16,
-     "end": 264.96
+     "start": 261.36,
+     "end": 265.18
     }
    ],
-   "end": 266.06
+   "end": 266.28
   },
   {
    "lec": "L1 · Feedback",
@@ -522,35 +522,35 @@
     "Insulin",
     "Glucagon"
    ],
-   "start": 266.06,
+   "start": 266.28,
    "lines": [
     {
      "text": "In **negative feedback**, the response opposes the change. Most feedback is negative.",
-     "start": 266.06,
-     "end": 271.25
+     "start": 266.28,
+     "end": 271.51
     },
     {
      "text": "An ice cube cools the skin. Krause bulbs sense the cold.",
-     "start": 271.7,
-     "end": 275.19
+     "start": 271.96,
+     "end": 275.43
     },
     {
      "text": "The hypothalamus responds. Vessels constrict and muscles shiver.",
-     "start": 275.64,
-     "end": 279.76
+     "start": 275.88,
+     "end": 279.97
     },
     {
      "text": "Blood sugar rises after cake. Beta cells release **insulin**, and sugar falls.",
-     "start": 280.21,
-     "end": 285.27
+     "start": 280.42,
+     "end": 285.53
     },
     {
      "text": "Blood sugar drops. Alpha cells release **glucagon**, and sugar rises.",
-     "start": 285.72,
-     "end": 290.21
+     "start": 285.98,
+     "end": 290.46
     }
    ],
-   "end": 291.31
+   "end": 291.56
   },
   {
    "lec": "L1 · Feedback",
@@ -561,37 +561,37 @@
     "Oxytocin",
     "Clotting"
    ],
-   "start": 291.31,
+   "start": 291.56,
    "lines": [
     {
      "text": "In **positive feedback**, the response amplifies the change.",
-     "start": 291.31,
-     "end": 294.83
+     "start": 291.56,
+     "end": 295.13
     },
     {
      "text": "It is natural but rare.",
-     "start": 295.28,
-     "end": 296.61
+     "start": 295.58,
+     "end": 296.92
     },
     {
      "text": "In childbirth, the cervix stretches and the pituitary releases **oxytocin**.",
-     "start": 297.06,
-     "end": 302.02
+     "start": 297.37,
+     "end": 302.33
     },
     {
      "text": "Contractions get stronger, which stretches the cervix more.",
-     "start": 302.47,
-     "end": 305.73
+     "start": 302.78,
+     "end": 306.03
     },
     {
      "text": "Blood **clotting** is the other classic example.",
-     "start": 306.18,
-     "end": 308.61
+     "start": 306.48,
+     "end": 308.92
     }
    ],
-   "end": 309.71
+   "end": 310.02
   }
  ],
- "duration": 309.71,
+ "duration": 310.02,
  "audio": "stories/l01.mp3"
 }
