@@ -1,9 +1,182 @@
 [
  {
   "id": "calcium",
+  "group": "thread",
+  "num": 1,
   "title": "Calcium's Journey",
   "subtitle": "One ion, from atom to muscle contraction",
   "lectures": "Lectures 1, 2, 3, 5, 6, 7, 13, 14, 15",
-  "duration": 360.25
+  "duration": 360.27
+ },
+ {
+  "id": "t_ct",
+  "group": "thread",
+  "num": 2,
+  "title": "Connective Tissue Everywhere",
+  "subtitle": "One tissue family, from fibers to bone, joints and muscle wrappings",
+  "lectures": "Lectures 5, 6, 7, 9, 12, 13",
+  "duration": 229.04
+ },
+ {
+  "id": "t_feedback",
+  "group": "thread",
+  "num": 3,
+  "title": "Feedback Loops",
+  "subtitle": "Homeostasis in temperature, calcium, sugar, oxygen and birth",
+  "lectures": "Lectures 1, 6, 7, 14, 15",
+  "duration": 211.39
+ },
+ {
+  "id": "t_levels",
+  "group": "thread",
+  "num": 4,
+  "title": "Atom to Organism",
+  "subtitle": "Climb the levels of organization through Lectures 1 to 6",
+  "lectures": "Lectures 1–6",
+  "duration": 211.93
+ },
+ {
+  "id": "t_energy",
+  "group": "thread",
+  "num": 5,
+  "title": "Fueling the Body: ATP",
+  "subtitle": "From chemical bonds to glucose, mitochondria and muscle contraction",
+  "lectures": "Lectures 2, 3, 4, 14, 15",
+  "duration": 204.93
+ },
+ {
+  "id": "l01",
+  "group": "lecture",
+  "num": 1,
+  "title": "L1 · Intro to A&P",
+  "subtitle": "Levels of organization, body systems, directions, homeostasis",
+  "lectures": "Lecture 1",
+  "duration": 308.98
+ },
+ {
+  "id": "l02",
+  "group": "lecture",
+  "num": 2,
+  "title": "L2 · Atoms & Molecules",
+  "subtitle": "Atoms, ions, bonds and chemical reactions",
+  "lectures": "Lecture 2",
+  "duration": 229.89
+ },
+ {
+  "id": "l03",
+  "group": "lecture",
+  "num": 3,
+  "title": "L3 · Biochemistry & Cell Membrane",
+  "subtitle": "Inorganic and organic compounds, the membrane, transport",
+  "lectures": "Lecture 3",
+  "duration": 286.64
+ },
+ {
+  "id": "l04",
+  "group": "lecture",
+  "num": 4,
+  "title": "L4 · Cells, DNA & Cell Cycle",
+  "subtitle": "Organelles, DNA and RNA, protein synthesis, mitosis",
+  "lectures": "Lecture 4",
+  "duration": 231.98
+ },
+ {
+  "id": "l05",
+  "group": "lecture",
+  "num": 5,
+  "title": "L5 · Tissues",
+  "subtitle": "Matrix, cell junctions, epithelium, connective tissue",
+  "lectures": "Lecture 5",
+  "duration": 233.17
+ },
+ {
+  "id": "l06",
+  "group": "lecture",
+  "num": 6,
+  "title": "L6 · Membranes & Skin",
+  "subtitle": "Body membranes, skin functions, layers, glands, hair, nails",
+  "lectures": "Lecture 6",
+  "duration": 249.46
+ },
+ {
+  "id": "l07",
+  "group": "lecture",
+  "num": 7,
+  "title": "L7 · Skeletal System",
+  "subtitle": "Functions, bone cells, bone shapes and structure, homeostasis, fractures",
+  "lectures": "Lecture 7",
+  "duration": 265.59
+ },
+ {
+  "id": "l08",
+  "group": "lecture",
+  "num": 8,
+  "title": "L8 · Skull",
+  "subtitle": "Bone markings, cranial and facial bones, sinuses",
+  "lectures": "Lecture 8",
+  "duration": 204.16
+ },
+ {
+  "id": "l09",
+  "group": "lecture",
+  "num": 9,
+  "title": "L9 · Spine & Thoracic Cage",
+  "subtitle": "Vertebrae, regional features, spinal curves, ribs, sternum",
+  "lectures": "Lecture 9",
+  "duration": 179.64
+ },
+ {
+  "id": "l10",
+  "group": "lecture",
+  "num": 10,
+  "title": "L10 · Upper Extremity",
+  "subtitle": "Shoulder girdle, scapula, humerus, radius and ulna, wrist and hand",
+  "lectures": "Lecture 10",
+  "duration": 219.13
+ },
+ {
+  "id": "l11",
+  "group": "lecture",
+  "num": 11,
+  "title": "L11 · Lower Extremity",
+  "subtitle": "Pelvic girdle, coxal bone, femur, tibia and fibula, ankle and foot",
+  "lectures": "Lecture 11",
+  "duration": 193.54
+ },
+ {
+  "id": "l12",
+  "group": "lecture",
+  "num": 12,
+  "title": "L12 · Joints",
+  "subtitle": "Functional and structural types, synovial joints, movements, major joints",
+  "lectures": "Lecture 12",
+  "duration": 244.33
+ },
+ {
+  "id": "l13",
+  "group": "lecture",
+  "num": 13,
+  "title": "L13 · Muscle Tissue",
+  "subtitle": "Muscle types, fiber structure, myofilaments, sarcomere, wrappings",
+  "lectures": "Lecture 13",
+  "duration": 210.78
+ },
+ {
+  "id": "l14",
+  "group": "lecture",
+  "num": 14,
+  "title": "L14 · Muscular System II",
+  "subtitle": "Nervous system, NMJ, contraction, energy, fiber types, twitches",
+  "lectures": "Lecture 14",
+  "duration": 278.21
+ },
+ {
+  "id": "l15",
+  "group": "lecture",
+  "num": 15,
+  "title": "L15 · Endocrine System",
+  "subtitle": "Glands, hormone types, and each hormone's source, target and effect",
+  "lectures": "Lecture 15",
+  "duration": 272.86
  }
 ]

@@ -1,0 +1,498 @@
+{
+ "id": "t_ct",
+ "group": "thread",
+ "num": 2,
+ "title": "Connective Tissue Everywhere",
+ "subtitle": "One tissue family, from fibers to bone, joints and muscle wrappings",
+ "lectures": "Lectures 5, 6, 7, 9, 12, 13",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "Overview",
+   "title": "The body's framework",
+   "img": null,
+   "terms": [
+    "Tissues",
+    "Membranes",
+    "Bone",
+    "Joints",
+    "Muscle"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "Connective tissue is the most abundant tissue in the body.",
+     "start": 0.4,
+     "end": 3.72
+    },
+    {
+     "text": "You met it in Lecture 5.",
+     "start": 4.17,
+     "end": 5.74
+    },
+    {
+     "text": "Then it kept showing up. In skin, bone, joints and muscle.",
+     "start": 6.19,
+     "end": 9.83
+    },
+    {
+     "text": "This story follows it through all of them.",
+     "start": 10.28,
+     "end": 12.37
+    }
+   ],
+   "end": 13.47
+  },
+  {
+   "lec": "L5 · Matrix",
+   "title": "Mostly matrix",
+   "img": "L5_01.jpg",
+   "terms": [
+    "Matrix",
+    "Fibroblasts",
+    "Collagen",
+    "Elastic",
+    "Reticular"
+   ],
+   "start": 13.47,
+   "lines": [
+    {
+     "text": "Connective tissue has few cells and lots of **matrix**.",
+     "start": 13.47,
+     "end": 16.54
+    },
+    {
+     "text": "It is very vascular, with low turnover. Almost the opposite of epithelium.",
+     "start": 16.99,
+     "end": 21.75
+    },
+    {
+     "text": "**Fibroblasts** make the fibers.",
+     "start": 22.2,
+     "end": 23.9
+    },
+    {
+     "text": "**Collagen** is strongest. **Elastic** fibers recoil. **Reticular** fibers form networks.",
+     "start": 24.35,
+     "end": 29.87
+    },
+    {
+     "text": "Watch which fiber wins in each place. It explains what that tissue does.",
+     "start": 30.32,
+     "end": 34.6
+    }
+   ],
+   "end": 35.7
+  },
+  {
+   "lec": "L5 · CT proper",
+   "title": "Direction matters",
+   "img": "L5_11.jpg",
+   "terms": [
+    "Dense regular",
+    "Dense irregular"
+   ],
+   "start": 35.7,
+   "lines": [
+    {
+     "text": "In **dense regular** tissue, collagen runs in parallel.",
+     "start": 35.7,
+     "end": 39.01
+    },
+    {
+     "text": "It's strong in one direction. That's what tendons and ligaments need.",
+     "start": 39.46,
+     "end": 43.35
+    },
+    {
+     "text": "In **dense irregular** tissue, collagen runs every way.",
+     "start": 43.8,
+     "end": 47.11
+    },
+    {
+     "text": "It's strong in all directions. That's the dermis.",
+     "start": 47.56,
+     "end": 50.29
+    }
+   ],
+   "end": 51.39
+  },
+  {
+   "lec": "L6 · Skin",
+   "title": "Connective tissue in skin",
+   "img": "L6_05.jpg",
+   "terms": [
+    "Papillary layer",
+    "Reticular layer",
+    "Hypodermis"
+   ],
+   "start": 51.39,
+   "lines": [
+    {
+     "text": "The epidermis is epithelium. Everything below it is connective tissue.",
+     "start": 51.39,
+     "end": 55.8
+    },
+    {
+     "text": "The **papillary layer** of the dermis is areolar tissue.",
+     "start": 56.25,
+     "end": 59.34
+    },
+    {
+     "text": "The **reticular layer** is dense irregular tissue. It handles pulling and twisting.",
+     "start": 59.79,
+     "end": 64.56
+    },
+    {
+     "text": "The **hypodermis** is adipose tissue. It protects, insulates and stores energy.",
+     "start": 65.01,
+     "end": 69.9
+    }
+   ],
+   "end": 71.0
+  },
+  {
+   "lec": "L6 · Membranes",
+   "title": "The one CT membrane",
+   "img": "L6_03.jpg",
+   "terms": [
+    "Synovial membrane",
+    "Areolar"
+   ],
+   "start": 71.0,
+   "lines": [
+    {
+     "text": "Three body membranes are epithelial.",
+     "start": 71.0,
+     "end": 73.07
+    },
+    {
+     "text": "The **synovial membrane** is the only one made of connective tissue.",
+     "start": 73.52,
+     "end": 77.21
+    },
+    {
+     "text": "It is loose **areolar** tissue, with no epithelium.",
+     "start": 77.66,
+     "end": 80.67
+    },
+    {
+     "text": "Keep it in mind. It comes back in joints.",
+     "start": 81.12,
+     "end": 83.62
+    }
+   ],
+   "end": 84.72
+  },
+  {
+   "lec": "L5 · Cartilage",
+   "title": "Three cartilages",
+   "img": "L5_14.jpg",
+   "terms": [
+    "Hyaline",
+    "Elastic cartilage",
+    "Fibrocartilage"
+   ],
+   "start": 84.72,
+   "lines": [
+    {
+     "text": "Cartilage has no blood and no nerves.",
+     "start": 84.72,
+     "end": 87.11
+    },
+    {
+     "text": "**Hyaline** cartilage covers bone ends and forms the growth plates.",
+     "start": 87.56,
+     "end": 91.57
+    },
+    {
+     "text": "**Elastic cartilage** shapes the ear.",
+     "start": 92.02,
+     "end": 93.82
+    },
+    {
+     "text": "**Fibrocartilage** resists compression.",
+     "start": 94.27,
+     "end": 96.39
+    }
+   ],
+   "end": 97.49
+  },
+  {
+   "lec": "L7 · Bone",
+   "title": "Bone is connective tissue",
+   "img": "L5_16.jpg",
+   "terms": [
+    "Hydroxyapatite",
+    "Osteoid",
+    "Osteon"
+   ],
+   "start": 97.49,
+   "lines": [
+    {
+     "text": "Bone is connective tissue with a solid matrix.",
+     "start": 97.49,
+     "end": 100.5
+    },
+    {
+     "text": "**Hydroxyapatite** makes it hard. **Osteoid** collagen makes it strong.",
+     "start": 100.95,
+     "end": 105.16
+    },
+    {
+     "text": "Compact bone is built from **osteons**.",
+     "start": 105.61,
+     "end": 107.79
+    },
+    {
+     "text": "The periosteum's outer layer is fibrous. It blends into tendons and ligaments.",
+     "start": 108.24,
+     "end": 113.05
+    }
+   ],
+   "end": 114.15
+  },
+  {
+   "lec": "L7 · Growth",
+   "title": "Cartilage becomes bone",
+   "img": "L7_08.jpg",
+   "terms": [
+    "Endochondral",
+    "Epiphyseal plate",
+    "Articular cartilage"
+   ],
+   "start": 114.15,
+   "lines": [
+    {
+     "text": "Most bones form inside hyaline cartilage. That's **endochondral** ossification.",
+     "start": 114.15,
+     "end": 119.39
+    },
+    {
+     "text": "The **epiphyseal plate** is hyaline cartilage where bone grows in length.",
+     "start": 119.84,
+     "end": 124.11
+    },
+    {
+     "text": "**Articular cartilage** is hyaline too. It covers the joint surface.",
+     "start": 124.56,
+     "end": 128.81
+    }
+   ],
+   "end": 129.91
+  },
+  {
+   "lec": "L9 · Spine",
+   "title": "Discs",
+   "img": "L9_06.jpg",
+   "terms": [
+    "Intervertebral disc",
+    "Fibrocartilage",
+    "Symphysis"
+   ],
+   "start": 129.91,
+   "lines": [
+    {
+     "text": "**Intervertebral discs** are **fibrocartilage**.",
+     "start": 129.91,
+     "end": 132.3
+    },
+    {
+     "text": "They bear weight and resist compression.",
+     "start": 132.75,
+     "end": 134.79
+    },
+    {
+     "text": "Each one forms a **symphysis**, a slightly movable joint.",
+     "start": 135.24,
+     "end": 138.63
+    }
+   ],
+   "end": 139.73
+  },
+  {
+   "lec": "L12 · Joints",
+   "title": "Joints sorted by tissue",
+   "img": "L12_01.jpg",
+   "terms": [
+    "Fibrous",
+    "Cartilaginous",
+    "Synovial"
+   ],
+   "start": 139.73,
+   "lines": [
+    {
+     "text": "Joints are sorted by connective tissue.",
+     "start": 139.73,
+     "end": 141.81
+    },
+    {
+     "text": "**Fibrous** joints use dense fibrous tissue. Sutures and syndesmoses.",
+     "start": 142.26,
+     "end": 146.68
+    },
+    {
+     "text": "**Cartilaginous** joints use hyaline cartilage or fibrocartilage.",
+     "start": 147.13,
+     "end": 151.41
+    },
+    {
+     "text": "**Synovial** joints have a capsule. Its inner layer is the synovial membrane from Lecture 6.",
+     "start": 151.86,
+     "end": 157.65
+    },
+    {
+     "text": "Its fluid lubricates, absorbs shock and feeds the cartilage.",
+     "start": 158.1,
+     "end": 161.75
+    }
+   ],
+   "end": 162.85
+  },
+  {
+   "lec": "L12 · Knee",
+   "title": "Ligaments and menisci",
+   "img": "L12_22.jpg",
+   "terms": [
+    "Ligaments",
+    "Menisci",
+    "Labrum"
+   ],
+   "start": 162.85,
+   "lines": [
+    {
+     "text": "**Ligaments** are dense regular tissue. They connect bone to bone.",
+     "start": 162.85,
+     "end": 166.54
+    },
+    {
+     "text": "The knee's **menisci** are fibrocartilage pads.",
+     "start": 166.99,
+     "end": 169.59
+    },
+    {
+     "text": "The glenoid and acetabular **labrum** are cartilage rims that deepen a socket.",
+     "start": 170.04,
+     "end": 174.79
+    }
+   ],
+   "end": 175.89
+  },
+  {
+   "lec": "L13 · Muscle",
+   "title": "Wrapping the muscle",
+   "img": "L13_06.jpg",
+   "terms": [
+    "Endomysium",
+    "Perimysium",
+    "Epimysium"
+   ],
+   "start": 175.89,
+   "lines": [
+    {
+     "text": "Connective tissue wraps every skeletal muscle.",
+     "start": 175.89,
+     "end": 178.65
+    },
+    {
+     "text": "**Endomysium** around each fiber is areolar tissue.",
+     "start": 179.1,
+     "end": 182.01
+    },
+    {
+     "text": "**Perimysium** around each bundle is dense irregular.",
+     "start": 182.46,
+     "end": 185.55
+    },
+    {
+     "text": "**Epimysium** around the whole muscle is dense irregular too.",
+     "start": 186.0,
+     "end": 189.6
+    }
+   ],
+   "end": 190.7
+  },
+  {
+   "lec": "L13 · Muscle",
+   "title": "Tendons, aponeuroses, fascia",
+   "img": null,
+   "terms": [
+    "Tendon",
+    "Aponeurosis",
+    "Fascia"
+   ],
+   "start": 190.7,
+   "lines": [
+    {
+     "text": "The wrappings extend past the muscle.",
+     "start": 190.7,
+     "end": 192.67
+    },
+    {
+     "text": "They become a **tendon**, an **aponeurosis**, or **fascia**.",
+     "start": 193.12,
+     "end": 196.22
+    },
+    {
+     "text": "All three are dense regular tissue.",
+     "start": 196.67,
+     "end": 198.65
+    },
+    {
+     "text": "So a tendon is the same tissue as a ligament. Parallel collagen, strong in one direction.",
+     "start": 199.1,
+     "end": 204.78
+    }
+   ],
+   "end": 205.88
+  },
+  {
+   "lec": "Recap",
+   "title": "One family",
+   "img": null,
+   "terms": [
+    "Areolar",
+    "Dense",
+    "Cartilage",
+    "Bone",
+    "Adipose"
+   ],
+   "start": 205.88,
+   "lines": [
+    {
+     "text": "**Areolar** tissue packs, and lines joints as synovial membrane.",
+     "start": 205.88,
+     "end": 209.69
+    },
+    {
+     "text": "**Dense** regular makes tendons and ligaments. Dense irregular makes the dermis and muscle wrappings.",
+     "start": 210.14,
+     "end": 216.02
+    },
+    {
+     "text": "**Cartilage** covers joints and fills discs.",
+     "start": 216.47,
+     "end": 218.94
+    },
+    {
+     "text": "**Bone** is the hardest member of the family.",
+     "start": 219.39,
+     "end": 221.63
+    },
+    {
+     "text": "**Adipose** cushions under the skin.",
+     "start": 222.08,
+     "end": 223.75
+    },
+    {
+     "text": "As a massage therapist, you'll have your hands on this family all day.",
+     "start": 224.2,
+     "end": 227.94
+    }
+   ],
+   "end": 229.04
+  }
+ ],
+ "duration": 229.04,
+ "audio": "stories/t_ct.mp3"
+}

@@ -27,6 +27,8 @@ out["voice"] = voice
 out["scenes"] = []
 for si, sc in enumerate(story["scenes"]):
     scene = {k2: sc[k2] for k2 in ("lec", "title", "img", "terms")}
+    if scene["img"]:
+        scene["img"] = os.path.splitext(scene["img"])[0] + ".jpg"
     scene["start"] = round(t, 2)
     scene["lines"] = []
     for li, line in enumerate(sc["lines"]):
@@ -55,4 +57,5 @@ mp3 = f"{out_dir}/{story['id']}.mp3"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-ac", "1", "-b:a", "64k", mp3], check=True)
 out["audio"] = f"stories/{story['id']}.mp3"
 json.dump(out, open(f"{out_dir}/{story['id']}.json", "w"), ensure_ascii=False, indent=1)
-print("duration", t, "->", mp3)
+os.remove(wav)
+print("duration", round(t), "->", mp3)

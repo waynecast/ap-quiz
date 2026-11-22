@@ -1,0 +1,531 @@
+{
+ "id": "l12",
+ "group": "lecture",
+ "num": 12,
+ "title": "L12 · Joints",
+ "subtitle": "Functional and structural types, synovial joints, movements, major joints",
+ "lectures": "Lecture 12",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "L12",
+   "title": "What a joint does",
+   "img": null,
+   "terms": [
+    "Movement",
+    "Hold together",
+    "Prevent movement"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "A joint is where two bones meet.",
+     "start": 0.4,
+     "end": 2.19
+    },
+    {
+     "text": "Every joint **holds bones together**.",
+     "start": 2.64,
+     "end": 4.5
+    },
+    {
+     "text": "Some allow **movement**.",
+     "start": 4.95,
+     "end": 6.09
+    },
+    {
+     "text": "Some **prevent movement**.",
+     "start": 6.54,
+     "end": 7.75
+    }
+   ],
+   "end": 8.85
+  },
+  {
+   "lec": "L12 · Function",
+   "title": "SAD ISM",
+   "img": "L12_01.jpg",
+   "terms": [
+    "Synarthrotic",
+    "Amphiarthrotic",
+    "Diarthrotic"
+   ],
+   "start": 8.85,
+   "lines": [
+    {
+     "text": "By movement: SAD, ISM.",
+     "start": 8.85,
+     "end": 10.52
+    },
+    {
+     "text": "**Synarthrotic** is immovable. Sutures and the gomphosis that holds a tooth.",
+     "start": 10.97,
+     "end": 15.66
+    },
+    {
+     "text": "**Amphiarthrotic** is slightly movable.",
+     "start": 16.11,
+     "end": 18.05
+    },
+    {
+     "text": "Synchondroses, symphyses and syndesmoses.",
+     "start": 18.5,
+     "end": 21.32
+    },
+    {
+     "text": "**Diarthrotic** is freely movable. Elbows, knees, hips, shoulders.",
+     "start": 21.77,
+     "end": 26.18
+    }
+   ],
+   "end": 27.28
+  },
+  {
+   "lec": "L12 · Structure",
+   "title": "Fibrous joints",
+   "img": "L12_03.jpg",
+   "terms": [
+    "Fibrous",
+    "Suture",
+    "Gomphosis",
+    "Syndesmosis"
+   ],
+   "start": 27.28,
+   "lines": [
+    {
+     "text": "By tissue, there are three types.",
+     "start": 27.28,
+     "end": 29.04
+    },
+    {
+     "text": "**Fibrous** joints use dense connective tissue. No joint cavity.",
+     "start": 29.49,
+     "end": 33.29
+    },
+    {
+     "text": "**Sutures** join the skull bones.",
+     "start": 33.74,
+     "end": 35.43
+    },
+    {
+     "text": "A **gomphosis** holds a tooth.",
+     "start": 35.88,
+     "end": 37.57
+    },
+    {
+     "text": "A **syndesmosis** is a membrane sheet, like between radius and ulna.",
+     "start": 38.02,
+     "end": 42.12
+    }
+   ],
+   "end": 43.22
+  },
+  {
+   "lec": "L12 · Structure",
+   "title": "Cartilaginous joints",
+   "img": "L12_05.jpg",
+   "terms": [
+    "Synchondrosis",
+    "Symphysis"
+   ],
+   "start": 43.22,
+   "lines": [
+    {
+     "text": "Cartilaginous joints use cartilage. No joint cavity.",
+     "start": 43.22,
+     "end": 46.76
+    },
+    {
+     "text": "A **synchondrosis** uses hyaline cartilage. The growth plates, and rib 1 to the sternum.",
+     "start": 47.21,
+     "end": 52.74
+    },
+    {
+     "text": "A **symphysis** uses fibrocartilage. Intervertebral discs and the pubic symphysis.",
+     "start": 53.19,
+     "end": 58.23
+    }
+   ],
+   "end": 59.33
+  },
+  {
+   "lec": "L12 · Synovial",
+   "title": "Four synovial features",
+   "img": "L12_06.jpg",
+   "terms": [
+    "Articular cartilage",
+    "Capsule",
+    "Joint cavity",
+    "Ligaments"
+   ],
+   "start": 59.33,
+   "lines": [
+    {
+     "text": "Synovial joints are the most complex.",
+     "start": 59.33,
+     "end": 61.64
+    },
+    {
+     "text": "**Articular cartilage** is hyaline. It covers the bone ends.",
+     "start": 62.09,
+     "end": 65.77
+    },
+    {
+     "text": "The joint **capsule** has an outer fibrous layer and an inner synovial membrane.",
+     "start": 66.22,
+     "end": 70.7
+    },
+    {
+     "text": "The **joint cavity** holds synovial fluid.",
+     "start": 71.15,
+     "end": 73.51
+    },
+    {
+     "text": "**Reinforcing ligaments** add strength.",
+     "start": 73.96,
+     "end": 75.88
+    }
+   ],
+   "end": 76.98
+  },
+  {
+   "lec": "L12 · Synovial",
+   "title": "Synovial fluid",
+   "img": null,
+   "terms": [
+    "Lubrication",
+    "Shock absorption",
+    "Nutrition",
+    "Phagocytosis"
+   ],
+   "start": 76.98,
+   "lines": [
+    {
+     "text": "The synovial membrane makes the fluid from filtered blood.",
+     "start": 76.98,
+     "end": 80.36
+    },
+    {
+     "text": "It provides **lubrication** and **shock absorption**.",
+     "start": 80.81,
+     "end": 83.62
+    },
+    {
+     "text": "It brings **nutrition** to the cartilage.",
+     "start": 84.07,
+     "end": 86.0
+    },
+    {
+     "text": "Its white blood cells perform **phagocytosis**.",
+     "start": 86.45,
+     "end": 89.25
+    }
+   ],
+   "end": 90.35
+  },
+  {
+   "lec": "L12 · Accessory",
+   "title": "Bursae and menisci",
+   "img": "L12_08.jpg",
+   "terms": [
+    "Bursa",
+    "Tendon sheath",
+    "Meniscus"
+   ],
+   "start": 90.35,
+   "lines": [
+    {
+     "text": "A **bursa** is a flat sac of synovial fluid over a bony bump. It reduces friction.",
+     "start": 90.35,
+     "end": 95.48
+    },
+    {
+     "text": "Inflamed, it's bursitis.",
+     "start": 95.93,
+     "end": 97.65
+    },
+    {
+     "text": "A **tendon sheath** is a long bursa wrapped around a tendon.",
+     "start": 98.1,
+     "end": 101.45
+    },
+    {
+     "text": "A **meniscus** is a fibrocartilage pad in the knee, jaw or wrist.",
+     "start": 101.9,
+     "end": 105.81
+    }
+   ],
+   "end": 106.91
+  },
+  {
+   "lec": "L12 · Types",
+   "title": "Gliding, pivot, hinge",
+   "img": "L12_12.jpg",
+   "terms": [
+    "Gliding",
+    "Pivot",
+    "Hinge"
+   ],
+   "start": 106.91,
+   "lines": [
+    {
+     "text": "**Gliding** joints slide. They're nonaxial. Intercarpals and spinal facets.",
+     "start": 106.91,
+     "end": 111.62
+    },
+    {
+     "text": "**Pivot** joints only rotate. C one on C two, and the radius on the ulna.",
+     "start": 112.07,
+     "end": 117.18
+    },
+    {
+     "text": "**Hinge** joints only flex and extend.",
+     "start": 117.63,
+     "end": 119.69
+    },
+    {
+     "text": "Elbows, knees, finger joints, and the ankle for the New York boards.",
+     "start": 120.14,
+     "end": 124.29
+    }
+   ],
+   "end": 125.39
+  },
+  {
+   "lec": "L12 · Types",
+   "title": "Condyloid, saddle, ball",
+   "img": "L12_15.jpg",
+   "terms": [
+    "Condyloid",
+    "Saddle",
+    "Ball and socket"
+   ],
+   "start": 125.39,
+   "lines": [
+    {
+     "text": "**Condyloid** joints are biaxial. The knuckles, at the M. C. P.",
+     "start": 125.39,
+     "end": 129.53
+    },
+    {
+     "text": "**Saddle** joints are biaxial too. The thumb's carpometacarpal joint.",
+     "start": 129.98,
+     "end": 134.25
+    },
+    {
+     "text": "**Ball and socket** joints are multiaxial. The shoulder and hip.",
+     "start": 134.7,
+     "end": 138.42
+    },
+    {
+     "text": "They allow every movement, including rotation.",
+     "start": 138.87,
+     "end": 141.57
+    }
+   ],
+   "end": 142.67
+  },
+  {
+   "lec": "L12 · Movements",
+   "title": "Movements",
+   "img": null,
+   "terms": [
+    "Abduction",
+    "Adduction",
+    "Circumduction",
+    "Rotation"
+   ],
+   "start": 142.67,
+   "lines": [
+    {
+     "text": "Flexion bends. Extension straightens.",
+     "start": 142.67,
+     "end": 145.14
+    },
+    {
+     "text": "**Abduction** moves away from the midline. **Adduction** moves toward it.",
+     "start": 145.59,
+     "end": 149.5
+    },
+    {
+     "text": "**Circumduction** moves in a circle.",
+     "start": 149.95,
+     "end": 151.87
+    },
+    {
+     "text": "**Rotation** turns around a fixed point, inward or outward.",
+     "start": 152.32,
+     "end": 155.92
+    }
+   ],
+   "end": 157.02
+  },
+  {
+   "lec": "L12 · Movements",
+   "title": "More movements",
+   "img": null,
+   "terms": [
+    "Inversion",
+    "Eversion",
+    "Dorsiflexion",
+    "Plantar flexion",
+    "Opposition"
+   ],
+   "start": 157.02,
+   "lines": [
+    {
+     "text": "Protraction moves forward. Retraction moves back.",
+     "start": 157.02,
+     "end": 160.1
+    },
+    {
+     "text": "Elevation lifts. Depression lowers.",
+     "start": 160.55,
+     "end": 162.85
+    },
+    {
+     "text": "**Inversion** turns the sole in. **Eversion** turns it out.",
+     "start": 163.3,
+     "end": 166.48
+    },
+    {
+     "text": "**Dorsiflexion** points the foot up. **Plantar flexion** points it down.",
+     "start": 166.93,
+     "end": 170.73
+    },
+    {
+     "text": "**Opposition** brings the thumb to the pinky.",
+     "start": 171.18,
+     "end": 173.48
+    }
+   ],
+   "end": 174.58
+  },
+  {
+   "lec": "L12 · Shoulder",
+   "title": "The shoulder",
+   "img": "L12_17.jpg",
+   "terms": [
+    "Glenohumeral",
+    "Glenoid labrum",
+    "AC separation"
+   ],
+   "start": 174.58,
+   "lines": [
+    {
+     "text": "The shoulder has three joints: sternoclavicular, acromioclavicular and glenohumeral.",
+     "start": 174.58,
+     "end": 179.93
+    },
+    {
+     "text": "The **glenohumeral** joint is the most movable joint. It trades stability for mobility.",
+     "start": 180.38,
+     "end": 185.8
+    },
+    {
+     "text": "So it dislocates easily.",
+     "start": 186.25,
+     "end": 187.78
+    },
+    {
+     "text": "The **glenoid labrum** is a cartilage rim that deepens the socket.",
+     "start": 188.23,
+     "end": 191.92
+    },
+    {
+     "text": "A shoulder **separation** usually happens at the AC joint.",
+     "start": 192.37,
+     "end": 196.02
+    }
+   ],
+   "end": 197.12
+  },
+  {
+   "lec": "L12 · Elbow and hip",
+   "title": "Elbow and hip",
+   "img": "L12_19.jpg",
+   "terms": [
+    "Annular ligament",
+    "Nursemaid's elbow",
+    "Acetabular labrum"
+   ],
+   "start": 197.12,
+   "lines": [
+    {
+     "text": "The elbow is very stable. It trades mobility for stability.",
+     "start": 197.12,
+     "end": 200.98
+    },
+    {
+     "text": "The **annular ligament** wraps the radial head.",
+     "start": 201.43,
+     "end": 203.98
+    },
+    {
+     "text": "Pulling the radial head out of it is **nursemaid's elbow**.",
+     "start": 204.43,
+     "end": 207.39
+    },
+    {
+     "text": "The hip is a ball and socket. It's less mobile than the shoulder but far more stable.",
+     "start": 207.84,
+     "end": 212.8
+    },
+    {
+     "text": "The **acetabular labrum** deepens its socket.",
+     "start": 213.25,
+     "end": 215.75
+    }
+   ],
+   "end": 216.85
+  },
+  {
+   "lec": "L12 · Knee",
+   "title": "The knee",
+   "img": "L12_22.jpg",
+   "terms": [
+    "ACL",
+    "PCL",
+    "MCL",
+    "LCL",
+    "Menisci"
+   ],
+   "start": 216.85,
+   "lines": [
+    {
+     "text": "The knee is the largest and most complex joint. It's a hinge.",
+     "start": 216.85,
+     "end": 220.6
+    },
+    {
+     "text": "The cruciate ligaments cross inside it: **ACL** and **PCL**.",
+     "start": 221.05,
+     "end": 225.79
+    },
+    {
+     "text": "The collateral ligaments guard the sides: **MCL** and **LCL**.",
+     "start": 226.24,
+     "end": 230.59
+    },
+    {
+     "text": "The medial and lateral **menisci** cushion it.",
+     "start": 231.04,
+     "end": 233.51
+    },
+    {
+     "text": "A blow to the outside of the knee can cause the unhappy triad.",
+     "start": 233.96,
+     "end": 237.48
+    },
+    {
+     "text": "Medial collateral, medial meniscus, and anterior cruciate, all injured together.",
+     "start": 237.93,
+     "end": 243.23
+    }
+   ],
+   "end": 244.33
+  }
+ ],
+ "duration": 244.33,
+ "audio": "stories/l12.mp3"
+}

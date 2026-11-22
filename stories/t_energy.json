@@ -1,0 +1,468 @@
+{
+ "id": "t_energy",
+ "group": "thread",
+ "num": 5,
+ "title": "Fueling the Body: ATP",
+ "subtitle": "From chemical bonds to glucose, mitochondria and muscle contraction",
+ "lectures": "Lectures 2, 3, 4, 14, 15",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "Overview",
+   "title": "Follow the energy",
+   "img": null,
+   "terms": [
+    "Energy",
+    "Glucose",
+    "ATP",
+    "Muscle"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "Every movement you make costs energy.",
+     "start": 0.4,
+     "end": 2.39
+    },
+    {
+     "text": "This story follows that energy.",
+     "start": 2.84,
+     "end": 4.58
+    },
+    {
+     "text": "From chemical bonds, to glucose, to **ATP**, to a muscle contracting.",
+     "start": 5.03,
+     "end": 8.92
+    }
+   ],
+   "end": 10.02
+  },
+  {
+   "lec": "L2 · Energy",
+   "title": "Stored in bonds",
+   "img": null,
+   "terms": [
+    "Kinetic",
+    "Potential",
+    "Chemical bonds"
+   ],
+   "start": 10.02,
+   "lines": [
+    {
+     "text": "Energy is the ability to do work.",
+     "start": 10.02,
+     "end": 12.16
+    },
+    {
+     "text": "**Kinetic** energy is motion: heat, light, movement.",
+     "start": 12.61,
+     "end": 15.91
+    },
+    {
+     "text": "**Potential** energy is stored.",
+     "start": 16.36,
+     "end": 17.94
+    },
+    {
+     "text": "Food stores potential energy in its **chemical bonds**.",
+     "start": 18.39,
+     "end": 21.52
+    }
+   ],
+   "end": 22.62
+  },
+  {
+   "lec": "L2 · Reactions",
+   "title": "Anabolic and catabolic",
+   "img": "L2_10.jpg",
+   "terms": [
+    "Synthesis",
+    "Decomposition",
+    "Anabolic",
+    "Catabolic"
+   ],
+   "start": 22.62,
+   "lines": [
+    {
+     "text": "**Synthesis** builds molecules. It's **anabolic**, and it takes in energy.",
+     "start": 22.62,
+     "end": 26.74
+    },
+    {
+     "text": "**Decomposition** breaks molecules. It's **catabolic**, and it releases energy.",
+     "start": 27.19,
+     "end": 31.85
+    },
+    {
+     "text": "Digestion is catabolic. It breaks carbs into glucose.",
+     "start": 32.3,
+     "end": 35.89
+    }
+   ],
+   "end": 36.99
+  },
+  {
+   "lec": "L3 · Carbs",
+   "title": "Glucose, the preferred fuel",
+   "img": "L3_04.jpg",
+   "terms": [
+    "Glucose",
+    "Glycogen",
+    "Triglycerides"
+   ],
+   "start": 36.99,
+   "lines": [
+    {
+     "text": "Carbohydrates are the preferred energy source.",
+     "start": 36.99,
+     "end": 39.55
+    },
+    {
+     "text": "**Glucose** is C six, H twelve, O six.",
+     "start": 40.0,
+     "end": 42.64
+    },
+    {
+     "text": "The body stores glucose as **glycogen** in the liver and muscle.",
+     "start": 43.09,
+     "end": 46.76
+    },
+    {
+     "text": "**Triglycerides** store twice the energy per gram, but carbs come first.",
+     "start": 47.21,
+     "end": 51.35
+    }
+   ],
+   "end": 52.45
+  },
+  {
+   "lec": "L3 · Enzymes",
+   "title": "Enzymes speed it up",
+   "img": "L3_06.jpg",
+   "terms": [
+    "Enzyme",
+    "Activation energy",
+    "Catalyst"
+   ],
+   "start": 52.45,
+   "lines": [
+    {
+     "text": "Breaking down glucose takes many reactions.",
+     "start": 52.45,
+     "end": 54.86
+    },
+    {
+     "text": "**Enzymes** make them fast.",
+     "start": 55.31,
+     "end": 56.77
+    },
+    {
+     "text": "As **catalysts**, they lower the **activation energy**.",
+     "start": 57.22,
+     "end": 60.04
+    },
+    {
+     "text": "Lecture 2 said catalysts speed reactions. Enzymes are the body's catalysts.",
+     "start": 60.49,
+     "end": 65.63
+    }
+   ],
+   "end": 66.73
+  },
+  {
+   "lec": "L3 · ATP",
+   "title": "ATP, the currency",
+   "img": "L3_09.jpg",
+   "terms": [
+    "ATP",
+    "ADP",
+    "Phosphate bond"
+   ],
+   "start": 66.73,
+   "lines": [
+    {
+     "text": "Cells don't spend glucose directly. They spend **ATP**.",
+     "start": 66.73,
+     "end": 70.2
+    },
+    {
+     "text": "ATP is adenosine with three phosphates.",
+     "start": 70.65,
+     "end": 73.44
+    },
+    {
+     "text": "Breaking the last **phosphate bond** releases energy.",
+     "start": 73.89,
+     "end": 76.86
+    },
+    {
+     "text": "ATP becomes **ADP** plus phosphate. That's hydrolysis.",
+     "start": 77.31,
+     "end": 81.53
+    }
+   ],
+   "end": 82.63
+  },
+  {
+   "lec": "L4 · Mitochondria",
+   "title": "The powerhouse",
+   "img": "L4_05.jpg",
+   "terms": [
+    "Mitochondria",
+    "Cristae",
+    "Muscle cells"
+   ],
+   "start": 82.63,
+   "lines": [
+    {
+     "text": "**Mitochondria** make most of the body's ATP.",
+     "start": 82.63,
+     "end": 85.69
+    },
+    {
+     "text": "Their folded **cristae** add surface area for the work.",
+     "start": 86.14,
+     "end": 88.86
+    },
+    {
+     "text": "They're abundant in **muscle cells**, which use the most energy.",
+     "start": 89.31,
+     "end": 92.63
+    }
+   ],
+   "end": 93.73
+  },
+  {
+   "lec": "L3 · Transport",
+   "title": "ATP at the membrane",
+   "img": "L3_16.jpg",
+   "terms": [
+    "Active transport",
+    "Sodium-potassium pump"
+   ],
+   "start": 93.73,
+   "lines": [
+    {
+     "text": "**Active transport** spends ATP.",
+     "start": 93.73,
+     "end": 95.81
+    },
+    {
+     "text": "The **sodium potassium pump** is the classic example.",
+     "start": 96.26,
+     "end": 99.34
+    },
+    {
+     "text": "It resets sodium and potassium after a muscle fires.",
+     "start": 99.79,
+     "end": 103.18
+    }
+   ],
+   "end": 104.28
+  },
+  {
+   "lec": "L14 · Contraction",
+   "title": "ATP in the cross bridge",
+   "img": "L14_10.jpg",
+   "terms": [
+    "Release",
+    "Reset",
+    "Rigor mortis"
+   ],
+   "start": 104.28,
+   "lines": [
+    {
+     "text": "In muscle, ATP has two jobs in the cross-bridge cycle.",
+     "start": 104.28,
+     "end": 107.89
+    },
+    {
+     "text": "ATP binding makes myosin **release** actin.",
+     "start": 108.34,
+     "end": 111.51
+    },
+    {
+     "text": "ATP splitting **resets** the myosin head.",
+     "start": 111.96,
+     "end": 114.68
+    },
+    {
+     "text": "No ATP means no release. That's **rigor mortis**.",
+     "start": 115.13,
+     "end": 118.59
+    }
+   ],
+   "end": 119.69
+  },
+  {
+   "lec": "L14 · Energy",
+   "title": "Three pathways",
+   "img": "L14_13.jpg",
+   "terms": [
+    "Creatine phosphate",
+    "Anaerobic glycolysis",
+    "Aerobic respiration"
+   ],
+   "start": 119.69,
+   "lines": [
+    {
+     "text": "Muscle stores only a little ATP. It has to keep making more.",
+     "start": 119.69,
+     "end": 123.78
+    },
+    {
+     "text": "**Creatine phosphate** is fastest. About 10 to 15 seconds.",
+     "start": 124.23,
+     "end": 128.28
+    },
+    {
+     "text": "**Anaerobic glycolysis** makes 2 ATP per glucose, with lactic acid. About 30 to 40 seconds.",
+     "start": 128.73,
+     "end": 135.83
+    },
+    {
+     "text": "**Aerobic respiration** in the mitochondria makes about 32 ATP per glucose. It lasts for hours.",
+     "start": 136.28,
+     "end": 143.09
+    }
+   ],
+   "end": 144.19
+  },
+  {
+   "lec": "L14 · Fiber types",
+   "title": "Fibers built for fuel",
+   "img": null,
+   "terms": [
+    "Slow oxidative",
+    "Fast glycolytic",
+    "Myoglobin"
+   ],
+   "start": 144.19,
+   "lines": [
+    {
+     "text": "**Slow oxidative** fibers run on aerobic respiration.",
+     "start": 144.19,
+     "end": 147.78
+    },
+    {
+     "text": "They're packed with mitochondria and **myoglobin**, so they're dark red. They resist fatigue.",
+     "start": 148.23,
+     "end": 153.32
+    },
+    {
+     "text": "**Fast glycolytic** fibers run anaerobically. They're white, powerful and tire fast.",
+     "start": 153.77,
+     "end": 159.13
+    },
+    {
+     "text": "Endurance training adds mitochondria. That means more ATP.",
+     "start": 159.58,
+     "end": 163.6
+    }
+   ],
+   "end": 164.7
+  },
+  {
+   "lec": "L14 · Fatigue",
+   "title": "Running low",
+   "img": null,
+   "terms": [
+    "Fatigue",
+    "Lactic acid",
+    "Oxygen deficit"
+   ],
+   "start": 164.7,
+   "lines": [
+    {
+     "text": "**Fatigue** comes when supply can't keep up.",
+     "start": 164.7,
+     "end": 167.03
+    },
+    {
+     "text": "Low ATP. An **oxygen deficit**. **Lactic acid** buildup. Ion imbalance.",
+     "start": 167.48,
+     "end": 172.46
+    }
+   ],
+   "end": 173.56
+  },
+  {
+   "lec": "L15 · Hormones",
+   "title": "Hormones control the fuel",
+   "img": null,
+   "terms": [
+    "Insulin",
+    "Glucagon",
+    "Thyroid hormone",
+    "Cortisol"
+   ],
+   "start": 173.56,
+   "lines": [
+    {
+     "text": "**Insulin** moves glucose into cells and storage.",
+     "start": 173.56,
+     "end": 176.39
+    },
+    {
+     "text": "**Glucagon** releases it from the liver.",
+     "start": 176.84,
+     "end": 178.82
+    },
+    {
+     "text": "**Thyroid hormone** is the main metabolic hormone. It raises heat production.",
+     "start": 179.27,
+     "end": 184.02
+    },
+    {
+     "text": "**Cortisol** raises blood sugar to resist stress.",
+     "start": 184.47,
+     "end": 187.31
+    }
+   ],
+   "end": 188.41
+  },
+  {
+   "lec": "Recap",
+   "title": "The whole path",
+   "img": null,
+   "terms": [
+    "Bonds",
+    "Glucose",
+    "Mitochondria",
+    "ATP",
+    "Cross bridge"
+   ],
+   "start": 188.41,
+   "lines": [
+    {
+     "text": "Energy sits in chemical **bonds**.",
+     "start": 188.41,
+     "end": 190.28
+    },
+    {
+     "text": "Digestion breaks food into **glucose**.",
+     "start": 190.73,
+     "end": 192.78
+    },
+    {
+     "text": "Enzymes and **mitochondria** turn glucose into **ATP**.",
+     "start": 193.23,
+     "end": 196.81
+    },
+    {
+     "text": "ATP powers pumps, and every **cross bridge** in your muscles.",
+     "start": 197.26,
+     "end": 201.03
+    },
+    {
+     "text": "Hormones keep the fuel supply in range.",
+     "start": 201.48,
+     "end": 203.83
+    }
+   ],
+   "end": 204.93
+  }
+ ],
+ "duration": 204.93,
+ "audio": "stories/t_energy.mp3"
+}

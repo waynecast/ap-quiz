@@ -19,7 +19,7 @@ Direct links: [Midterm](https://waynecast.github.io/ap-quiz/#mid) · [Quiz #4](h
 - **Flashcards:** every quiz has a deck (all cards, by lecture, or by topic). Tap to flip, then Got it or Again; "Again" cards come back at the end. Shuffle, reverse, and "only cards I haven't gotten yet" options. The skull and spine cards show the handout diagram.
 - **Review missed:** retry the questions you got wrong in each quiz. Progress is stored only in your own browser.
 - Each answer shows a short explanation and the lecture/slide it comes from.
-- **Story mode** (`story.html`): narrated review stories. The picture, key terms and words appear on screen while it reads, and it keeps playing with the screen locked. First story: *Calcium's Journey* (Lectures 1–15).
+- **Story mode** (`story.html`): narrated review stories. The picture, key terms and words appear on screen while it reads, and it keeps playing with the screen locked. 20 stories (about 80 minutes): 5 cross-lecture *Connections* (Calcium's Journey, Connective Tissue Everywhere, Feedback Loops, Atom to Organism, Fueling the Body: ATP) and one story per lecture for Lectures 1–15. Lecture stories play straight into the next one.
 - Add it to your phone's home screen to open it like an app. It also works offline after the first visit.
 
 ## Editing questions
@@ -45,4 +45,4 @@ Unofficial study aid made by a student. Not affiliated with or reviewed by NYIM.
 
 ## Story mode
 
-Each story is a Python script in `stories/src/` (scenes with a lecture tag, title, image, key terms and short lines). `stories/src/build_story.py` narrates every line with the Kokoro neural voice (`kokoro-onnx`), joins them into one MP3 and writes the JSON cue sheet the player uses to sync the captions. Images live in `img/story/`. List each story in `stories/index.json`.
+Each story is a Python script in `stories/src/` (`calcium.py`, `t_*.py` threads, `l01.py`–`l15.py` lectures) (scenes with a lecture tag, title, image, key terms and short lines). `stories/src/build_story.py` narrates every line with the Kokoro neural voice (`kokoro-onnx`), joins them into one MP3 and writes the JSON cue sheet the player uses to sync the captions. Images live in `img/story/`. Run `stories/src/publish.sh` to narrate new or edited scripts and rebuild `stories/index.json` (needs `kokoro-onnx` and the model in `~/.cache/kokoro`).

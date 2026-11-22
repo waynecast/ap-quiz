@@ -33,6 +33,7 @@ body{
 main{max-width:640px;margin:0 auto;padding:12px 16px 150px}
 h1{font-size:1.5rem;margin:8px 0 4px;letter-spacing:-.01em}
 p{margin:0 0 12px}
+h2{font-size:1.1rem;margin:26px 0 2px}
 .muted{color:var(--muted)}
 .small{font-size:.85rem}
 button{font:inherit;color:inherit;cursor:pointer}
@@ -110,26 +111,31 @@ const ICON = {
 };
 const SPEEDS = [0.85, 1, 1.15, 1.3, 1.5];
 
-let S = null, sceneIdx = -1, lineIdx = -1;
+let S = null, LIST = null, sceneIdx = -1, lineIdx = -1;
 
 async function home(){
   aud.pause();
   history.replaceState(null, "", location.pathname);
-  const list = await fetch("stories/index.json").then(r => r.json());
+  const list = LIST = await fetch("stories/index.json").then(r => r.json());
+  const row = (s, primary) => {
+    const pos = store.get(s.id);
+    const resume = pos && pos.t > 5 ? ` · resume at ${fmt(pos.t)}` : "";
+    return `<button class="btn ${primary?"primary":""}" data-s="${esc(s.id)}">${esc(s.title)}<span class="sub">${esc(s.subtitle)} · ${fmt(s.duration)}${resume}</span></button>`;
+  };
+  const threads = list.filter(s => s.group === "thread"), lectures = list.filter(s => s.group !== "thread");
+  const total = list.reduce((n, s) => n + s.duration, 0);
   app.innerHTML = `
     <div class="topbar"><a class="linkbtn" href="./">‹ Quizzes</a></div>
     <h1>Story Mode</h1>
-    <p class="muted">Listen and follow along. Short narrated stories that connect terms across lectures, with the picture and words on screen.</p>
-    ${list.map((s,i) => {
-      const pos = store.get(s.id);
-      const resume = pos && pos.t > 5 ? ` · resume at ${fmt(pos.t)}` : "";
-      return `<button class="btn ${i===0?"primary":""}" data-s="${esc(s.id)}">${esc(s.title)}<span class="sub">${esc(s.subtitle)} · ${fmt(s.duration)}${resume}</span></button>`;
-    }).join("")}
+    <p class="muted">Listen and follow along. Narrated stories with the picture and key words on screen. ${list.length} stories, about ${Math.round(total/60)} minutes in all.</p>
+    ${threads.length ? `<h2>Connections</h2><p class="small muted">Follow one idea across many lectures.</p>${threads.map((s,i) => row(s, i===0)).join("")}` : ""}
+    ${lectures.length ? `<h2>Lecture by lecture</h2><p class="small muted">One story per lecture. Each plays straight into the next, so you can listen to all of them in a row.</p>${lectures.map(s => row(s, false)).join("")}` : ""}
     <footer>Unofficial study aid based on NYIM A&amp;P lectures. Tip: it keeps playing with your screen locked.</footer>`;
   app.querySelectorAll("[data-s]").forEach(b => b.onclick = () => open(b.dataset.s));
 }
 
-async function open(id){
+async function open(id, autoplay){
+  if (!LIST) { try { LIST = await fetch("stories/index.json").then(r => r.json()); } catch(e) { LIST = []; } }
   S = await fetch(`stories/${id}.json`).then(r => r.json());
   history.replaceState(null, "", "#" + id);
   sceneIdx = -1; lineIdx = -1;
@@ -169,6 +175,7 @@ async function open(id){
   aud.addEventListener("loadedmetadata", () => { if (pendingT != null) { aud.currentTime = pendingT; pendingT = null; } }, {once:true});
   sync(startAt);
   setupMediaSession();
+  if (autoplay) aud.play().catch(() => {});
 }
 
 let pendingT = null;
@@ -262,7 +269,14 @@ aud.addEventListener("timeupdate", () => {
 });
 aud.addEventListener("play", () => { $("pp").innerHTML = ICON.pause; $("pp").setAttribute("aria-label","Pause"); });
 aud.addEventListener("pause", () => { if ($("pp")) { $("pp").innerHTML = ICON.play; $("pp").setAttribute("aria-label","Play"); } savePos(); });
-aud.addEventListener("ended", () => { if (S) store.set(S.id, {t: 0}); });
+aud.addEventListener("ended", () => {
+  if (!S) return;
+  store.set(S.id, {t: 0});
+  // continue into the next story in the same group
+  const same = (LIST || []).filter(s => s.group === S.group);
+  const k = same.findIndex(s => s.id === S.id);
+  if (k >= 0 && k < same.length - 1) { store.set(same[k+1].id, {t: 0}); open(same[k+1].id, true); }
+});
 
 function setupMediaSession(){
   if (!("mediaSession" in navigator)) return;

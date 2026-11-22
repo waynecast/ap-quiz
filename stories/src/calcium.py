@@ -4,7 +4,7 @@
 # spoken form needs to differ (symbols, abbreviations). **word** = highlight.
 
 STORY = {
-    "id": "calcium",
+    "id": "calcium", "group": "thread", "num": 1,
     "title": "Calcium's Journey",
     "subtitle": "One ion, from atom to muscle contraction",
     "lectures": "Lectures 1, 2, 3, 5, 6, 7, 13, 14, 15",

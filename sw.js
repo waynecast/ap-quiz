@@ -1,5 +1,5 @@
 // Offline support: network-first for the app files so updates show up, cache fallback when offline.
-const CACHE = "apq-v8";
+const CACHE = "apq-v9";
 const FILES = ["./", "index.html", "questions.json", "manifest.webmanifest", "icon.svg", "icon-180.png", "icon-512.png", "img/skull.jpg", "img/spine.jpg", "img/girdle.jpg", "img/scapula.jpg", "img/humerus.jpg", "img/forearm.jpg", "img/hand.jpg", "img/pelvis.jpg", "img/femur.jpg", "img/leg.jpg", "img/foot.jpg", "story.html", "stories/index.json"];
 
 self.addEventListener("install", e => {

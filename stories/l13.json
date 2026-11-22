@@ -1,0 +1,435 @@
+{
+ "id": "l13",
+ "group": "lecture",
+ "num": 13,
+ "title": "L13 · Muscle Tissue",
+ "subtitle": "Muscle types, fiber structure, myofilaments, sarcomere, wrappings",
+ "lectures": "Lecture 13",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "L13",
+   "title": "What muscle can do",
+   "img": null,
+   "terms": [
+    "Contractility",
+    "Excitability",
+    "Extensibility",
+    "Elasticity"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "Myo, sarco and mys all mean muscle.",
+     "start": 0.4,
+     "end": 2.66
+    },
+    {
+     "text": "**Contractility** is the power to shorten. No other tissue can do it.",
+     "start": 3.11,
+     "end": 6.94
+    },
+    {
+     "text": "**Excitability** is responding to a stimulus.",
+     "start": 7.39,
+     "end": 10.06
+    },
+    {
+     "text": "**Extensibility** is being stretched.",
+     "start": 10.51,
+     "end": 12.38
+    },
+    {
+     "text": "**Elasticity** is recoiling back to resting length.",
+     "start": 12.83,
+     "end": 15.57
+    }
+   ],
+   "end": 16.67
+  },
+  {
+   "lec": "L13 · Types",
+   "title": "Three muscle types",
+   "img": "L13_01.jpg",
+   "terms": [
+    "Skeletal",
+    "Cardiac",
+    "Smooth"
+   ],
+   "start": 16.67,
+   "lines": [
+    {
+     "text": "**Skeletal** muscle is voluntary. Long cylinders, many nuclei, striated.",
+     "start": 16.67,
+     "end": 21.37
+    },
+    {
+     "text": "**Cardiac** muscle is only in the heart. Involuntary, branched, striated, usually one nucleus.",
+     "start": 21.82,
+     "end": 28.15
+    },
+    {
+     "text": "**Smooth** muscle lines hollow organs. Involuntary, spindle shaped, one nucleus, no striations.",
+     "start": 28.6,
+     "end": 35.07
+    },
+    {
+     "text": "Only smooth muscle can divide.",
+     "start": 35.52,
+     "end": 37.27
+    }
+   ],
+   "end": 38.37
+  },
+  {
+   "lec": "L13 · Skeletal",
+   "title": "Origin and insertion",
+   "img": "L13_02.jpg",
+   "terms": [
+    "Origin",
+    "Insertion"
+   ],
+   "start": 38.37,
+   "lines": [
+    {
+     "text": "Skeletal muscle is 30 to 40 percent of body mass.",
+     "start": 38.37,
+     "end": 41.62
+    },
+    {
+     "text": "The **origin** doesn't move. It's usually proximal.",
+     "start": 42.07,
+     "end": 44.94
+    },
+    {
+     "text": "The **insertion** moves. It's usually distal.",
+     "start": 45.39,
+     "end": 48.02
+    },
+    {
+     "text": "Contraction pulls the insertion toward the origin.",
+     "start": 48.47,
+     "end": 51.4
+    },
+    {
+     "text": "Skeletal muscle moves the body, holds posture, stabilizes joints and makes heat.",
+     "start": 51.85,
+     "end": 57.16
+    }
+   ],
+   "end": 58.26
+  },
+  {
+   "lec": "L13 · Cardiac",
+   "title": "Intercalated discs",
+   "img": "L13_03.jpg",
+   "terms": [
+    "Intercalated discs",
+    "Desmosomes",
+    "Gap junctions"
+   ],
+   "start": 58.26,
+   "lines": [
+    {
+     "text": "Only cardiac muscle has **intercalated discs**.",
+     "start": 58.26,
+     "end": 61.1
+    },
+    {
+     "text": "They hold **desmosomes**, which resist stress.",
+     "start": 61.55,
+     "end": 64.11
+    },
+    {
+     "text": "And **gap junctions**, which pass ions between cells.",
+     "start": 64.56,
+     "end": 67.69
+    },
+    {
+     "text": "Those are the junctions from Lecture 5.",
+     "start": 68.14,
+     "end": 70.36
+    }
+   ],
+   "end": 71.46
+  },
+  {
+   "lec": "L13 · Smooth",
+   "title": "Smooth muscle",
+   "img": "L13_04.jpg",
+   "terms": [
+    "Visceral",
+    "Multi-unit"
+   ],
+   "start": 71.46,
+   "lines": [
+    {
+     "text": "**Visceral** smooth muscle is common. It lines hollow organs.",
+     "start": 71.46,
+     "end": 75.14
+    },
+    {
+     "text": "It usually has an inner circular and an outer longitudinal layer.",
+     "start": 75.59,
+     "end": 79.55
+    },
+    {
+     "text": "The stomach and uterus add an oblique layer.",
+     "start": 80.0,
+     "end": 82.53
+    },
+    {
+     "text": "**Multi-unit** smooth muscle is rare. The iris and the arrector pili.",
+     "start": 82.98,
+     "end": 87.18
+    }
+   ],
+   "end": 88.28
+  },
+  {
+   "lec": "L13 · Fiber",
+   "title": "Inside a muscle fiber",
+   "img": "L13_05.jpg",
+   "terms": [
+    "Sarcolemma",
+    "Sarcoplasm",
+    "T-tubules",
+    "Sarcoplasmic reticulum"
+   ],
+   "start": 88.28,
+   "lines": [
+    {
+     "text": "A skeletal muscle cell is a muscle fiber.",
+     "start": 88.28,
+     "end": 90.74
+    },
+    {
+     "text": "Its membrane is the **sarcolemma**. Its cytoplasm is the **sarcoplasm**.",
+     "start": 91.19,
+     "end": 95.71
+    },
+    {
+     "text": "**T-tubules** dive inward and carry the signal deep into the cell.",
+     "start": 96.16,
+     "end": 99.93
+    },
+    {
+     "text": "The **sarcoplasmic reticulum** stores calcium and releases it on demand.",
+     "start": 100.38,
+     "end": 104.95
+    },
+    {
+     "text": "Its terminal cisternae are calcium reservoirs next to the T-tubules.",
+     "start": 105.4,
+     "end": 109.73
+    },
+    {
+     "text": "Myofibrils fill 80 percent of the fiber.",
+     "start": 110.18,
+     "end": 112.62
+    }
+   ],
+   "end": 113.72
+  },
+  {
+   "lec": "L13 · Myofilaments",
+   "title": "Actin and myosin",
+   "img": "L13_06.jpg",
+   "terms": [
+    "Actin",
+    "Tropomyosin",
+    "Troponin",
+    "Myosin"
+   ],
+   "start": 113.72,
+   "lines": [
+    {
+     "text": "**Actin** is the thin filament. It has myosin-binding sites.",
+     "start": 113.72,
+     "end": 117.36
+    },
+    {
+     "text": "**Tropomyosin** covers those sites.",
+     "start": 117.81,
+     "end": 119.77
+    },
+    {
+     "text": "**Troponin** sits on tropomyosin. It has a binding site for calcium.",
+     "start": 120.22,
+     "end": 124.52
+    },
+    {
+     "text": "**Myosin** is the thick filament. Its heads reach out to grab actin.",
+     "start": 124.97,
+     "end": 129.05
+    },
+    {
+     "text": "Myofilaments make myofibrils. Myofibrils make fibers.",
+     "start": 129.5,
+     "end": 133.29
+    }
+   ],
+   "end": 134.39
+  },
+  {
+   "lec": "L13 · Sarcomere",
+   "title": "The sarcomere",
+   "img": "L13_07.jpg",
+   "terms": [
+    "Z-disc",
+    "I band",
+    "A band",
+    "H zone",
+    "M line"
+   ],
+   "start": 134.39,
+   "lines": [
+    {
+     "text": "The **sarcomere** is the smallest unit that can contract.",
+     "start": 134.39,
+     "end": 137.46
+    },
+    {
+     "text": "**Z-discs** mark its ends and anchor the thin filaments.",
+     "start": 137.91,
+     "end": 140.98
+    },
+    {
+     "text": "The **I band** is thin filament only. It's light.",
+     "start": 141.43,
+     "end": 144.32
+    },
+    {
+     "text": "The **A band** is the full thick filament. It's dark, and it never changes length.",
+     "start": 144.77,
+     "end": 149.53
+    },
+    {
+     "text": "The **H zone** is thick filament only, in the middle.",
+     "start": 149.98,
+     "end": 152.76
+    },
+    {
+     "text": "The **M line** holds the thick filaments in line.",
+     "start": 153.21,
+     "end": 155.83
+    }
+   ],
+   "end": 156.93
+  },
+  {
+   "lec": "L13 · Sliding filaments",
+   "title": "Sliding filaments",
+   "img": "L13_09.jpg",
+   "terms": [
+    "Cross bridge",
+    "ATP",
+    "Calcium"
+   ],
+   "start": 156.93,
+   "lines": [
+    {
+     "text": "Myosin uses **ATP** to walk along actin.",
+     "start": 156.93,
+     "end": 159.92
+    },
+    {
+     "text": "Each grip is a **cross bridge**.",
+     "start": 160.37,
+     "end": 161.92
+    },
+    {
+     "text": "The thin filaments slide toward the center. The sarcomere shortens.",
+     "start": 162.37,
+     "end": 166.37
+    },
+    {
+     "text": "The I band and H zone disappear at full contraction.",
+     "start": 166.82,
+     "end": 170.17
+    },
+    {
+     "text": "It keeps going as long as **calcium** is present.",
+     "start": 170.62,
+     "end": 173.06
+    }
+   ],
+   "end": 174.16
+  },
+  {
+   "lec": "L13 · Wrappings",
+   "title": "Straws in boxes",
+   "img": "L13_11.jpg",
+   "terms": [
+    "Endomysium",
+    "Perimysium",
+    "Epimysium"
+   ],
+   "start": 174.16,
+   "lines": [
+    {
+     "text": "Three connective tissue layers wrap skeletal muscle.",
+     "start": 174.16,
+     "end": 176.93
+    },
+    {
+     "text": "**Endomysium** wraps one fiber. Paper around a straw.",
+     "start": 177.38,
+     "end": 180.66
+    },
+    {
+     "text": "**Perimysium** wraps a bundle, a fascicle. A box of straws.",
+     "start": 181.11,
+     "end": 184.68
+    },
+    {
+     "text": "**Epimysium** wraps the whole muscle. A shipping box of boxes.",
+     "start": 185.13,
+     "end": 189.0
+    },
+    {
+     "text": "Cardiac and smooth muscle don't have all three.",
+     "start": 189.45,
+     "end": 192.17
+    }
+   ],
+   "end": 193.27
+  },
+  {
+   "lec": "L13 · Accessory",
+   "title": "Tendon, aponeurosis, fascia",
+   "img": null,
+   "terms": [
+    "Tendon",
+    "Aponeurosis",
+    "Fascia"
+   ],
+   "start": 193.27,
+   "lines": [
+    {
+     "text": "All three are dense regular connective tissue.",
+     "start": 193.27,
+     "end": 195.96
+    },
+    {
+     "text": "A **tendon** is a thick cord from muscle to bone.",
+     "start": 196.41,
+     "end": 198.99
+    },
+    {
+     "text": "An **aponeurosis** is a flat sheet, muscle to muscle or muscle to bone.",
+     "start": 199.44,
+     "end": 203.91
+    },
+    {
+     "text": "**Fascia** is outside the epimysium. It separates muscles and binds groups together.",
+     "start": 204.36,
+     "end": 209.68
+    }
+   ],
+   "end": 210.78
+  }
+ ],
+ "duration": 210.78,
+ "audio": "stories/l13.mp3"
+}

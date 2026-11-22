@@ -1,0 +1,520 @@
+{
+ "id": "l06",
+ "group": "lecture",
+ "num": 6,
+ "title": "L6 · Membranes & Skin",
+ "subtitle": "Body membranes, skin functions, layers, glands, hair, nails",
+ "lectures": "Lecture 6",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "L6 · Membranes",
+   "title": "Four body membranes",
+   "img": "L6_01.jpg",
+   "terms": [
+    "Cutaneous",
+    "Serous",
+    "Mucous",
+    "Synovial"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "There are four body membranes.",
+     "start": 0.4,
+     "end": 2.02
+    },
+    {
+     "text": "Three are epithelial. One is connective tissue.",
+     "start": 2.47,
+     "end": 5.34
+    },
+    {
+     "text": "The **cutaneous** membrane is the skin. It is the only dry membrane.",
+     "start": 5.79,
+     "end": 9.97
+    },
+    {
+     "text": "**Serous** membranes line cavities closed to the outside.",
+     "start": 10.42,
+     "end": 13.67
+    },
+    {
+     "text": "**Mucous** membranes line cavities open to the outside.",
+     "start": 14.12,
+     "end": 17.35
+    },
+    {
+     "text": "**Synovial** membranes line joints. They have no epithelium.",
+     "start": 17.8,
+     "end": 21.36
+    }
+   ],
+   "end": 22.46
+  },
+  {
+   "lec": "L6 · Serous",
+   "title": "Parietal and visceral",
+   "img": null,
+   "terms": [
+    "Parietal",
+    "Visceral",
+    "Pleura",
+    "Pericardium",
+    "Peritoneum"
+   ],
+   "start": 22.46,
+   "lines": [
+    {
+     "text": "Serous membranes are always double.",
+     "start": 22.46,
+     "end": 24.4
+    },
+    {
+     "text": "The **parietal** layer lines the body wall.",
+     "start": 24.85,
+     "end": 27.21
+    },
+    {
+     "text": "The **visceral** layer covers the organ.",
+     "start": 27.66,
+     "end": 29.65
+    },
+    {
+     "text": "Serous fluid between them reduces friction.",
+     "start": 30.1,
+     "end": 32.6
+    },
+    {
+     "text": "**Pleurae** wrap the lungs. **Pericardium** wraps the heart. **Peritoneum** lines the abdomen.",
+     "start": 33.05,
+     "end": 38.53
+    }
+   ],
+   "end": 39.63
+  },
+  {
+   "lec": "L6 · Mucous and synovial",
+   "title": "Mucus and synovial fluid",
+   "img": "L6_02.jpg",
+   "terms": [
+    "Lamina propria",
+    "Mucus",
+    "Synovial fluid"
+   ],
+   "start": 39.63,
+   "lines": [
+    {
+     "text": "Mucous membranes line the respiratory, digestive and urogenital tracts.",
+     "start": 39.63,
+     "end": 44.39
+    },
+    {
+     "text": "Their epithelium sits on loose tissue called the **lamina propria**.",
+     "start": 44.84,
+     "end": 48.55
+    },
+    {
+     "text": "**Mucus** lubricates and traps.",
+     "start": 49.0,
+     "end": 50.74
+    },
+    {
+     "text": "Synovial membranes line joints, bursae and tendon sheaths.",
+     "start": 51.19,
+     "end": 54.93
+    },
+    {
+     "text": "They make **synovial fluid**, a very good lubricant.",
+     "start": 55.38,
+     "end": 58.26
+    }
+   ],
+   "end": 59.36
+  },
+  {
+   "lec": "L6 · Skin",
+   "title": "Skin protects",
+   "img": null,
+   "terms": [
+    "Keratin",
+    "Acid mantle",
+    "Melanin"
+   ],
+   "start": 59.36,
+   "lines": [
+    {
+     "text": "Skin is the largest organ.",
+     "start": 59.36,
+     "end": 61.13
+    },
+    {
+     "text": "**Keratin** protects against damage and drying out.",
+     "start": 61.58,
+     "end": 64.38
+    },
+    {
+     "text": "The **acid mantle** and white blood cells protect against germs.",
+     "start": 64.83,
+     "end": 68.63
+    },
+    {
+     "text": "**Melanin** protects against UV.",
+     "start": 69.08,
+     "end": 70.92
+    }
+   ],
+   "end": 72.02
+  },
+  {
+   "lec": "L6 · Skin",
+   "title": "Temperature",
+   "img": null,
+   "terms": [
+    "Vasodilation",
+    "Vasoconstriction",
+    "Negative feedback"
+   ],
+   "start": 72.02,
+   "lines": [
+    {
+     "text": "The nervous system controls skin temperature.",
+     "start": 72.02,
+     "end": 74.38
+    },
+    {
+     "text": "To lose heat, sweat evaporates and vessels dilate. That's **vasodilation**.",
+     "start": 74.83,
+     "end": 79.36
+    },
+    {
+     "text": "To keep heat, vessels constrict and goosebumps rise. That's **vasoconstriction**.",
+     "start": 79.81,
+     "end": 84.54
+    },
+    {
+     "text": "It is **negative feedback**, just like Lecture 1.",
+     "start": 84.99,
+     "end": 87.79
+    }
+   ],
+   "end": 88.89
+  },
+  {
+   "lec": "L6 · Sensation",
+   "title": "Skin receptors",
+   "img": "L6_04.jpg",
+   "terms": [
+    "Meissner",
+    "Merkel",
+    "Pacinian",
+    "Ruffini",
+    "Krause"
+   ],
+   "start": 88.89,
+   "lines": [
+    {
+     "text": "**Meissner's** corpuscles sense light touch and two-point discrimination.",
+     "start": 88.89,
+     "end": 92.83
+    },
+    {
+     "text": "**Merkel** discs sense light touch, edges and points.",
+     "start": 93.28,
+     "end": 96.25
+    },
+    {
+     "text": "**Pacinian** corpuscles sense deep pressure. The Pacific Ocean is deep.",
+     "start": 96.7,
+     "end": 101.01
+    },
+    {
+     "text": "Nociceptors sense pain.",
+     "start": 101.46,
+     "end": 102.88
+    },
+    {
+     "text": "**Ruffini** senses heat. It sounds Italian, and Italy is hot.",
+     "start": 103.33,
+     "end": 107.05
+    },
+    {
+     "text": "**Krause** senses cold. It sounds like Santa Claus, and winter is cold.",
+     "start": 107.5,
+     "end": 111.71
+    }
+   ],
+   "end": 112.81
+  },
+  {
+   "lec": "L6 · Skin",
+   "title": "Excretion, synthesis, storage",
+   "img": null,
+   "terms": [
+    "Excretion",
+    "Vitamin D",
+    "Carotene"
+   ],
+   "start": 112.81,
+   "lines": [
+    {
+     "text": "Sweat excretes urea, ammonia, salt and water.",
+     "start": 112.81,
+     "end": 115.7
+    },
+    {
+     "text": "Skin makes **vitamin D**, melanin, keratin and immune proteins.",
+     "start": 116.15,
+     "end": 120.4
+    },
+    {
+     "text": "It stores **carotene**, a yellow-orange antioxidant.",
+     "start": 120.85,
+     "end": 123.96
+    },
+    {
+     "text": "Don't confuse carotene with keratin.",
+     "start": 124.41,
+     "end": 126.56
+    },
+    {
+     "text": "Skin color comes from melanin, carotene and hemoglobin. Low oxygen looks blue. That's cyanosis.",
+     "start": 127.01,
+     "end": 133.87
+    }
+   ],
+   "end": 134.97
+  },
+  {
+   "lec": "L6 · Layers",
+   "title": "Three layers",
+   "img": "L6_05.jpg",
+   "terms": [
+    "Epidermis",
+    "Dermis",
+    "Hypodermis"
+   ],
+   "start": 134.97,
+   "lines": [
+    {
+     "text": "The **epidermis** is on top. It is keratinized stratified squamous, and avascular.",
+     "start": 134.97,
+     "end": 140.18
+    },
+    {
+     "text": "The **dermis** is below. It is connective tissue, and vascular.",
+     "start": 140.63,
+     "end": 144.29
+    },
+    {
+     "text": "The **hypodermis** is fat below the dermis.",
+     "start": 144.74,
+     "end": 147.02
+    },
+    {
+     "text": "It is not a layer of skin.",
+     "start": 147.47,
+     "end": 148.92
+    }
+   ],
+   "end": 150.02
+  },
+  {
+   "lec": "L6 · Epidermis",
+   "title": "Come Let's Get Sun Burned",
+   "img": "L6_06.jpg",
+   "terms": [
+    "Corneum",
+    "Lucidum",
+    "Granulosum",
+    "Spinosum",
+    "Basale"
+   ],
+   "start": 150.02,
+   "lines": [
+    {
+     "text": "Top to bottom: Come Let's Get Sun Burned.",
+     "start": 150.02,
+     "end": 152.53
+    },
+    {
+     "text": "Stratum **corneum** is thickest. Its cells are dead.",
+     "start": 152.98,
+     "end": 156.09
+    },
+    {
+     "text": "Stratum **lucidum** is only in thick skin, on palms and soles.",
+     "start": 156.54,
+     "end": 160.49
+    },
+    {
+     "text": "Stratum **granulosum** is grainy. Cells start to die and fill with keratin.",
+     "start": 160.94,
+     "end": 165.89
+    },
+    {
+     "text": "Stratum **spinosum** is spiny. It holds Langerhans cells.",
+     "start": 166.34,
+     "end": 169.96
+    },
+    {
+     "text": "Stratum **basale** is deepest. Cells divide here, and melanocytes live here.",
+     "start": 170.41,
+     "end": 175.18
+    }
+   ],
+   "end": 176.28
+  },
+  {
+   "lec": "L6 · Dermis",
+   "title": "Two dermal layers",
+   "img": null,
+   "terms": [
+    "Papillary",
+    "Reticular",
+    "Dermal papillae"
+   ],
+   "start": 176.28,
+   "lines": [
+    {
+     "text": "The **papillary** layer is the top fifth. It is areolar tissue.",
+     "start": 176.28,
+     "end": 179.87
+    },
+    {
+     "text": "Its **dermal papillae** make fingerprints and hold Meissner's corpuscles.",
+     "start": 180.32,
+     "end": 184.43
+    },
+    {
+     "text": "The **reticular** layer is the deep four fifths. It is dense irregular tissue.",
+     "start": 184.88,
+     "end": 189.58
+    },
+    {
+     "text": "It holds hair follicles, glands and Pacinian corpuscles.",
+     "start": 190.03,
+     "end": 193.73
+    }
+   ],
+   "end": 194.83
+  },
+  {
+   "lec": "L6 · Glands",
+   "title": "Skin glands",
+   "img": null,
+   "terms": [
+    "Sebaceous",
+    "Eccrine",
+    "Apocrine",
+    "Ceruminous"
+   ],
+   "start": 194.83,
+   "lines": [
+    {
+     "text": "All skin glands are exocrine. They have ducts.",
+     "start": 194.83,
+     "end": 197.64
+    },
+    {
+     "text": "**Sebaceous** glands make oil, called sebum. They empty into hair follicles.",
+     "start": 198.09,
+     "end": 202.59
+    },
+    {
+     "text": "**Eccrine** sweat glands are small and everywhere. They open at pores and cool the body.",
+     "start": 203.04,
+     "end": 208.07
+    },
+    {
+     "text": "**Apocrine** glands are large, in the armpits and groin. They start at puberty.",
+     "start": 208.52,
+     "end": 213.22
+    },
+    {
+     "text": "**Ceruminous** glands make earwax.",
+     "start": 213.67,
+     "end": 215.52
+    }
+   ],
+   "end": 216.62
+  },
+  {
+   "lec": "L6 · Hair and nails",
+   "title": "Hair and nails",
+   "img": "L6_08.jpg",
+   "terms": [
+    "Root",
+    "Shaft",
+    "Arrector pili",
+    "Lunula"
+   ],
+   "start": 216.62,
+   "lines": [
+    {
+     "text": "A hair has a **root** in the follicle and a **shaft** you can see.",
+     "start": 216.62,
+     "end": 219.81
+    },
+    {
+     "text": "The papilla brings it blood.",
+     "start": 220.26,
+     "end": 221.68
+    },
+    {
+     "text": "The **arrector pili** is a smooth muscle. It makes goosebumps.",
+     "start": 222.13,
+     "end": 225.38
+    },
+    {
+     "text": "Nails are mostly keratin. The **lunula** is the moon near the cuticle.",
+     "start": 225.83,
+     "end": 230.02
+    }
+   ],
+   "end": 231.12
+  },
+  {
+   "lec": "L6 · Burns",
+   "title": "Burns",
+   "img": "L6_10.jpg",
+   "terms": [
+    "Rule of nines",
+    "First degree",
+    "Second degree",
+    "Third degree"
+   ],
+   "start": 231.12,
+   "lines": [
+    {
+     "text": "The **rule of nines** splits the body into areas of 9 percent each.",
+     "start": 231.12,
+     "end": 235.1
+    },
+    {
+     "text": "A first degree burn is the epidermis only, like sunburn.",
+     "start": 235.55,
+     "end": 238.93
+    },
+    {
+     "text": "Second degree reaches the dermis. It blisters.",
+     "start": 239.38,
+     "end": 242.22
+    },
+    {
+     "text": "Third degree is full thickness. It looks white or black.",
+     "start": 242.67,
+     "end": 245.86
+    },
+    {
+     "text": "Fourth degree reaches muscle and bone.",
+     "start": 246.31,
+     "end": 248.36
+    }
+   ],
+   "end": 249.46
+  }
+ ],
+ "duration": 249.46,
+ "audio": "stories/l06.mp3"
+}

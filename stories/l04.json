@@ -1,0 +1,494 @@
+{
+ "id": "l04",
+ "group": "lecture",
+ "num": 4,
+ "title": "L4 · Cells, DNA & Cell Cycle",
+ "subtitle": "Organelles, DNA and RNA, protein synthesis, mitosis",
+ "lectures": "Lecture 4",
+ "voice": "af_heart",
+ "scenes": [
+  {
+   "lec": "L4",
+   "title": "The cytoplasm",
+   "img": "L4_01.jpg",
+   "terms": [
+    "Cytosol",
+    "Organelles",
+    "Inclusions"
+   ],
+   "start": 0.4,
+   "lines": [
+    {
+     "text": "Picture a Jello fruit salad.",
+     "start": 0.4,
+     "end": 2.02
+    },
+    {
+     "text": "The Jello is the **cytosol**, the watery part.",
+     "start": 2.47,
+     "end": 5.13
+    },
+    {
+     "text": "The fruit is the **organelles**, small organs with specific jobs.",
+     "start": 5.58,
+     "end": 9.41
+    },
+    {
+     "text": "**Inclusions** are things that don't dissolve, like fat and pigment.",
+     "start": 9.86,
+     "end": 13.55
+    }
+   ],
+   "end": 14.65
+  },
+  {
+   "lec": "L4 · Nucleus",
+   "title": "The nucleus",
+   "img": "L4_02.jpg",
+   "terms": [
+    "Nuclear envelope",
+    "Chromatin",
+    "Nucleolus"
+   ],
+   "start": 14.65,
+   "lines": [
+    {
+     "text": "The nucleus is the brain of the cell. It holds the DNA.",
+     "start": 14.65,
+     "end": 18.12
+    },
+    {
+     "text": "A double membrane with pores surrounds it. That's the **nuclear envelope**.",
+     "start": 18.57,
+     "end": 22.53
+    },
+    {
+     "text": "Relaxed DNA is **chromatin**. Condensed DNA forms chromosomes.",
+     "start": 22.98,
+     "end": 27.45
+    },
+    {
+     "text": "The **nucleolus** has no membrane. It makes ribosomes.",
+     "start": 27.9,
+     "end": 31.1
+    }
+   ],
+   "end": 32.2
+  },
+  {
+   "lec": "L4 · Organelles",
+   "title": "The protein factory",
+   "img": "L4_03.jpg",
+   "terms": [
+    "Ribosome",
+    "Rough ER",
+    "Smooth ER",
+    "Golgi"
+   ],
+   "start": 32.2,
+   "lines": [
+    {
+     "text": "**Ribosomes** are where proteins are made.",
+     "start": 32.2,
+     "end": 34.31
+    },
+    {
+     "text": "The endoplasmic reticulum is a set of canals for transport.",
+     "start": 34.76,
+     "end": 38.58
+    },
+    {
+     "text": "**Rough ER** is studded with ribosomes. It makes proteins.",
+     "start": 39.03,
+     "end": 42.6
+    },
+    {
+     "text": "**Smooth ER** has no ribosomes. It makes lipids and carbs and breaks down drugs.",
+     "start": 43.05,
+     "end": 48.34
+    },
+    {
+     "text": "The **Golgi** body packages enzymes, hormones and lysosomes.",
+     "start": 48.79,
+     "end": 52.65
+    }
+   ],
+   "end": 53.75
+  },
+  {
+   "lec": "L4 · Organelles",
+   "title": "Clean-up crew",
+   "img": null,
+   "terms": [
+    "Lysosome",
+    "Peroxisome"
+   ],
+   "start": 53.75,
+   "lines": [
+    {
+     "text": "**Lysosomes** are the suicide sacs.",
+     "start": 53.75,
+     "end": 55.83
+    },
+    {
+     "text": "Their digestive enzymes break down bacteria, viruses and worn-out parts.",
+     "start": 56.28,
+     "end": 61.06
+    },
+    {
+     "text": "**Peroxisomes** neutralize toxins and alcohol.",
+     "start": 61.51,
+     "end": 64.43
+    },
+    {
+     "text": "They are abundant in the liver.",
+     "start": 64.88,
+     "end": 66.34
+    }
+   ],
+   "end": 67.44
+  },
+  {
+   "lec": "L4 · Organelles",
+   "title": "The powerhouse",
+   "img": "L4_05.jpg",
+   "terms": [
+    "Mitochondria",
+    "Cristae",
+    "ATP"
+   ],
+   "start": 67.44,
+   "lines": [
+    {
+     "text": "**Mitochondria** produce **ATP**.",
+     "start": 67.44,
+     "end": 69.4
+    },
+    {
+     "text": "Their inner folds are **cristae**. They add surface area.",
+     "start": 69.85,
+     "end": 72.87
+    },
+    {
+     "text": "Mitochondria have a double membrane and copy themselves.",
+     "start": 73.32,
+     "end": 76.7
+    },
+    {
+     "text": "They are abundant in muscle cells.",
+     "start": 77.15,
+     "end": 79.0
+    }
+   ],
+   "end": 80.1
+  },
+  {
+   "lec": "L4 · Organelles",
+   "title": "Centrioles and projections",
+   "img": "L4_06.jpg",
+   "terms": [
+    "Centrioles",
+    "Cilia",
+    "Flagellum",
+    "Microvilli"
+   ],
+   "start": 80.1,
+   "lines": [
+    {
+     "text": "Two **centrioles** at right angles form the centrosome.",
+     "start": 80.1,
+     "end": 83.25
+    },
+    {
+     "text": "They make microtubules and direct the spindle in mitosis.",
+     "start": 83.7,
+     "end": 87.36
+    },
+    {
+     "text": "**Cilia** are short hairs that sweep substances along, like in the lungs.",
+     "start": 87.81,
+     "end": 91.91
+    },
+    {
+     "text": "A **flagellum** is a long tail. In humans, only sperm have one.",
+     "start": 92.36,
+     "end": 96.44
+    },
+    {
+     "text": "**Microvilli** are tiny fingers that add surface area for absorption.",
+     "start": 96.89,
+     "end": 101.16
+    }
+   ],
+   "end": 102.26
+  },
+  {
+   "lec": "L4 · Cytoskeleton",
+   "title": "Tent poles and ropes",
+   "img": "L4_07.jpg",
+   "terms": [
+    "Microtubules",
+    "Intermediate filaments",
+    "Microfilaments"
+   ],
+   "start": 102.26,
+   "lines": [
+    {
+     "text": "The cytoskeleton gives the cell shape and support.",
+     "start": 102.26,
+     "end": 105.23
+    },
+    {
+     "text": "Think of a tent.",
+     "start": 105.68,
+     "end": 106.68
+    },
+    {
+     "text": "**Microtubules** are the poles.",
+     "start": 107.13,
+     "end": 108.87
+    },
+    {
+     "text": "**Intermediate filaments** are the medium ropes.",
+     "start": 109.32,
+     "end": 111.77
+    },
+    {
+     "text": "**Microfilaments** are the small ropes.",
+     "start": 112.22,
+     "end": 114.34
+    }
+   ],
+   "end": 115.44
+  },
+  {
+   "lec": "L4 · DNA",
+   "title": "DNA",
+   "img": "L4_08.jpg",
+   "terms": [
+    "Double helix",
+    "Gene",
+    "A–T, C–G"
+   ],
+   "start": 115.44,
+   "lines": [
+    {
+     "text": "DNA is a **double helix**, a spiral staircase.",
+     "start": 115.44,
+     "end": 118.63
+    },
+    {
+     "text": "The sides are sugar and phosphate. The steps are bases.",
+     "start": 119.08,
+     "end": 122.42
+    },
+    {
+     "text": "Weak hydrogen bonds pair A with T, and C with G.",
+     "start": 122.87,
+     "end": 126.1
+    },
+    {
+     "text": "A **gene** is a blueprint for one protein. We have about 25 thousand.",
+     "start": 126.55,
+     "end": 131.07
+    }
+   ],
+   "end": 132.17
+  },
+  {
+   "lec": "L4 · RNA",
+   "title": "Three kinds of RNA",
+   "img": "L4_09.jpg",
+   "terms": [
+    "rRNA",
+    "mRNA",
+    "tRNA",
+    "Uracil"
+   ],
+   "start": 132.17,
+   "lines": [
+    {
+     "text": "RNA is single stranded. It uses **uracil** in place of thymine.",
+     "start": 132.17,
+     "end": 136.59
+    },
+    {
+     "text": "**rRNA** makes ribosomes.",
+     "start": 137.04,
+     "end": 139.4
+    },
+    {
+     "text": "**mRNA** copies a gene and carries the code to the cytoplasm.",
+     "start": 139.85,
+     "end": 144.39
+    },
+    {
+     "text": "**tRNA** reads the code and brings the right amino acid.",
+     "start": 144.84,
+     "end": 149.09
+    }
+   ],
+   "end": 150.19
+  },
+  {
+   "lec": "L4 · Replication",
+   "title": "Copying DNA",
+   "img": "L4_10.jpg",
+   "terms": [
+    "Semiconservative",
+    "Helicase",
+    "Polymerase"
+   ],
+   "start": 150.19,
+   "lines": [
+    {
+     "text": "Human DNA is 46 chromosomes, 23 pairs.",
+     "start": 150.19,
+     "end": 153.95
+    },
+    {
+     "text": "Replication copies all of it, before mitosis.",
+     "start": 154.4,
+     "end": 157.3
+    },
+    {
+     "text": "It is **semiconservative**. Each new DNA is half old strand, half new.",
+     "start": 157.75,
+     "end": 162.11
+    },
+    {
+     "text": "**Helicase** unzips the strands. **Polymerase** builds the new ones.",
+     "start": 162.56,
+     "end": 166.4
+    }
+   ],
+   "end": 167.5
+  },
+  {
+   "lec": "L4 · Protein synthesis",
+   "title": "DNA to protein",
+   "img": "L4_11.jpg",
+   "terms": [
+    "Transcription",
+    "Translation",
+    "Codon",
+    "Anticodon"
+   ],
+   "start": 167.5,
+   "lines": [
+    {
+     "text": "**Transcription** makes messenger RNA from DNA. It happens in the nucleus.",
+     "start": 167.5,
+     "end": 172.5
+    },
+    {
+     "text": "**Translation** makes the protein at the ribosome.",
+     "start": 172.95,
+     "end": 175.89
+    },
+    {
+     "text": "DNA is read in triplets. Three bases code one amino acid.",
+     "start": 176.34,
+     "end": 180.65
+    },
+    {
+     "text": "On messenger RNA, a triplet is a **codon**. On transfer RNA, it's an **anticodon**.",
+     "start": 181.1,
+     "end": 186.91
+    },
+    {
+     "text": "Four codons make four amino acids, joined by three peptide bonds.",
+     "start": 187.36,
+     "end": 191.98
+    }
+   ],
+   "end": 193.08
+  },
+  {
+   "lec": "L4 · Cell cycle",
+   "title": "Interphase",
+   "img": "L4_14.jpg",
+   "terms": [
+    "G1",
+    "S",
+    "G2"
+   ],
+   "start": 193.08,
+   "lines": [
+    {
+     "text": "The cell cycle has two stages: interphase and mitosis.",
+     "start": 193.08,
+     "end": 196.83
+    },
+    {
+     "text": "**G1** is the longest phase. The cell grows to full size.",
+     "start": 197.28,
+     "end": 201.1
+    },
+    {
+     "text": "Some cells never leave G one.",
+     "start": 201.55,
+     "end": 203.41
+    },
+    {
+     "text": "In the **S** phase, DNA is copied.",
+     "start": 203.86,
+     "end": 206.08
+    },
+    {
+     "text": "**G2** is housekeeping before division.",
+     "start": 206.53,
+     "end": 208.9
+    }
+   ],
+   "end": 210.0
+  },
+  {
+   "lec": "L4 · Mitosis",
+   "title": "PMAT",
+   "img": "L4_13.jpg",
+   "terms": [
+    "Prophase",
+    "Metaphase",
+    "Anaphase",
+    "Telophase"
+   ],
+   "start": 210.0,
+   "lines": [
+    {
+     "text": "Mitosis splits one mother cell into two daughter cells.",
+     "start": 210.0,
+     "end": 213.23
+    },
+    {
+     "text": "**Prophase** is first and longest. The nuclear membrane breaks down and chromosomes condense.",
+     "start": 213.68,
+     "end": 219.31
+    },
+    {
+     "text": "**Metaphase**: meet in the middle.",
+     "start": 219.76,
+     "end": 221.42
+    },
+    {
+     "text": "**Anaphase**: away to opposite ends.",
+     "start": 221.87,
+     "end": 224.0
+    },
+    {
+     "text": "**Telophase**: the nuclei reform and the spindle falls apart.",
+     "start": 224.45,
+     "end": 228.05
+    },
+    {
+     "text": "**Cytokinesis** pinches the cell in two.",
+     "start": 228.5,
+     "end": 230.88
+    }
+   ],
+   "end": 231.98
+  }
+ ],
+ "duration": 231.98,
+ "audio": "stories/l04.mp3"
+}
