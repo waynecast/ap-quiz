@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "One tissue family, from fibers to bone, joints and muscle wrappings",
     "lectures": "Lectures 5, 6, 7, 9, 12, 13",
     "scenes": [
-        {"lec": "Overview", "title": "The body's framework", "img": None,
+        {"lec": "Overview", "title": "The most abundant tissue", "img": None,
          "terms": ["Tissues", "Membranes", "Bone", "Joints", "Muscle"],
          "lines": [
             "Connective tissue is the most abundant tissue in the body.",
@@ -12,7 +12,7 @@ STORY = {
             "Then it kept showing up. In skin, bone, joints and muscle.",
             "This story follows it through all of them.",
          ]},
-        {"lec": "L5 · Matrix", "title": "Mostly matrix", "img": "L5_01.jpg",
+        {"lec": "L5 · Matrix", "title": "Matrix and fibers", "img": "L5_01.jpg",
          "terms": ["Matrix", "Fibroblasts", "Collagen", "Elastic", "Reticular"],
          "lines": [
             "Connective tissue has few cells and lots of **matrix**.",
@@ -21,7 +21,7 @@ STORY = {
             "**Collagen** is strongest. **Elastic** fibers recoil. **Reticular** fibers form networks.",
             "Watch which fiber wins in each place. It explains what that tissue does.",
          ]},
-        {"lec": "L5 · CT proper", "title": "Direction matters", "img": "L5_11.jpg",
+        {"lec": "L5 · CT proper", "title": "Dense regular versus dense irregular", "img": "L5_11.jpg",
          "terms": ["Dense regular", "Dense irregular"],
          "lines": [
             "In **dense regular** tissue, collagen runs in parallel.",
@@ -37,7 +37,7 @@ STORY = {
             "The **reticular layer** is dense irregular tissue. It handles pulling and twisting.",
             "The **hypodermis** is adipose tissue. It protects, insulates and stores energy.",
          ]},
-        {"lec": "L6 · Membranes", "title": "The one CT membrane", "img": "L6_03.jpg",
+        {"lec": "L6 · Membranes", "title": "The synovial membrane", "img": "L6_03.jpg",
          "terms": ["Synovial membrane", "Areolar"],
          "lines": [
             "Three body membranes are epithelial.",
@@ -45,7 +45,7 @@ STORY = {
             "It is loose **areolar** tissue, with no epithelium.",
             "Keep it in mind. It comes back in joints.",
          ]},
-        {"lec": "L5 · Cartilage", "title": "Three cartilages", "img": "L5_14.jpg",
+        {"lec": "L5 · Cartilage", "title": "Three types of cartilage", "img": "L5_14.jpg",
          "terms": ["Hyaline", "Elastic cartilage", "Fibrocartilage"],
          "lines": [
             "Cartilage has no blood and no nerves.",
@@ -61,14 +61,14 @@ STORY = {
             "Compact bone is built from **osteons**.",
             "The periosteum's outer layer is fibrous. It blends into tendons and ligaments.",
          ]},
-        {"lec": "L7 · Growth", "title": "Cartilage becomes bone", "img": "L7_08.jpg",
+        {"lec": "L7 · Growth", "title": "Cartilage in bone growth and joints", "img": "L7_08.jpg",
          "terms": ["Endochondral", "Epiphyseal plate", "Articular cartilage"],
          "lines": [
             "Most bones form inside hyaline cartilage. That's **endochondral** ossification.",
             "The **epiphyseal plate** is hyaline cartilage where bone grows in length.",
             "**Articular cartilage** is hyaline too. It covers the joint surface.",
          ]},
-        {"lec": "L9 · Spine", "title": "Discs", "img": "L9_06.jpg",
+        {"lec": "L9 · Spine", "title": "Intervertebral discs", "img": "L9_06.jpg",
          "terms": ["Intervertebral disc", "Fibrocartilage", "Symphysis"],
          "lines": [
             "**Intervertebral discs** are **fibrocartilage**.",
@@ -84,14 +84,14 @@ STORY = {
             "**Synovial** joints have a capsule. Its inner layer is the synovial membrane from Lecture 6.",
             "Its fluid lubricates, absorbs shock and feeds the cartilage.",
          ]},
-        {"lec": "L12 · Knee", "title": "Ligaments and menisci", "img": "L12_22.jpg",
+        {"lec": "L12 · Knee", "title": "Ligaments, menisci and labrum", "img": "L12_22.jpg",
          "terms": ["Ligaments", "Menisci", "Labrum"],
          "lines": [
             "**Ligaments** are dense regular tissue. They connect bone to bone.",
             "The knee's **menisci** are fibrocartilage pads.",
             "The glenoid and acetabular **labrum** are cartilage rims that deepen a socket.",
          ]},
-        {"lec": "L13 · Muscle", "title": "Wrapping the muscle", "img": "L13_06.png",
+        {"lec": "L13 · Muscle", "title": "Muscle wrappings", "img": "L13_06.png",
          "terms": ["Endomysium", "Perimysium", "Epimysium"],
          "lines": [
             "Connective tissue wraps every skeletal muscle.",
@@ -107,7 +107,7 @@ STORY = {
             "All three are dense regular tissue.",
             "So a tendon is the same tissue as a ligament. Parallel collagen, strong in one direction.",
          ]},
-        {"lec": "Recap", "title": "One family", "img": None,
+        {"lec": "Recap", "title": "Recap: one tissue family", "img": None,
          "terms": ["Areolar", "Dense", "Cartilage", "Bone", "Adipose"],
          "lines": [
             "**Areolar** tissue packs, and lines joints as synovial membrane.",

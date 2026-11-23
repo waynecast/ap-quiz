@@ -11,7 +11,7 @@ STORY = {
             "This story follows that energy.",
             "From chemical bonds, to glucose, to **ATP**, to a muscle contracting.",
          ]},
-        {"lec": "L2 · Energy", "title": "Stored in bonds", "img": None,
+        {"lec": "L2 · Energy", "title": "Energy stored in chemical bonds", "img": None,
          "terms": ["Kinetic", "Potential", "Chemical bonds"],
          "lines": [
             "Energy is the ability to do work.",
@@ -34,7 +34,7 @@ STORY = {
             "The body stores glucose as **glycogen** in the liver and muscle.",
             "**Triglycerides** store twice the energy per gram, but carbs come first.",
          ]},
-        {"lec": "L3 · Enzymes", "title": "Enzymes speed it up", "img": "L3_06.jpg",
+        {"lec": "L3 · Enzymes", "title": "Enzymes speed up reactions", "img": "L3_06.jpg",
          "terms": ["Enzyme", "Activation energy", "Catalyst"],
          "lines": [
             "Breaking down glucose takes many reactions.",
@@ -50,21 +50,21 @@ STORY = {
             "Breaking the last **phosphate bond** releases energy.",
             "ATP becomes **ADP** plus phosphate. That's hydrolysis.",
          ]},
-        {"lec": "L4 · Mitochondria", "title": "The powerhouse", "img": "L4_05.jpg",
+        {"lec": "L4 · Mitochondria", "title": "Mitochondria make ATP", "img": "L4_05.jpg",
          "terms": ["Mitochondria", "Cristae", "Muscle cells"],
          "lines": [
             "**Mitochondria** make most of the body's ATP.",
             "Their folded **cristae** add surface area for the work.",
             "They're abundant in **muscle cells**, which use the most energy.",
          ]},
-        {"lec": "L3 · Transport", "title": "ATP at the membrane", "img": "L3_16.jpg",
+        {"lec": "L3 · Transport", "title": "ATP and active transport", "img": "L3_16.jpg",
          "terms": ["Active transport", "Sodium-potassium pump"],
          "lines": [
             "**Active transport** spends ATP.",
             "The **sodium potassium pump** is the classic example.",
             "It resets sodium and potassium after a muscle fires.",
          ]},
-        {"lec": "L14 · Contraction", "title": "ATP in the cross bridge", "img": "L14_10.png",
+        {"lec": "L14 · Contraction", "title": "ATP in the cross-bridge cycle", "img": "L14_10.png",
          "terms": ["Release", "Reset", "Rigor mortis"],
          "lines": [
             "In muscle, ATP has two jobs in the cross-bridge cycle.",
@@ -72,7 +72,7 @@ STORY = {
             "ATP splitting **resets** the myosin head.",
             "No ATP means no release. That's **rigor mortis**.",
          ]},
-        {"lec": "L14 · Energy", "title": "Three pathways", "img": "L14_13.png",
+        {"lec": "L14 · Energy", "title": "Three ways muscle makes ATP", "img": "L14_13.png",
          "terms": ["Creatine phosphate", "Anaerobic glycolysis", "Aerobic respiration"],
          "lines": [
             "Muscle stores only a little ATP. It has to keep making more.",
@@ -80,7 +80,7 @@ STORY = {
             "**Anaerobic glycolysis** makes 2 ATP per glucose, with lactic acid. About 30 to 40 seconds.",
             "**Aerobic respiration** in the mitochondria makes about 32 ATP per glucose. It lasts for hours.",
          ]},
-        {"lec": "L14 · Fiber types", "title": "Fibers built for fuel", "img": None,
+        {"lec": "L14 · Fiber types", "title": "Muscle fiber types and fuel", "img": None,
          "terms": ["Slow oxidative", "Fast glycolytic", "Myoglobin"],
          "lines": [
             "**Slow oxidative** fibers run on aerobic respiration.",
@@ -88,13 +88,13 @@ STORY = {
             "**Fast glycolytic** fibers run anaerobically. They're white, powerful and tire fast.",
             "Endurance training adds mitochondria. That means more ATP.",
          ]},
-        {"lec": "L14 · Fatigue", "title": "Running low", "img": None,
+        {"lec": "L14 · Fatigue", "title": "Muscle fatigue", "img": None,
          "terms": ["Fatigue", "Lactic acid", "Oxygen deficit"],
          "lines": [
             "**Fatigue** comes when supply can't keep up.",
             "Low ATP. An **oxygen deficit**. **Lactic acid** buildup. Ion imbalance.",
          ]},
-        {"lec": "L15 · Hormones", "title": "Hormones control the fuel", "img": None,
+        {"lec": "L15 · Hormones", "title": "Hormones that control fuel", "img": None,
          "terms": ["Insulin", "Glucagon", "Thyroid hormone", "Cortisol"],
          "lines": [
             "**Insulin** moves glucose into cells and storage.",
@@ -102,7 +102,7 @@ STORY = {
             "**Thyroid hormone** is the main metabolic hormone. It raises heat production.",
             "**Cortisol** raises blood sugar to resist stress.",
          ]},
-        {"lec": "Recap", "title": "The whole path", "img": None,
+        {"lec": "Recap", "title": "Recap: the whole path", "img": None,
          "terms": ["Bonds", "Glucose", "Mitochondria", "ATP", "Cross bridge"],
          "lines": [
             "Energy sits in chemical **bonds**.",

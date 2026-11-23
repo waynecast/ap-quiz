@@ -85,14 +85,14 @@ STORY = {
             ("A **compound** has two or more different elements, like CH₄.", "A compound has two or more different elements, like methane."),
             ("A chemical **formula** lists the atoms. Glucose is C₆H₁₂O₆.", "A chemical formula lists the atoms. Glucose is C six, H twelve, O six."),
          ]},
-        {"lec": "L2 · Energy", "title": "Kinetic and potential", "img": None,
+        {"lec": "L2 · Energy", "title": "Kinetic and potential energy", "img": None,
          "terms": ["Kinetic", "Potential"],
          "lines": [
             "Energy is the ability to do work.",
             "**Kinetic** energy is energy of motion: heat, light, movement.",
             "**Potential** energy is stored, like in a battery or a chemical bond.",
          ]},
-        {"lec": "L2 · Reactions", "title": "Build and break", "img": "L2_10.png",
+        {"lec": "L2 · Reactions", "title": "Types of chemical reactions", "img": "L2_10.png",
          "terms": ["Synthesis", "Decomposition", "Exchange"],
          "lines": [
             "**Synthesis** builds. A plus B makes A B. It is anabolic and needs energy.",
@@ -100,14 +100,14 @@ STORY = {
             "**Exchange** swaps partners. A B plus C D makes A C plus B D.",
             "Most reactions are reversible, even if it takes years.",
          ]},
-        {"lec": "L2 · Reactions", "title": "Water in, water out", "img": "L2_11.jpg",
+        {"lec": "L2 · Reactions", "title": "Dehydration synthesis and hydrolysis", "img": "L2_11.jpg",
          "terms": ["Dehydration synthesis", "Hydrolysis"],
          "lines": [
             "**Dehydration synthesis** makes a bond by removing water.",
             "**Hydrolysis** breaks a bond by adding water.",
             "Hydro means water. Lysis means break.",
          ]},
-        {"lec": "L2 · Redox", "title": "LEO the lion goes GER", "img": None,
+        {"lec": "L2 · Redox", "title": "Oxidation and reduction", "img": None,
          "terms": ["Oxidation", "Reduction"],
          "lines": [
             "Losing electrons is **oxidation**.",

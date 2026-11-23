@@ -9,7 +9,7 @@
  "scenes": [
   {
    "lec": "Overview",
-   "title": "The body's framework",
+   "title": "The most abundant tissue",
    "img": null,
    "terms": [
     "Tissues",
@@ -19,33 +19,35 @@
     "Muscle"
    ],
    "start": 0.4,
+   "tstart": 0.4,
+   "tend": 1.74,
    "lines": [
     {
      "text": "Connective tissue is the most abundant tissue in the body.",
-     "start": 0.4,
-     "end": 3.75
+     "start": 2.44,
+     "end": 5.79
     },
     {
      "text": "You met it in Lecture 5.",
-     "start": 4.2,
-     "end": 5.75
+     "start": 6.24,
+     "end": 7.79
     },
     {
      "text": "Then it kept showing up. In skin, bone, joints and muscle.",
-     "start": 6.2,
-     "end": 9.81
+     "start": 8.24,
+     "end": 11.85
     },
     {
      "text": "This story follows it through all of them.",
-     "start": 10.26,
-     "end": 12.37
+     "start": 12.3,
+     "end": 14.41
     }
    ],
-   "end": 13.47
+   "end": 15.51
   },
   {
    "lec": "L5 · Matrix",
-   "title": "Mostly matrix",
+   "title": "Matrix and fibers",
    "img": "L5_01.jpg",
    "terms": [
     "Matrix",
@@ -54,68 +56,72 @@
     "Elastic",
     "Reticular"
    ],
-   "start": 13.47,
+   "start": 15.51,
+   "tstart": 15.51,
+   "tend": 16.8,
    "lines": [
     {
      "text": "Connective tissue has few cells and lots of **matrix**.",
-     "start": 13.47,
-     "end": 16.57
+     "start": 17.5,
+     "end": 20.59
     },
     {
      "text": "It is very vascular, with low turnover. Almost the opposite of epithelium.",
-     "start": 17.02,
-     "end": 21.9
+     "start": 21.04,
+     "end": 25.92
     },
     {
      "text": "**Fibroblasts** make the fibers.",
-     "start": 22.35,
-     "end": 24.03
+     "start": 26.37,
+     "end": 28.05
     },
     {
      "text": "**Collagen** is strongest. **Elastic** fibers recoil. **Reticular** fibers form networks.",
-     "start": 24.48,
-     "end": 29.97
+     "start": 28.5,
+     "end": 34.0
     },
     {
      "text": "Watch which fiber wins in each place. It explains what that tissue does.",
-     "start": 30.42,
-     "end": 34.69
+     "start": 34.45,
+     "end": 38.71
     }
    ],
-   "end": 35.79
+   "end": 39.81
   },
   {
    "lec": "L5 · CT proper",
-   "title": "Direction matters",
+   "title": "Dense regular versus dense irregular",
    "img": "L5_11.jpg",
    "terms": [
     "Dense regular",
     "Dense irregular"
    ],
-   "start": 35.79,
+   "start": 39.81,
+   "tstart": 39.81,
+   "tend": 42.08,
    "lines": [
     {
      "text": "In **dense regular** tissue, collagen runs in parallel.",
-     "start": 35.79,
-     "end": 39.12
+     "start": 42.78,
+     "end": 46.12
     },
     {
      "text": "It's strong in one direction. That's what tendons and ligaments need.",
-     "start": 39.57,
-     "end": 43.49
+     "start": 46.57,
+     "end": 50.49
     },
     {
      "text": "In **dense irregular** tissue, collagen runs every way.",
-     "start": 43.94,
-     "end": 47.28
+     "start": 50.94,
+     "end": 54.27
     },
     {
      "text": "It's strong in all directions. That's the dermis.",
-     "start": 47.73,
-     "end": 50.49
+     "start": 54.72,
+     "end": 57.48
     }
    ],
-   "end": 51.59
+   "end": 58.58
   },
   {
    "lec": "L6 · Skin",
@@ -126,97 +132,103 @@
     "Reticular layer",
     "Hypodermis"
    ],
-   "start": 51.59,
+   "start": 58.58,
+   "tstart": 58.58,
+   "tend": 60.05,
    "lines": [
     {
      "text": "The epidermis is epithelium. Everything below it is connective tissue.",
-     "start": 51.59,
-     "end": 55.92
+     "start": 60.75,
+     "end": 65.08
     },
     {
      "text": "The **papillary layer** of the dermis is areolar tissue.",
-     "start": 56.37,
-     "end": 59.35
+     "start": 65.53,
+     "end": 68.51
     },
     {
      "text": "The **reticular layer** is dense irregular tissue. It handles pulling and twisting.",
-     "start": 59.8,
-     "end": 64.56
+     "start": 68.96,
+     "end": 73.72
     },
     {
      "text": "The **hypodermis** is adipose tissue. It protects, insulates and stores energy.",
-     "start": 65.01,
-     "end": 69.96
+     "start": 74.17,
+     "end": 79.12
     }
    ],
-   "end": 71.06
+   "end": 80.22
   },
   {
    "lec": "L6 · Membranes",
-   "title": "The one CT membrane",
+   "title": "The synovial membrane",
    "img": "L6_03.jpg",
    "terms": [
     "Synovial membrane",
     "Areolar"
    ],
-   "start": 71.06,
+   "start": 80.22,
+   "tstart": 80.22,
+   "tend": 81.45,
    "lines": [
     {
      "text": "Three body membranes are epithelial.",
-     "start": 71.06,
-     "end": 73.13
+     "start": 82.15,
+     "end": 84.23
     },
     {
      "text": "The **synovial membrane** is the only one made of connective tissue.",
-     "start": 73.58,
-     "end": 77.32
+     "start": 84.68,
+     "end": 88.41
     },
     {
      "text": "It is loose **areolar** tissue, with no epithelium.",
-     "start": 77.77,
-     "end": 80.76
+     "start": 88.86,
+     "end": 91.85
     },
     {
      "text": "Keep it in mind. It comes back in joints.",
-     "start": 81.21,
-     "end": 83.71
+     "start": 92.3,
+     "end": 94.8
     }
    ],
-   "end": 84.81
+   "end": 95.9
   },
   {
    "lec": "L5 · Cartilage",
-   "title": "Three cartilages",
+   "title": "Three types of cartilage",
    "img": "L5_14.jpg",
    "terms": [
     "Hyaline",
     "Elastic cartilage",
     "Fibrocartilage"
    ],
-   "start": 84.81,
+   "start": 95.9,
+   "tstart": 95.9,
+   "tend": 97.28,
    "lines": [
     {
      "text": "Cartilage has no blood and no nerves.",
-     "start": 84.81,
-     "end": 87.22
+     "start": 97.98,
+     "end": 100.39
     },
     {
      "text": "**Hyaline** cartilage covers bone ends and forms the growth plates.",
-     "start": 87.67,
-     "end": 91.69
+     "start": 100.84,
+     "end": 104.86
     },
     {
      "text": "**Elastic cartilage** shapes the ear.",
-     "start": 92.14,
-     "end": 93.95
+     "start": 105.31,
+     "end": 107.12
     },
     {
      "text": "**Fibrocartilage** resists compression.",
-     "start": 94.4,
-     "end": 96.53
+     "start": 107.57,
+     "end": 109.7
     }
    ],
-   "end": 97.63
+   "end": 110.8
   },
   {
    "lec": "L7 · Bone",
@@ -227,88 +239,94 @@
     "Osteoid",
     "Osteon"
    ],
-   "start": 97.63,
+   "start": 110.8,
+   "tstart": 110.8,
+   "tend": 112.32,
    "lines": [
     {
      "text": "Bone is connective tissue with a solid matrix.",
-     "start": 97.63,
-     "end": 100.64
+     "start": 113.02,
+     "end": 116.04
     },
     {
      "text": "**Hydroxyapatite** makes it hard. **Osteoid** collagen makes it strong.",
-     "start": 101.09,
-     "end": 105.29
+     "start": 116.49,
+     "end": 120.69
     },
     {
      "text": "Compact bone is built from **osteons**.",
-     "start": 105.74,
-     "end": 107.96
+     "start": 121.14,
+     "end": 123.36
     },
     {
      "text": "The periosteum's outer layer is fibrous. It blends into tendons and ligaments.",
-     "start": 108.41,
-     "end": 113.27
+     "start": 123.81,
+     "end": 128.67
     }
    ],
-   "end": 114.37
+   "end": 129.77
   },
   {
    "lec": "L7 · Growth",
-   "title": "Cartilage becomes bone",
+   "title": "Cartilage in bone growth and joints",
    "img": "L7_08.jpg",
    "terms": [
     "Endochondral",
     "Epiphyseal plate",
     "Articular cartilage"
    ],
-   "start": 114.37,
+   "start": 129.77,
+   "tstart": 129.77,
+   "tend": 131.87,
    "lines": [
     {
      "text": "Most bones form inside hyaline cartilage. That's **endochondral** ossification.",
-     "start": 114.37,
-     "end": 119.68
+     "start": 132.57,
+     "end": 137.88
     },
     {
      "text": "The **epiphyseal plate** is hyaline cartilage where bone grows in length.",
-     "start": 120.13,
-     "end": 124.31
+     "start": 138.33,
+     "end": 142.51
     },
     {
      "text": "**Articular cartilage** is hyaline too. It covers the joint surface.",
-     "start": 124.76,
-     "end": 129.06
+     "start": 142.96,
+     "end": 147.26
     }
    ],
-   "end": 130.16
+   "end": 148.36
   },
   {
    "lec": "L9 · Spine",
-   "title": "Discs",
+   "title": "Intervertebral discs",
    "img": "L9_06.jpg",
    "terms": [
     "Intervertebral disc",
     "Fibrocartilage",
     "Symphysis"
    ],
-   "start": 130.16,
+   "start": 148.36,
+   "tstart": 148.36,
+   "tend": 149.63,
    "lines": [
     {
      "text": "**Intervertebral discs** are **fibrocartilage**.",
-     "start": 130.16,
-     "end": 132.55
+     "start": 150.33,
+     "end": 152.72
     },
     {
      "text": "They bear weight and resist compression.",
-     "start": 133.0,
-     "end": 135.06
+     "start": 153.17,
+     "end": 155.22
     },
     {
      "text": "Each one forms a **symphysis**, a slightly movable joint.",
-     "start": 135.51,
-     "end": 138.92
+     "start": 155.67,
+     "end": 159.09
     }
    ],
-   "end": 140.02
+   "end": 160.19
   },
   {
    "lec": "L12 · Joints",
@@ -319,98 +337,104 @@
     "Cartilaginous",
     "Synovial"
    ],
-   "start": 140.02,
+   "start": 160.19,
+   "tstart": 160.19,
+   "tend": 161.57,
    "lines": [
     {
      "text": "Joints are sorted by connective tissue.",
-     "start": 140.02,
-     "end": 142.11
+     "start": 162.27,
+     "end": 164.36
     },
     {
      "text": "**Fibrous** joints use dense fibrous tissue. Sutures and syndesmoses.",
-     "start": 142.56,
-     "end": 147.03
+     "start": 164.81,
+     "end": 169.28
     },
     {
      "text": "**Cartilaginous** joints use hyaline cartilage or fibrocartilage.",
-     "start": 147.48,
-     "end": 151.76
+     "start": 169.73,
+     "end": 174.01
     },
     {
      "text": "**Synovial** joints have a capsule. Its inner layer is the synovial membrane from Lecture 6.",
-     "start": 152.21,
-     "end": 157.9
+     "start": 174.46,
+     "end": 180.15
     },
     {
      "text": "Its fluid lubricates, absorbs shock and feeds the cartilage.",
-     "start": 158.35,
-     "end": 162.03
+     "start": 180.6,
+     "end": 184.27
     }
    ],
-   "end": 163.13
+   "end": 185.37
   },
   {
    "lec": "L12 · Knee",
-   "title": "Ligaments and menisci",
+   "title": "Ligaments, menisci and labrum",
    "img": "L12_22.jpg",
    "terms": [
     "Ligaments",
     "Menisci",
     "Labrum"
    ],
-   "start": 163.13,
+   "start": 185.37,
+   "tstart": 185.37,
+   "tend": 187.22,
    "lines": [
     {
      "text": "**Ligaments** are dense regular tissue. They connect bone to bone.",
-     "start": 163.13,
-     "end": 166.85
+     "start": 187.92,
+     "end": 191.65
     },
     {
      "text": "The knee's **menisci** are fibrocartilage pads.",
-     "start": 167.3,
-     "end": 169.97
+     "start": 192.1,
+     "end": 194.77
     },
     {
      "text": "The glenoid and acetabular **labrum** are cartilage rims that deepen a socket.",
-     "start": 170.42,
-     "end": 175.19
+     "start": 195.22,
+     "end": 199.99
     }
    ],
-   "end": 176.29
+   "end": 201.09
   },
   {
    "lec": "L13 · Muscle",
-   "title": "Wrapping the muscle",
+   "title": "Muscle wrappings",
    "img": "L13_06.jpg",
    "terms": [
     "Endomysium",
     "Perimysium",
     "Epimysium"
    ],
-   "start": 176.29,
+   "start": 201.09,
+   "tstart": 201.09,
+   "tend": 202.12,
    "lines": [
     {
      "text": "Connective tissue wraps every skeletal muscle.",
-     "start": 176.29,
-     "end": 179.08
+     "start": 202.82,
+     "end": 205.6
     },
     {
      "text": "**Endomysium** around each fiber is areolar tissue.",
-     "start": 179.53,
-     "end": 182.42
+     "start": 206.05,
+     "end": 208.95
     },
     {
      "text": "**Perimysium** around each bundle is dense irregular.",
-     "start": 182.87,
-     "end": 185.99
+     "start": 209.4,
+     "end": 212.52
     },
     {
      "text": "**Epimysium** around the whole muscle is dense irregular too.",
-     "start": 186.44,
-     "end": 190.03
+     "start": 212.97,
+     "end": 216.56
     }
    ],
-   "end": 191.13
+   "end": 217.66
   },
   {
    "lec": "L13 · Muscle",
@@ -421,34 +445,36 @@
     "Aponeurosis",
     "Fascia"
    ],
-   "start": 191.13,
+   "start": 217.66,
+   "tstart": 217.66,
+   "tend": 219.8,
    "lines": [
     {
      "text": "The wrappings extend past the muscle.",
-     "start": 191.13,
-     "end": 193.13
+     "start": 220.5,
+     "end": 222.5
     },
     {
      "text": "They become a **tendon**, an **aponeurosis**, or **fascia**.",
-     "start": 193.58,
-     "end": 196.81
+     "start": 222.95,
+     "end": 226.18
     },
     {
      "text": "All three are dense regular tissue.",
-     "start": 197.26,
-     "end": 199.26
+     "start": 226.63,
+     "end": 228.63
     },
     {
      "text": "So a tendon is the same tissue as a ligament. Parallel collagen, strong in one direction.",
-     "start": 199.71,
-     "end": 205.5
+     "start": 229.08,
+     "end": 234.87
     }
    ],
-   "end": 206.6
+   "end": 235.97
   },
   {
    "lec": "Recap",
-   "title": "One family",
+   "title": "Recap: one tissue family",
    "img": null,
    "terms": [
     "Areolar",
@@ -457,42 +483,44 @@
     "Bone",
     "Adipose"
    ],
-   "start": 206.6,
+   "start": 235.97,
+   "tstart": 235.97,
+   "tend": 237.66,
    "lines": [
     {
      "text": "**Areolar** tissue packs, and lines joints as synovial membrane.",
-     "start": 206.6,
-     "end": 210.46
+     "start": 238.36,
+     "end": 242.22
     },
     {
      "text": "**Dense** regular makes tendons and ligaments. Dense irregular makes the dermis and muscle wrappings.",
-     "start": 210.91,
-     "end": 216.76
+     "start": 242.67,
+     "end": 248.52
     },
     {
      "text": "**Cartilage** covers joints and fills discs.",
-     "start": 217.21,
-     "end": 219.76
+     "start": 248.97,
+     "end": 251.52
     },
     {
      "text": "**Bone** is the hardest member of the family.",
-     "start": 220.21,
-     "end": 222.5
+     "start": 251.97,
+     "end": 254.26
     },
     {
      "text": "**Adipose** cushions under the skin.",
-     "start": 222.95,
-     "end": 224.65
+     "start": 254.71,
+     "end": 256.41
     },
     {
      "text": "As a massage therapist, you'll have your hands on this family all day.",
-     "start": 225.1,
-     "end": 228.9
+     "start": 256.86,
+     "end": 260.66
     }
    ],
-   "end": 230.0
+   "end": 261.76
   }
  ],
- "duration": 230.0,
+ "duration": 261.76,
  "audio": "stories/t_ct.mp3"
 }

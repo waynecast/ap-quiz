@@ -33,7 +33,7 @@ STORY = {
             "Every organ is built from these four.",
             "You will meet each one again in Lecture 5 and beyond.",
          ]},
-        {"lec": "L1 · Systems", "title": "Eleven organ systems", "img": None,
+        {"lec": "L1 · Systems", "title": "Organ systems, part one", "img": None,
          "terms": ["Integumentary", "Skeletal", "Muscular", "Nervous", "Endocrine"],
          "lines": [
             "The body has **eleven** organ systems.",
@@ -43,7 +43,7 @@ STORY = {
             "The **nervous** system controls the body fast, with sensory input, integration and motor output.",
             "The **endocrine** system controls the body more slowly, with hormones in the blood.",
          ]},
-        {"lec": "L1 · Systems", "title": "Six more systems", "img": None,
+        {"lec": "L1 · Systems", "title": "Organ systems, part two", "img": None,
          "terms": ["Cardiovascular", "Lymphatic", "Respiratory", "Digestive", "Urinary", "Reproductive"],
          "lines": [
             "The **cardiovascular** system moves gases, nutrients and wastes, and helps regulate temperature.",
@@ -107,7 +107,7 @@ STORY = {
             "Nine regions form a tic-tac-toe grid.",
             "The middle column, top to bottom, is **epigastric**, **umbilical**, hypogastric.",
          ]},
-        {"lec": "L1 · Homeostasis", "title": "Keeping balance", "img": "L1_13.png",
+        {"lec": "L1 · Homeostasis", "title": "Homeostasis and feedback loops", "img": "L1_13.png",
          "terms": ["Homeostasis", "Stimulus", "Receptor", "Control center", "Effector"],
          "lines": [
             "**Homeostasis** is a stable internal environment.",

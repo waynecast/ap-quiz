@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Bone markings, cranial and facial bones, sinuses",
     "lectures": "Lecture 8",
     "scenes": [
-        {"lec": "L8 · Markings", "title": "Bumps for attachment", "img": "L8_01.png",
+        {"lec": "L8 · Markings", "title": "Bone markings: projections", "img": "L8_01.png",
          "terms": ["Trochanter", "Process", "Tuberosity", "Tubercle"],
          "lines": [
             "Bone markings show where muscles attach and where nerves pass.",
@@ -13,7 +13,7 @@ STORY = {
             "A **tuberosity** is large and rough. A **tubercle** is small and smooth.",
             "An epicondyle sits above a condyle.",
          ]},
-        {"lec": "L8 · Markings", "title": "Holes and joint surfaces", "img": None,
+        {"lec": "L8 · Markings", "title": "Bone markings: openings and joint surfaces", "img": None,
          "terms": ["Foramen", "Meatus", "Condyle", "Fossa", "Sinus"],
          "lines": [
             "Openings let vessels and nerves through.",
@@ -22,7 +22,7 @@ STORY = {
             "A **condyle** is a round joint surface. A facet is flat.",
             "A **fossa** is a shallow basin. A **sinus** is an air-filled cavity.",
          ]},
-        {"lec": "L8 · Cranium", "title": "Frontal and parietal", "img": "L8_02.png",
+        {"lec": "L8 · Cranium", "title": "Frontal and parietal bones", "img": "L8_02.png",
          "terms": ["Frontal", "Parietal", "Coronal suture", "Sagittal suture"],
          "lines": [
             "The **frontal** bone is the forehead. It holds the frontal sinus.",
@@ -49,7 +49,7 @@ STORY = {
             "The **occipital condyles** form a joint with the atlas.",
             ("The **EOP** is the midline bump where neck muscles attach.", "The external occipital protuberance is the midline bump where neck muscles attach."),
          ]},
-        {"lec": "L8 · Cranium", "title": "Sphenoid and ethmoid", "img": "L8_12.jpg",
+        {"lec": "L8 · Cranium", "title": "Sphenoid and ethmoid bones", "img": "L8_12.jpg",
          "terms": ["Sphenoid", "Sella turcica", "Ethmoid", "Cribriform plate"],
          "lines": [
             "The **sphenoid** is shaped like a bat or butterfly.",
@@ -68,7 +68,7 @@ STORY = {
             "With the temporal bone, they form the zygomatic arch.",
             "The **lacrimal** bones sit on the inner wall of each orbit.",
          ]},
-        {"lec": "L8 · Face", "title": "Inside the nose and mouth", "img": "L8_19.jpg",
+        {"lec": "L8 · Face", "title": "Vomer, palatine and inferior conchae", "img": "L8_19.jpg",
          "terms": ["Vomer", "Palatine", "Inferior conchae"],
          "lines": [
             "The **vomer** is a single bone. It forms the lower nasal septum.",
@@ -84,7 +84,7 @@ STORY = {
             "The **ramus** runs up. The angle is where it turns. The body is the chin.",
             "The alveolar process holds the teeth. The **mental foramina** are holes in the chin.",
          ]},
-        {"lec": "L8 · Sinuses", "title": "FEMS", "img": "L8_26.jpg",
+        {"lec": "L8 · Sinuses", "title": "The paranasal sinuses", "img": "L8_26.jpg",
          "terms": ["Frontal", "Ethmoid", "Maxillary", "Sphenoid"],
          "lines": [
             "The paranasal sinuses warm, humidify and filter air.",
@@ -92,7 +92,7 @@ STORY = {
             "There are four pairs. FEMS.",
             "**Frontal**, **ethmoid**, **maxillary**, **sphenoid**.",
          ]},
-        {"lec": "L8 · Other", "title": "Hyoid and ossicles", "img": "L8_28.jpg",
+        {"lec": "L8 · Other", "title": "The hyoid and the ear ossicles", "img": "L8_28.jpg",
          "terms": ["Hyoid", "Malleus", "Incus", "Stapes"],
          "lines": [
             "The **hyoid** sits under the tongue.",

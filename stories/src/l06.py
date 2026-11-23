@@ -23,7 +23,7 @@ STORY = {
             "Serous fluid between them reduces friction.",
             "**Pleurae** wrap the lungs. **Pericardium** wraps the heart. **Peritoneum** lines the abdomen.",
          ]},
-        {"lec": "L6 · Mucous and synovial", "title": "Mucus and synovial fluid", "img": "L6_02.jpg",
+        {"lec": "L6 · Mucous and synovial", "title": "Mucous and synovial membranes", "img": "L6_02.jpg",
          "terms": ["Lamina propria", "Mucus", "Synovial fluid"],
          "lines": [
             "Mucous membranes line the respiratory, digestive and urogenital tracts.",
@@ -32,7 +32,7 @@ STORY = {
             "Synovial membranes line joints, bursae and tendon sheaths.",
             "They make **synovial fluid**, a very good lubricant.",
          ]},
-        {"lec": "L6 · Skin", "title": "Skin protects", "img": None,
+        {"lec": "L6 · Skin", "title": "Skin function: protection", "img": None,
          "terms": ["Keratin", "Acid mantle", "Melanin"],
          "lines": [
             "Skin is the largest organ.",
@@ -40,7 +40,7 @@ STORY = {
             "The **acid mantle** and white blood cells protect against germs.",
             "**Melanin** protects against UV.",
          ]},
-        {"lec": "L6 · Skin", "title": "Temperature", "img": None,
+        {"lec": "L6 · Skin", "title": "Skin function: temperature regulation", "img": None,
          "terms": ["Vasodilation", "Vasoconstriction", "Negative feedback"],
          "lines": [
             "The nervous system controls skin temperature.",
@@ -48,7 +48,7 @@ STORY = {
             "To keep heat, vessels constrict and goosebumps rise. That's **vasoconstriction**.",
             "It is **negative feedback**, just like Lecture 1.",
          ]},
-        {"lec": "L6 · Sensation", "title": "Skin receptors", "img": "L6_04.jpg",
+        {"lec": "L6 · Sensation", "title": "Sensory receptors in the skin", "img": "L6_04.jpg",
          "terms": ["Meissner", "Merkel", "Pacinian", "Ruffini", "Krause"],
          "lines": [
             "**Meissner's** corpuscles sense light touch and two-point discrimination.",
@@ -58,7 +58,7 @@ STORY = {
             "**Ruffini** senses heat. It sounds Italian, and Italy is hot.",
             "**Krause** senses cold. It sounds like Santa Claus, and winter is cold.",
          ]},
-        {"lec": "L6 · Skin", "title": "Excretion, synthesis, storage", "img": None,
+        {"lec": "L6 · Skin", "title": "Excretion, synthesis, storage and skin color", "img": None,
          "terms": ["Excretion", "Vitamin D", "Carotene"],
          "lines": [
             "Sweat excretes urea, ammonia, salt and water.",
@@ -67,7 +67,7 @@ STORY = {
             "Don't confuse carotene with keratin.",
             "Skin color comes from melanin, carotene and hemoglobin. Low oxygen looks blue. That's cyanosis.",
          ]},
-        {"lec": "L6 · Layers", "title": "Three layers", "img": "L6_05.jpg",
+        {"lec": "L6 · Layers", "title": "Layers of the skin", "img": "L6_05.jpg",
          "terms": ["Epidermis", "Dermis", "Hypodermis"],
          "lines": [
             "The **epidermis** is on top. It is keratinized stratified squamous, and avascular.",
@@ -75,7 +75,7 @@ STORY = {
             "The **hypodermis** is fat below the dermis.",
             "It is not a layer of skin.",
          ]},
-        {"lec": "L6 · Epidermis", "title": "Come Let's Get Sun Burned", "img": "L6_06.jpg",
+        {"lec": "L6 · Epidermis", "title": "Layers of the epidermis", "img": "L6_06.jpg",
          "terms": ["Corneum", "Lucidum", "Granulosum", "Spinosum", "Basale"],
          "lines": [
             "Top to bottom: Come Let's Get Sun Burned.",
@@ -85,7 +85,7 @@ STORY = {
             "Stratum **spinosum** is spiny. It holds Langerhans cells.",
             "Stratum **basale** is deepest. Cells divide here, and melanocytes live here.",
          ]},
-        {"lec": "L6 · Dermis", "title": "Two dermal layers", "img": None,
+        {"lec": "L6 · Dermis", "title": "Layers of the dermis", "img": None,
          "terms": ["Papillary", "Reticular", "Dermal papillae"],
          "lines": [
             "The **papillary** layer is the top fifth. It is areolar tissue.",

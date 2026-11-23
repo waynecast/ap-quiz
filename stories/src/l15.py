@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Glands, hormone types, and each hormone's source, target and effect",
     "lectures": "Lecture 15",
     "scenes": [
-        {"lec": "L15", "title": "Glands and hormones", "img": "L15_02.jpg",
+        {"lec": "L15", "title": "Endocrine glands and hormones", "img": "L15_02.jpg",
          "terms": ["Endocrine gland", "Hormone", "Target tissue"],
          "lines": [
             "The endocrine system controls the body with hormones.",
@@ -13,7 +13,7 @@ STORY = {
             "Its **target tissue** is the organ or cell it affects.",
             "For each hormone, know its source, target and effect.",
          ]},
-        {"lec": "L15 · Stimuli", "title": "Three triggers", "img": "L15_01.jpg",
+        {"lec": "L15 · Stimuli", "title": "Three ways glands are stimulated", "img": "L15_01.jpg",
          "terms": ["Humoral", "Neural", "Hormonal"],
          "lines": [
             "**Humoral**: a change in blood levels, like calcium.",
@@ -28,14 +28,14 @@ STORY = {
             "**Biogenic amines** are modified amino acids. Epinephrine, thyroid hormone, melatonin.",
             "**Protein** hormones are most hormones. They can't cross the membrane, so they use a second messenger.",
          ]},
-        {"lec": "L15 · Pituitary", "title": "The master gland", "img": "L15_03.png",
+        {"lec": "L15 · Pituitary", "title": "The pituitary gland", "img": "L15_03.png",
          "terms": ["Anterior pituitary", "Posterior pituitary", "Sella turcica"],
          "lines": [
             "The pituitary is pea sized. It sits in the **sella turcica**, below the hypothalamus.",
             "The **anterior pituitary** makes and releases its own hormones.",
             "The **posterior pituitary** stores and releases hormones made by the hypothalamus.",
          ]},
-        {"lec": "L15 · Anterior pituitary", "title": "Growth, milk, thyroid", "img": None,
+        {"lec": "L15 · Anterior pituitary", "title": "Anterior pituitary hormones, part one", "img": None,
          "terms": ["GH", "Prolactin", "TSH", "ACTH"],
          "lines": [
             ("**Growth hormone** targets all cells, especially muscle and bone. It increases body size.", "Growth hormone targets all cells, especially muscle and bone. It increases body size."),
@@ -44,7 +44,7 @@ STORY = {
             ("**TSH** targets the thyroid. It releases thyroid hormone.", "Thyroid stimulating hormone targets the thyroid. It releases thyroid hormone."),
             ("**ACTH** targets the adrenal cortex. It releases glucocorticoids.", "A. C. T. H. targets the adrenal cortex. It releases glucocorticoids."),
          ]},
-        {"lec": "L15 · Anterior pituitary", "title": "The gonadotropins", "img": None,
+        {"lec": "L15 · Anterior pituitary", "title": "Anterior pituitary hormones, part two", "img": None,
          "terms": ["FSH", "LH", "MSH"],
          "lines": [
             ("**FSH** targets the gonads. It develops eggs and sperm.", "Follicle stimulating hormone targets the gonads. It develops eggs and sperm."),
@@ -52,7 +52,7 @@ STORY = {
             "Together they are the gonadotropins.",
             "Melanocyte stimulating hormone has little effect in humans.",
          ]},
-        {"lec": "L15 · Posterior pituitary", "title": "ADH and oxytocin", "img": None,
+        {"lec": "L15 · Posterior pituitary", "title": "Posterior pituitary: ADH and oxytocin", "img": None,
          "terms": ["ADH", "Oxytocin"],
          "lines": [
             ("**ADH**, antidiuretic hormone, targets the kidneys.", "Antidiuretic hormone targets the kidneys."),
@@ -67,7 +67,7 @@ STORY = {
             "It releases **melatonin**.",
             "Melatonin sets the **circadian rhythm**, the daily sleep cycle.",
          ]},
-        {"lec": "L15 · Thyroid", "title": "The thyroid", "img": None,
+        {"lec": "L15 · Thyroid", "title": "The thyroid gland", "img": None,
          "terms": ["Thyroid hormone", "Graves'", "Goiter", "Calcitonin"],
          "lines": [
             "The thyroid is butterfly shaped, just below the larynx.",
@@ -75,7 +75,7 @@ STORY = {
             "Too much is **Graves'** disease. Too little can cause a **goiter**.",
             "**Calcitonin** targets bone. It lowers blood calcium.",
          ]},
-        {"lec": "L15 · Parathyroid", "title": "Parathyroids and thymus", "img": "L15_04.png",
+        {"lec": "L15 · Parathyroid", "title": "The parathyroids and thymus", "img": "L15_04.png",
          "terms": ["PTH", "Thymosin"],
          "lines": [
             "Four parathyroid nodules sit on the back of the thyroid.",
@@ -84,7 +84,7 @@ STORY = {
             "The thymus sits in front of the heart. It shrinks after puberty.",
             "**Thymosin** matures T lymphocytes.",
          ]},
-        {"lec": "L15 · Adrenal medulla", "title": "Fight or flight", "img": "L15_05.png",
+        {"lec": "L15 · Adrenal medulla", "title": "The adrenal medulla", "img": "L15_05.png",
          "terms": ["Epinephrine", "Norepinephrine"],
          "lines": [
             "The adrenal glands sit on top of the kidneys.",
@@ -92,7 +92,7 @@ STORY = {
             "It releases **epinephrine** and **norepinephrine**.",
             "Heart rate, blood pressure and blood sugar rise. Airways open.",
          ]},
-        {"lec": "L15 · Adrenal cortex", "title": "Salt, sugar, sex", "img": None,
+        {"lec": "L15 · Adrenal cortex", "title": "The adrenal cortex", "img": None,
          "terms": ["Aldosterone", "Cortisol", "Androgens"],
          "lines": [
             "The cortex has three zones. Glomerulosa, fasciculata, reticularis.",
@@ -101,7 +101,7 @@ STORY = {
             "**Androgens** are made in small amounts.",
             "Too little cortex hormone is Addison's. Too much cortisol is Cushing's.",
          ]},
-        {"lec": "L15 · Kidneys", "title": "EPO and renin", "img": None,
+        {"lec": "L15 · Kidneys", "title": "Kidney hormones: EPO and renin", "img": None,
          "terms": ["EPO", "Renin", "RAAS"],
          "lines": [
             ("When oxygen is low, the kidneys release **EPO**, erythropoietin.", "When oxygen is low, the kidneys release erythropoietin."),
@@ -109,7 +109,7 @@ STORY = {
             "When blood pressure or sodium drops, the kidneys release **renin**.",
             "That starts the renin angiotensin aldosterone system, which raises blood pressure.",
          ]},
-        {"lec": "L15 · Pancreas", "title": "Insulin and glucagon", "img": None,
+        {"lec": "L15 · Pancreas", "title": "The pancreas: insulin and glucagon", "img": None,
          "terms": ["Islets", "Glucagon", "Insulin"],
          "lines": [
             "The pancreas is mostly exocrine. Its **islets** of Langerhans are endocrine.",

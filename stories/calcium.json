@@ -9,7 +9,7 @@
  "scenes": [
   {
    "lec": "Overview",
-   "title": "One ion, many lectures",
+   "title": "One ion across the midterm",
    "img": null,
    "terms": [
     "Chemistry",
@@ -18,34 +18,36 @@
     "Muscle"
    ],
    "start": 0.4,
+   "tstart": 0.4,
+   "tend": 2.12,
    "lines": [
     {
      "text": "This story follows one ion through the midterm.",
-     "start": 0.4,
-     "end": 3.05
+     "start": 2.82,
+     "end": 5.46
     },
     {
      "text": "That ion is **calcium**.",
-     "start": 3.5,
-     "end": 4.86
+     "start": 5.91,
+     "end": 7.28
     },
     {
      "text": "You met it in chemistry.",
-     "start": 5.31,
-     "end": 6.66
+     "start": 7.73,
+     "end": 9.07
     },
     {
      "text": "You met it again in bone, in hormones, and in muscle.",
-     "start": 7.11,
-     "end": 10.02
+     "start": 9.52,
+     "end": 12.43
     },
     {
      "text": "Let's connect those pieces.",
-     "start": 10.47,
-     "end": 12.0
+     "start": 12.88,
+     "end": 14.42
     }
    ],
-   "end": 13.1
+   "end": 15.52
   },
   {
    "lec": "L2 · Atoms",
@@ -56,35 +58,37 @@
     "Atomic number",
     "Ca"
    ],
-   "start": 13.1,
+   "start": 15.52,
+   "tstart": 15.52,
+   "tend": 16.7,
    "lines": [
     {
      "text": "Calcium is an **element**.",
-     "start": 13.1,
-     "end": 14.43
+     "start": 17.4,
+     "end": 18.73
     },
     {
      "text": "Its symbol is **Ca**.",
-     "start": 14.88,
-     "end": 16.02
+     "start": 19.18,
+     "end": 20.32
     },
     {
      "text": "Its **atomic number** is 20.",
-     "start": 16.47,
-     "end": 18.12
+     "start": 20.77,
+     "end": 22.41
     },
     {
      "text": "So it has 20 protons in its nucleus.",
-     "start": 18.57,
-     "end": 20.82
+     "start": 22.86,
+     "end": 25.11
     },
     {
      "text": "A neutral calcium atom also has 20 electrons.",
-     "start": 21.27,
-     "end": 24.52
+     "start": 25.56,
+     "end": 28.81
     }
    ],
-   "end": 25.62
+   "end": 29.91
   },
   {
    "lec": "L2 · Bonds",
@@ -95,79 +99,83 @@
     "Cation",
     "Ionic bond"
    ],
-   "start": 25.62,
+   "start": 29.91,
+   "tstart": 29.91,
+   "tend": 30.99,
    "lines": [
     {
      "text": "Calcium gives away two electrons.",
-     "start": 25.62,
-     "end": 27.6
+     "start": 31.69,
+     "end": 33.67
     },
     {
      "text": "Now it has more protons than electrons.",
-     "start": 28.05,
-     "end": 30.42
+     "start": 34.12,
+     "end": 36.49
     },
     {
      "text": "An atom with a charge is an **ion**.",
-     "start": 30.87,
-     "end": 33.02
+     "start": 36.94,
+     "end": 39.1
     },
     {
      "text": "A positive ion is a **cation**.",
-     "start": 33.47,
-     "end": 35.41
+     "start": 39.55,
+     "end": 41.49
     },
     {
      "text": "We write it **Ca²⁺**.",
-     "start": 35.86,
-     "end": 37.45
+     "start": 41.94,
+     "end": 43.53
     },
     {
      "text": "Cations pair with anions in **ionic bonds**, like sodium and chloride in table salt.",
-     "start": 37.9,
-     "end": 43.34
+     "start": 43.98,
+     "end": 49.42
     }
    ],
-   "end": 44.44
+   "end": 50.52
   },
   {
    "lec": "L3 · Inorganic compounds",
-   "title": "An electrolyte",
+   "title": "Calcium is an electrolyte",
    "img": null,
    "terms": [
     "Electrolyte",
     "Salts",
     "Inorganic"
    ],
-   "start": 44.44,
+   "start": 50.52,
+   "tstart": 50.52,
+   "tend": 52.08,
    "lines": [
     {
      "text": "Salts are inorganic compounds.",
-     "start": 44.44,
-     "end": 46.34
+     "start": 52.78,
+     "end": 54.68
     },
     {
      "text": "In water, salts release ions.",
-     "start": 46.79,
-     "end": 48.82
+     "start": 55.13,
+     "end": 57.16
     },
     {
      "text": "A substance that releases ions and conducts electric current is an **electrolyte**.",
-     "start": 49.27,
-     "end": 54.31
+     "start": 57.61,
+     "end": 62.65
     },
     {
      "text": "Calcium ions are electrolytes.",
-     "start": 54.76,
-     "end": 56.82
+     "start": 63.1,
+     "end": 65.17
     },
     {
      "text": "Keep that in mind. Calcium carries a charge, and that matters in muscle.",
-     "start": 57.27,
-     "end": 61.66
+     "start": 65.62,
+     "end": 70.0
     }
    ],
-   "end": 62.76
+   "end": 71.1
   },
   {
    "lec": "L5 + L7 · Bone tissue",
@@ -178,269 +186,281 @@
     "Osteoid",
     "Storage"
    ],
-   "start": 62.76,
+   "start": 71.1,
+   "tstart": 71.1,
+   "tend": 72.62,
    "lines": [
     {
      "text": "Bone is a connective tissue: cells plus matrix.",
-     "start": 62.76,
-     "end": 65.91
+     "start": 73.32,
+     "end": 76.47
     },
     {
      "text": "The matrix ground substance is **hydroxyapatite**.",
-     "start": 66.36,
-     "end": 69.31
+     "start": 76.92,
+     "end": 79.88
     },
     {
      "text": "Hydroxyapatite is mineral salts of calcium, magnesium and phosphorus.",
-     "start": 69.76,
-     "end": 74.59
+     "start": 80.33,
+     "end": 85.15
     },
     {
      "text": "It makes bone **hard**. It is two thirds of the matrix.",
-     "start": 75.04,
-     "end": 78.07
+     "start": 85.6,
+     "end": 88.63
     },
     {
      "text": "The fibers are **osteoid**, mostly collagen. They make bone **strong**.",
-     "start": 78.52,
-     "end": 82.51
+     "start": 89.08,
+     "end": 93.07
     },
     {
      "text": "Storing minerals is one of the five functions of the skeleton.",
-     "start": 82.96,
-     "end": 86.51
+     "start": 93.52,
+     "end": 97.07
     }
    ],
-   "end": 87.61
+   "end": 98.17
   },
   {
    "lec": "L7 · Bone cells",
-   "title": "Blasts build, clasts crush",
+   "title": "Bone cells: blasts build, clasts crush",
    "img": "L7_03.jpg",
    "terms": [
     "Osteoblast",
     "Osteoclast",
     "Osteocyte"
    ],
-   "start": 87.61,
+   "start": 98.17,
+   "tstart": 98.17,
+   "tend": 100.78,
    "lines": [
     {
      "text": "Bone cells move calcium in and out of the bank.",
-     "start": 87.61,
-     "end": 90.03
+     "start": 101.48,
+     "end": 103.91
     },
     {
      "text": "**Osteoblasts** are the builders.",
-     "start": 90.48,
-     "end": 92.11
+     "start": 104.36,
+     "end": 105.99
     },
     {
      "text": "They take calcium from the blood and deposit it onto collagen.",
-     "start": 92.56,
-     "end": 96.16
+     "start": 106.44,
+     "end": 110.04
     },
     {
      "text": "**Osteoclasts** are the demolition crew.",
-     "start": 96.61,
-     "end": 98.77
+     "start": 110.49,
+     "end": 112.64
     },
     {
      "text": "They break bone down and send calcium back into the blood.",
-     "start": 99.22,
-     "end": 102.38
+     "start": 113.09,
+     "end": 116.26
     },
     {
      "text": "**Osteocytes** are mature bone cells. They maintain bone and oversee the blasts and clasts.",
-     "start": 102.83,
-     "end": 108.32
+     "start": 116.71,
+     "end": 122.19
     },
     {
      "text": "Memory trick: blast means build. Clast means crush.",
-     "start": 108.77,
-     "end": 112.03
+     "start": 122.64,
+     "end": 125.9
     }
    ],
-   "end": 113.13
+   "end": 127.0
   },
   {
    "lec": "L6 + L7 · Skin",
-   "title": "Vitamin D lets calcium in",
+   "title": "Vitamin D helps absorb calcium",
    "img": "L6_05.jpg",
    "terms": [
     "Vitamin D",
     "Cholecalciferol",
     "Synthesis"
    ],
-   "start": 113.13,
+   "start": 127.0,
+   "tstart": 127.0,
+   "tend": 129.23,
    "lines": [
     {
      "text": "Calcium has to get into the blood first.",
-     "start": 113.13,
-     "end": 115.32
+     "start": 129.93,
+     "end": 132.13
     },
     {
      "text": "Synthesis is one of the skin's functions.",
-     "start": 115.77,
-     "end": 118.07
+     "start": 132.58,
+     "end": 134.88
     },
     {
      "text": "When sunlight hits the skin, modified cholesterol becomes **vitamin D**.",
-     "start": 118.52,
-     "end": 123.05
+     "start": 135.33,
+     "end": 139.85
     },
     {
      "text": "Activated vitamin D3 is called **cholecalciferol**.",
-     "start": 123.5,
-     "end": 127.09
+     "start": 140.3,
+     "end": 143.89
     },
     {
      "text": "It is needed to absorb calcium from food into the blood.",
-     "start": 127.54,
-     "end": 130.67
+     "start": 144.34,
+     "end": 147.48
     },
     {
      "text": "Too little in children causes **rickets**. In adults it causes **osteomalacia**.",
-     "start": 131.12,
-     "end": 135.86
+     "start": 147.93,
+     "end": 152.66
     }
    ],
-   "end": 136.96
+   "end": 153.76
   },
   {
    "lec": "L1 · Homeostasis",
-   "title": "Keep it in range",
+   "title": "Homeostasis keeps calcium in range",
    "img": "L1_13.jpg",
    "terms": [
     "Homeostasis",
     "Negative feedback"
    ],
-   "start": 136.96,
+   "start": 153.76,
+   "tstart": 153.76,
+   "tend": 156.37,
    "lines": [
     {
      "text": "Blood calcium has to stay in a narrow range.",
-     "start": 136.96,
-     "end": 139.54
+     "start": 157.07,
+     "end": 159.65
     },
     {
      "text": "Keeping a stable internal environment is **homeostasis**.",
-     "start": 139.99,
-     "end": 143.65
+     "start": 160.1,
+     "end": 163.77
     },
     {
      "text": "The body uses **negative feedback**.",
-     "start": 144.1,
-     "end": 146.1
+     "start": 164.22,
+     "end": 166.22
     },
     {
      "text": "The response opposes the change.",
-     "start": 146.55,
-     "end": 148.32
+     "start": 166.67,
+     "end": 168.44
     },
     {
      "text": "Stimulus, receptor, control center, effector.",
-     "start": 148.77,
-     "end": 151.68
+     "start": 168.89,
+     "end": 171.8
     },
     {
      "text": "For calcium, two hormones pull in opposite directions.",
-     "start": 152.13,
-     "end": 155.3
+     "start": 172.25,
+     "end": 175.41
     }
    ],
-   "end": 156.4
+   "end": 176.51
   },
   {
    "lec": "L7 + L15 · Thyroid",
-   "title": "Calcitonin: calci-bone-in",
+   "title": "Calcitonin lowers blood calcium",
    "img": "L7_17.jpg",
    "terms": [
     "Calcitonin",
     "Thyroid gland",
     "↓ blood Ca²⁺"
    ],
-   "start": 156.4,
+   "start": 176.51,
+   "tstart": 176.51,
+   "tend": 178.46,
    "lines": [
     {
      "text": "Blood calcium is too **high**.",
-     "start": 156.4,
-     "end": 157.93
+     "start": 179.16,
+     "end": 180.69
     },
     {
      "text": "The **thyroid gland** releases **calcitonin**.",
-     "start": 158.38,
-     "end": 160.99
+     "start": 181.14,
+     "end": 183.76
     },
     {
      "text": "Calcitonin stimulates osteoblasts and inhibits osteoclasts.",
-     "start": 161.44,
-     "end": 165.61
+     "start": 184.21,
+     "end": 188.37
     },
     {
      "text": "Calcium moves from the blood into bone.",
-     "start": 166.06,
-     "end": 168.16
+     "start": 188.82,
+     "end": 190.92
     },
     {
      "text": "Blood calcium falls back to normal.",
-     "start": 168.61,
-     "end": 170.58
+     "start": 191.37,
+     "end": 193.34
     },
     {
      "text": "Memory trick: calci-**bone-in**.",
-     "start": 171.03,
-     "end": 173.09
+     "start": 193.79,
+     "end": 195.85
     }
    ],
-   "end": 174.19
+   "end": 196.95
   },
   {
    "lec": "L15 · Parathyroids",
-   "title": "PTH: calcium out of bone",
+   "title": "PTH raises blood calcium",
    "img": "L15_04.jpg",
    "terms": [
     "PTH",
     "Parathyroid glands",
     "Antagonist"
    ],
-   "start": 174.19,
+   "start": 196.95,
+   "tstart": 196.95,
+   "tend": 198.92,
    "lines": [
     {
      "text": "Blood calcium is too **low**.",
-     "start": 174.19,
-     "end": 175.73
+     "start": 199.62,
+     "end": 201.16
     },
     {
      "text": "The **parathyroid glands** respond.",
-     "start": 176.18,
-     "end": 178.02
+     "start": 201.61,
+     "end": 203.45
     },
     {
      "text": "They are four small nodules on the back of the thyroid.",
-     "start": 178.47,
-     "end": 181.43
+     "start": 203.9,
+     "end": 206.86
     },
     {
      "text": "They release **parathyroid hormone**, or **PTH**.",
-     "start": 181.88,
-     "end": 184.78
+     "start": 207.31,
+     "end": 210.21
     },
     {
      "text": "PTH stimulates osteoclasts and inhibits osteoblasts.",
-     "start": 185.23,
-     "end": 189.9
+     "start": 210.66,
+     "end": 215.33
     },
     {
      "text": "Calcium moves from bone into the blood.",
-     "start": 190.35,
-     "end": 192.38
+     "start": 215.78,
+     "end": 217.81
     },
     {
      "text": "PTH and calcitonin are **antagonists**. Both also act on the kidney.",
-     "start": 192.83,
-     "end": 198.19
+     "start": 218.26,
+     "end": 223.62
     }
    ],
-   "end": 199.29
+   "end": 224.72
   },
   {
    "lec": "L15 · Endocrine",
@@ -451,128 +471,134 @@
     "Endocrine gland",
     "Hormone"
    ],
-   "start": 199.29,
+   "start": 224.72,
+   "tstart": 224.72,
+   "tend": 225.98,
    "lines": [
     {
      "text": "What tells the parathyroids to act?",
-     "start": 199.29,
-     "end": 201.16
+     "start": 226.68,
+     "end": 228.54
     },
     {
      "text": "The calcium level in the blood itself.",
-     "start": 201.61,
-     "end": 203.67
+     "start": 228.99,
+     "end": 231.06
     },
     {
      "text": "A change in blood ion or nutrient levels is a **humoral** stimulus.",
-     "start": 204.12,
-     "end": 208.5
+     "start": 231.51,
+     "end": 235.89
     },
     {
      "text": "The other two kinds are neural and hormonal.",
-     "start": 208.95,
-     "end": 211.47
+     "start": 236.34,
+     "end": 238.85
     },
     {
      "text": "Endocrine glands lack ducts.",
-     "start": 211.92,
-     "end": 213.69
+     "start": 239.3,
+     "end": 241.08
     },
     {
      "text": "Their **hormones** travel in the blood to a target tissue.",
-     "start": 214.14,
-     "end": 216.95
+     "start": 241.53,
+     "end": 244.34
     }
    ],
-   "end": 218.05
+   "end": 245.44
   },
   {
    "lec": "L13 · Muscle fiber",
-   "title": "Calcium waits in the SR",
+   "title": "Calcium stored in the sarcoplasmic reticulum",
    "img": "L13_05.jpg",
    "terms": [
     "Sarcoplasmic reticulum",
     "Troponin",
     "Tropomyosin"
    ],
-   "start": 218.05,
+   "start": 245.44,
+   "tstart": 245.44,
+   "tend": 248.16,
    "lines": [
     {
      "text": "Now calcium's second big job: muscle.",
-     "start": 218.05,
-     "end": 220.72
+     "start": 248.86,
+     "end": 251.53
     },
     {
      "text": "Inside each skeletal muscle fiber is the **sarcoplasmic reticulum**.",
-     "start": 221.17,
-     "end": 225.59
+     "start": 251.98,
+     "end": 256.4
     },
     {
      "text": "It stores calcium and releases it on demand.",
-     "start": 226.04,
-     "end": 228.75
+     "start": 256.85,
+     "end": 259.56
     },
     {
      "text": "Its **terminal cisternae** sit next to the T-tubules. They are calcium reservoirs.",
-     "start": 229.2,
-     "end": 234.11
+     "start": 260.01,
+     "end": 264.92
     },
     {
      "text": "On the thin filament, **tropomyosin** covers the myosin-binding sites.",
-     "start": 234.56,
-     "end": 238.75
+     "start": 265.37,
+     "end": 269.56
     },
     {
      "text": "**Troponin** holds tropomyosin in place. Troponin has a binding site for calcium.",
-     "start": 239.2,
-     "end": 244.31
+     "start": 270.01,
+     "end": 275.12
     }
    ],
-   "end": 245.41
+   "end": 276.22
   },
   {
    "lec": "L14 · NMJ",
-   "title": "Calcium opens the gate",
+   "title": "Calcium at the neuromuscular junction",
    "img": "L14_08.jpg",
    "terms": [
     "Synaptic knob",
     "ACh",
     "Motor end plate"
    ],
-   "start": 245.41,
+   "start": 276.22,
+   "tstart": 276.22,
+   "tend": 278.33,
    "lines": [
     {
      "text": "A nerve impulse reaches the **synaptic knob**.",
-     "start": 245.41,
-     "end": 247.97
+     "start": 279.03,
+     "end": 281.59
     },
     {
      "text": "Voltage-gated calcium channels open.",
-     "start": 248.42,
-     "end": 250.78
+     "start": 282.04,
+     "end": 284.4
     },
     {
      "text": "Calcium flows into the knob.",
-     "start": 251.23,
-     "end": 252.8
+     "start": 284.85,
+     "end": 286.43
     },
     {
      "text": "Vesicles release **acetylcholine**, or **ACh**, into the synaptic cleft.",
-     "start": 253.25,
-     "end": 256.81
+     "start": 286.88,
+     "end": 290.43
     },
     {
      "text": "ACh binds receptors on the **motor end plate**.",
-     "start": 257.26,
-     "end": 260.63
+     "start": 290.88,
+     "end": 294.25
     },
     {
      "text": "Sodium rushes in. An **action potential** spreads along the sarcolemma.",
-     "start": 261.08,
-     "end": 265.36
+     "start": 294.7,
+     "end": 298.98
     }
    ],
-   "end": 266.46
+   "end": 300.08
   },
   {
    "lec": "L14 · Excitation",
@@ -583,127 +609,133 @@
     "Ca²⁺ + troponin",
     "Binding sites"
    ],
-   "start": 266.46,
+   "start": 300.08,
+   "tstart": 300.08,
+   "tend": 301.61,
    "lines": [
     {
      "text": "The action potential travels down the **T-tubules**.",
-     "start": 266.46,
-     "end": 269.43
+     "start": 302.31,
+     "end": 305.28
     },
     {
      "text": "The sarcoplasmic reticulum releases calcium into the cytosol.",
-     "start": 269.88,
-     "end": 274.02
+     "start": 305.73,
+     "end": 309.87
     },
     {
      "text": "Calcium binds **troponin**.",
-     "start": 274.47,
-     "end": 276.0
+     "start": 310.32,
+     "end": 311.86
     },
     {
      "text": "Troponin pulls tropomyosin away.",
-     "start": 276.45,
-     "end": 278.51
+     "start": 312.31,
+     "end": 314.37
     },
     {
      "text": "The myosin-binding sites on actin are exposed.",
-     "start": 278.96,
-     "end": 281.87
+     "start": 314.82,
+     "end": 317.72
     },
     {
      "text": "Now myosin can grab on.",
-     "start": 282.32,
-     "end": 283.88
+     "start": 318.17,
+     "end": 319.74
     }
    ],
-   "end": 284.98
+   "end": 320.84
   },
   {
    "lec": "L14 · Cross-bridge cycle",
-   "title": "Calcium plus ATP",
+   "title": "The cross-bridge cycle needs calcium and ATP",
    "img": "L14_10.jpg",
    "terms": [
     "Power stroke",
     "ATP",
     "Relaxation"
    ],
-   "start": 284.98,
+   "start": 320.84,
+   "tstart": 320.84,
+   "tend": 323.82,
    "lines": [
     {
      "text": "Myosin heads attach to actin. That is a **cross bridge**.",
-     "start": 284.98,
-     "end": 288.42
+     "start": 324.52,
+     "end": 327.96
     },
     {
      "text": "The **power stroke** pulls actin toward the center of the sarcomere.",
-     "start": 288.87,
-     "end": 292.46
+     "start": 328.41,
+     "end": 332.0
     },
     {
      "text": "ATP binds myosin, and the head lets go.",
-     "start": 292.91,
-     "end": 295.86
+     "start": 332.45,
+     "end": 335.4
     },
     {
      "text": "ATP splits and re-cocks the head.",
-     "start": 296.31,
-     "end": 298.46
+     "start": 335.85,
+     "end": 338.0
     },
     {
      "text": "The cycle repeats as long as **calcium** and **ATP** are present.",
-     "start": 298.91,
-     "end": 302.68
+     "start": 338.45,
+     "end": 342.22
     },
     {
      "text": "When nerve signals stop, calcium is pumped back into the SR. The muscle **relaxes**.",
-     "start": 303.13,
-     "end": 308.44
+     "start": 342.67,
+     "end": 347.98
     }
    ],
-   "end": 309.54
+   "end": 349.08
   },
   {
    "lec": "L7 + L14 · When it fails",
-   "title": "Out of balance",
+   "title": "When calcium balance fails",
    "img": "L7_24.jpg",
    "terms": [
     "Osteoporosis",
     "Wolff's law",
     "Fatigue"
    ],
-   "start": 309.54,
+   "start": 349.08,
+   "tstart": 349.08,
+   "tend": 350.67,
    "lines": [
     {
      "text": "**Osteoporosis** is a loss of bone quantity.",
-     "start": 309.54,
-     "end": 312.28
+     "start": 351.37,
+     "end": 354.11
     },
     {
      "text": "It is typical in post-menopausal women and causes compression fractures of the vertebrae.",
-     "start": 312.73,
-     "end": 318.12
+     "start": 354.56,
+     "end": 359.94
     },
     {
      "text": "Weight-bearing exercise, plus calcium with vitamin D, helps prevent it.",
-     "start": 318.57,
-     "end": 323.09
+     "start": 360.39,
+     "end": 364.91
     },
     {
      "text": "That is **Wolff's law**: bone is laid down where stress is higher.",
-     "start": 323.54,
-     "end": 327.02
+     "start": 365.36,
+     "end": 368.84
     },
     {
      "text": "In muscle, calcium imbalance is one cause of **muscle fatigue**.",
-     "start": 327.47,
-     "end": 331.25
+     "start": 369.29,
+     "end": 373.07
     }
    ],
-   "end": 332.35
+   "end": 374.17
   },
   {
    "lec": "Recap",
-   "title": "The whole chain",
+   "title": "Recap: the whole chain",
    "img": null,
    "terms": [
     "Ca²⁺",
@@ -711,52 +743,54 @@
     "Calcitonin ⇄ PTH",
     "Troponin"
    ],
-   "start": 332.35,
+   "start": 374.17,
+   "tstart": 374.17,
+   "tend": 375.61,
    "lines": [
     {
      "text": "Let's run the chain once more.",
-     "start": 332.35,
-     "end": 333.93
+     "start": 376.31,
+     "end": 377.89
     },
     {
      "text": "Calcium is an element that becomes a cation, **Ca²⁺**.",
-     "start": 334.38,
-     "end": 337.96
+     "start": 378.34,
+     "end": 381.93
     },
     {
      "text": "Vitamin D from the skin helps absorb it.",
-     "start": 338.41,
-     "end": 340.84
+     "start": 382.38,
+     "end": 384.81
     },
     {
      "text": "Bone stores it in hydroxyapatite.",
-     "start": 341.29,
-     "end": 343.43
+     "start": 385.26,
+     "end": 387.39
     },
     {
      "text": "Osteoblasts deposit it. Osteoclasts release it.",
-     "start": 343.88,
-     "end": 347.19
+     "start": 387.84,
+     "end": 391.15
     },
     {
      "text": "Calcitonin lowers blood calcium. PTH raises it.",
-     "start": 347.64,
-     "end": 351.72
+     "start": 391.6,
+     "end": 395.68
     },
     {
      "text": "In muscle, calcium binds troponin and starts contraction.",
-     "start": 352.17,
-     "end": 355.6
+     "start": 396.13,
+     "end": 399.56
     },
     {
      "text": "One ion. Nine lectures. One story.",
-     "start": 356.05,
-     "end": 358.7
+     "start": 400.01,
+     "end": 402.67
     }
    ],
-   "end": 359.8
+   "end": 403.77
   }
  ],
- "duration": 359.8,
+ "duration": 403.77,
  "audio": "stories/calcium.mp3"
 }

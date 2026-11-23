@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Matrix, cell junctions, epithelium, connective tissue",
     "lectures": "Lecture 5",
     "scenes": [
-        {"lec": "L5", "title": "Four tissues", "img": None,
+        {"lec": "L5", "title": "Four tissue types", "img": None,
          "terms": ["Epithelial", "Connective", "Muscle", "Nervous"],
          "lines": [
             "A tissue is a group of similar cells. Its study is histology.",
@@ -22,7 +22,7 @@ STORY = {
             "**Elastic** fibers stretch and recoil.",
             "**Reticular** fibers are thin branched networks that support organs.",
          ]},
-        {"lec": "L5 · Epithelium", "title": "Epithelium", "img": None,
+        {"lec": "L5 · Epithelium", "title": "Epithelial tissue", "img": None,
          "terms": ["Cellular", "Mitotic", "Avascular", "Apical"],
          "lines": [
             "Epithelium covers and lines every free surface. It also forms glands.",
@@ -39,7 +39,7 @@ STORY = {
             "**Desmosomes** are spot welds. They resist stress in the heart and epidermis.",
             "**Hemidesmosomes** anchor the epithelium to the basement membrane below.",
          ]},
-        {"lec": "L5 · Naming", "title": "First name, last name", "img": "L5_04.jpg",
+        {"lec": "L5 · Naming", "title": "Naming epithelium", "img": "L5_04.jpg",
          "terms": ["Simple", "Stratified", "Squamous", "Cuboidal", "Columnar"],
          "lines": [
             "Epithelium has a first name and a last name.",
@@ -55,7 +55,7 @@ STORY = {
             "**Simple columnar** lines the digestive tract, stomach to rectum.",
             "Its goblet cells make mucus.",
          ]},
-        {"lec": "L5 · Pseudostratified", "title": "Falsely layered", "img": "L5_07.jpg",
+        {"lec": "L5 · Pseudostratified", "title": "Pseudostratified columnar", "img": "L5_07.jpg",
          "terms": ["Pseudostratified", "Cilia", "Trachea"],
          "lines": [
             "**Pseudostratified** columnar is really one layer.",
@@ -105,7 +105,7 @@ STORY = {
             "**Elastic cartilage** bends. The ear and the epiglottis.",
             "**Fibrocartilage** resists compression. Discs, menisci and the pubic symphysis.",
          ]},
-        {"lec": "L5 · Blood and bone", "title": "Blood and bone", "img": "L5_15.jpg",
+        {"lec": "L5 · Blood and bone", "title": "Blood and bone as connective tissue", "img": "L5_15.jpg",
          "terms": ["Plasma", "Hydroxyapatite", "Osteoid"],
          "lines": [
             "Blood is the only liquid connective tissue.",

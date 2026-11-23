@@ -20,7 +20,7 @@ STORY = {
             "Relaxed DNA is **chromatin**. Condensed DNA forms chromosomes.",
             "The **nucleolus** has no membrane. It makes ribosomes.",
          ]},
-        {"lec": "L4 · Organelles", "title": "The protein factory", "img": "L4_03.jpg",
+        {"lec": "L4 · Organelles", "title": "Ribosomes, ER and Golgi", "img": "L4_03.jpg",
          "terms": ["Ribosome", "Rough ER", "Smooth ER", "Golgi"],
          "lines": [
             "**Ribosomes** are where proteins are made.",
@@ -29,7 +29,7 @@ STORY = {
             "**Smooth ER** has no ribosomes. It makes lipids and carbs and breaks down drugs.",
             "The **Golgi** body packages enzymes, hormones and lysosomes.",
          ]},
-        {"lec": "L4 · Organelles", "title": "Clean-up crew", "img": None,
+        {"lec": "L4 · Organelles", "title": "Lysosomes and peroxisomes", "img": None,
          "terms": ["Lysosome", "Peroxisome"],
          "lines": [
             "**Lysosomes** are the suicide sacs.",
@@ -37,7 +37,7 @@ STORY = {
             "**Peroxisomes** neutralize toxins and alcohol.",
             "They are abundant in the liver.",
          ]},
-        {"lec": "L4 · Organelles", "title": "The powerhouse", "img": "L4_05.jpg",
+        {"lec": "L4 · Organelles", "title": "Mitochondria", "img": "L4_05.jpg",
          "terms": ["Mitochondria", "Cristae", "ATP"],
          "lines": [
             "**Mitochondria** produce **ATP**.",
@@ -54,7 +54,7 @@ STORY = {
             "A **flagellum** is a long tail. In humans, only sperm have one.",
             "**Microvilli** are tiny fingers that add surface area for absorption.",
          ]},
-        {"lec": "L4 · Cytoskeleton", "title": "Tent poles and ropes", "img": "L4_07.jpg",
+        {"lec": "L4 · Cytoskeleton", "title": "The cytoskeleton", "img": "L4_07.jpg",
          "terms": ["Microtubules", "Intermediate filaments", "Microfilaments"],
          "lines": [
             "The cytoskeleton gives the cell shape and support.",
@@ -63,7 +63,7 @@ STORY = {
             "**Intermediate filaments** are the medium ropes.",
             "**Microfilaments** are the small ropes.",
          ]},
-        {"lec": "L4 · DNA", "title": "DNA", "img": "L4_08.jpg",
+        {"lec": "L4 · DNA", "title": "DNA structure", "img": "L4_08.jpg",
          "terms": ["Double helix", "Gene", "A–T, C–G"],
          "lines": [
             "DNA is a **double helix**, a spiral staircase.",
@@ -79,7 +79,7 @@ STORY = {
             ("**mRNA** copies a gene and carries the code to the cytoplasm.", "Messenger R N A copies a gene and carries the code to the cytoplasm."),
             ("**tRNA** reads the code and brings the right amino acid.", "Transfer R N A reads the code and brings the right amino acid."),
          ]},
-        {"lec": "L4 · Replication", "title": "Copying DNA", "img": "L4_10.jpg",
+        {"lec": "L4 · Replication", "title": "DNA replication", "img": "L4_10.jpg",
          "terms": ["Semiconservative", "Helicase", "Polymerase"],
          "lines": [
             "Human DNA is 46 chromosomes, 23 pairs.",
@@ -87,7 +87,7 @@ STORY = {
             "It is **semiconservative**. Each new DNA is half old strand, half new.",
             "**Helicase** unzips the strands. **Polymerase** builds the new ones.",
          ]},
-        {"lec": "L4 · Protein synthesis", "title": "DNA to protein", "img": "L4_11.png",
+        {"lec": "L4 · Protein synthesis", "title": "Protein synthesis", "img": "L4_11.png",
          "terms": ["Transcription", "Translation", "Codon", "Anticodon"],
          "lines": [
             "**Transcription** makes messenger RNA from DNA. It happens in the nucleus.",
@@ -96,7 +96,7 @@ STORY = {
             "On messenger RNA, a triplet is a **codon**. On transfer RNA, it's an **anticodon**.",
             "Four codons make four amino acids, joined by three peptide bonds.",
          ]},
-        {"lec": "L4 · Cell cycle", "title": "Interphase", "img": "L4_14.jpg",
+        {"lec": "L4 · Cell cycle", "title": "The cell cycle: interphase", "img": "L4_14.jpg",
          "terms": ["G1", "S", "G2"],
          "lines": [
             "The cell cycle has two stages: interphase and mitosis.",
@@ -105,7 +105,7 @@ STORY = {
             ("In the **S** phase, DNA is copied.", "In the S phase, DNA is copied."),
             ("**G2** is housekeeping before division.", "G two is housekeeping before division."),
          ]},
-        {"lec": "L4 · Mitosis", "title": "PMAT", "img": "L4_13.png",
+        {"lec": "L4 · Mitosis", "title": "Mitosis", "img": "L4_13.png",
          "terms": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
          "lines": [
             "Mitosis splits one mother cell into two daughter cells.",

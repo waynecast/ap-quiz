@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Pelvic girdle, coxal bone, femur, tibia and fibula, ankle and foot",
     "lectures": "Lecture 11",
     "scenes": [
-        {"lec": "L11", "title": "Hip to toes", "img": "L11_01.png",
+        {"lec": "L11", "title": "Bones of the lower extremity", "img": "L11_01.png",
          "terms": ["Coxal bone", "Femur", "Tibia", "Fibula", "Tarsals"],
          "lines": [
             "Let's walk down the leg.",
@@ -13,7 +13,7 @@ STORY = {
             "The **tibia** and **fibula** are the leg.",
             "Then the **tarsals**, metatarsals and phalanges.",
          ]},
-        {"lec": "L11 · Pelvis", "title": "Girdle versus pelvis", "img": "L11_02.jpg",
+        {"lec": "L11 · Pelvis", "title": "Pelvic girdle versus pelvis", "img": "L11_02.jpg",
          "terms": ["Pelvic girdle", "Pelvis", "Ilium", "Ischium", "Pubis"],
          "lines": [
             "The **pelvic girdle** is two coxal bones.",
@@ -31,7 +31,7 @@ STORY = {
             ("The ilium meets the sacrum at the **SI joint**, the sacroiliac joint.", "The ilium meets the sacrum at the sacroiliac joint."),
             "The iliac fossa is the inside wall of the basin.",
          ]},
-        {"lec": "L11 · Ilium", "title": "Greater sciatic notch", "img": "L11_07.jpg",
+        {"lec": "L11 · Ilium", "title": "The greater sciatic notch", "img": "L11_07.jpg",
          "terms": ["Greater sciatic notch", "Piriformis"],
          "lines": [
             "The **greater sciatic notch** is a deep curve on the back.",
@@ -46,7 +46,7 @@ STORY = {
             "The pubic tubercles are small bumps on top of the pubis.",
             "The two pubic bones meet at the **pubic symphysis**, a cartilage joint.",
          ]},
-        {"lec": "L11 · Shared", "title": "Acetabulum and obturator", "img": "L11_09.jpg",
+        {"lec": "L11 · Shared", "title": "Acetabulum and obturator foramen", "img": "L11_09.jpg",
          "terms": ["Acetabulum", "Obturator foramen"],
          "lines": [
             "The **acetabulum** is the hip socket.",
@@ -55,7 +55,7 @@ STORY = {
             "The **obturator foramen** is the largest foramen in the body.",
             "It's formed by the ischium and pubis. The eyes of the pelvis.",
          ]},
-        {"lec": "L11 · Femur", "title": "Top of the femur", "img": "L11_11.jpg",
+        {"lec": "L11 · Femur", "title": "Proximal femur", "img": "L11_11.jpg",
          "terms": ["Head", "Fovea capitis", "Greater trochanter", "Lesser trochanter"],
          "lines": [
             "The femoral **head** points medially. The neck is just below it.",
@@ -63,7 +63,7 @@ STORY = {
             "The **greater trochanter** is the big lateral bump.",
             "The **lesser trochanter** is the small medial bump.",
          ]},
-        {"lec": "L11 · Femur", "title": "Shaft and knee end", "img": "L11_13.jpg",
+        {"lec": "L11 · Femur", "title": "Femoral shaft, distal femur and patella", "img": "L11_13.jpg",
          "terms": ["Linea aspera", "Condyles", "Adductor tubercle", "Patella"],
          "lines": [
             "The **linea aspera** is a ridge down the back.",
@@ -89,7 +89,7 @@ STORY = {
             "The **lateral malleolus** is the outer ankle bump.",
             "An interosseous membrane joins the tibia and fibula.",
          ]},
-        {"lec": "L11 · Tarsals", "title": "Tiger Cubs Need MILC", "img": "L11_19.png",
+        {"lec": "L11 · Tarsals", "title": "The seven tarsals", "img": "L11_19.png",
          "terms": ["Talus", "Calcaneus", "Navicular", "Cuboid", "Cuneiforms"],
          "lines": [
             "Seven tarsals. Tiger Cubs Need MILC.",

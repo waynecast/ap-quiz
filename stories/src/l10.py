@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Shoulder girdle, scapula, humerus, radius and ulna, wrist and hand",
     "lectures": "Lecture 10",
     "scenes": [
-        {"lec": "L10", "title": "Shoulder to fingertips", "img": "L10_01.png",
+        {"lec": "L10", "title": "Bones of the upper extremity", "img": "L10_01.png",
          "terms": ["Clavicle", "Scapula", "Humerus", "Radius", "Ulna"],
          "lines": [
             "Let's walk down the arm.",
@@ -21,7 +21,7 @@ STORY = {
             ("Its medial end meets the manubrium at the **sternoclavicular joint**, or **SC**.", "Its medial end meets the manubrium at the sternoclavicular joint."),
             ("Its lateral end meets the acromion at the **acromioclavicular joint**, or **AC**.", "Its lateral end meets the acromion at the acromioclavicular joint."),
          ]},
-        {"lec": "L10 · Scapula", "title": "Borders and angles", "img": "L10_04.jpg",
+        {"lec": "L10 · Scapula", "title": "Scapula: borders and angles", "img": "L10_04.jpg",
          "terms": ["Medial border", "Lateral border", "Inferior angle", "Superior angle"],
          "lines": [
             "The **medial border** is closest to the spine. It's also called the vertebral border.",
@@ -29,7 +29,7 @@ STORY = {
             "They meet at the bottom at the **inferior angle**.",
             "The **superior angle** is at the top of the medial border.",
          ]},
-        {"lec": "L10 · Scapula", "title": "The glenoid", "img": "L10_05.jpg",
+        {"lec": "L10 · Scapula", "title": "Scapula: the glenoid fossa", "img": "L10_05.jpg",
          "terms": ["Glenoid fossa", "Supraglenoid", "Infraglenoid"],
          "lines": [
             "The **glenoid fossa** is a shallow socket on the lateral scapula.",
@@ -37,7 +37,7 @@ STORY = {
             "The **supraglenoid** tubercle is above it.",
             "The **infraglenoid** tubercle is below it.",
          ]},
-        {"lec": "L10 · Scapula", "title": "Spine, acromion, coracoid", "img": "L10_06.jpg",
+        {"lec": "L10 · Scapula", "title": "Scapula: spine, acromion and coracoid", "img": "L10_06.jpg",
          "terms": ["Spine", "Acromion", "Coracoid", "T4"],
          "lines": [
             "The **spine** of the scapula is a ridge on the back. You can't see it from the front.",
@@ -46,14 +46,14 @@ STORY = {
             "The **coracoid** process is a finger pointing forward, lower than the acromion.",
             "The scapular notch is just medial to the coracoid.",
          ]},
-        {"lec": "L10 · Scapula", "title": "Three fossae", "img": "L10_08.jpg",
+        {"lec": "L10 · Scapula", "title": "Scapula: three fossae", "img": "L10_08.jpg",
          "terms": ["Supraspinous", "Infraspinous", "Subscapular"],
          "lines": [
             "The **supraspinous** fossa is above the spine.",
             "The **infraspinous** fossa is below it. It's almost the whole back.",
             "The **subscapular** fossa is on the front, against the ribs.",
          ]},
-        {"lec": "L10 · Humerus", "title": "Top of the humerus", "img": "L10_10.png",
+        {"lec": "L10 · Humerus", "title": "Proximal humerus", "img": "L10_10.png",
          "terms": ["Head", "Surgical neck", "Greater tubercle", "Intertubercular groove"],
          "lines": [
             "The **head** of the humerus points medially.",
@@ -63,7 +63,7 @@ STORY = {
             "The **intertubercular groove** runs between them. It's also called the bicipital groove.",
             "The deltoid tuberosity is halfway down the side.",
          ]},
-        {"lec": "L10 · Humerus", "title": "Bottom of the humerus", "img": "L10_15.jpg",
+        {"lec": "L10 · Humerus", "title": "Distal humerus", "img": "L10_15.jpg",
          "terms": ["Capitulum", "Trochlea", "Olecranon fossa", "Epicondyles"],
          "lines": [
             "The **capitulum** is a ball on the lateral side. It meets the radius.",
@@ -91,14 +91,14 @@ STORY = {
             "The ulna also has a styloid process at the wrist.",
             "The interosseous membrane connects the radius and ulna.",
          ]},
-        {"lec": "L10 · Movement", "title": "Supination and pronation", "img": None,
+        {"lec": "L10 · Movement", "title": "Forearm movement: supination and pronation", "img": None,
          "terms": ["Supination", "Pronation"],
          "lines": [
             "**Supination** turns the palm up or forward.",
             "**Pronation** turns the palm down or back.",
             "Both happen at the elbow, not the shoulder.",
          ]},
-        {"lec": "L10 · Carpals", "title": "Eight carpals", "img": "L10_21.png",
+        {"lec": "L10 · Carpals", "title": "The eight carpals", "img": "L10_21.png",
          "terms": ["Scaphoid", "Lunate", "Triquetrum", "Pisiform", "Hamate"],
          "lines": [
             "So Long To Pinky, Here Comes The Thumb.",

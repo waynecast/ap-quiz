@@ -17,24 +17,26 @@
     "Body function"
    ],
    "start": 0.4,
+   "tstart": 0.4,
+   "tend": 1.34,
    "lines": [
     {
      "text": "Body functions depend on cell functions.",
-     "start": 0.4,
-     "end": 2.84
+     "start": 2.04,
+     "end": 4.48
     },
     {
      "text": "Cell functions come from chemical changes.",
-     "start": 3.29,
-     "end": 5.9
+     "start": 4.93,
+     "end": 7.54
     },
     {
      "text": "So A and P starts with chemistry.",
-     "start": 6.35,
-     "end": 8.15
+     "start": 7.99,
+     "end": 9.79
     }
    ],
-   "end": 9.25
+   "end": 10.89
   },
   {
    "lec": "L2 · Matter",
@@ -45,35 +47,37 @@
     "Element",
     "Atom"
    ],
-   "start": 9.25,
+   "start": 10.89,
+   "tstart": 10.89,
+   "tend": 12.44,
    "lines": [
     {
      "text": "**Matter** is anything with mass that takes up space.",
-     "start": 9.25,
-     "end": 11.9
+     "start": 13.14,
+     "end": 15.79
     },
     {
      "text": "An **element** cannot be broken into simpler substances.",
-     "start": 12.35,
-     "end": 15.51
+     "start": 16.24,
+     "end": 19.4
     },
     {
      "text": "An **atom** is the smallest unit of an element that keeps its properties.",
-     "start": 15.96,
-     "end": 19.82
+     "start": 19.85,
+     "end": 23.71
     },
     {
      "text": "Carbon, hydrogen, oxygen and nitrogen are the big four.",
-     "start": 20.27,
-     "end": 24.12
+     "start": 24.16,
+     "end": 28.01
     },
     {
      "text": "Together they make up 96 percent of the body.",
-     "start": 24.57,
-     "end": 27.37
+     "start": 28.46,
+     "end": 31.26
     }
    ],
-   "end": 28.47
+   "end": 32.36
   },
   {
    "lec": "L2 · Atoms",
@@ -85,30 +89,32 @@
     "Electron",
     "Nucleus"
    ],
-   "start": 28.47,
+   "start": 32.36,
+   "tstart": 32.36,
+   "tend": 33.37,
    "lines": [
     {
      "text": "The **nucleus** is the atom's core.",
-     "start": 28.47,
-     "end": 30.32
+     "start": 34.07,
+     "end": 35.92
     },
     {
      "text": "It holds **protons**, which are positive, and **neutrons**, which are neutral.",
-     "start": 30.77,
-     "end": 34.72
+     "start": 36.37,
+     "end": 40.32
     },
     {
      "text": "**Electrons** are negative. They circle in shells around the nucleus.",
-     "start": 35.17,
-     "end": 38.97
+     "start": 40.77,
+     "end": 44.57
     },
     {
      "text": "A neutral atom has equal protons and electrons.",
-     "start": 39.42,
-     "end": 42.52
+     "start": 45.02,
+     "end": 48.12
     }
    ],
-   "end": 43.62
+   "end": 49.22
   },
   {
    "lec": "L2 · Atoms",
@@ -118,35 +124,37 @@
     "Atomic number",
     "Atomic mass"
    ],
-   "start": 43.62,
+   "start": 49.22,
+   "tstart": 49.22,
+   "tend": 50.65,
    "lines": [
     {
      "text": "**Atomic number** is the number of protons.",
-     "start": 43.62,
-     "end": 46.13
+     "start": 51.35,
+     "end": 53.85
     },
     {
      "text": "**Atomic mass** is protons plus neutrons.",
-     "start": 46.58,
-     "end": 49.12
+     "start": 54.3,
+     "end": 56.84
     },
     {
      "text": "Sodium has atomic number 11 and atomic mass 23.",
-     "start": 49.57,
-     "end": 53.48
+     "start": 57.29,
+     "end": 61.21
     },
     {
      "text": "So sodium has 12 neutrons.",
-     "start": 53.93,
-     "end": 55.86
+     "start": 61.66,
+     "end": 63.58
     },
     {
      "text": "Neutrons equal atomic mass minus atomic number.",
-     "start": 56.31,
-     "end": 59.9
+     "start": 64.03,
+     "end": 67.62
     }
    ],
-   "end": 61.0
+   "end": 68.72
   },
   {
    "lec": "L2 · Shells",
@@ -157,35 +165,37 @@
     "Valence shell",
     "Valence electrons"
    ],
-   "start": 61.0,
+   "start": 68.72,
+   "tstart": 68.72,
+   "tend": 69.8,
    "lines": [
     {
      "text": "The first shell holds 2 electrons. The second holds 8.",
-     "start": 61.0,
-     "end": 64.52
+     "start": 70.5,
+     "end": 74.02
     },
     {
      "text": "Sodium has 11 electrons: 2, then 8, then 1.",
-     "start": 64.97,
-     "end": 68.65
+     "start": 74.47,
+     "end": 78.16
     },
     {
      "text": "The outermost shell is the **valence shell**.",
-     "start": 69.1,
-     "end": 71.13
+     "start": 78.61,
+     "end": 80.63
     },
     {
      "text": "The electrons in it are **valence electrons**.",
-     "start": 71.58,
-     "end": 74.06
+     "start": 81.08,
+     "end": 83.56
     },
     {
      "text": "Valence electrons decide how an atom bonds.",
-     "start": 74.51,
-     "end": 77.43
+     "start": 84.01,
+     "end": 86.94
     }
    ],
-   "end": 78.53
+   "end": 88.04
   },
   {
    "lec": "L2 · Ions",
@@ -196,35 +206,37 @@
     "Cation",
     "Anion"
    ],
-   "start": 78.53,
+   "start": 88.04,
+   "tstart": 88.04,
+   "tend": 88.72,
    "lines": [
     {
      "text": "An **ion** is an atom with a charge.",
-     "start": 78.53,
-     "end": 80.58
+     "start": 89.42,
+     "end": 91.47
     },
     {
      "text": "A **cation** lost electrons. It is positive.",
-     "start": 81.03,
-     "end": 83.85
+     "start": 91.92,
+     "end": 94.74
     },
     {
      "text": "An **anion** gained electrons. It is negative.",
-     "start": 84.3,
-     "end": 87.23
+     "start": 95.19,
+     "end": 98.13
     },
     {
      "text": "Sodium loses one electron and becomes a cation.",
-     "start": 87.68,
-     "end": 90.89
+     "start": 98.58,
+     "end": 101.78
     },
     {
      "text": "Chlorine gains one and becomes an anion, chloride.",
-     "start": 91.34,
-     "end": 94.45
+     "start": 102.23,
+     "end": 105.34
     }
    ],
-   "end": 95.55
+   "end": 106.44
   },
   {
    "lec": "L2 · Bonds",
@@ -234,30 +246,32 @@
     "Ionic bond",
     "NaCl"
    ],
-   "start": 95.55,
+   "start": 106.44,
+   "tstart": 106.44,
+   "tend": 107.49,
    "lines": [
     {
      "text": "An **ionic bond** joins a cation and an anion.",
-     "start": 95.55,
-     "end": 98.43
+     "start": 108.19,
+     "end": 111.07
     },
     {
      "text": "One atom gives electrons. The other receives them.",
-     "start": 98.88,
-     "end": 101.94
+     "start": 111.52,
+     "end": 114.57
     },
     {
      "text": "Table salt, **NaCl**, is the example.",
-     "start": 102.39,
-     "end": 105.32
+     "start": 115.02,
+     "end": 117.95
     },
     {
      "text": "Ionic bonds are weak. They come apart easily in water.",
-     "start": 105.77,
-     "end": 109.25
+     "start": 118.4,
+     "end": 121.88
     }
    ],
-   "end": 110.35
+   "end": 122.98
   },
   {
    "lec": "L2 · Bonds",
@@ -268,25 +282,27 @@
     "Polar",
     "Nonpolar"
    ],
-   "start": 110.35,
+   "start": 122.98,
+   "tstart": 122.98,
+   "tend": 124.07,
    "lines": [
     {
      "text": "A **covalent bond** shares electrons. It is strong.",
-     "start": 110.35,
-     "end": 113.58
+     "start": 124.77,
+     "end": 128.01
     },
     {
      "text": "In a **polar** covalent bond, sharing is unequal. Water is polar.",
-     "start": 114.03,
-     "end": 118.21
+     "start": 128.46,
+     "end": 132.64
     },
     {
      "text": "In a **nonpolar** covalent bond, sharing is equal. CO₂ is nonpolar.",
-     "start": 118.66,
-     "end": 124.27
+     "start": 133.09,
+     "end": 138.69
     }
    ],
-   "end": 125.37
+   "end": 139.79
   },
   {
    "lec": "L2 · Bonds",
@@ -297,30 +313,32 @@
     "Water",
     "DNA"
    ],
-   "start": 125.37,
+   "start": 139.79,
+   "tstart": 139.79,
+   "tend": 140.95,
    "lines": [
     {
      "text": "**Hydrogen bonds** form between hydrogen atoms of different molecules.",
-     "start": 125.37,
-     "end": 129.63
+     "start": 141.65,
+     "end": 145.92
     },
     {
      "text": "They are weak.",
-     "start": 130.08,
-     "end": 130.93
+     "start": 146.37,
+     "end": 147.21
     },
     {
      "text": "They hold water molecules to each other.",
-     "start": 131.38,
-     "end": 133.32
+     "start": 147.66,
+     "end": 149.6
     },
     {
      "text": "They also hold the bases of **DNA** and RNA together.",
-     "start": 133.77,
-     "end": 137.35
+     "start": 150.05,
+     "end": 153.63
     }
    ],
-   "end": 138.45
+   "end": 154.73
   },
   {
    "lec": "L2 · Molecules",
@@ -331,153 +349,163 @@
     "Compound",
     "Formula"
    ],
-   "start": 138.45,
+   "start": 154.73,
+   "tstart": 154.73,
+   "tend": 156.25,
    "lines": [
     {
      "text": "On the slides, a **molecule** has one type of atom, like H₂.",
-     "start": 138.45,
-     "end": 142.27
+     "start": 156.95,
+     "end": 160.77
     },
     {
      "text": "A **compound** has two or more different elements, like CH₄.",
-     "start": 142.72,
-     "end": 146.17
+     "start": 161.22,
+     "end": 164.68
     },
     {
      "text": "A chemical **formula** lists the atoms. Glucose is C₆H₁₂O₆.",
-     "start": 146.62,
-     "end": 151.63
+     "start": 165.13,
+     "end": 170.13
     }
    ],
-   "end": 152.73
+   "end": 171.23
   },
   {
    "lec": "L2 · Energy",
-   "title": "Kinetic and potential",
+   "title": "Kinetic and potential energy",
    "img": null,
    "terms": [
     "Kinetic",
     "Potential"
    ],
-   "start": 152.73,
+   "start": 171.23,
+   "tstart": 171.23,
+   "tend": 172.96,
    "lines": [
     {
      "text": "Energy is the ability to do work.",
-     "start": 152.73,
-     "end": 154.92
+     "start": 173.66,
+     "end": 175.85
     },
     {
      "text": "**Kinetic** energy is energy of motion: heat, light, movement.",
-     "start": 155.37,
-     "end": 159.32
+     "start": 176.3,
+     "end": 180.25
     },
     {
      "text": "**Potential** energy is stored, like in a battery or a chemical bond.",
-     "start": 159.77,
-     "end": 163.85
+     "start": 180.7,
+     "end": 184.79
     }
    ],
-   "end": 164.95
+   "end": 185.89
   },
   {
    "lec": "L2 · Reactions",
-   "title": "Build and break",
+   "title": "Types of chemical reactions",
    "img": "L2_10.jpg",
    "terms": [
     "Synthesis",
     "Decomposition",
     "Exchange"
    ],
-   "start": 164.95,
+   "start": 185.89,
+   "tstart": 185.89,
+   "tend": 187.5,
    "lines": [
     {
      "text": "**Synthesis** builds. A plus B makes A B. It is anabolic and needs energy.",
-     "start": 164.95,
-     "end": 169.85
+     "start": 188.2,
+     "end": 193.1
     },
     {
      "text": "**Decomposition** breaks. A B makes A plus B. It is catabolic and releases energy.",
-     "start": 170.3,
-     "end": 175.72
+     "start": 193.55,
+     "end": 198.97
     },
     {
      "text": "**Exchange** swaps partners. A B plus C D makes A C plus B D.",
-     "start": 176.17,
-     "end": 180.72
+     "start": 199.42,
+     "end": 203.96
     },
     {
      "text": "Most reactions are reversible, even if it takes years.",
-     "start": 181.17,
-     "end": 184.53
+     "start": 204.41,
+     "end": 207.78
     }
    ],
-   "end": 185.63
+   "end": 208.88
   },
   {
    "lec": "L2 · Reactions",
-   "title": "Water in, water out",
+   "title": "Dehydration synthesis and hydrolysis",
    "img": "L2_11.jpg",
    "terms": [
     "Dehydration synthesis",
     "Hydrolysis"
    ],
-   "start": 185.63,
+   "start": 208.88,
+   "tstart": 208.88,
+   "tend": 211.51,
    "lines": [
     {
      "text": "**Dehydration synthesis** makes a bond by removing water.",
-     "start": 185.63,
-     "end": 189.28
+     "start": 212.21,
+     "end": 215.86
     },
     {
      "text": "**Hydrolysis** breaks a bond by adding water.",
-     "start": 189.73,
-     "end": 192.35
+     "start": 216.31,
+     "end": 218.93
     },
     {
      "text": "Hydro means water. Lysis means break.",
-     "start": 192.8,
-     "end": 195.49
+     "start": 219.38,
+     "end": 222.07
     }
    ],
-   "end": 196.59
+   "end": 223.17
   },
   {
    "lec": "L2 · Redox",
-   "title": "LEO the lion goes GER",
+   "title": "Oxidation and reduction",
    "img": null,
    "terms": [
     "Oxidation",
     "Reduction"
    ],
-   "start": 196.59,
+   "start": 223.17,
+   "tstart": 223.17,
+   "tend": 224.63,
    "lines": [
     {
      "text": "Losing electrons is **oxidation**.",
-     "start": 196.59,
-     "end": 198.75
+     "start": 225.33,
+     "end": 227.49
     },
     {
      "text": "Gaining electrons is **reduction**.",
-     "start": 199.2,
-     "end": 201.09
+     "start": 227.94,
+     "end": 229.82
     },
     {
      "text": "They always happen together.",
-     "start": 201.54,
-     "end": 203.02
+     "start": 230.27,
+     "end": 231.76
     },
     {
      "text": "LEO the lion goes GER. Lose electrons, oxidation. Gain electrons, reduction.",
-     "start": 203.47,
-     "end": 209.85
+     "start": 232.21,
+     "end": 238.59
     },
     {
      "text": "Sodium is oxidized. Chlorine is reduced.",
-     "start": 210.3,
-     "end": 213.33
+     "start": 239.04,
+     "end": 242.07
     }
    ],
-   "end": 214.43
+   "end": 243.17
   },
   {
    "lec": "L2 · Rate",
@@ -489,37 +517,39 @@
     "Particle size",
     "Catalyst"
    ],
-   "start": 214.43,
+   "start": 243.17,
+   "tstart": 243.17,
+   "tend": 244.49,
    "lines": [
     {
      "text": "Four things speed up a reaction.",
-     "start": 214.43,
-     "end": 216.24
+     "start": 245.19,
+     "end": 247.0
     },
     {
      "text": "Higher **temperature**. Higher **concentration**.",
-     "start": 216.69,
-     "end": 219.17
+     "start": 247.45,
+     "end": 249.93
     },
     {
      "text": "Smaller **particle size**.",
-     "start": 219.62,
-     "end": 221.08
+     "start": 250.38,
+     "end": 251.84
     },
     {
      "text": "And a **catalyst**, which lowers the energy needed to react.",
-     "start": 221.53,
-     "end": 224.82
+     "start": 252.29,
+     "end": 255.58
     },
     {
      "text": "Enzymes are the body's catalysts. You'll meet them in Lecture 3.",
-     "start": 225.27,
-     "end": 229.13
+     "start": 256.03,
+     "end": 259.89
     }
    ],
-   "end": 230.23
+   "end": 260.99
   }
  ],
- "duration": 230.23,
+ "duration": 260.99,
  "audio": "stories/l02.mp3"
 }

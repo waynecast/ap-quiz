@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Functions, bone cells, bone shapes and structure, homeostasis, fractures",
     "lectures": "Lecture 7",
     "scenes": [
-        {"lec": "L7", "title": "The skeleton", "img": "L7_02.jpg",
+        {"lec": "L7", "title": "The skeleton and its divisions", "img": "L7_02.jpg",
          "terms": ["206 bones", "Axial", "Appendicular"],
          "lines": [
             "A baby has about 300 bones. An adult has **206**.",
@@ -31,7 +31,7 @@ STORY = {
             "The ends of the femur and humerus, the vertebrae, ribs, pelvis and skull.",
             "Elsewhere it becomes **yellow marrow**, which is fat.",
          ]},
-        {"lec": "L7 · Bone cells", "title": "The construction crew", "img": "L7_03.png",
+        {"lec": "L7 · Bone cells", "title": "Bone cells", "img": "L7_03.png",
          "terms": ["Osteoprogenitor", "Osteoblast", "Osteocyte", "Osteoclast"],
          "lines": [
             "**Osteoprogenitor** cells are bone stem cells. They become osteoblasts.",
@@ -40,7 +40,7 @@ STORY = {
             "**Osteoclasts** are demolition. They break bone down and release calcium.",
             "Osteoclasts have many nuclei.",
          ]},
-        {"lec": "L7 · Matrix", "title": "Hard and strong", "img": None,
+        {"lec": "L7 · Matrix", "title": "The bone matrix", "img": None,
          "terms": ["Hydroxyapatite", "Osteoid"],
          "lines": [
             "The bone matrix is completely solid.",
@@ -57,7 +57,7 @@ STORY = {
             "**Sesamoid** bones form in tendons. The patella is one.",
             "Wormian bones are extra bones in skull sutures.",
          ]},
-        {"lec": "L7 · Long bone", "title": "Inside a long bone", "img": "L7_07.png",
+        {"lec": "L7 · Long bone", "title": "Structure of a long bone", "img": "L7_07.png",
          "terms": ["Diaphysis", "Epiphysis", "Epiphyseal plate", "Periosteum"],
          "lines": [
             "The **diaphysis** is the shaft.",
@@ -67,7 +67,7 @@ STORY = {
             "Articular cartilage covers the ends.",
             "The **periosteum** wraps the outside. The endosteum lines the marrow cavity.",
          ]},
-        {"lec": "L7 · Compact bone", "title": "The osteon", "img": "L7_12.png",
+        {"lec": "L7 · Compact bone", "title": "Compact bone and the osteon", "img": "L7_12.png",
          "terms": ["Osteon", "Central canal", "Lamellae", "Lacunae", "Canaliculi"],
          "lines": [
             "Compact bone is built from **osteons**.",
@@ -85,14 +85,14 @@ STORY = {
             "**Woven** bone is poorly mineralized and slightly flexible.",
             "It's normal in children and abnormal in adults.",
          ]},
-        {"lec": "L7 · Formation", "title": "How bone forms", "img": None,
+        {"lec": "L7 · Formation", "title": "Bone formation", "img": None,
          "terms": ["Endochondral", "Intramembranous"],
          "lines": [
             "Most bones form inside hyaline cartilage. That's **endochondral** ossification.",
             "Flat bones of the skull form in a fibrous membrane.",
             "That's **intramembranous** ossification.",
          ]},
-        {"lec": "L7 · Homeostasis", "title": "Bone is always changing", "img": "L7_17.png",
+        {"lec": "L7 · Homeostasis", "title": "Bone homeostasis", "img": "L7_17.png",
          "terms": ["Wolff's law", "Vitamin D", "Calcitonin", "PTH"],
          "lines": [
             "Bone is constantly broken down and rebuilt.",

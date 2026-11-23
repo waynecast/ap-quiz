@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Muscle types, fiber structure, myofilaments, sarcomere, wrappings",
     "lectures": "Lecture 13",
     "scenes": [
-        {"lec": "L13", "title": "What muscle can do", "img": None,
+        {"lec": "L13", "title": "Four properties of muscle", "img": None,
          "terms": ["Contractility", "Excitability", "Extensibility", "Elasticity"],
          "lines": [
             "Myo, sarco and mys all mean muscle.",
@@ -21,7 +21,7 @@ STORY = {
             "**Smooth** muscle lines hollow organs. Involuntary, spindle shaped, one nucleus, no striations.",
             "Only smooth muscle can divide.",
          ]},
-        {"lec": "L13 · Skeletal", "title": "Origin and insertion", "img": "L13_02.jpg",
+        {"lec": "L13 · Skeletal", "title": "Skeletal muscle: origin and insertion", "img": "L13_02.jpg",
          "terms": ["Origin", "Insertion"],
          "lines": [
             "Skeletal muscle is 30 to 40 percent of body mass.",
@@ -30,7 +30,7 @@ STORY = {
             "Contraction pulls the insertion toward the origin.",
             "Skeletal muscle moves the body, holds posture, stabilizes joints and makes heat.",
          ]},
-        {"lec": "L13 · Cardiac", "title": "Intercalated discs", "img": "L13_03.jpg",
+        {"lec": "L13 · Cardiac", "title": "Cardiac muscle: intercalated discs", "img": "L13_03.jpg",
          "terms": ["Intercalated discs", "Desmosomes", "Gap junctions"],
          "lines": [
             "Only cardiac muscle has **intercalated discs**.",
@@ -38,7 +38,7 @@ STORY = {
             "And **gap junctions**, which pass ions between cells.",
             "Those are the junctions from Lecture 5.",
          ]},
-        {"lec": "L13 · Smooth", "title": "Smooth muscle", "img": "L13_04.jpg",
+        {"lec": "L13 · Smooth", "title": "Types of smooth muscle", "img": "L13_04.jpg",
          "terms": ["Visceral", "Multi-unit"],
          "lines": [
             "**Visceral** smooth muscle is common. It lines hollow organs.",
@@ -56,7 +56,7 @@ STORY = {
             "Its terminal cisternae are calcium reservoirs next to the T-tubules.",
             "Myofibrils fill 80 percent of the fiber.",
          ]},
-        {"lec": "L13 · Myofilaments", "title": "Actin and myosin", "img": "L13_06.png",
+        {"lec": "L13 · Myofilaments", "title": "Myofilaments: actin and myosin", "img": "L13_06.png",
          "terms": ["Actin", "Tropomyosin", "Troponin", "Myosin"],
          "lines": [
             "**Actin** is the thin filament. It has myosin-binding sites.",
@@ -75,7 +75,7 @@ STORY = {
             "The **H zone** is thick filament only, in the middle.",
             "The **M line** holds the thick filaments in line.",
          ]},
-        {"lec": "L13 · Sliding filaments", "title": "Sliding filaments", "img": "L13_09.jpg",
+        {"lec": "L13 · Sliding filaments", "title": "Sliding filament theory", "img": "L13_09.jpg",
          "terms": ["Cross bridge", "ATP", "Calcium"],
          "lines": [
             "Myosin uses **ATP** to walk along actin.",
@@ -84,7 +84,7 @@ STORY = {
             "The I band and H zone disappear at full contraction.",
             "It keeps going as long as **calcium** is present.",
          ]},
-        {"lec": "L13 · Wrappings", "title": "Straws in boxes", "img": "L13_11.jpg",
+        {"lec": "L13 · Wrappings", "title": "Connective tissue wrappings", "img": "L13_11.jpg",
          "terms": ["Endomysium", "Perimysium", "Epimysium"],
          "lines": [
             "Three connective tissue layers wrap skeletal muscle.",

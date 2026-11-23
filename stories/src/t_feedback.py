@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Homeostasis in temperature, calcium, sugar, oxygen and birth",
     "lectures": "Lectures 1, 6, 7, 14, 15",
     "scenes": [
-        {"lec": "L1 · Homeostasis", "title": "Staying in range", "img": "L1_13.png",
+        {"lec": "L1 · Homeostasis", "title": "The four parts of a feedback loop", "img": "L1_13.png",
          "terms": ["Homeostasis", "Stimulus", "Receptor", "Control center", "Effector"],
          "lines": [
             "**Homeostasis** keeps the inside of the body stable.",
@@ -12,7 +12,7 @@ STORY = {
             "A **stimulus**, a **receptor**, a **control center** and an **effector**.",
             "Once you see this pattern, you'll find it all through the midterm.",
          ]},
-        {"lec": "L1 · Feedback", "title": "Negative and positive", "img": None,
+        {"lec": "L1 · Feedback", "title": "Negative and positive feedback", "img": None,
          "terms": ["Negative", "Positive"],
          "lines": [
             "In **negative** feedback, the response opposes the change. It restores normal.",
@@ -20,7 +20,7 @@ STORY = {
             "In **positive** feedback, the response amplifies the change.",
             "It's rare. Childbirth and blood clotting.",
          ]},
-        {"lec": "L1 + L6 · Temperature", "title": "Too cold", "img": "L1_14.jpg",
+        {"lec": "L1 + L6 · Temperature", "title": "Temperature: too cold", "img": "L1_14.jpg",
          "terms": ["Krause", "Hypothalamus", "Vasoconstriction", "Shivering"],
          "lines": [
             "Stimulus: an ice cube cools the skin.",
@@ -29,7 +29,7 @@ STORY = {
             "Effectors: vessels constrict, and skeletal muscles **shiver**.",
             "Temperature rises back toward 98.6. That's negative feedback.",
          ]},
-        {"lec": "L6 · Temperature", "title": "Too hot", "img": None,
+        {"lec": "L6 · Temperature", "title": "Temperature: too hot", "img": None,
          "terms": ["Sweat", "Vasodilation", "Eccrine glands"],
          "lines": [
             "When you're too warm, the response flips.",
@@ -37,7 +37,7 @@ STORY = {
             "Skin vessels dilate to shed heat. That's **vasodilation**.",
             "The skin chapter called this thermoregulation. It's the same loop.",
          ]},
-        {"lec": "L7 + L15 · Calcium", "title": "Calcium too high", "img": "L7_17.png",
+        {"lec": "L7 + L15 · Calcium", "title": "Blood calcium too high", "img": "L7_17.png",
          "terms": ["Thyroid", "Calcitonin", "Osteoblasts"],
          "lines": [
             "Stimulus: blood calcium rises.",
@@ -46,7 +46,7 @@ STORY = {
             "Effector: bone. **Osteoblasts** pull calcium into bone.",
             "Blood calcium falls back to normal.",
          ]},
-        {"lec": "L15 · Calcium", "title": "Calcium too low", "img": "L15_04.png",
+        {"lec": "L15 · Calcium", "title": "Blood calcium too low", "img": "L15_04.png",
          "terms": ["Parathyroids", "PTH", "Osteoclasts", "Humoral"],
          "lines": [
             "Stimulus: blood calcium drops.",
@@ -73,7 +73,7 @@ STORY = {
             "Blood sugar rises.",
             "In type 1 diabetes, there's no insulin. In type 2, cells don't respond to it.",
          ]},
-        {"lec": "L15 · Oxygen", "title": "Oxygen too low", "img": None,
+        {"lec": "L15 · Oxygen", "title": "Blood oxygen too low", "img": None,
          "terms": ["Kidneys", "EPO", "Red marrow"],
          "lines": [
             "Stimulus: blood oxygen drops, from bleeding or high altitude.",
@@ -82,7 +82,7 @@ STORY = {
             "Effector: **red marrow** makes more red blood cells.",
             "More cells carry more oxygen. The loop closes.",
          ]},
-        {"lec": "L15 · Blood pressure", "title": "Pressure and water", "img": None,
+        {"lec": "L15 · Blood pressure", "title": "Blood pressure and water balance", "img": None,
          "terms": ["Renin", "Aldosterone", "ADH"],
          "lines": [
             "When blood pressure or sodium drops, the kidneys release **renin**.",
@@ -90,7 +90,7 @@ STORY = {
             ("**ADH** from the posterior pituitary holds water.", "Antidiuretic hormone from the posterior pituitary holds water."),
             "Both raise blood volume and pressure.",
          ]},
-        {"lec": "L1 + L15 · Birth", "title": "Positive feedback: birth", "img": "L1_15.jpg",
+        {"lec": "L1 + L15 · Birth", "title": "Positive feedback: childbirth", "img": "L1_15.jpg",
          "terms": ["Cervix", "Oxytocin", "Contractions"],
          "lines": [
             "Stimulus: the baby stretches the **cervix**.",
@@ -99,7 +99,7 @@ STORY = {
             "**Contractions** get stronger, which stretches the cervix more.",
             "The loop amplifies until the baby is born. Then it stops.",
          ]},
-        {"lec": "L14 · Muscle", "title": "Muscle as effector", "img": None,
+        {"lec": "L14 · Muscle", "title": "Muscle as the effector", "img": None,
          "terms": ["Effector", "Motor output", "Smooth muscle"],
          "lines": [
             "Notice how often the **effector** is muscle.",
@@ -107,7 +107,7 @@ STORY = {
             "The uterus contracts in birth.",
             "That's the nervous system's **motor output**, from Lecture 14.",
          ]},
-        {"lec": "Recap", "title": "Spot the loop", "img": None,
+        {"lec": "Recap", "title": "Recap: spotting a feedback loop", "img": None,
          "terms": ["Temperature", "Calcium", "Glucose", "Oxygen", "Birth"],
          "lines": [
             "On the exam, look for the four parts.",

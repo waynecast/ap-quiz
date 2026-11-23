@@ -70,7 +70,7 @@ IPA = {
  "meissner's": "mˈaɪsnɚz",
  "krause": "kɹˈaʊz",
  "lysis": "lˈaɪsɪs",
- "atp": "ˌeɪtˌiːpˈiː",
+ "atp": "ˌeɪtˌiːpˈiː", "pth": "ˌpiːˌtiːˈeɪtʃ", "epo": "ˌiːˌpiːˈoʊ", "adh": "ˌeɪˌdiːˈeɪtʃ",
  "adp": "ˌeɪdˌiːpˈiː",
  "er": "ˌiːˈɑːɹ",
  "ism": "ˌaɪˌɛsˈɛm",

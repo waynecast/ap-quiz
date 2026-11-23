@@ -9,7 +9,7 @@
  "scenes": [
   {
    "lec": "L1 · Homeostasis",
-   "title": "Staying in range",
+   "title": "The four parts of a feedback loop",
    "img": "L1_13.jpg",
    "terms": [
     "Homeostasis",
@@ -19,66 +19,70 @@
     "Effector"
    ],
    "start": 0.4,
+   "tstart": 0.4,
+   "tend": 2.15,
    "lines": [
     {
      "text": "**Homeostasis** keeps the inside of the body stable.",
-     "start": 0.4,
-     "end": 3.68
+     "start": 2.85,
+     "end": 6.13
     },
     {
      "text": "Every feedback loop has four parts.",
-     "start": 4.13,
-     "end": 6.07
+     "start": 6.58,
+     "end": 8.52
     },
     {
      "text": "A **stimulus**, a **receptor**, a **control center** and an **effector**.",
-     "start": 6.52,
-     "end": 10.05
+     "start": 8.97,
+     "end": 12.5
     },
     {
      "text": "Once you see this pattern, you'll find it all through the midterm.",
-     "start": 10.5,
-     "end": 13.71
+     "start": 12.95,
+     "end": 16.16
     }
    ],
-   "end": 14.81
+   "end": 17.26
   },
   {
    "lec": "L1 · Feedback",
-   "title": "Negative and positive",
+   "title": "Negative and positive feedback",
    "img": null,
    "terms": [
     "Negative",
     "Positive"
    ],
-   "start": 14.81,
+   "start": 17.26,
+   "tstart": 17.26,
+   "tend": 19.27,
    "lines": [
     {
      "text": "In **negative** feedback, the response opposes the change. It restores normal.",
-     "start": 14.81,
-     "end": 19.46
+     "start": 19.97,
+     "end": 24.61
     },
     {
      "text": "Most feedback is negative.",
-     "start": 19.91,
-     "end": 21.47
+     "start": 25.06,
+     "end": 26.62
     },
     {
      "text": "In **positive** feedback, the response amplifies the change.",
-     "start": 21.92,
-     "end": 25.48
+     "start": 27.07,
+     "end": 30.63
     },
     {
      "text": "It's rare. Childbirth and blood clotting.",
-     "start": 25.93,
-     "end": 28.2
+     "start": 31.08,
+     "end": 33.36
     }
    ],
-   "end": 29.3
+   "end": 34.46
   },
   {
    "lec": "L1 + L6 · Temperature",
-   "title": "Too cold",
+   "title": "Temperature: too cold",
    "img": "L1_14.jpg",
    "terms": [
     "Krause",
@@ -86,112 +90,118 @@
     "Vasoconstriction",
     "Shivering"
    ],
-   "start": 29.3,
+   "start": 34.46,
+   "tstart": 34.46,
+   "tend": 35.96,
    "lines": [
     {
      "text": "Stimulus: an ice cube cools the skin.",
-     "start": 29.3,
-     "end": 31.66
+     "start": 36.66,
+     "end": 39.02
     },
     {
      "text": "Receptor: a **Krause** bulb in the skin senses cold.",
-     "start": 32.11,
-     "end": 35.11
+     "start": 39.47,
+     "end": 42.47
     },
     {
      "text": "Control center: the **hypothalamus**.",
-     "start": 35.56,
-     "end": 37.88
+     "start": 42.92,
+     "end": 45.24
     },
     {
      "text": "Effectors: vessels constrict, and skeletal muscles **shiver**.",
-     "start": 38.33,
-     "end": 41.65
+     "start": 45.69,
+     "end": 49.01
     },
     {
      "text": "Temperature rises back toward 98.6. That's negative feedback.",
-     "start": 42.1,
-     "end": 46.76
+     "start": 49.46,
+     "end": 54.12
     }
    ],
-   "end": 47.86
+   "end": 55.22
   },
   {
    "lec": "L6 · Temperature",
-   "title": "Too hot",
+   "title": "Temperature: too hot",
    "img": null,
    "terms": [
     "Sweat",
     "Vasodilation",
     "Eccrine glands"
    ],
-   "start": 47.86,
+   "start": 55.22,
+   "tstart": 55.22,
+   "tend": 56.64,
    "lines": [
     {
      "text": "When you're too warm, the response flips.",
-     "start": 47.86,
-     "end": 49.93
+     "start": 57.34,
+     "end": 59.4
     },
     {
      "text": "**Eccrine glands** release **sweat**, and it evaporates.",
-     "start": 50.38,
-     "end": 53.1
+     "start": 59.85,
+     "end": 62.58
     },
     {
      "text": "Skin vessels dilate to shed heat. That's **vasodilation**.",
-     "start": 53.55,
-     "end": 57.09
+     "start": 63.03,
+     "end": 66.57
     },
     {
      "text": "The skin chapter called this thermoregulation. It's the same loop.",
-     "start": 57.54,
-     "end": 61.43
+     "start": 67.02,
+     "end": 70.9
     }
    ],
-   "end": 62.53
+   "end": 72.0
   },
   {
    "lec": "L7 + L15 · Calcium",
-   "title": "Calcium too high",
+   "title": "Blood calcium too high",
    "img": "L7_17.jpg",
    "terms": [
     "Thyroid",
     "Calcitonin",
     "Osteoblasts"
    ],
-   "start": 62.53,
+   "start": 72.0,
+   "tstart": 72.0,
+   "tend": 73.38,
    "lines": [
     {
      "text": "Stimulus: blood calcium rises.",
-     "start": 62.53,
-     "end": 64.76
+     "start": 74.08,
+     "end": 76.32
     },
     {
      "text": "Receptor and control center: the **thyroid** gland.",
-     "start": 65.21,
-     "end": 68.1
+     "start": 76.77,
+     "end": 79.66
     },
     {
      "text": "It releases **calcitonin**.",
-     "start": 68.55,
-     "end": 70.06
+     "start": 80.11,
+     "end": 81.62
     },
     {
      "text": "Effector: bone. **Osteoblasts** pull calcium into bone.",
-     "start": 70.51,
-     "end": 74.08
+     "start": 82.07,
+     "end": 85.63
     },
     {
      "text": "Blood calcium falls back to normal.",
-     "start": 74.53,
-     "end": 76.5
+     "start": 86.08,
+     "end": 88.05
     }
    ],
-   "end": 77.6
+   "end": 89.15
   },
   {
    "lec": "L15 · Calcium",
-   "title": "Calcium too low",
+   "title": "Blood calcium too low",
    "img": "L15_04.jpg",
    "terms": [
     "Parathyroids",
@@ -199,35 +209,37 @@
     "Osteoclasts",
     "Humoral"
    ],
-   "start": 77.6,
+   "start": 89.15,
+   "tstart": 89.15,
+   "tend": 90.46,
    "lines": [
     {
      "text": "Stimulus: blood calcium drops.",
-     "start": 77.6,
-     "end": 79.7
+     "start": 91.16,
+     "end": 93.26
     },
     {
      "text": "The **parathyroids** sense it directly. That's a **humoral** stimulus.",
-     "start": 80.15,
-     "end": 83.74
+     "start": 93.71,
+     "end": 97.3
     },
     {
      "text": "They release **PTH**.",
-     "start": 84.19,
-     "end": 85.92
+     "start": 97.75,
+     "end": 99.48
     },
     {
      "text": "**Osteoclasts** release calcium from bone into blood.",
-     "start": 86.37,
-     "end": 89.23
+     "start": 99.93,
+     "end": 102.79
     },
     {
      "text": "Two hormones, pulling opposite ways. That's how a set point holds.",
-     "start": 89.68,
-     "end": 93.58
+     "start": 103.24,
+     "end": 107.14
     }
    ],
-   "end": 94.68
+   "end": 108.24
   },
   {
    "lec": "L1 + L15 · Sugar",
@@ -238,35 +250,37 @@
     "Insulin",
     "Glycogenesis"
    ],
-   "start": 94.68,
+   "start": 108.24,
+   "tstart": 108.24,
+   "tend": 109.45,
    "lines": [
     {
      "text": "Stimulus: you eat cake, and blood sugar rises.",
-     "start": 94.68,
-     "end": 97.62
+     "start": 110.15,
+     "end": 113.09
     },
     {
      "text": "Receptors on the pancreas sense it.",
-     "start": 98.07,
-     "end": 99.91
+     "start": 113.54,
+     "end": 115.38
     },
     {
      "text": "**Beta cells** in the islets release **insulin**.",
-     "start": 100.36,
-     "end": 102.9
+     "start": 115.83,
+     "end": 118.37
     },
     {
      "text": "Cells take in glucose, and the liver stores it as glycogen. That's **glycogenesis**.",
-     "start": 103.35,
-     "end": 108.7
+     "start": 118.82,
+     "end": 124.17
     },
     {
      "text": "Blood sugar falls.",
-     "start": 109.15,
-     "end": 110.28
+     "start": 124.62,
+     "end": 125.75
     }
    ],
-   "end": 111.38
+   "end": 126.85
   },
   {
    "lec": "L1 + L15 · Sugar",
@@ -277,185 +291,195 @@
     "Glucagon",
     "Glycogenolysis"
    ],
-   "start": 111.38,
+   "start": 126.85,
+   "tstart": 126.85,
+   "tend": 128.05,
    "lines": [
     {
      "text": "Stimulus: you haven't eaten, and blood sugar drops.",
-     "start": 111.38,
-     "end": 114.4
+     "start": 128.75,
+     "end": 131.77
     },
     {
      "text": "**Alpha cells** release **glucagon**.",
-     "start": 114.85,
-     "end": 116.56
+     "start": 132.22,
+     "end": 133.93
     },
     {
      "text": "The liver breaks glycogen down. That's **glycogenolysis**.",
-     "start": 117.01,
-     "end": 120.67
+     "start": 134.38,
+     "end": 138.04
     },
     {
      "text": "Blood sugar rises.",
-     "start": 121.12,
-     "end": 122.37
+     "start": 138.49,
+     "end": 139.74
     },
     {
      "text": "In type 1 diabetes, there's no insulin. In type 2, cells don't respond to it.",
-     "start": 122.82,
-     "end": 128.06
+     "start": 140.19,
+     "end": 145.43
     }
    ],
-   "end": 129.16
+   "end": 146.53
   },
   {
    "lec": "L15 · Oxygen",
-   "title": "Oxygen too low",
+   "title": "Blood oxygen too low",
    "img": null,
    "terms": [
     "Kidneys",
     "EPO",
     "Red marrow"
    ],
-   "start": 129.16,
+   "start": 146.53,
+   "tstart": 146.53,
+   "tend": 147.9,
    "lines": [
     {
      "text": "Stimulus: blood oxygen drops, from bleeding or high altitude.",
-     "start": 129.16,
-     "end": 133.21
+     "start": 148.6,
+     "end": 152.65
     },
     {
      "text": "Receptors in the **kidneys** sense it.",
-     "start": 133.66,
-     "end": 135.45
+     "start": 153.1,
+     "end": 154.89
     },
     {
      "text": "They release **EPO**, erythropoietin.",
-     "start": 135.9,
-     "end": 137.65
+     "start": 155.34,
+     "end": 157.09
     },
     {
      "text": "Effector: **red marrow** makes more red blood cells.",
-     "start": 138.1,
-     "end": 140.86
+     "start": 157.54,
+     "end": 160.3
     },
     {
      "text": "More cells carry more oxygen. The loop closes.",
-     "start": 141.31,
-     "end": 144.41
+     "start": 160.75,
+     "end": 163.85
     }
    ],
-   "end": 145.51
+   "end": 164.95
   },
   {
    "lec": "L15 · Blood pressure",
-   "title": "Pressure and water",
+   "title": "Blood pressure and water balance",
    "img": null,
    "terms": [
     "Renin",
     "Aldosterone",
     "ADH"
    ],
-   "start": 145.51,
+   "start": 164.95,
+   "tstart": 164.95,
+   "tend": 166.72,
    "lines": [
     {
      "text": "When blood pressure or sodium drops, the kidneys release **renin**.",
-     "start": 145.51,
-     "end": 149.24
+     "start": 167.42,
+     "end": 171.15
     },
     {
      "text": "That system ends with **aldosterone**, which holds sodium.",
-     "start": 149.69,
-     "end": 152.91
+     "start": 171.6,
+     "end": 174.82
     },
     {
      "text": "**ADH** from the posterior pituitary holds water.",
-     "start": 153.36,
-     "end": 157.37
+     "start": 175.27,
+     "end": 179.28
     },
     {
      "text": "Both raise blood volume and pressure.",
-     "start": 157.82,
-     "end": 159.79
+     "start": 179.73,
+     "end": 181.7
     }
    ],
-   "end": 160.89
+   "end": 182.8
   },
   {
    "lec": "L1 + L15 · Birth",
-   "title": "Positive feedback: birth",
+   "title": "Positive feedback: childbirth",
    "img": "L1_15.jpg",
    "terms": [
     "Cervix",
     "Oxytocin",
     "Contractions"
    ],
-   "start": 160.89,
+   "start": 182.8,
+   "tstart": 182.8,
+   "tend": 184.86,
    "lines": [
     {
      "text": "Stimulus: the baby stretches the **cervix**.",
-     "start": 160.89,
-     "end": 163.35
+     "start": 185.56,
+     "end": 188.02
     },
     {
      "text": "Receptors in the uterus signal the hypothalamus.",
-     "start": 163.8,
-     "end": 166.96
+     "start": 188.47,
+     "end": 191.63
     },
     {
      "text": "The posterior pituitary releases **oxytocin**.",
-     "start": 167.41,
-     "end": 170.27
+     "start": 192.08,
+     "end": 194.94
     },
     {
      "text": "**Contractions** get stronger, which stretches the cervix more.",
-     "start": 170.72,
-     "end": 173.97
+     "start": 195.39,
+     "end": 198.64
     },
     {
      "text": "The loop amplifies until the baby is born. Then it stops.",
-     "start": 174.42,
-     "end": 177.97
+     "start": 199.09,
+     "end": 202.64
     }
    ],
-   "end": 179.07
+   "end": 203.74
   },
   {
    "lec": "L14 · Muscle",
-   "title": "Muscle as effector",
+   "title": "Muscle as the effector",
    "img": null,
    "terms": [
     "Effector",
     "Motor output",
     "Smooth muscle"
    ],
-   "start": 179.07,
+   "start": 203.74,
+   "tstart": 203.74,
+   "tend": 205.14,
    "lines": [
     {
      "text": "Notice how often the **effector** is muscle.",
-     "start": 179.07,
-     "end": 181.4
+     "start": 205.84,
+     "end": 208.16
     },
     {
      "text": "Skeletal muscle shivers. Smooth muscle in vessel walls constricts or dilates.",
-     "start": 181.85,
-     "end": 186.82
+     "start": 208.61,
+     "end": 213.58
     },
     {
      "text": "The uterus contracts in birth.",
-     "start": 187.27,
-     "end": 188.87
+     "start": 214.03,
+     "end": 215.64
     },
     {
      "text": "That's the nervous system's **motor output**, from Lecture 14.",
-     "start": 189.32,
-     "end": 192.86
+     "start": 216.09,
+     "end": 219.63
     }
    ],
-   "end": 193.96
+   "end": 220.73
   },
   {
    "lec": "Recap",
-   "title": "Spot the loop",
+   "title": "Recap: spotting a feedback loop",
    "img": null,
    "terms": [
     "Temperature",
@@ -464,37 +488,39 @@
     "Oxygen",
     "Birth"
    ],
-   "start": 193.96,
+   "start": 220.73,
+   "tstart": 220.73,
+   "tend": 222.53,
    "lines": [
     {
      "text": "On the exam, look for the four parts.",
-     "start": 193.96,
-     "end": 196.06
+     "start": 223.23,
+     "end": 225.33
     },
     {
      "text": "What changed? What sensed it? What decided? What responded?",
-     "start": 196.51,
-     "end": 200.04
+     "start": 225.78,
+     "end": 229.31
     },
     {
      "text": "Then ask: did the response oppose the change, or amplify it?",
-     "start": 200.49,
-     "end": 204.22
+     "start": 229.76,
+     "end": 233.49
     },
     {
      "text": "**Temperature**, **calcium**, **glucose** and **oxygen** are negative.",
-     "start": 204.67,
-     "end": 208.36
+     "start": 233.94,
+     "end": 237.62
     },
     {
      "text": "**Birth** and clotting are positive.",
-     "start": 208.81,
-     "end": 210.63
+     "start": 238.07,
+     "end": 239.9
     }
    ],
-   "end": 211.73
+   "end": 241.0
   }
  ],
- "duration": 211.73,
+ "duration": 241.0,
  "audio": "stories/t_feedback.mp3"
 }

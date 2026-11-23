@@ -9,7 +9,7 @@
  "scenes": [
   {
    "lec": "L10",
-   "title": "Shoulder to fingertips",
+   "title": "Bones of the upper extremity",
    "img": "L10_01.jpg",
    "terms": [
     "Clavicle",
@@ -19,34 +19,36 @@
     "Ulna"
    ],
    "start": 0.4,
+   "tstart": 0.4,
+   "tend": 2.03,
    "lines": [
     {
      "text": "Let's walk down the arm.",
-     "start": 0.4,
-     "end": 1.72
+     "start": 2.73,
+     "end": 4.06
     },
     {
      "text": "The **clavicle** and **scapula** form the shoulder girdle.",
-     "start": 2.17,
-     "end": 4.87
+     "start": 4.51,
+     "end": 7.2
     },
     {
      "text": "The **humerus** is the arm.",
-     "start": 5.32,
-     "end": 6.76
+     "start": 7.65,
+     "end": 9.09
     },
     {
      "text": "The **radius** and **ulna** are the forearm.",
-     "start": 7.21,
-     "end": 9.26
+     "start": 9.54,
+     "end": 11.59
     },
     {
      "text": "Then the carpals, metacarpals and phalanges.",
-     "start": 9.71,
-     "end": 12.39
+     "start": 12.04,
+     "end": 14.72
     }
    ],
-   "end": 13.49
+   "end": 15.82
   },
   {
    "lec": "L10 · Clavicle",
@@ -56,34 +58,36 @@
     "SC joint",
     "AC joint"
    ],
-   "start": 13.49,
+   "start": 15.82,
+   "tstart": 15.82,
+   "tend": 16.61,
    "lines": [
     {
      "text": "The clavicle is a small S-shaped bone.",
-     "start": 13.49,
-     "end": 15.77
+     "start": 17.31,
+     "end": 19.6
     },
     {
      "text": "It runs from the sternum to the acromion.",
-     "start": 16.22,
-     "end": 18.35
+     "start": 20.05,
+     "end": 22.17
     },
     {
      "text": "Its medial end meets the manubrium at the **sternoclavicular joint**, or **SC**.",
-     "start": 18.8,
-     "end": 22.88
+     "start": 22.62,
+     "end": 26.7
     },
     {
      "text": "Its lateral end meets the acromion at the **acromioclavicular joint**, or **AC**.",
-     "start": 23.33,
-     "end": 27.71
+     "start": 27.15,
+     "end": 31.54
     }
    ],
-   "end": 28.81
+   "end": 32.64
   },
   {
    "lec": "L10 · Scapula",
-   "title": "Borders and angles",
+   "title": "Scapula: borders and angles",
    "img": "L10_04.jpg",
    "terms": [
     "Medial border",
@@ -91,68 +95,72 @@
     "Inferior angle",
     "Superior angle"
    ],
-   "start": 28.81,
+   "start": 32.64,
+   "tstart": 32.64,
+   "tend": 34.56,
    "lines": [
     {
      "text": "The **medial border** is closest to the spine. It's also called the vertebral border.",
-     "start": 28.81,
-     "end": 33.37
+     "start": 35.26,
+     "end": 39.81
     },
     {
      "text": "The **lateral border** faces the armpit. It's the axillary border.",
-     "start": 33.82,
-     "end": 37.6
+     "start": 40.26,
+     "end": 44.04
     },
     {
      "text": "They meet at the bottom at the **inferior angle**.",
-     "start": 38.05,
-     "end": 40.55
+     "start": 44.49,
+     "end": 47.0
     },
     {
      "text": "The **superior angle** is at the top of the medial border.",
-     "start": 41.0,
-     "end": 44.08
+     "start": 47.45,
+     "end": 50.53
     }
    ],
-   "end": 45.18
+   "end": 51.63
   },
   {
    "lec": "L10 · Scapula",
-   "title": "The glenoid",
+   "title": "Scapula: the glenoid fossa",
    "img": "L10_05.jpg",
    "terms": [
     "Glenoid fossa",
     "Supraglenoid",
     "Infraglenoid"
    ],
-   "start": 45.18,
+   "start": 51.63,
+   "tstart": 51.63,
+   "tend": 53.56,
    "lines": [
     {
      "text": "The **glenoid fossa** is a shallow socket on the lateral scapula.",
-     "start": 45.18,
-     "end": 48.91
+     "start": 54.26,
+     "end": 57.99
     },
     {
      "text": "It meets the head of the humerus. That's the glenohumeral joint, the shoulder.",
-     "start": 49.36,
-     "end": 53.75
+     "start": 58.44,
+     "end": 62.82
     },
     {
      "text": "The **supraglenoid** tubercle is above it.",
-     "start": 54.2,
-     "end": 56.38
+     "start": 63.27,
+     "end": 65.45
     },
     {
      "text": "The **infraglenoid** tubercle is below it.",
-     "start": 56.83,
-     "end": 59.06
+     "start": 65.9,
+     "end": 68.14
     }
    ],
-   "end": 60.16
+   "end": 69.24
   },
   {
    "lec": "L10 · Scapula",
-   "title": "Spine, acromion, coracoid",
+   "title": "Scapula: spine, acromion and coracoid",
    "img": "L10_06.jpg",
    "terms": [
     "Spine",
@@ -160,68 +168,72 @@
     "Coracoid",
     "T4"
    ],
-   "start": 60.16,
+   "start": 69.24,
+   "tstart": 69.24,
+   "tend": 72.05,
    "lines": [
     {
      "text": "The **spine** of the scapula is a ridge on the back. You can't see it from the front.",
-     "start": 60.16,
-     "end": 64.57
+     "start": 72.75,
+     "end": 77.16
     },
     {
      "text": "Its root sits about level with **T4**.",
-     "start": 65.02,
-     "end": 67.19
+     "start": 77.61,
+     "end": 79.78
     },
     {
      "text": "It ends laterally at the **acromion**, the high point of the shoulder.",
-     "start": 67.64,
-     "end": 71.41
+     "start": 80.23,
+     "end": 83.99
     },
     {
      "text": "The **coracoid** process is a finger pointing forward, lower than the acromion.",
-     "start": 71.86,
-     "end": 76.4
+     "start": 84.44,
+     "end": 88.98
     },
     {
      "text": "The scapular notch is just medial to the coracoid.",
-     "start": 76.85,
-     "end": 80.05
+     "start": 89.43,
+     "end": 92.64
     }
    ],
-   "end": 81.15
+   "end": 93.74
   },
   {
    "lec": "L10 · Scapula",
-   "title": "Three fossae",
+   "title": "Scapula: three fossae",
    "img": "L10_08.jpg",
    "terms": [
     "Supraspinous",
     "Infraspinous",
     "Subscapular"
    ],
-   "start": 81.15,
+   "start": 93.74,
+   "tstart": 93.74,
+   "tend": 95.29,
    "lines": [
     {
      "text": "The **supraspinous** fossa is above the spine.",
-     "start": 81.15,
-     "end": 83.56
+     "start": 95.99,
+     "end": 98.39
     },
     {
      "text": "The **infraspinous** fossa is below it. It's almost the whole back.",
-     "start": 84.01,
-     "end": 87.75
+     "start": 98.84,
+     "end": 102.58
     },
     {
      "text": "The **subscapular** fossa is on the front, against the ribs.",
-     "start": 88.2,
-     "end": 91.42
+     "start": 103.03,
+     "end": 106.26
     }
    ],
-   "end": 92.52
+   "end": 107.36
   },
   {
    "lec": "L10 · Humerus",
-   "title": "Top of the humerus",
+   "title": "Proximal humerus",
    "img": "L10_10.jpg",
    "terms": [
     "Head",
@@ -229,44 +241,46 @@
     "Greater tubercle",
     "Intertubercular groove"
    ],
-   "start": 92.52,
+   "start": 107.36,
+   "tstart": 107.36,
+   "tend": 108.54,
    "lines": [
     {
      "text": "The **head** of the humerus points medially.",
-     "start": 92.52,
-     "end": 94.57
+     "start": 109.24,
+     "end": 111.28
     },
     {
      "text": "The anatomical neck rings the head.",
-     "start": 95.02,
-     "end": 97.0
+     "start": 111.73,
+     "end": 113.71
     },
     {
      "text": "The **surgical neck** is below. It's a common fracture site.",
-     "start": 97.45,
-     "end": 100.79
+     "start": 114.16,
+     "end": 117.5
     },
     {
      "text": "The **greater tubercle** is lateral. The lesser tubercle is in front.",
-     "start": 101.24,
-     "end": 104.96
+     "start": 117.95,
+     "end": 121.67
     },
     {
      "text": "The **intertubercular groove** runs between them. It's also called the bicipital groove.",
-     "start": 105.41,
-     "end": 110.52
+     "start": 122.12,
+     "end": 127.23
     },
     {
      "text": "The deltoid tuberosity is halfway down the side.",
-     "start": 110.97,
-     "end": 113.91
+     "start": 127.68,
+     "end": 130.62
     }
    ],
-   "end": 115.01
+   "end": 131.72
   },
   {
    "lec": "L10 · Humerus",
-   "title": "Bottom of the humerus",
+   "title": "Distal humerus",
    "img": "L10_15.jpg",
    "terms": [
     "Capitulum",
@@ -274,35 +288,37 @@
     "Olecranon fossa",
     "Epicondyles"
    ],
-   "start": 115.01,
+   "start": 131.72,
+   "tstart": 131.72,
+   "tend": 132.78,
    "lines": [
     {
      "text": "The **capitulum** is a ball on the lateral side. It meets the radius.",
-     "start": 115.01,
-     "end": 119.12
+     "start": 133.48,
+     "end": 137.59
     },
     {
      "text": "The **trochlea** is next to it. It meets the ulna.",
-     "start": 119.57,
-     "end": 122.24
+     "start": 138.04,
+     "end": 140.71
     },
     {
      "text": "The coronoid fossa is a shallow dip in front.",
-     "start": 122.69,
-     "end": 125.43
+     "start": 141.16,
+     "end": 143.9
     },
     {
      "text": "The **olecranon fossa** is a deep dip in back.",
-     "start": 125.88,
-     "end": 128.59
+     "start": 144.35,
+     "end": 147.06
     },
     {
      "text": "The medial and lateral **epicondyles** are bumps on each side.",
-     "start": 129.04,
-     "end": 132.53
+     "start": 147.51,
+     "end": 151.0
     }
    ],
-   "end": 133.63
+   "end": 152.1
   },
   {
    "lec": "L10 · Radius",
@@ -314,35 +330,37 @@
     "Styloid",
     "Lister's tubercle"
    ],
-   "start": 133.63,
+   "start": 152.1,
+   "tstart": 152.1,
+   "tend": 152.94,
    "lines": [
     {
      "text": "The radius is lateral, on the thumb side.",
-     "start": 133.63,
-     "end": 136.12
+     "start": 153.64,
+     "end": 156.13
     },
     {
      "text": "The **radial head** is round, like the handle of a bat.",
-     "start": 136.57,
-     "end": 139.48
+     "start": 156.58,
+     "end": 159.49
     },
     {
      "text": "The **radial tuberosity** is a bump below the neck.",
-     "start": 139.93,
-     "end": 142.77
+     "start": 159.94,
+     "end": 162.78
     },
     {
      "text": "The **styloid** process is at the wrist.",
-     "start": 143.22,
-     "end": 145.22
+     "start": 163.23,
+     "end": 165.23
     },
     {
      "text": "**Lister's tubercle** is a bump on the back, a pulley for a thumb tendon.",
-     "start": 145.67,
-     "end": 149.43
+     "start": 165.68,
+     "end": 169.45
     }
    ],
-   "end": 150.53
+   "end": 170.55
   },
   {
    "lec": "L10 · Ulna",
@@ -353,72 +371,76 @@
     "Trochlear notch",
     "Coronoid process"
    ],
-   "start": 150.53,
+   "start": 170.55,
+   "tstart": 170.55,
+   "tend": 171.2,
    "lines": [
     {
      "text": "The ulna is medial, on the pinky side.",
-     "start": 150.53,
-     "end": 152.83
+     "start": 171.9,
+     "end": 174.19
     },
     {
      "text": "The **olecranon** forms the back of the elbow.",
-     "start": 153.28,
-     "end": 155.71
+     "start": 174.64,
+     "end": 177.07
     },
     {
      "text": "The **trochlear notch** wraps around the trochlea.",
-     "start": 156.16,
-     "end": 158.55
+     "start": 177.52,
+     "end": 179.91
     },
     {
      "text": "The **coronoid process** is just below the notch.",
-     "start": 159.0,
-     "end": 161.64
+     "start": 180.36,
+     "end": 183.01
     },
     {
      "text": "The ulna also has a styloid process at the wrist.",
-     "start": 162.09,
-     "end": 164.97
+     "start": 183.46,
+     "end": 186.34
     },
     {
      "text": "The interosseous membrane connects the radius and ulna.",
-     "start": 165.42,
-     "end": 168.7
+     "start": 186.79,
+     "end": 190.07
     }
    ],
-   "end": 169.8
+   "end": 191.17
   },
   {
    "lec": "L10 · Movement",
-   "title": "Supination and pronation",
+   "title": "Forearm movement: supination and pronation",
    "img": null,
    "terms": [
     "Supination",
     "Pronation"
    ],
-   "start": 169.8,
+   "start": 191.17,
+   "tstart": 191.17,
+   "tend": 194.0,
    "lines": [
     {
      "text": "**Supination** turns the palm up or forward.",
-     "start": 169.8,
-     "end": 172.26
+     "start": 194.7,
+     "end": 197.16
     },
     {
      "text": "**Pronation** turns the palm down or back.",
-     "start": 172.71,
-     "end": 174.91
+     "start": 197.61,
+     "end": 199.81
     },
     {
      "text": "Both happen at the elbow, not the shoulder.",
-     "start": 175.36,
-     "end": 177.71
+     "start": 200.26,
+     "end": 202.61
     }
    ],
-   "end": 178.81
+   "end": 203.71
   },
   {
    "lec": "L10 · Carpals",
-   "title": "Eight carpals",
+   "title": "The eight carpals",
    "img": "L10_21.jpg",
    "terms": [
     "Scaphoid",
@@ -427,30 +449,32 @@
     "Pisiform",
     "Hamate"
    ],
-   "start": 178.81,
+   "start": 203.71,
+   "tstart": 203.71,
+   "tend": 204.77,
    "lines": [
     {
      "text": "So Long To Pinky, Here Comes The Thumb.",
-     "start": 178.81,
-     "end": 181.25
+     "start": 205.47,
+     "end": 207.91
     },
     {
      "text": "The proximal row, thumb to pinky: **scaphoid**, **lunate**, **triquetrum**, **pisiform**.",
-     "start": 181.7,
-     "end": 186.72
+     "start": 208.36,
+     "end": 213.38
     },
     {
      "text": "The distal row, pinky to thumb: **hamate**, capitate, trapezoid, trapezium.",
-     "start": 187.17,
-     "end": 191.93
+     "start": 213.83,
+     "end": 218.59
     },
     {
      "text": "The tunnel of Guyon runs between the pisiform and the hamate. The ulnar nerve passes through.",
-     "start": 192.38,
-     "end": 197.99
+     "start": 219.04,
+     "end": 224.65
     }
    ],
-   "end": 199.09
+   "end": 225.75
   },
   {
    "lec": "L10 · Hand",
@@ -463,37 +487,39 @@
     "PIP",
     "DIP"
    ],
-   "start": 199.09,
+   "start": 225.75,
+   "tstart": 225.75,
+   "tend": 227.44,
    "lines": [
     {
      "text": "Five **metacarpals** form the palm. Number 1 is the thumb.",
-     "start": 199.09,
-     "end": 202.53
+     "start": 228.14,
+     "end": 231.58
     },
     {
      "text": "Each hand has 14 **phalanges**. Three per finger, two in the thumb.",
-     "start": 202.98,
-     "end": 207.08
+     "start": 232.03,
+     "end": 236.14
     },
     {
      "text": "The **MCP** joints join metacarpals to phalanges.",
-     "start": 207.53,
-     "end": 211.61
+     "start": 236.59,
+     "end": 240.66
     },
     {
      "text": "The **PIP** and **DIP** joints are in the fingers.",
-     "start": 212.06,
-     "end": 215.62
+     "start": 241.11,
+     "end": 244.67
     },
     {
      "text": "The thumb has one **IP** joint.",
-     "start": 216.07,
-     "end": 218.29
+     "start": 245.12,
+     "end": 247.34
     }
    ],
-   "end": 219.39
+   "end": 248.44
   }
  ],
- "duration": 219.39,
+ "duration": 248.44,
  "audio": "stories/l10.mp3"
 }

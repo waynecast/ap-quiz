@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Vertebrae, regional features, spinal curves, ribs, sternum",
     "lectures": "Lecture 9",
     "scenes": [
-        {"lec": "L9", "title": "Five regions", "img": "L9_01.png",
+        {"lec": "L9", "title": "Five regions of the spine", "img": "L9_01.png",
          "terms": ["Cervical 7", "Thoracic 12", "Lumbar 5", "Sacrum", "Coccyx"],
          "lines": [
             "The spine has 26 vertebrae. The top 24 move.",
@@ -22,7 +22,7 @@ STORY = {
             "Two **laminae** meet in the midline.",
             "Together they form the **spinous process**, the bump you feel down the back.",
          ]},
-        {"lec": "L9 · Vertebra", "title": "Processes and the foramen", "img": "L9_04.jpg",
+        {"lec": "L9 · Vertebra", "title": "Vertebral processes and foramen", "img": "L9_04.jpg",
          "terms": ["Articular processes", "Transverse process", "Vertebral foramen"],
          "lines": [
             "Superior **articular processes** meet the vertebra above.",
@@ -52,7 +52,7 @@ STORY = {
             ("The **axis** is C2.", "The axis is C two."),
             "Its **dens**, or odontoid process, points up into the atlas.",
          ]},
-        {"lec": "L9 · Thoracic and lumbar", "title": "Thoracic and lumbar", "img": "L9_08.jpg",
+        {"lec": "L9 · Thoracic and lumbar", "title": "Thoracic and lumbar vertebrae", "img": "L9_08.jpg",
          "terms": ["Rib facets", "Round foramen", "Spatulated"],
          "lines": [
             "Only thoracic vertebrae have **rib facets**.",
@@ -76,7 +76,7 @@ STORY = {
             "**Lordosis** is in the cervical and lumbar spine. It's a secondary curve, formed after birth.",
             "**Kyphosis** is in the thoracic and sacral spine. It's a primary curve, there from birth.",
          ]},
-        {"lec": "L9 · Ribs", "title": "True, false, floating", "img": "L9_17.png",
+        {"lec": "L9 · Ribs", "title": "True, false and floating ribs", "img": "L9_17.png",
          "terms": ["True ribs", "False ribs", "Floating ribs"],
          "lines": [
             "There are 12 pairs of ribs.",

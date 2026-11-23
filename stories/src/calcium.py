@@ -10,7 +10,7 @@ STORY = {
     "lectures": "Lectures 1, 2, 3, 5, 6, 7, 13, 14, 15",
     "scenes": [
         {
-            "lec": "Overview", "title": "One ion, many lectures", "img": None,
+            "lec": "Overview", "title": "One ion across the midterm", "img": None,
             "terms": ["Chemistry", "Bone", "Hormones", "Muscle"],
             "lines": [
                 "This story follows one ion through the midterm.",
@@ -44,7 +44,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L3 · Inorganic compounds", "title": "An electrolyte", "img": None,
+            "lec": "L3 · Inorganic compounds", "title": "Calcium is an electrolyte", "img": None,
             "terms": ["Electrolyte", "Salts", "Inorganic"],
             "lines": [
                 "Salts are inorganic compounds.",
@@ -67,7 +67,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L7 · Bone cells", "title": "Blasts build, clasts crush", "img": "L7_03.png",
+            "lec": "L7 · Bone cells", "title": "Bone cells: blasts build, clasts crush", "img": "L7_03.png",
             "terms": ["Osteoblast", "Osteoclast", "Osteocyte"],
             "lines": [
                 "Bone cells move calcium in and out of the bank.",
@@ -80,7 +80,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L6 + L7 · Skin", "title": "Vitamin D lets calcium in", "img": "L6_05.jpg",
+            "lec": "L6 + L7 · Skin", "title": "Vitamin D helps absorb calcium", "img": "L6_05.jpg",
             "terms": ["Vitamin D", "Cholecalciferol", "Synthesis"],
             "lines": [
                 "Calcium has to get into the blood first.",
@@ -92,7 +92,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L1 · Homeostasis", "title": "Keep it in range", "img": "L1_13.png",
+            "lec": "L1 · Homeostasis", "title": "Homeostasis keeps calcium in range", "img": "L1_13.png",
             "terms": ["Homeostasis", "Negative feedback"],
             "lines": [
                 "Blood calcium has to stay in a narrow range.",
@@ -104,7 +104,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L7 + L15 · Thyroid", "title": "Calcitonin: calci-bone-in", "img": "L7_17.png",
+            "lec": "L7 + L15 · Thyroid", "title": "Calcitonin lowers blood calcium", "img": "L7_17.png",
             "terms": ["Calcitonin", "Thyroid gland", "↓ blood Ca²⁺"],
             "lines": [
                 "Blood calcium is too **high**.",
@@ -116,7 +116,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L15 · Parathyroids", "title": "PTH: calcium out of bone", "img": "L15_04.png",
+            "lec": "L15 · Parathyroids", "title": "PTH raises blood calcium", "img": "L15_04.png",
             "terms": ["PTH", "Parathyroid glands", "Antagonist"],
             "lines": [
                 "Blood calcium is too **low**.",
@@ -141,7 +141,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L13 · Muscle fiber", "title": "Calcium waits in the SR", "img": "L13_05.jpg",
+            "lec": "L13 · Muscle fiber", "title": "Calcium stored in the sarcoplasmic reticulum", "img": "L13_05.jpg",
             "terms": ["Sarcoplasmic reticulum", "Troponin", "Tropomyosin"],
             "lines": [
                 "Now calcium's second big job: muscle.",
@@ -153,7 +153,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L14 · NMJ", "title": "Calcium opens the gate", "img": "L14_08.jpg",
+            "lec": "L14 · NMJ", "title": "Calcium at the neuromuscular junction", "img": "L14_08.jpg",
             "terms": ["Synaptic knob", "ACh", "Motor end plate"],
             "lines": [
                 "A nerve impulse reaches the **synaptic knob**.",
@@ -177,7 +177,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L14 · Cross-bridge cycle", "title": "Calcium plus ATP", "img": "L14_10.png",
+            "lec": "L14 · Cross-bridge cycle", "title": "The cross-bridge cycle needs calcium and ATP", "img": "L14_10.png",
             "terms": ["Power stroke", "ATP", "Relaxation"],
             "lines": [
                 "Myosin heads attach to actin. That is a **cross bridge**.",
@@ -189,7 +189,7 @@ STORY = {
             ],
         },
         {
-            "lec": "L7 + L14 · When it fails", "title": "Out of balance", "img": "L7_24.jpg",
+            "lec": "L7 + L14 · When it fails", "title": "When calcium balance fails", "img": "L7_24.jpg",
             "terms": ["Osteoporosis", "Wolff's law", "Fatigue"],
             "lines": [
                 "**Osteoporosis** is a loss of bone quantity.",
@@ -200,7 +200,7 @@ STORY = {
             ],
         },
         {
-            "lec": "Recap", "title": "The whole chain", "img": None,
+            "lec": "Recap", "title": "Recap: the whole chain", "img": None,
             "terms": ["Ca²⁺", "Bone bank", "Calcitonin ⇄ PTH", "Troponin"],
             "lines": [
                 "Let's run the chain once more.",

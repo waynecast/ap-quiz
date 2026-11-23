@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Nervous system, NMJ, contraction, energy, fiber types, twitches",
     "lectures": "Lecture 14",
     "scenes": [
-        {"lec": "L14 · Nervous system", "title": "Input, integration, output", "img": "L14_01.jpg",
+        {"lec": "L14 · Nervous system", "title": "Functions of the nervous system", "img": "L14_01.jpg",
          "terms": ["Sensory input", "Integration", "Motor output"],
          "lines": [
             "The nervous system is the master control system.",
@@ -12,7 +12,7 @@ STORY = {
             "**Integration**: the system processes and decides.",
             "**Motor output**: it activates muscles and glands.",
          ]},
-        {"lec": "L14 · Divisions", "title": "CNS and PNS", "img": "L14_02.jpg",
+        {"lec": "L14 · Divisions", "title": "Divisions of the nervous system", "img": "L14_02.jpg",
          "terms": ["CNS", "PNS", "Afferent", "Efferent"],
          "lines": [
             ("The **CNS** is the brain and spinal cord. It's the command center.", "The central nervous system is the brain and spinal cord. It's the command center."),
@@ -29,7 +29,7 @@ STORY = {
             "**Multipolar** neurons have many dendrites. All motor neurons are multipolar.",
             "Sensory neurons are unipolar. Interneurons live only in the CNS.",
          ]},
-        {"lec": "L14 · Motor units", "title": "All or nothing", "img": "L14_05.jpg",
+        {"lec": "L14 · Motor units", "title": "Motor units and the all-or-nothing principle", "img": "L14_05.jpg",
          "terms": ["All-or-nothing", "Threshold", "Motor unit", "Recruitment"],
          "lines": [
             "A muscle fiber contracts completely or not at all. That's **all-or-nothing**.",
@@ -45,7 +45,7 @@ STORY = {
             "The **synaptic cleft** is the gap. It holds the enzyme that breaks down acetylcholine.",
             "The **motor end plate** is folded muscle membrane covered in receptors.",
          ]},
-        {"lec": "L14 · Excitation", "title": "Signal to spark", "img": "L14_08.jpg",
+        {"lec": "L14 · Excitation", "title": "Excitation at the neuromuscular junction", "img": "L14_08.jpg",
          "terms": ["Calcium in", "ACh release", "Depolarization", "Action potential"],
          "lines": [
             "The impulse reaches the knob. Calcium channels open, and **calcium** rushes in.",
@@ -103,7 +103,7 @@ STORY = {
             "Then the **contraction** period, then the **relaxation** period.",
             "During the **refractory** period, the muscle won't respond.",
          ]},
-        {"lec": "L14 · Graded response", "title": "Summation and tetanus", "img": "L14_19.jpg",
+        {"lec": "L14 · Graded response", "title": "Graded response: summation and tetanus", "img": "L14_19.jpg",
          "terms": ["Summation", "Unfused tetanus", "Fused tetanus", "Muscle tone"],
          "lines": [
             "A whole muscle can grade its force.",
@@ -112,7 +112,7 @@ STORY = {
             "Recruiting more fibers adds force too.",
             "**Muscle tone** is the slight tension a resting muscle always keeps.",
          ]},
-        {"lec": "L14 · Contractions", "title": "Isometric and isotonic", "img": "L14_20.png",
+        {"lec": "L14 · Contractions", "title": "Types of contraction", "img": "L14_20.png",
          "terms": ["Isometric", "Concentric", "Eccentric"],
          "lines": [
             "**Isometric**: the muscle tenses but doesn't change length.",

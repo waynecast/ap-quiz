@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Functional and structural types, synovial joints, movements, major joints",
     "lectures": "Lecture 12",
     "scenes": [
-        {"lec": "L12", "title": "What a joint does", "img": None,
+        {"lec": "L12", "title": "Joint functions", "img": None,
          "terms": ["Movement", "Hold together", "Prevent movement"],
          "lines": [
             "A joint is where two bones meet.",
@@ -12,7 +12,7 @@ STORY = {
             "Some allow **movement**.",
             "Some **prevent movement**.",
          ]},
-        {"lec": "L12 · Function", "title": "SAD ISM", "img": "L12_01.png",
+        {"lec": "L12 · Function", "title": "Functional classification", "img": "L12_01.png",
          "terms": ["Synarthrotic", "Amphiarthrotic", "Diarthrotic"],
          "lines": [
             "By movement: SAD, ISM.",
@@ -21,7 +21,7 @@ STORY = {
             "Synchondroses, symphyses and syndesmoses.",
             "**Diarthrotic** is freely movable. Elbows, knees, hips, shoulders.",
          ]},
-        {"lec": "L12 · Structure", "title": "Fibrous joints", "img": "L12_03.jpg",
+        {"lec": "L12 · Structure", "title": "Structural classification: fibrous joints", "img": "L12_03.jpg",
          "terms": ["Fibrous", "Suture", "Gomphosis", "Syndesmosis"],
          "lines": [
             "By tissue, there are three types.",
@@ -30,14 +30,14 @@ STORY = {
             "A **gomphosis** holds a tooth.",
             "A **syndesmosis** is a membrane sheet, like between radius and ulna.",
          ]},
-        {"lec": "L12 · Structure", "title": "Cartilaginous joints", "img": "L12_05.jpg",
+        {"lec": "L12 · Structure", "title": "Structural classification: cartilaginous joints", "img": "L12_05.jpg",
          "terms": ["Synchondrosis", "Symphysis"],
          "lines": [
             "Cartilaginous joints use cartilage. No joint cavity.",
             "A **synchondrosis** uses hyaline cartilage. The growth plates, and rib 1 to the sternum.",
             "A **symphysis** uses fibrocartilage. Intervertebral discs and the pubic symphysis.",
          ]},
-        {"lec": "L12 · Synovial", "title": "Four synovial features", "img": "L12_06.png",
+        {"lec": "L12 · Synovial", "title": "Four features of synovial joints", "img": "L12_06.png",
          "terms": ["Articular cartilage", "Capsule", "Joint cavity", "Ligaments"],
          "lines": [
             "Synovial joints are the most complex.",
@@ -54,7 +54,7 @@ STORY = {
             "It brings **nutrition** to the cartilage.",
             "Its white blood cells perform **phagocytosis**.",
          ]},
-        {"lec": "L12 · Accessory", "title": "Bursae and menisci", "img": "L12_08.jpg",
+        {"lec": "L12 · Accessory", "title": "Bursae, tendon sheaths and menisci", "img": "L12_08.jpg",
          "terms": ["Bursa", "Tendon sheath", "Meniscus"],
          "lines": [
             "A **bursa** is a flat sac of synovial fluid over a bony bump. It reduces friction.",
@@ -62,7 +62,7 @@ STORY = {
             "A **tendon sheath** is a long bursa wrapped around a tendon.",
             "A **meniscus** is a fibrocartilage pad in the knee, jaw or wrist.",
          ]},
-        {"lec": "L12 · Types", "title": "Gliding, pivot, hinge", "img": "L12_12.jpg",
+        {"lec": "L12 · Types", "title": "Synovial joint types: gliding, pivot, hinge", "img": "L12_12.jpg",
          "terms": ["Gliding", "Pivot", "Hinge"],
          "lines": [
             "**Gliding** joints slide. They're nonaxial. Intercarpals and spinal facets.",
@@ -70,7 +70,7 @@ STORY = {
             "**Hinge** joints only flex and extend.",
             "Elbows, knees, finger joints, and the ankle for the New York boards.",
          ]},
-        {"lec": "L12 · Types", "title": "Condyloid, saddle, ball", "img": "L12_15.jpg",
+        {"lec": "L12 · Types", "title": "Synovial joint types: condyloid, saddle, ball and socket", "img": "L12_15.jpg",
          "terms": ["Condyloid", "Saddle", "Ball and socket"],
          "lines": [
             "**Condyloid** joints are biaxial. The knuckles, at the M. C. P.",
@@ -78,7 +78,7 @@ STORY = {
             "**Ball and socket** joints are multiaxial. The shoulder and hip.",
             "They allow every movement, including rotation.",
          ]},
-        {"lec": "L12 · Movements", "title": "Movements", "img": None,
+        {"lec": "L12 · Movements", "title": "Movements at synovial joints", "img": None,
          "terms": ["Abduction", "Adduction", "Circumduction", "Rotation"],
          "lines": [
             "Flexion bends. Extension straightens.",
@@ -86,7 +86,7 @@ STORY = {
             "**Circumduction** moves in a circle.",
             "**Rotation** turns around a fixed point, inward or outward.",
          ]},
-        {"lec": "L12 · Movements", "title": "More movements", "img": None,
+        {"lec": "L12 · Movements", "title": "More synovial joint movements", "img": None,
          "terms": ["Inversion", "Eversion", "Dorsiflexion", "Plantar flexion", "Opposition"],
          "lines": [
             "Protraction moves forward. Retraction moves back.",
@@ -95,7 +95,7 @@ STORY = {
             "**Dorsiflexion** points the foot up. **Plantar flexion** points it down.",
             "**Opposition** brings the thumb to the pinky.",
          ]},
-        {"lec": "L12 · Shoulder", "title": "The shoulder", "img": "L12_17.jpg",
+        {"lec": "L12 · Shoulder", "title": "The shoulder joints", "img": "L12_17.jpg",
          "terms": ["Glenohumeral", "Glenoid labrum", "AC separation"],
          "lines": [
             "The shoulder has three joints: sternoclavicular, acromioclavicular and glenohumeral.",
@@ -104,7 +104,7 @@ STORY = {
             "The **glenoid labrum** is a cartilage rim that deepens the socket.",
             "A shoulder **separation** usually happens at the AC joint.",
          ]},
-        {"lec": "L12 · Elbow and hip", "title": "Elbow and hip", "img": "L12_19.jpg",
+        {"lec": "L12 · Elbow and hip", "title": "The elbow and hip joints", "img": "L12_19.jpg",
          "terms": ["Annular ligament", "Nursemaid's elbow", "Acetabular labrum"],
          "lines": [
             "The elbow is very stable. It trades mobility for stability.",
@@ -113,7 +113,7 @@ STORY = {
             "The hip is a ball and socket. It's less mobile than the shoulder but far more stable.",
             "The **acetabular labrum** deepens its socket.",
          ]},
-        {"lec": "L12 · Knee", "title": "The knee", "img": "L12_22.jpg",
+        {"lec": "L12 · Knee", "title": "The knee joint", "img": "L12_22.jpg",
          "terms": ["ACL", "PCL", "MCL", "LCL", "Menisci"],
          "lines": [
             "The knee is the largest and most complex joint. It's a hinge.",

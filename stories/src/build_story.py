@@ -18,7 +18,7 @@ story = m.STORY
 TTS = os.environ.get("KOKORO_DIR", "kokoro")  # folder with model.onnx + voices.bin
 k = Kokoro(f"{TTS}/model.onnx", f"{TTS}/voices.bin")
 SR = 24000
-GAP_LINE, GAP_SCENE, LEAD = 0.45, 1.1, 0.4
+GAP_LINE, GAP_SCENE, GAP_TITLE, LEAD = 0.45, 1.1, 0.7, 0.4
 
 def strip(s):
     return re.sub(r"\*\*(.+?)\*\*", r"\1", s)
@@ -32,6 +32,18 @@ for si, sc in enumerate(story["scenes"]):
     if scene["img"]:
         scene["img"] = os.path.splitext(scene["img"])[0] + ".jpg"
     scene["start"] = round(t, 2)
+    # narrate the scene title first
+    title_say = sc.get("title_say", sc["title"]).replace(":", ".")
+    ph = to_phonemes(title_say, lambda x: k.tokenizer.phonemize(x, "en-us"))
+    audio, sr = (k.create(ph, voice=voice, speed=0.95, is_phonemes=True) if ph
+                 else k.create(title_say, voice=voice, speed=0.95, lang="en-us"))
+    nz = np.where(np.abs(audio) > 0.01)[0]
+    if len(nz):
+        audio = audio[max(0, nz[0] - 600): nz[-1] + 1200]
+    scene["tstart"] = round(t, 2)
+    chunks.append(audio.astype(np.float32)); t += len(audio) / SR
+    scene["tend"] = round(t, 2)
+    chunks.append(np.zeros(int(GAP_TITLE * SR), np.float32)); t += GAP_TITLE
     scene["lines"] = []
     for li, line in enumerate(sc["lines"]):
         show, say = (line, strip(line)) if isinstance(line, str) else line

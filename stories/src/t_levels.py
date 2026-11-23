@@ -4,7 +4,7 @@ STORY = {
     "subtitle": "Climb the levels of organization through Lectures 1 to 6",
     "lectures": "Lectures 1–6",
     "scenes": [
-        {"lec": "L1 · Levels", "title": "The ladder", "img": "L1_01.png",
+        {"lec": "L1 · Levels", "title": "Levels of organization", "img": "L1_01.png",
          "terms": ["Chemical", "Cellular", "Tissue", "Organ", "Organism"],
          "lines": [
             "Lecture 1 gave you a ladder.",
@@ -12,7 +12,7 @@ STORY = {
             "Cell. Tissue. Organ. Organ system. Organism.",
             "Lectures 2 through 6 climb it, one rung at a time.",
          ]},
-        {"lec": "L2 · Atoms", "title": "Rung one: atoms", "img": "L2_01.jpg",
+        {"lec": "L2 · Atoms", "title": "Atoms", "img": "L2_01.jpg",
          "terms": ["Protons", "Electrons", "Valence"],
          "lines": [
             "Atoms are the smallest unit of matter.",
@@ -20,7 +20,7 @@ STORY = {
             "**Valence** electrons decide how atoms bond.",
             "Carbon, hydrogen, oxygen and nitrogen make up 96 percent of you.",
          ]},
-        {"lec": "L2 · Bonds", "title": "Atoms join", "img": "L2_05.png",
+        {"lec": "L2 · Bonds", "title": "Chemical bonds", "img": "L2_05.png",
          "terms": ["Ionic", "Covalent", "Hydrogen bond"],
          "lines": [
             "**Ionic** bonds form when one atom gives electrons to another.",
@@ -28,14 +28,14 @@ STORY = {
             "**Hydrogen bonds** are weak links between molecules.",
             "They hold water together and hold DNA's two strands together.",
          ]},
-        {"lec": "L2 · Reactions", "title": "Building and breaking", "img": "L2_11.jpg",
+        {"lec": "L2 · Reactions", "title": "Dehydration synthesis and hydrolysis", "img": "L2_11.jpg",
          "terms": ["Dehydration synthesis", "Hydrolysis"],
          "lines": [
             "Small molecules join into big ones by **dehydration synthesis**. Water comes out.",
             "Big molecules break into small ones by **hydrolysis**. Water goes in.",
             "That one pair of reactions builds every macromolecule.",
          ]},
-        {"lec": "L3 · Macromolecules", "title": "Rung three: the macros", "img": None,
+        {"lec": "L3 · Macromolecules", "title": "The four macromolecules", "img": None,
          "terms": ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"],
          "lines": [
             "The four macromolecules are the macros on a nutrition label.",
@@ -44,7 +44,7 @@ STORY = {
             "**Proteins** do most of the work: enzymes, transport, contraction, structure.",
             "**Nucleic acids**, DNA and RNA, hold the instructions.",
          ]},
-        {"lec": "L3 · Membrane", "title": "Lipids make a boundary", "img": "L3_10.jpg",
+        {"lec": "L3 · Membrane", "title": "The cell membrane", "img": "L3_10.jpg",
          "terms": ["Phospholipid bilayer", "Cholesterol", "Membrane proteins"],
          "lines": [
             "Phospholipids line up tail to tail. That's the **phospholipid bilayer**.",
@@ -52,14 +52,14 @@ STORY = {
             "**Membrane proteins** form channels and receptors.",
             "Now there's an inside and an outside. That's the start of a cell.",
          ]},
-        {"lec": "L3 · Transport", "title": "Crossing the boundary", "img": "L3_12.png",
+        {"lec": "L3 · Transport", "title": "Membrane transport", "img": "L3_12.png",
          "terms": ["Passive", "Active", "ATP"],
          "lines": [
             "**Passive** transport needs no energy. Diffusion, osmosis, filtration.",
             "**Active** transport needs **ATP**.",
             "Endocytosis, exocytosis and the sodium potassium pump.",
          ]},
-        {"lec": "L4 · Organelles", "title": "Rung four: organelles", "img": "L4_01.jpg",
+        {"lec": "L4 · Organelles", "title": "Organelles", "img": "L4_01.jpg",
          "terms": ["Nucleus", "Ribosomes", "ER", "Golgi", "Mitochondria"],
          "lines": [
             "Organelles are the cell's tiny organs.",
@@ -67,7 +67,7 @@ STORY = {
             "**Ribosomes** build proteins. The **ER** transports them. The **Golgi** packages them.",
             "**Mitochondria** make ATP.",
          ]},
-        {"lec": "L4 · DNA to protein", "title": "Instructions to action", "img": "L4_12.jpg",
+        {"lec": "L4 · DNA to protein", "title": "From gene to protein", "img": "L4_12.jpg",
          "terms": ["Gene", "Transcription", "Translation"],
          "lines": [
             "A **gene** is a stretch of DNA for one protein.",
@@ -75,7 +75,7 @@ STORY = {
             "**Translation** builds the protein at a ribosome.",
             "So nucleic acids from Lecture 3 make the proteins from Lecture 3.",
          ]},
-        {"lec": "L4 · Cell cycle", "title": "Rung five: cells", "img": "L4_13.png",
+        {"lec": "L4 · Cell cycle", "title": "Cell division", "img": "L4_13.png",
          "terms": ["Interphase", "Mitosis", "Cytokinesis"],
          "lines": [
             "The cell is the smallest unit of life.",
@@ -83,7 +83,7 @@ STORY = {
             "**Mitosis** divides the nucleus. **Cytokinesis** splits the cell.",
             "That's how one cell becomes about 35 trillion.",
          ]},
-        {"lec": "L5 · Tissues", "title": "Rung six: tissues", "img": "L5_03.png",
+        {"lec": "L5 · Tissues", "title": "Tissues", "img": "L5_03.png",
          "terms": ["Epithelial", "Connective", "Muscle", "Nervous"],
          "lines": [
             "Similar cells plus matrix make a tissue.",
@@ -91,7 +91,7 @@ STORY = {
             "**Muscle** moves. **Nervous** controls.",
             "Cell junctions hold them together: tight, gap and desmosome.",
          ]},
-        {"lec": "L6 · Skin", "title": "Rung seven: an organ", "img": "L6_05.jpg",
+        {"lec": "L6 · Skin", "title": "Skin as an organ", "img": "L6_05.jpg",
          "terms": ["Epidermis", "Dermis", "Organ"],
          "lines": [
             "An organ is two or more tissue types.",
@@ -100,14 +100,14 @@ STORY = {
             "It has smooth muscle in the arrector pili, and nerve endings for touch.",
             "All four tissues, in one organ.",
          ]},
-        {"lec": "L6 · System", "title": "Rung eight: a system", "img": None,
+        {"lec": "L6 · System", "title": "The integumentary system", "img": None,
          "terms": ["Integumentary system", "Hair", "Nails", "Glands"],
          "lines": [
             "Skin plus **hair**, **nails** and **glands** makes the **integumentary system**.",
             "It's one of eleven organ systems.",
             "All eleven together make the organism. You.",
          ]},
-        {"lec": "Recap", "title": "Climb it again", "img": None,
+        {"lec": "Recap", "title": "Recap: atom to organism", "img": None,
          "terms": ["Atom", "Molecule", "Cell", "Tissue", "Organ"],
          "lines": [
             "Atoms bond into molecules.",

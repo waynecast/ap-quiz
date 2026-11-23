@@ -12,7 +12,7 @@ STORY = {
             "**Organic** compounds are large, covalent, and contain **carbon**.",
             "Carbohydrates, lipids, proteins, nucleic acids and ATP.",
          ]},
-        {"lec": "L3 · Water", "title": "Water", "img": None,
+        {"lec": "L3 · Water", "title": "Water, the universal solvent", "img": None,
          "terms": ["Universal solvent", "Polar covalent"],
          "lines": [
             "Water is about two thirds of body weight.",
@@ -97,7 +97,7 @@ STORY = {
             "The **cytoplasm** is the guts: cytosol, organelles and inclusions.",
             "The **nucleus** is the command center.",
          ]},
-        {"lec": "L3 · Membrane", "title": "Fluid mosaic", "img": "L3_10.jpg",
+        {"lec": "L3 · Membrane", "title": "The cell membrane: fluid mosaic model", "img": "L3_10.jpg",
          "terms": ["Phospholipid bilayer", "Membrane proteins", "Cholesterol"],
          "lines": [
             "The membrane follows the **fluid mosaic** model. Its parts move freely.",
@@ -116,7 +116,7 @@ STORY = {
             "**Facilitated diffusion** needs a carrier. Insulin helps glucose get in.",
             "**Filtration** pushes particles through tiny holes, driven by blood pressure or gravity.",
          ]},
-        {"lec": "L3 · Osmosis", "title": "Tonicity", "img": "L3_13.png",
+        {"lec": "L3 · Osmosis", "title": "Osmosis and tonicity", "img": "L3_13.png",
          "terms": ["Isotonic", "Hypotonic", "Hypertonic"],
          "lines": [
             "**Isotonic**: equal solutes inside and out. The cell stays the same.",
